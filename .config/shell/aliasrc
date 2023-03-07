@@ -1,0 +1,35 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# Use $XINITRC variable if file exists.
+[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
+
+# Config alias for dotfiles bare repo
+alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+
+# Config alias for wiki bare repo
+alias wiki='/usr/bin/git --git-dir=$HOME/Documents/wiki/.wiki/ --work-tree=$HOME/Documents/wiki/'
+
+# Alias true colors for tmux
+alias tmux="TERM=screen-256color-bce tmux"
+
+# tmuxinator session manager
+alias mux=tmuxinator
+
+# Verbosity settings
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	bc="bc -ql" \
+	mkdir="mkdir -pv"
+
+# Colorize commands when possible
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" 
+
+alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'

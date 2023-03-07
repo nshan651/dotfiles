@@ -1,0 +1,500 @@
+man netctl
+man NetworkManager
+nmcli networking on
+nmcli device wifi list
+nmcli device wifi list
+nmcli device wifi connect HOME-1070
+nmcli device wifi connect HOME-1070 3125430548 3125430548
+nmcli device wifi connect HOME-1070 3125430548
+nmcli device wifi list
+nmcli device connect HOME-1070
+nmcli device connect AC:DB:48:82:A7:D8
+nmcli device connect AC:DB:48:42:A7:D8
+nmcli device connect AC:DB:48:42:A7:D8 3125430548 3125430548
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548 3125430548
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548 
+nmcli device wifi connect AC:DB:48:42:A7:D8 
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548 3125430548
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548
+nmcli device wifi connect HOME-1070
+nmcli device wifi connect HOME-1070
+nmcli device wifi connect HOME-1070 3125430548
+man nmcli
+nmcli device wifi connect AC:DB:48:42:A7:D8
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548 3125430548 
+nmcli device wifi connect AC:DB:48:42:A7:D8 3125430548 3125430548 hidden yes
+nmcli device wifi connect AC:DB:48:42:A7:D8 password 3125430548
+startx
+startx
+nmcli device wifi list
+nmcli device wifi connect LinksysSP_5Ghz password ahoj.123
+feh --bg-scale /home/nick/Pictures/ghost.jpg
+sudo pacman -Syu
+sudo pacman -S feh
+feh --bg-scale /home/nick/Pictures/ghost.jpg
+sudo pacman -R nitrogen
+htop
+ls
+cd Pictures/
+ls
+xrandr -q
+nvim ~/.config/polybar/config
+nvim ~/.config/bspwm/bspwmrc 
+exit
+cd ~/.config
+ls -a
+nvim sxhkd/sxhkdrc
+exit
+ls -a
+nvim .bash_profile
+exit
+whereis .xinit
+whereis .xinitrc
+echo $TERM
+ls -a
+nvim .xinitrc
+exit
+startx
+startx
+feh --bg-scale ~/Pictures/forest_path.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015223794_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015258685_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_020131335_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/forest_path.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_020146712_iOS.heic
+feh --bg-scale ~/Pictures/Glacier2021/20210812_020146712_iOS.heic
+sudo pacman -S unzip
+unzip /home/nick/Downloads/compressed.zip
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015802874_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015805347_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015322735_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015503499_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015731396_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015802874_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015329206_iOS.jpg
+arandr
+xrandr 
+sudo nvim ~/Scripts/refresh2.sh
+exit
+man xrandr
+.//home/nick/Scripts/refresh.sh
+./home/nick/Scripts/refresh.sh
+sh /home/nick/Scripts/refresh.sh
+sh /home/nick/Scripts/refresh.sh
+echo $extern
+echo $intern
+sh /home/nick/Scripts/refresh.sh
+sh /home/nick/Scripts/refresh2.sh
+sh /home/nick/Scripts/refresh2.sh
+sh /home/nick/Scripts/refresh.sh
+sh /home/nick/Scripts/refresh.sh
+sh /home/nick/Scripts/refresh.sh
+nvim /home/nick/Scripts/refresh.sh
+sudo nvim /home/nick/Scripts/refresh.sh
+sudo nvim /home/nick/Scripts/refresh.sh
+sudo nvim /home/nick/Scripts/refresh2.sh
+sudo nvim /home/nick/Scripts/refresh.sh
+sh ~/Scripts/refresh
+sh ~/Scripts/refresh.sh
+nvim ~/Scripts/refresh.sh
+sudo nvim ~/Scripts/refresh.sh
+sudo nvim ~/Scripts/refresh2.sh
+sh ~/Scripts/refresh2.sh
+sh ~/Scripts/refresh2.sh
+sudo nvim ~/Scripts/refresh2.sh
+sudo nvim ~/Scripts/refresh.sh
+sudo nvim ~/Scripts/refresh2.sh
+sh ~/Scripts/refresh2.sh
+sh ~/Scripts/refresh2.sh
+sudo nvim ~/Scripts/refresh2.sh
+sh ~/Scripts/refresh2.sh
+xrandr -l
+xrandr --help
+xrandr --listmonitors
+sudo nvim ~/Scripts/refresh2.sh
+sh ~/Scripts/refresh2.sh
+exit
+man xrandr
+exit
+xrandr q
+xrandr -q
+sudo sh ~/Scripts/refresh.sh
+sudo sh ~/Scripts/refresh.sh
+sudo sh ~/Scripts/refresh.sh
+sudo sh ~/Scripts/refresh.sh
+sudo sh ~/Scripts/refresh.sh
+sudo sh ~/Scripts/refresh.sh
+cd ~/Scripts/
+ls
+sudo nvim refresh.sh
+exit
+feh --bg-set ~/Pictures/Glacier2021/20210812_015329206_iOS.jpg
+feh --bg-scale ~/Pictures/Glacier2021/20210812_015329206_iOS.jpg
+if true then echo TRUE else echo FALSE; if true then echo TRUE else echo FALSE; q
+xrandr --query | grep 'DP-1-2'
+sudo nvim ~/Scripts/refresh.sh
+exit
+cd ~/.config/
+ls -a
+nvim bspwm/bspwmrc 
+exit
+nvim ~/.config/polybar/config
+nvim ~/.config/polybar/config
+nvim ~/.config/polybar/launch.sh 
+sudo sh ~/.config/polybar/launch.sh
+sh ~/.config/polybar/launch.sh
+sh ~/.config/polybar/launch.sh
+sh ~/.config/polybar/launch.sh
+nvim
+exit
+neofetch
+htop
+htop
+yay nerd-fonts-complete
+yay nerd-fonts-complete
+clear
+yay nerd-fonts-complete
+yay nerd-fonts-complete
+yay -R ttf-nerd-fonts-symbols
+yay nerd-fonts-complete
+yay otf-ipafont
+yay ttf-font-awesome
+sh ~/.config/polybar/launch.sh
+exexit
+yay -S cozzette-otb
+yay cozzette-otb
+yay -S cozette-otb
+yay -S siji
+sh ~/.config/polybar/launch.sh
+yay -S ttf-material-icons
+sh ~/.config/polybar/launch.sh
+yay -S nerd-fonts-iosevka
+siji
+sh ~/.config/polybar/launch.sh
+xrdb ~/.Xresources
+cls
+clear
+sh ~/.config/polybar/launch.sh
+exit
+ls -a
+nvim .xinitrc
+cd 
+cd ~/.config
+nvim polybar/config
+sudo nvim polybar/config
+sudo nvim polybar/config
+sudo nvim polybar/config2
+mv polybar/config polybar/config_backup
+cd polybar
+ls
+mv config2 config
+ls
+sh launch.sh 
+nvim config
+sudo nvim config
+sh launch.sh 
+clear
+yay -S cozette-ttf
+yay -S nerdfetch-cozette
+cd ~/.config/polybar/
+sh launch.sh 
+cd ~/.config/polybar/
+sh launch.sh 
+cd ~/.config/polybar/
+sudo nvim config
+ls
+rm config_backup 
+ls
+yay -S siji-ng
+fc-list | grep -i siji
+fc-list | grep -i cozette
+fc-list | grep -i IPAgothic
+fc-list | grep -i Wuncon Siji
+fc-list | grep -i "CozetteVector"
+fc-list | grep -i "Cozette"
+fc-list | grep -i "Cozette"
+fc-list | grep -i "Wuncon Siji"
+fc-list | grep -i "Wuncon Siji"
+neovim
+nvim
+cd ~/.config/polybar/
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh jk
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+yay -S spotify
+fc-list | grep -i "CozetteVector"
+fc-list | grep -i "Wuncon Siji"
+fc-list | grep -i "IPAGothic"
+yay -S siji-ng
+fc-list | grep -i "Wuncon Siji"
+yay -S zoom
+yay -S zoom
+yay -S zoom
+cd ~/.config/polybar/launch.sh 
+cd ~/.config/polybar/
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+cd ~/.scripts
+cd ~/.config
+ls -a
+nvim sxhkd/sxhkdrc 
+cd ~/.config/polybar/
+sudo nvim config
+yay -S spicetify
+yay -S spicetify-cli
+sudo rm /home/nick/Scripts/refresh2.sh
+cd /home/nick/Packages
+git clone https://github.com/morpheusthewhite/spicetify-themes.git
+cd spicetify-themes
+cp -r * ~/.config/spicetify/Themes
+cd
+spicetify config current_theme Sleek
+spicetify config color_scheme cherry
+spicetify apply
+spicetify
+spicetify backup apply enable-devtool
+sudo chmod a+wr /opt/spotify
+sudo chmod a+wr /opt/spotify/Apps -R
+spicetify backup apply enable-devtool
+cd ~/.config/polybar/
+sh laun
+sh launch.sh sh launch.sh cd ~/.config/polybar/sh launch.sh 
+sh launch.sh sh launch.sh cd ~/.config/polybar/sh launch.sh 
+cd ~/.config/polybar/
+sh launch.sh
+sh launch.sh
+sh launch.sh
+sudo pacman -S mpd
+clear
+echo $XDG_CONFIG_HOME
+clear
+mkdir ~/.config/mpd
+cp /usr/share/doc/mpd/mpdconf.example ~/.config/mpd/mpd.conf
+cd ~/.config/
+cd mpd
+ls
+nvim mpd.conf
+yay -S libmpdclient
+clear
+sh ~/.config/polybar/launch.sh 
+sh ~/.config/polybar/launch.sh 
+sh ~/.config/polybar/launch.sh 
+sh ~/.config/polybar/launch.sh 
+sh ~/.config/polybar/launch.sh 
+yay -S polybar
+yay polybar libmpdclient
+yay polybar 
+yay polybar-spotify 
+yay -S siji
+yay -R siji
+yay siji
+yay -R siji-git
+cd ~/.config/polybar/config 
+cd ~/.config/polybar/
+sudo nvim config
+exit
+ls -a
+cd Scripts
+ls -a
+mkdir spotify
+sudo mkdir spotify
+ls
+cd spotify/
+sudo nvim spotify_status.py
+python
+sudo nvim spotify_status.py
+exit
+cd ~/github_repos/
+git clone git@github.com:nshan651/Dotfiles.git
+pacman -Sy openssh
+sudo pacman -S openssh
+sudo systemctl status sshd
+sudo systemctl start sshd
+git clone git@github.com:nshan651/Dotfiles.git
+git clone git@github.com:nshan651/Dotfiles.git
+ssh
+sshd
+git clone https://github.com/nshan651/Dotfiles.git
+cd ~/.config/polybar/
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh launch.sh 
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+sh ~/.config/polybar/launch.sh 
+sh ~/.config/polybar/launch.sh 
+ip link show
+cd ~/.config/polybar/config 
+cd ~/.config/polybar/
+sudo nvim config
+fc-list | grep -i "CozetteVector"
+fc-list | grep -i "Wuncon Siji"
+fc-list | grep -i "IPAGothic"
+yay -S ttf-font-icons
+neofetch
+htop
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+exit
+sudo nvim ~/Scripts/refresh.sh 
+exit
+sudo nvim ~/.config/polybar/launch.sh 
+exit
+cd ~/.config/sxhkd/
+nvim sxhkdrc 
+exit
+cat ~/.config/bspwm/bspwmrc 
+exit
+yay -S intellij
+yay -S intellij-idea-community-edition-jre
+qexit
+exit
+jetbrains
+yay -R intellij-idea-community-edition-jre
+echo $PATH
+java --version
+sudo pacman -sS java | grep jre
+sudo pacman -S jre-openjdk
+clear
+sudo pacman -sS java | grep jdk
+sudo pacman -sS java | grep jre
+sudo pacman -sS java | grep jdk
+sudo pacman -S jdk-openjdk
+java --version
+cd ~/github_repos/
+mkdir comp272
+cd comp272
+nvim MaxSumTest.java
+nvim MaxSumTest.java
+exit
+cd ~/github_repos/comp272/
+java MaxSumTest.java
+ls
+ls -a
+java MaxSumTest.java
+clear
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+sh ~/Scripts/refresh.sh 
+yay -S siji-ng
+sh ~/Scripts/refresh.sh 
+zsh
+exit
+echo $SHELL
+ssh-keygen -t ed25519 -C "nickesg44@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+man xclip
+sudo pacman -S xclip
+xclip -selection clipboard < ~/.ssh/id_ed25519.pub
+cd ~/github_repos/Pollution-Autoencoders/
+git remote set-url origin git@github.com:nshan651/Pollution-Autoencoders.git
+cd ../
+git clone git@github.com:nshan651/Dotfiles.git
+clear
+cd Dotfiles/
+cp -r ~/.config ~/github_repos/Dotfiles/
+ls
+ls -a
+cp -r ~/Scripts ~/github_repos/Dotfiles/
+git add -A
+git commit -m "Added Arch dots"
+git config --global user.email "nickesg44@gmail.com"
+git config --global user.name "nshan651"
+git commit -m "Added Arch dots"
+git push
+autoload -Uz zsh-newuser-install
+sudo pacman -S zsh
+yay -S ohmyzsh
+yay -S oh-my-zsh
+autoload -Uz zsh-newuser-install
+zsh
+echo $SHELL
+ls -a
+zsh
+nvim .zshrc
+chsh -l
+chsh -s /bin/zsh
+nvim .zshrc
+cd ~/.config
+mkdir zsh
+mv ~/.zshrc zsh
+cd zsh
+ls
+ls -a
+zsh
+ls
+cd
+ls
+ls -a
+mkdir ~/.config/shell
+cd ~/.config/shell
+nvim aliasrc
+nvim profile
+cd ../
+ls -a zsh
+cd
+ln -s ~/.config/shell/profile .zprofile
+ls -a
+zsh
+zsh
+exit
+ifconfig
+iwconfig
+install.packages("reactable")
+R
+compgen
+compgen -c
+man disown
+clear
+exit
+conda
+conda env list
+clear
+exit
+if [ $(xrandr | grep "connected" | wc -l) -eq 3 ]; then echo "YES"; else; echo "NOOOO"; fi
+echo "HI"
+monitor=$(xrandr | grep "connected" | wc -l)
+echo $monitor
+monitor=$(xrandr -q | grep "connected" | wc -l)
+echo $monitor
+echo "$monitor"
+monitor=$(xrandr -q | grep " connected " | wc -l)
+echo "$monitor"
+if [ $monitor -eq 3 ]; then echo "YES"; else' echo "NOOOO"; fi
+
+fi
+if [ $monitor -eq 3 ]; then echo "YES"; else; echo "NOOOO"; fi
+if [ $monitor -eq 3 ]; then echo "YES"; else echo "NOOOO"; fi
+curl   -H "Accept: application/vnd.github.v3+json" \ 
+  -H "Authorization: token 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"   https://api.github.com/repos/nshan651/Course-Archive/actions/jobs/build
+q
+exit
+exit
