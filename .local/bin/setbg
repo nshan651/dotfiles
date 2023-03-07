@@ -1,0 +1,5 @@
+#!/bin/sh
+# Sets the background
+
+#feh --bg-scale ~/git/wallpapers/0232.jpg
+feh --bg-scale ~/Pictures/wallpaper/Library/trinity3.webp

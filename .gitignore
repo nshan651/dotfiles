@@ -1,28 +1,28 @@
 # dotfiles .gitignore
 
 # Ignore most .local files
-.local/etc
-.local/include
-.local/lib
-.local/opt
-.local/share
-.local/state
-.local/bin/python
-.local/bin/spotify
+.local/etc/
+.local/include/
+.local/lib/
+.local/opt/
+.local/share/
+.local/state/
+.local/bin/python/
+.local/bin/spotify/
 
 # Ignore the following .config files
-.config/aqemu
-.config/cabal
-.config/BraveSoftware
-.config/chromium
-.config/Electron
-.config/java
-.config/monero-project
-.config/spotify
+.config/aqemu/
+.config/cabal/
+.config/BraveSoftware/
+.config/chromium/
+.config/Electron/
+.config/java/
+.config/monero-project/
+.config/spotify/
 # Games
-.config/openra
-.config/OpenRCT2
-.config/PCSX2
+.config/openra/
+.config/OpenRCT2/
+.config/PCSX2/
 # Misc files
 mimeapps.list
 netctl-gui.conf

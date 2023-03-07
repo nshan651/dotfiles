@@ -1,0 +1,39 @@
+#!/bin/sh
+# Script for downloading yt channels using yt-dlp
+
+VIDEOS="$HOME/Videos"
+CHANNELS="$VIDEOS/channels"
+SUB_LIST="subs.txt"
+
+
+# Download last 5 videos
+# yt-dlp -I1 "https://www.youtube.com/c/LukeSmithxyz/videos" -o "$HOME/Videos/channels/luke-smith/%(title)s.%(ext)s"
+
+
+#awk -F ',' '{ system("yt-dlp -I1 " $2 " -o $HOME/Videos/channels/" $1 "/%\(title\)s.%\(ext\)s") }' subtest.txt
+
+#awk -F ',' '{ print $1 $2 }' subtest.txt | xargs $1 $2 yt-dlp -s -I "1" -P "$HOME/Videos/channels/$1" 
+#awk -F ',' '{ system("yt-dlp -s -I1 -P /home/nick/Videos/channels/" $1 " " $2) }' subtest.txt
+
+
+
+#cat subtest.txt | xargs -d ',' 
+
+#print($arr)
+
+
+# Remove any old videos
+# ...
+
+# awk command
+# awk -F ',' '{ print $2 }' subs.txt
+
+# Maybe...?
+# awk -F ',' '{ print $2 }' subs.txt | xargs $2 
+# cat subtest.txt | xargs -d ',' -I % echo %
+
+
+
+
+	
+done

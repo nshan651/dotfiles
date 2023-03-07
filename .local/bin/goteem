@@ -1,0 +1,14 @@
+#!/bin/sh
+# Got 'eem!
+# Script to stage and commit my dotfiles and wiki files.
+
+DOT_CONFIG="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+WIKI_CONFIG="/usr/bin/git --git-dir=$HOME/Documents/wiki/.wiki/ --work-tree=$HOME/Documents/wiki/"
+
+$DOT_CONFIG add $HOME/.config/ $HOME/.local/bin/ $HOME/.dotfiles/README.md
+$DOT_CONFIG commit -m "Routine dotfile update"
+$DOT_CONFIG push
+
+$WIKI_CONFIG add $HOME/Documents/wiki/*
+$WIKI_CONFIG commit -m "Routine wiki update"
+$WIKI_CONFIG push
