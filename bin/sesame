@@ -1,0 +1,5 @@
+#!/bin/sh
+# Program that opens all pdfs in $PWD
+# Open sesame!
+
+firefox $PWD/*.pdf
