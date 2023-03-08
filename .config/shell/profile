@@ -56,6 +56,9 @@ export PYENV_ROOT="$XDG_DATA_HOME/pyenv"
 export TEXMFVAR="$XDG_CACHE_HOME/texlive/texmf-var"
 export GNUPGHOME="$XDG_DATA_HOME/gnupg"
 
+# Vimwiki 
+export WIKI="$XDG_DOCUMENTS_DIR/wiki"
+
 # This is the list for lf icons:
 export LF_ICONS="di=📁:\
 fi=📃:\

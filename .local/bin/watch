@@ -1,0 +1,6 @@
+#!/bin/sh
+# Watch files and run programs
+
+f=${XDG_RUNTIME_DIR:-/tmp}/save
+[ -e $f ] || touch $f
+exec entr -r $@ <<<$f

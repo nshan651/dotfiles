@@ -1,0 +1,35 @@
+#!/bin/sh
+# Convert markdown drafts to html
+
+drafts="$HOME/Documents/wiki/blog/drafts"
+published="$HOME/Documents/wiki/blog/published/"
+
+# Publish a single post
+if [ "$#" -eq 1 ] && [ -e "$drafts/$1.md" ]; then
+  read -erp "Publish blog in $published? " ask &&
+  if [ "$ask" = "y" ]; then
+    pandoc -o $published/$1.html $drafts/$1.md 
+    echo "Archived $1.html" >&2
+  else
+    echo "Aborted."
+  fi
+  exit 1
+# Publish all
+elif [ "$#" -eq 1 ] && [ "$1" = "-a" ]; then
+  read -erp "Publish all posts in $published? " ask &&
+  if [ "$ask" = "y" ]; then
+    posts=$(ls $drafts | sed -e 's/\..*$//')
+    for post in $posts
+    do
+      pandoc -o $published/$post.html $drafts/$post.md 
+      echo "Archived $post"
+    done
+  else
+    echo "Aborted."
+  fi
+  exit 1
+# Usage
+else
+  echo "Usage: $0 DIRECTORY" >&2
+  exit 1
+fi

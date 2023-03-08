@@ -1,0 +1,22 @@
+#!/bin/sh
+# Got 'eem!
+# Script to stage and commit my dotfiles and wiki files.
+
+# Update wiki
+cd $WIKI
+git add -A
+git commit -m "Routine wiki update"
+git push
+
+# Copy configs and bin
+cp -rf $HOME/.config $GIT/dotfiles 
+cp -rf $HOME/.local/bin $GIT/dotfiles/.local
+
+# Update dotfiles
+cd $GIT/dotfiles
+git add -A
+git commit -m "Routine dotfile update"
+git push
+
+# Clean up
+rm -rf $GIT/dotfiles/.local $GIT/dotfiles/.config
