@@ -6,7 +6,7 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.local/bin/monitors
 setbg &
 xsetroot -cursor_name left_ptr
-#picom -f &
+# picom -f &
 #exec bspwm
 
 autostart="mpd xcompmgr"

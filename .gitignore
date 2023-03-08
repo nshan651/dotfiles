@@ -19,6 +19,7 @@
 .config/java/
 .config/monero-project/
 .config/spotify/
+.config/nvim/plugged/
 # Games
 .config/openra/
 .config/OpenRCT2/

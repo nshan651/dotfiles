@@ -2,4 +2,4 @@
 # Sets the background
 
 #feh --bg-scale ~/git/wallpapers/0232.jpg
-feh --bg-scale ~/Pictures/wallpaper/Library/trinity3.webp
+feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/Library/trinity3.webp"

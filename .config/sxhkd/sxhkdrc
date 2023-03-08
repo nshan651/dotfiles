@@ -7,7 +7,7 @@
 
 # Refresh external monitors
 control + alt + 4
-    zsh $HOME/.local/bin/monitors
+    zsh monitors
 
 # 
 # ----- Utilities -----
@@ -39,7 +39,7 @@ XF86MonBrightnessDown
 
 # Open TODO list
 super + r 
-    $TERMINAL -e nvim $HOME/Documents/wiki/TODO.md
+    $TERMINAL -e nvim $XDG_DOCUMENTS_DIR/TODO.md
 
 # Web
 super + w
@@ -78,8 +78,8 @@ super + F3
 #     $TERMINAL -e tmuxinator start sparkbadge
 
 # Wiki index
-super + F5
-    $TERMINAL -e nvim $HOME/Documents/wiki/index.md
+# super + F5
+#     $TERMINAL -e nvim $HOME/Documents/wiki/index.md
 
 # Spotify
 super + F6

@@ -12,7 +12,7 @@
 "------------------------------------------------
 " --- |Pluggins| ---
 "------------------------------------------------
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 " New plugins
 Plug 'rktjmp/lush.nvim'
@@ -98,7 +98,7 @@ let g:mkdp_page_title = '${name}'
 let g:mkdp_theme = 'dark'
 
 " vimwiki
-let g:vimwiki_list = [{'path': '~/Documents/wiki/', 'path_html': '~/Documents/public_html/',
+let g:vimwiki_list = [{'path': '~/dox/wiki/', 'path_html': '~/dox/public_html/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
 
 "------------------------------------------------
@@ -250,11 +250,15 @@ set completeopt=menu,menuone,noselect
 lua <<EOF
 
   -- Kanagawa colorscheme customizationn
-  local default_colors = require("kanagawa.colors").setup()
-  local custom_colors = { bg = "#161616" } -- #141414
-  -- local overrides = { Normal = { fg = colors.fg, bg = not config.transparent and "#111111" or "NONE" } }
-  require'kanagawa'.setup({ colors = custom_colors })
-vim.cmd("colorscheme kanagawa")
+  require('kanagawa').setup({ 
+     colors = {                   
+        palette = {},
+        theme = { wave = {}, lotus = {}, dragon = {}, all = {ui = {bg = "#161616", bg_gutter="none"}} },
+     },
+     theme = "wave",
+  })
+  -- colors = custom_colors })
+  vim.cmd("colorscheme kanagawa")
 
   -- Setup nvim-cmp.
   local cmp = require'cmp'

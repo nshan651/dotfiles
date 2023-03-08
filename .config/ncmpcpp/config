@@ -1,7 +1,7 @@
 # vim: filetype=conf
 
 # Files
-mpd_music_dir = "~/Music"
+mpd_music_dir = "~/dox/music"
 ncmpcpp_directory = "~/.config/ncmpcpp"
 lyrics_directory = "~/.local/share/lyrics"
 mpd_host = "localhost"

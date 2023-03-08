@@ -18,6 +18,9 @@ alias tmux="TERM=screen-256color-bce tmux"
 # tmuxinator session manager
 alias mux=tmuxinator
 
+# monero wallet
+alias monerod=monderod --data-dir "$XDG_DATA_HOME"/bitmonero
+
 # Verbosity settings
 alias \
 	cp="cp -iv" \
