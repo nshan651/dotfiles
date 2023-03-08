@@ -1,4 +1,0 @@
-#!/bin/sh
-
-cd $HOME/.config
-fzf | xargs nvim
