@@ -1,0 +1,22 @@
+2023/03/05-17:20:58.600 656c Reusing MANIFEST /home/nick/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/03/05-17:20:58.600 656c Recovering log #6
+2023/03/05-17:20:58.601 656c Reusing old log /home/nick/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000006.log 
+2023/03/05-17:21:08.360 656d Level-0 table #10: started
+2023/03/05-17:21:08.367 656d Level-0 table #10: 146139 bytes OK
+2023/03/05-17:21:08.372 656d Delete type=0 #6
+2023/03/05-17:21:08.372 656d Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\xabBAkxB\x00\x03\x00\x00\x00\x00\x00\x00 @' @ 1092 : 1
+2023/03/05-17:21:08.372 656d Compacting 1@0 + 1@1 files
+2023/03/05-17:21:08.378 656d Generated table #11@0: 250 keys, 7743 bytes
+2023/03/05-17:21:08.378 656d Compacted 1@0 + 1@1 files => 7743 bytes
+2023/03/05-17:21:08.382 656d compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/03/05-17:21:08.383 656d Delete type=2 #10
+2023/03/05-17:21:08.383 656d Delete type=2 #7
+2023/03/05-17:21:08.383 656d Manual compaction at level-0 from '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00`\xabBAkxB\x00\x03\x00\x00\x00\x00\x00\x00 @' @ 1092 : 1 .. (end); will stop at (end)
+2023/03/05-17:21:08.383 656d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xc0\xf9>?kxB\x00\x03\x00\x00\x00\x00\x00\x00\x18@' @ 1033 : 1
+2023/03/05-17:21:08.383 656d Compacting 1@1 + 1@2 files
+2023/03/05-17:21:08.388 656d Generated table #12@1: 45 keys, 5737 bytes
+2023/03/05-17:21:08.388 656d Compacted 1@1 + 1@2 files => 5737 bytes
+2023/03/05-17:21:08.393 656d compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/03/05-17:21:08.393 656d Delete type=2 #5
+2023/03/05-17:21:08.393 656d Delete type=2 #11
+2023/03/05-17:21:08.394 656d Manual compaction at level-1 from '\x00\x04\x01\x1f\x04\x03\x01\x06\x00Q\x00U\x00E\x00U\x00E\x00D\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xc0\xf9>?kxB\x00\x03\x00\x00\x00\x00\x00\x00\x18@' @ 1033 : 1 .. (end); will stop at (end)

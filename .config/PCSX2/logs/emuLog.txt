@@ -1,0 +1,222 @@
+
+PCSX2 Nightly - v1.7.2678 Compiled on May  1 2022
+Savestate version: 0x9a2c0000
+
+Host Machine Init:
+	Operating System =  Arch Linux
+	Physical RAM     =  7603 MB
+	CPU name         =  Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+	Vendor/Model     =  GenuineIntel (stepping 0C)
+	CPU speed        =  1.799 ghz (8 logical threads)
+	x86PType         =  Standard OEM
+	x86Flags         =  bfebfbff 7ffafbbf
+	x86EFlags        =  2c100800
+
+x86 Features Detected:
+	SSE2.. SSE3.. SSSE3.. SSE4.1.. SSE4.2.. AVX.. AVX2.. FMA
+
+Installing POSIX SIGSEGV handler...
+Reserving memory for recompilers...
+HLE Host: Set 'host:' root path to: /
+
+Patches: No CRC found, using 00000000 instead.
+isoFile open ok: /home/nick/Games/PS2/Silent Hill 2.iso
+	Image type  = DVD
+ * CDVD Disk Open: DVD, Single layer or unknown:
+ * * Track 1: Data (Mode 1) (1894096 sectors)
+Vsync is OFF
+EGL Version: 1.5
+EGL Extensions: EGL_ANDROID_blob_cache EGL_ANDROID_native_fence_sync EGL_CHROMIUM_sync_control EGL_EXT_buffer_age EGL_EXT_create_context_robustness EGL_EXT_image_dma_buf_import EGL_EXT_image_dma_buf_import_modifiers EGL_EXT_swap_buffers_with_damage EGL_IMG_context_priority EGL_KHR_cl_event2 EGL_KHR_config_attribs EGL_KHR_create_context EGL_KHR_create_context_no_error EGL_KHR_fence_sync EGL_KHR_get_all_proc_addresses EGL_KHR_gl_colorspace EGL_KHR_gl_renderbuffer_image EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_3D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_image EGL_KHR_image_base EGL_KHR_image_pixmap EGL_KHR_no_config_context EGL_KHR_reusable_sync EGL_KHR_surfaceless_context EGL_KHR_swap_buffers_with_damage EGL_EXT_pixel_format_float EGL_KHR_wait_sync EGL_MESA_configless_context EGL_MESA_drm_image EGL_MESA_image_dma_buf_export EGL_MESA_query_driver EGL_NOK_texture_from_pixmap EGL_WL_bind_wayland_display 
+Trying version 4.6 (Core)
+Got version 4.6 (Core)
+Created a OpenGL context
+OpenGL Graphics Driver Info:
+	OpenGL Context:
+	4.6 (Core Profile) Mesa 22.0.4
+	Intel Mesa Intel(R) UHD Graphics 620 (WHL GT2)
+1 program binary formats supported by driver
+INFO: GL_ARB_sparse_texture is NOT SUPPORTED
+INFO: GL_ARB_sparse_texture2 is NOT SUPPORTED
+INFO: GL_ARB_gpu_shader5 is available
+INFO: GL_ARB_shader_image_load_store is available
+INFO: GL_ARB_clear_texture is available
+INFO: GL_ARB_direct_state_access is available
+INFO: GL_ARB_texture_barrier is available
+
+Read 125 entries from '/home/nick/.config/PCSX2/cache/gl_programs.idx'
+Using hardware for point expansion and hardware for line expansion.
+No extenstion supported to get available memory. Use default value !
+Available VRAM/RAM:3840MB for textures
+Vsync is OFF
+GS Lookup CRC:00000000
+48000 SampleRate: 
+(Cubeb) Using normal 2 speaker stereo output.
+(Cubeb) Minimum latency: 25.00 ms (1200 audio frames)
+(Cubeb) Minimum latency is above requested latency: 1200 vs 960, adjusting to compensate.
+McdSlot 0 [File]: /home/nick/.config/PCSX2/memcards/Mcd001.ps2
+McdSlot 1 [File]: /home/nick/.config/PCSX2/memcards/Mcd002.ps2
+EE/iR5900-32 Recompiler Reset
+	Bios Found: USA     v01.60(07/02/2002)  Console
+	BIOS rom1 module not found, skipping...
+	BIOS rom2 module not found, skipping...
+	BIOS erom module not found, skipping...
+# Initialize memory (rev:3.63, ctm:196Mhz, cpuclk:147Mhz detected)
+Frame buffer size set to  512x512 (1024x1024)
+
+PlayStation 2 ======== Hard reset boot
+ ROMGEN=2002-0207, IOP info (CPUID=1f, CACH_CONFIG=0, 2MB, IOP mode)
+ <20020207-164243,ROMconf,PS20160AC20020207.bin:11552>
+# Total accessable memory size: 32 MB (B:2:8:0) (363:2:7c30)
+# TLB spad=0 kernel=1:12 default=13:30 extended=31:38
+# Initialize Start.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize User Memory ...
+Frame buffer size set to  512x512 (1024x1024)
+# Initialize Scratch Pad ...
+# Initialize Done.
+
+EE DECI2 Manager version 0.06 Feb  7 2002 16:41:20
+  CPUID=2e20, BoardID=0, ROMGEN=2002-0207, 32M
+
+Patches: No CRC found, using 00000000 instead.
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_202.28;1
+(SYSTEM.CNF) Software version = 2.01
+(SYSTEM.CNF) Disc region type = NTSC
+found 0 symbols
+ELF (cdrom0:\SLUS_202.28;1) Game CRC = 0xFE06A030, EntryPoint = 0x00100008
+(SYSTEM.CNF) Detected PS2 Disc = cdrom0:\SLUS_202.28;1
+(SYSTEM.CNF) Software version = 2.01
+(SYSTEM.CNF) Disc region type = NTSC
+
+IOP Realtime Kernel Ver.0.9.1
+    Copyright 1999 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+cdvd driver module version 0.1.1 (C)SCEI
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+loadelf: fname cdrom0:¥SLUS_202.28;1 secname all
+loadelf version 3.30
+Input ELF format filename = cdrom0:¥SLUS_202.28;1
+0 00100000 002ff600 ................................................
+Loaded, cdrom0:¥SLUS_202.28;1
+start address 0x100008
+gp address 00000000
+# Restart Without Memory Clear.
+# Initialize GS ...
+# Initialize INTC ...
+# Initialize TIMER ...
+# Initialize DMAC ...
+# Initialize VU1 ...
+# Initialize VIF1 ...
+# Initialize GIF ...
+# Initialize VU0 ...
+# Initialize VIF0 ...
+# Initialize IPU ...
+# Initialize FPU ...
+# Initialize Scratch Pad ...
+# Restart Without Memory Clear Done.
+Elf entry point @ 0x00100008 about to get recompiled. Load patches first.
+[GameDB] Has not been initialized yet, initializing...
+[GameDB] 10974 games on record (loaded in 626.04ms)
+[GameDB] Searching for 'slus-20228' in GameDB
+[GameDB] Found 'slus-20228' in GameDB
+[GameDB] Searching for patch with CRC 'FE06A030'
+[GameDB] No CRC-specific patch or default patch found
+(GameDB) Setting Speedhack 'InstantVU1' to [mode=0]
+(GameDB) Setting Speedhack 'MTVU' to [mode=0]
+Overall 0 Widescreen hacks loaded
+Loading patch 'FE06A030.pnach' from archive.
+comment: Widescreen hack
+(Wide Screen Cheats DB) Patches Loaded: 26
+[GameDB] Searching for 'slus-20228' in GameDB
+[GameDB] Found 'slus-20228' in GameDB
+[GameDB] Searching for patch with CRC 'FE06A030'
+[GameDB] No CRC-specific patch or default patch found
+EE/iR5900-32 Recompiler Reset
+GS Lookup CRC:FE06A030
+Frame buffer size set to  512x512 (1024x1024)
+Get Reboot Request From EE
+ROM directory not found
+
+PlayStation 2 ======== Update rebooting..
+
+PlayStation 2 ======== Update reboot complete
+cdvdman Init
+
+IOP Realtime Kernel Ver. 2.1
+    Copyright 1999-2001 (C) Sony Computer Entertainment Inc. 
+Reboot service module.(99/11/10)
+Load File service.(99/11/05)
+Multi Threaded Fileio module.(99/11/15) 
+iop heap service (99/11/03)
+cdvd driver module version 0.1.1 (C)SCEI
+loadmodule: fname cdrom0:¥IOP¥MODULES¥SIO2MAN.IRX;1 args 0 arg 
+loadmodule: id 25, ret 0
+loadmodule: fname cdrom0:¥IOP¥MODULES¥PADMAN.IRX;1 args 0 arg 
+loadmodule: id 26, ret 0
+loadmodule: fname cdrom0:¥IOP¥MODULES¥MCMAN.IRX;1 args 0 arg 
+loadmodule: id 27, ret 2
+loadmodule: fname cdrom0:¥IOP¥MODULES¥MCSERV.IRX;1 args 0 arg 
+loadmodule: id 28, ret 2
+loadmodule: fname cdrom0:¥IOP¥MODULES¥LIBSD.IRX;1 args 0 arg 
+loadmodule: id 29, ret 0
+loadmodule: fname cdrom0:¥IOP¥MODULES¥SDRDRV.IRX;1 args 0 arg 
+SDR driver version 4.0.1 (C) SCEI
+ Exit rsd_main 
+loadmodule: id 30, ret 0
+loadmodule: fname cdrom0:¥IOP¥SOUND¥SD_CD.IRX;1 args 0 arg 
+loadmodule: id 31, ret 0
+loadmodule: fname cdrom0:¥IOP¥SOUND¥SDSTR.IRX;1 args 0 arg 
+loadmodule: id 32, ret 0
+loadmodule: fname cdrom0:¥IOP¥SOUND¥SOUNDCD.IRX;1 args 0 arg 
+clock low 71884
+thid 7343141
+clock low 71884
+loadmodule: id 33, ret 0
+SDR callback thread created
+sd_sendbuf : 0x8d068
+(UpdateVSyncRate) Mode Changed to NTSC.
+	... with user configured refresh rate: 59.94 Hz
+Frame buffer size set to  512x512 (1024x1024)
+Possible old value used in COP2 code. If the game is broken, please report to http://github.com/pcsx2/pcsx2.
+18a3dc *4BCB59FF vclip vf11xyz, vf11w
+18a3e0  4BF42B3C vmove.xyzw, vf20, vf05
+18a3e4  4BF60B3C vmove.xyzw, vf22, vf01
+18a3e8  4BF5333C vmove.xyzw, vf21, vf06
+18a3ec =48489000 cfc2	t0, ClipFlag
+18a3f0  4BCC61FF vclip vf12xyz, vf12w
+18a3f4  3108003F andi	t0,t0, 0x003F
+18a3f8  11000042 beq	t0, zero, ->$0x0018A504
+18a3fc  00000000 nop
+Possible old value used in COP2 code. If the game is broken, please report to http://github.com/pcsx2/pcsx2.
+1711f0  4BC66218 vmulx.xyz vf08,vf12,vf06x
+1711f4  4BC82A2C vsub.xyz vf08, vf05, vf08
+1711f8  4BC841EA vmul.xyz vf07, vf08, vf08
+1711fc  4BC529AA vmul.xyz vf06, vf05, vf05
+171200  4B0739C1 vaddy.x vf07, vf07, vf07y
+171204  4B063181 vaddy.x vf06, vf06, vf06y
+171208  4B0739C2 vaddz.x vf07, vf07, vf07z
+17120c  4B063182 vaddz.x vf06, vf06, vf06z
+171210  4A0733BC vdiv Q, vf06x, vf07x
+171214  4A0003BF vwaitq
+171218 *4B0001A0 vaddq.x vf06,vf00,Q
+17121c =484B8000 cfc2	t3, Status
+171220  4A0002FF vnop
+171224  4A0002FF vnop
+171228  4A0603BD vsqrt Q, vf06x
+17122c  316B0020 andi	t3,t3, 0x0020
+171230  4A0003BF vwaitq
+171234  4BC0415C vmulq.xyz vf05,vf08,Q
+171238  55600001 bnel	t3, zero, ->$0x00171240
+17123c  4BC5433C vmove.xyz, vf05, vf08

@@ -1,0 +1,11 @@
+2023/03/05-16:45:09.382 4394 Creating DB /home/nick/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm since it was missing.
+2023/03/05-16:45:09.396 4394 Reusing MANIFEST /home/nick/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/03/05-16:45:10.275 4395 Level-0 table #5: started
+2023/03/05-16:45:10.312 4395 Level-0 table #5: 1709540 bytes OK
+2023/03/05-16:45:10.322 4395 Delete type=0 #3
+2023/03/05-16:47:56.651 4395 Level-0 table #7: started
+2023/03/05-16:47:56.676 4395 Level-0 table #7: 1454950 bytes OK
+2023/03/05-16:47:56.680 4395 Delete type=0 #4
+2023/03/05-16:49:09.614 4395 Level-0 table #9: started
+2023/03/05-16:49:09.678 4395 Level-0 table #9: 1780812 bytes OK
+2023/03/05-16:49:09.687 4395 Delete type=0 #6

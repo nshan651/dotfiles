@@ -1,0 +1,50 @@
+{
+   "description": "A modern Matte Black theme",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAskv6CK5cN3TTbphTsMcH2AEgLUQkIjTjZNb0VV0PWXmAqjsYJipL2qGhauC36WaIR87G46XH4OerYc8yt+NrnLT+htJQzS8wcwWd7AECynN7tkRplpb6Py/FEHPtfLECVm1FxiLuAj9T7sxIOFcYLVlZxdwJyk3hVlIPpoLuofInxQSKeFlVrueg+tqE9JA8S9ChG7uSkQsyXvzEBS+RxXnoGAe1TRFC9cHlWb9YZCSGBNLaXGjw9+EaxsfUJtu8nDzo9bJ7RDZKe873v/Juo3iSi+/Tt1CI8ClpJLU/JNRZKCo9sZ+MWsvmlD2IqSFojy+4yFolPJpK2DZunIPW8QIDAQAB",
+   "manifest_version": 2,
+   "name": "Matte Black Theme",
+   "short_name": "Matte Black",
+   "theme": {
+      "colors": {
+         "background_tab_inactive": [ 18, 18, 18 ],
+         "bookmark_text": [ 170, 170, 170 ],
+         "frame": [ 0, 0, 0 ],
+         "frame_inactive": [ 18, 18, 18 ],
+         "ntp_background": [ 18, 18, 18 ],
+         "ntp_header": [ 18, 18, 18 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_link_underline": [ 35, 35, 35 ],
+         "ntp_section": [ 255, 255, 255 ],
+         "ntp_section_link": [ 136, 136, 136 ],
+         "ntp_section_link_underline": [ 136, 136, 136 ],
+         "ntp_section_text": [ 136, 136, 136 ],
+         "ntp_text": [ 136, 136, 136 ],
+         "omnibox_background": [ 18, 18, 18 ],
+         "omnibox_text": [ 200, 200, 200 ],
+         "tab_background_text": [ 170, 170, 170 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 35, 35, 35 ],
+         "toolbar_button_icon": [ 120, 120, 120 ]
+      },
+      "images": {
+         "theme_ntp_background": "images/ntp.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "top center",
+         "ntp_background_repeat": "no-repeat",
+         "ntp_logo_alternate": 0
+      },
+      "tints": {
+         "background_tab": [ -1, 0.5, 0 ],
+         "background_tab_incognito": [ -1, 0.5, 0 ],
+         "buttons": [ -1, 0.5, 0.5 ]
+      }
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2020.8.22"
+}

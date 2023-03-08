@@ -1,0 +1,851 @@
+          LoadMaps
+    32 ms |   agenda.oramap
+     4 ms |   allies-01
+     4 ms |   allies-02
+     5 ms |   allies-03a
+     6 ms |   allies-03b
+     4 ms |   allies-04
+     5 ms |   allies-05a
+     4 ms |   allies-06a
+     5 ms |   allies-06b
+     5 ms |   allies-07
+     6 ms |   allies-08a
+     5 ms |   allies-08b
+     4 ms |   allies-09a
+     4 ms |   altercation.oramap
+    13 ms |   ant-01
+     3 ms |   a-nuclear-winter
+     2 ms |   a-path-beyond.oramap
+     5 ms |   archipelago.oramap
+     4 ms |   ardennes.oramap
+     3 ms |   ascent.oramap
+     4 ms |   asymmetric-battle.oramap
+     2 ms |   behind-the-veil.oramap
+     2 ms |   blitz.oramap
+     2 ms |   bombardment-islands.oramap
+     1 ms |   bomber-john
+     3 ms |   chaos-canyon.oramap
+     2 ms |   chernobyl
+     6 ms |   climax-rev15.oramap
+     6 ms |   code-19
+     3 ms |   collaboration.oramap
+     5 ms |   countercross.oramap
+     3 ms |   crossfire.oramap
+     1 ms |   desert-rats
+     3 ms |   desert-shellmap
+     2 ms |   discovery.oramap
+     1 ms |   doubles.oramap
+     4 ms |   doublestep.oramap
+     2 ms |   doughnut.oramap
+     1 ms |   drop-zone
+     1 ms |   drop-zone-battle-of-tikiaki
+     1 ms |   drop-zone-w
+     2 ms |   dual-cold-front.oramap
+     3 ms |   dusttown-battle.oramap
+     2 ms |   ensio-kaivo.oramap
+     5 ms |   europe.oramap
+     5 ms |   evacuation
+     8 ms |   exodus
+     5 ms |   fall-of-greece-1-personal-war
+     2 ms |   forgotten-plains.oramap
+     5 ms |   fortified.oramap
+     2 ms |   fort-lonestar
+     3 ms |   forward-progress.oramap
+     2 ms |   great-sahara-2.oramap
+     5 ms |   green-belt.oramap
+     3 ms |   haos-ridges.oramap
+     3 ms |   hypothermia.oramap
+     4 ms |   imminent-destruction.oramap
+     5 ms |   infiltration
+     6 ms |   intervention
+     7 ms |   jungle-law.oramap
+     2 ms |   keep-off-the-grass-2.oramap
+     4 ms |   mad-science.oramap
+     3 ms |   maelstrom.oramap
+     2 ms |   marigold-town.oramap
+     4 ms |   mass-confliction.oramap
+     2 ms |   minor-pressure.oramap
+     6 ms |   monster-tank-madness
+     3 ms |   nine-lives.oramap
+     2 ms |   oil-spill
+     4 ms |   operation-goldmine.oramap
+     3 ms |   ore-gardens.oramap
+     1 ms |   ore-lord.oramap
+     7 ms |   outdoor-trails.oramap
+     3 ms |   pie-of-animosity.oramap
+     2 ms |   pitfight.oramap
+     2 ms |   polar-disorder.oramap
+     3 ms |   pool-party.oramap
+     2 ms |   pressure.oramap
+     4 ms |   production-disruption
+     3 ms |   progress.oramap
+     4 ms |   ridges.oramap
+     4 ms |   ritual-circle.oramap
+     5 ms |   sarin-gas-1-crackdown
+     5 ms |   sarin-gas-2-down-under
+     5 ms |   sarin-gas-3-controlled-burn
+     2 ms |   shadowfiend-II.oramap
+     3 ms |   shattered-mountain
+     6 ms |   shock-therapy
+     4 ms |   siberian-conflict-1-fresh-tracks
+     2 ms |   Siberian-Pass.oramap
+     2 ms |   sidestep.oramap
+     1 ms |   singles.oramap
+     5 ms |   situation-critical
+     2 ms |   snow-town
+     4 ms |   soviet-01
+     6 ms |   soviet-02a
+     6 ms |   soviet-02b
+     7 ms |   soviet-03
+     5 ms |   soviet-04a
+     6 ms |   soviet-04b
+     5 ms |   soviet-05
+     6 ms |   soviet-06a
+     6 ms |   soviet-06b
+     5 ms |   soviet-07
+     5 ms |   soviet-08a
+     6 ms |   soviet-08b
+     5 ms |   soviet-09
+     5 ms |   soviet-soldier-volkov-n-chitzkoi
+     2 ms |   sudden-death.oramap
+     1 ms |   sunstroke.oramap
+     4 ms |   survival01
+     4 ms |   survival02
+     2 ms |   synergy.oramap
+     4 ms |   tandem.oramap
+     3 ms |   temperal.oramap
+     5 ms |   top-o-the-world
+     3 ms |   tournament-island.oramap
+     2 ms |   trapped.oramap
+     4 ms |   unconventional-warfare.oramap
+     4 ms |   union-sacree.oramap
+     2 ms |   vegetation.oramap
+     1 ms |   warwind.oramap
+     5 ms |   x-lake.oramap
+     2 ms |   ysmir.oramap
+   499 ms --------------------------------------------------
+          SpriteFonts
+     3 ms |   Precache common|FreeSans.ttf 10px
+     1 ms |   Precache common|FreeSansBold.ttf 10px
+     1 ms |   Precache common|FreeSans.ttf 12px
+     1 ms |   Precache common|FreeSans.ttf 14px
+     1 ms |   Precache common|FreeSansBold.ttf 14px
+     1 ms |   Precache common|FreeSansBold.ttf 18px
+     1 ms |   Precache common|FreeSansBold.ttf 24px
+    12 ms --------------------------------------------------
+          StartGame
+          |   PrepareMap
+          |   |   Map
+    10 ms |   |   |   LoadSequences
+   507 ms |   |   ------------------------------------------
+     4 ms |   |   Map.Music
+   527 ms |   ----------------------------------------------
+   102 ms |   NewWorld
+          |   LoadComplete
+     0 ms |   |   ScreenMap.WorldLoaded
+     0 ms |   |   MenuPaletteEffect.WorldLoaded
+     4 ms |   |   MusicPlaylist.WorldLoaded
+     0 ms |   |   TerrainGeometryOverlay.WorldLoaded
+     4 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+     1 ms |   |   Locomotor.WorldLoaded
+    14 ms |   |   TerrainRenderer.WorldLoaded
+    27 ms |   |   ShroudRenderer.WorldLoaded
+     0 ms |   |   ResourceType.WorldLoaded
+     0 ms |   |   ResourceType.WorldLoaded
+     0 ms |   |   DevCommands.WorldLoaded
+     0 ms |   |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   |   PlayerCommands.WorldLoaded
+     0 ms |   |   HelpCommand.WorldLoaded
+     0 ms |   |   ScreenShaker.WorldLoaded
+    29 ms |   |   LegacyBridgeLayer.WorldLoaded
+     0 ms |   |   CustomTerrainDebugOverlay.WorldLoaded
+          |   |   DomainIndex.WorldLoaded
+    11 ms |   |   |   BuildDomains: Desert Shellmap for movement class 351
+     9 ms |   |   |   BuildDomains: Desert Shellmap for movement class 2048
+     9 ms |   |   |   BuildDomains: Desert Shellmap for movement class 2049
+     9 ms |   |   |   BuildDomains: Desert Shellmap for movement class 0
+    42 ms |   |   ------------------------------------------
+     5 ms |   |   SmudgeLayer.WorldLoaded
+     2 ms |   |   SmudgeLayer.WorldLoaded
+   467 ms |   |   SpawnMapActors.WorldLoaded
+    92 ms |   |   LoadWidgetAtGameStart.WorldLoaded
+     0 ms |   |   TimeLimitManager.WorldLoaded
+     4 ms |   |   ResourceLayer.WorldLoaded
+   253 ms |   |   LuaScript.WorldLoaded
+     5 ms |   |   ResourceRenderer.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   GameSaveViewportManager.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   |   MissionObjectives.WorldLoaded
+     0 ms |   |   PlayerStatistics.WorldLoaded
+     0 ms |   |   PlayerRadarTerrain.WorldLoaded
+   964 ms |   ----------------------------------------------
+  1707 ms --------------------------------------------------
+    22 ms [1] Activity: Move
+     4 ms [1] Activity: Fly
+     2 ms [1] Trait: ActorMap
+     1 ms [1] Trait: LuaScript
+     3 ms [1] Trait: Shroud
+     2 ms [1] Trait: Shroud
+     2 ms [1] Trait: SupportPowerManager
+     1 ms [1] Trait: Shroud
+     2 ms [1] Trait: Shroud
+     1 ms [1] Trait: FrozenUnderFog
+     1 ms [1] Trait: RenderSprites
+     2 ms [1] Trait: ChangesHealth
+     3 ms [1] Trait: SeedsResource
+     2 ms [1] Trait: Aircraft
+     2 ms [1] Render: SmudgeLayer
+     2 ms [2] Activity: MoveFirstHalf
+     3 ms [2] Activity: Move
+     6 ms [2] Activity: CallFunc
+     2 ms [2] Activity: HarvestResource
+     6 ms [2] Activity: FindAndDeliverResources
+     4 ms [2] Trait: WithLandingCraftAnimation
+     1 ms [4] Activity: AttackMoveActivity
+     2 ms [4] Activity: Move
+     2 ms [4] Activity: AttackMoveActivity
+     2 ms [4] Activity: Move
+     3 ms [4] Activity: AttackMoveActivity
+     1 ms [4] Activity: Move
+     1 ms [4] Activity: AttackMoveActivity
+     3 ms [6] Activity: Fly
+     9 ms [8] Activity: MoveFirstHalf
+     9 ms [8] Activity: Move
+     1 ms [9] Activity: MoveFirstHalf
+     2 ms [9] Activity: Move
+     2 ms [9] Activity: HarvestResource
+     2 ms [9] Activity: FindAndDeliverResources
+     4 ms [13] Activity: MoveSecondHalf
+     4 ms [13] Activity: Move
+     3 ms [19] Activity: Move
+     3 ms [19] Activity: AttackMoveActivity
+     9 ms [31] Activity: MoveFirstHalf
+     9 ms [31] Activity: Move
+     9 ms [31] Activity: AttackMoveActivity
+     2 ms [31] Trait: Aircraft
+     1 ms [42] Trait: LuaScript
+     1 ms [49] Activity: Move
+     1 ms [49] Activity: AttackMoveActivity
+     2 ms [54] Activity: Move
+     2 ms [54] Activity: AttackMoveActivity
+     2 ms [54] Activity: Move
+     2 ms [54] Activity: AttackMoveActivity
+    12 ms [61] Activity: WaitFor
+     2 ms [62] Activity: ReturnToCellActivity
+     1 ms [64] Activity: Move
+     1 ms [64] Activity: AttackMoveActivity
+     1 ms [64] Trait: LuaScript
+     1 ms [79] Activity: Move
+     1 ms [79] Activity: AttackMoveActivity
+     4 ms [79] Activity: Move
+     4 ms [79] Activity: AttackMoveActivity
+     1 ms [81] Activity: AttackMoveActivity
+     6 ms [81] Activity: Hunt
+     3 ms [85] Activity: MoveFirstHalf
+     3 ms [85] Activity: Move
+     3 ms [85] Activity: AttackMoveActivity
+     3 ms [94] Activity: AttackMoveActivity
+     1 ms [94] Activity: Move
+     1 ms [94] Activity: AttackMoveActivity
+     1 ms [99] Activity: MoveFirstHalf
+     1 ms [99] Activity: Move
+     1 ms [99] Activity: AttackMoveActivity
+     1 ms [104] Activity: Move
+     1 ms [104] Activity: AttackMoveActivity
+     1 ms [104] Activity: Move
+     1 ms [104] Activity: AttackMoveActivity
+     3 ms [104] Activity: Move
+     3 ms [104] Activity: AttackMoveActivity
+     3 ms [104] Activity: Move
+     3 ms [104] Activity: AttackMoveActivity
+     3 ms [111] Activity: MoveFirstHalf
+     3 ms [111] Activity: Move
+     3 ms [111] Activity: AttackMoveActivity
+     1 ms [118] Activity: AttackMoveActivity
+     1 ms [120] Trait: LuaScript
+     1 ms [124] Activity: Move
+     1 ms [124] Activity: AttackMoveActivity
+     3 ms [127] Activity: Teleport
+     4 ms [128] Activity: Fly
+     6 ms [138] Activity: HarvestResource
+     6 ms [138] Activity: FindAndDeliverResources
+     1 ms [146] Activity: HarvestResource
+     1 ms [146] Activity: FindAndDeliverResources
+     2 ms [154] Activity: Move
+     2 ms [154] Activity: AttackMoveActivity
+     2 ms [154] Activity: Move
+     2 ms [154] Activity: AttackMoveActivity
+     2 ms [169] Activity: MoveFirstHalf
+     2 ms [169] Activity: Move
+     2 ms [169] Activity: AttackMoveActivity
+     1 ms [201] Activity: Move
+     1 ms [201] Activity: AttackMoveActivity
+     2 ms [201] Activity: Hunt
+     1 ms [201] Trait: Shroud
+     3 ms [209] Activity: MoveFirstHalf
+     3 ms [209] Activity: Move
+     3 ms [209] Activity: AttackMoveActivity
+     3 ms [217] Trait: RepairableBuilding
+     2 ms [241] Activity: MoveFirstHalf
+     2 ms [241] Activity: Move
+     2 ms [241] Activity: AttackMoveActivity
+     2 ms [242] Activity: MoveSecondHalf
+     2 ms [242] Activity: Move
+     2 ms [242] Activity: AttackMoveActivity
+     1 ms [242] Trait: WithDecoration
+     4 ms [244] Trait: WithDecoration
+     3 ms [250] Trait: ProductionBar
+     2 ms [253] Trait: AttackTurreted
+     2 ms [254] Activity: AttackActivity
+     1 ms [254] Trait: RenderSprites
+     1 ms [262] Activity: Move
+     1 ms [262] Activity: AttackMoveActivity
+     1 ms [266] Trait: LuaScript
+     6 ms [271] Activity: MoveFirstHalf
+     6 ms [271] Activity: Move
+     7 ms [271] Activity: AttackMoveActivity
+     3 ms [276] Activity: MoveFirstHalf
+     3 ms [276] Activity: Move
+     3 ms [276] Activity: AttackMoveActivity
+     9 ms [277] Activity: MoveSecondHalf
+     9 ms [277] Activity: Move
+     9 ms [277] Activity: AttackMoveActivity
+     2 ms [278] Effect: SpriteEffect
+     2 ms [279] Effect: SpriteEffect
+     3 ms [285] Activity: AttackMoveActivity
+     1 ms [294] Trait: ActorMap
+     3 ms [294] Trait: LuaScript
+     4 ms [304] Activity: MoveFirstHalf
+     4 ms [304] Activity: Move
+     4 ms [304] Activity: AttackMoveActivity
+     3 ms [304] Trait: FrozenActorLayer
+     2 ms [307] Effect: GpsDotEffect
+     2 ms [313] Activity: DeliverResources
+     3 ms [313] Activity: FindAndDeliverResources
+     9 ms [325] Trait: AttackTurreted
+     4 ms [325] Effect: Bullet
+     2 ms [331] Render: FrozenUnderFog
+     1 ms [354] Activity: Move
+     2 ms [354] Activity: AttackMoveActivity
+    13 ms [356] Activity: UnloadCargo
+    27 ms [357] Effect: Bullet
+     2 ms [358] Activity: UnloadCargo
+     4 ms [359] Effect: Bullet
+     2 ms [362] Activity: MoveFirstHalf
+     2 ms [362] Activity: Move
+     3 ms [362] Activity: AttackMoveActivity
+     3 ms [363] Effect: Bullet
+    10 ms [370] Activity: Attack
+     7 ms [370] Effect: InstantHit
+     3 ms [374] Trait: ProductionBar
+     2 ms [375] Activity: Move
+     2 ms [375] Activity: AttackMoveActivity
+     2 ms [375] Activity: Hunt
+     5 ms [376] Trait: WithDecoration
+     6 ms [377] Activity: MoveSecondHalf
+     6 ms [377] Activity: Move
+     6 ms [377] Activity: AttackMoveActivity
+     2 ms [381] Trait: TakeCover
+     2 ms [382] Effect: Bullet
+     3 ms [385] Activity: MoveSecondHalf
+     3 ms [385] Activity: Move
+     3 ms [385] Activity: AttackMoveActivity
+     2 ms [391] Trait: Shroud
+     4 ms [396] Activity: Land
+     3 ms [396] Activity: MoveFirstHalf
+     3 ms [396] Activity: Move
+     3 ms [396] Activity: AttackMoveActivity
+     3 ms [397] Trait: Demolishable
+     3 ms [399] Activity: Land
+     3 ms [399] Render: FrozenUnderFog
+     3 ms [400] Activity: MoveSecondHalf
+     3 ms [400] Activity: Move
+     3 ms [400] Activity: AttackMoveActivity
+     2 ms [400] Trait: ParaDrop
+     1 ms [401] Activity: Parachute
+     2 ms [401] Activity: ReturnToCellActivity
+     2 ms [401] Trait: WithLandingCraftAnimation
+     2 ms [402] Trait: AttackTurreted
+     5 ms [410] Activity: MoveSecondHalf
+     5 ms [410] Activity: Move
+     5 ms [410] Activity: AttackMoveActivity
+     3 ms [411] Activity: Drag
+     3 ms [411] Activity: ReturnToCellActivity
+     2 ms [412] Activity: AttackMoveActivity
+     2 ms [412] Activity: Hunt
+     1 ms [415] Activity: Move
+     1 ms [415] Activity: AttackMoveActivity
+     2 ms [415] Activity: Hunt
+     3 ms [416] Trait: RenderSprites
+     2 ms [421] Trait: RenderSprites
+     2 ms [422] Effect: SpriteEffect
+     3 ms [426] Activity: Fly
+     3 ms [428] Trait: CaptureManager
+     3 ms [430] Activity: MoveSecondHalf
+     3 ms [430] Activity: Move
+     3 ms [430] Activity: AttackMoveActivity
+     2 ms [431] Trait: ActorMap
+     2 ms [436] Effect: InstantHit
+     3 ms [440] Activity: MoveFirstHalf
+     3 ms [440] Activity: Move
+     3 ms [440] Activity: DeliverResources
+     3 ms [440] Activity: FindAndDeliverResources
+     3 ms [441] Render: FrozenUnderFog
+     1 ms [446] Effect: Bullet
+     4 ms [448] Trait: FrozenUnderFog
+     3 ms [449] Activity: MoveSecondHalf
+     3 ms [449] Activity: Move
+     3 ms [449] Activity: AttackMoveActivity
+     6 ms [450] Trait: FrozenUnderFog
+     6 ms [451] Trait: RenderSprites
+     3 ms [452] Trait: FrozenUnderFog
+     3 ms [455] Trait: WithDecoration
+     3 ms [457] Trait: RenderSprites
+     2 ms [458] Trait: FrozenUnderFog
+     2 ms [459] Trait: RenderSprites
+     3 ms [461] Trait: RenderSprites
+     3 ms [466] Activity: Move
+     3 ms [466] Activity: AttackMoveActivity
+     3 ms [466] Activity: Hunt
+     3 ms [468] Trait: WithHarvesterSpriteBody
+     3 ms [475] Trait: ActorMap
+     3 ms [476] Trait: RenderSprites
+     2 ms [477] Activity: Attack
+     3 ms [477] Trait: RenderSprites
+    14 ms [477] Effect: Missile
+     4 ms [479] Trait: ExternalCondition
+     4 ms [481] Activity: CallLuaFunc
+     6 ms [483] Activity: AttackMoveActivity
+     4 ms [485] Activity: MoveFirstHalf
+     4 ms [485] Activity: Move
+     4 ms [485] Activity: AttackMoveActivity
+     4 ms [487] Trait: Shroud
+     3 ms [496] Activity: AttackMoveActivity
+     3 ms [498] Trait: LuaScript
+     1 ms [499] Activity: Parachute
+     1 ms [499] Activity: ReturnToCellActivity
+     4 ms [501] Activity: Move
+     4 ms [501] Activity: AttackMoveActivity
+     4 ms [501] Activity: Hunt
+     6 ms [502] Trait: FrozenUnderFog
+     3 ms [506] Trait: Shroud
+     2 ms [508] Trait: RepairableBuilding
+     5 ms [509] Trait: FrozenActorLayer
+     8 ms [512] Activity: MoveFirstHalf
+     8 ms [512] Activity: Move
+     8 ms [512] Activity: AttackMoveActivity
+     8 ms [512] Activity: Hunt
+     1 ms [519] Activity: Move
+     1 ms [519] Activity: AttackMoveActivity
+     3 ms [520] Trait: Mobile
+     3 ms [521] Trait: Mobile
+     4 ms [522] Trait: Chronoshiftable
+    10 ms [523] Trait: RenderSprites
+     9 ms [524] Activity: MoveFirstHalf
+     9 ms [524] Activity: Move
+     9 ms [524] Activity: AttackMoveActivity
+     9 ms [524] Activity: Hunt
+     1 ms [525] Activity: Move
+     2 ms [525] Activity: AttackMoveActivity
+     4 ms [529] Trait: WithParachute
+     7 ms [0] Trait: SupportPowerManager
+     5 ms [0] Activity: Attack
+     5 ms [0] Activity: AttackMoveActivity
+     5 ms [0] Activity: Hunt
+     2 ms [0] Trait: WithInfantryBody
+     3 ms [0] Trait: RenderSprites
+     7 ms [0] Trait: Shroud
+          PrepareMap
+          |   Map
+    18 ms |   |   LoadSequences
+   829 ms |   ----------------------------------------------
+     7 ms |   Map.Music
+   857 ms --------------------------------------------------
+    20 ms NewWorld
+          LoadComplete
+     0 ms |   ScreenMap.WorldLoaded
+     0 ms |   MenuPaletteEffect.WorldLoaded
+     0 ms |   MusicPlaylist.WorldLoaded
+     0 ms |   TerrainGeometryOverlay.WorldLoaded
+     4 ms |   Locomotor.WorldLoaded
+     2 ms |   Locomotor.WorldLoaded
+     2 ms |   Locomotor.WorldLoaded
+     2 ms |   Locomotor.WorldLoaded
+     2 ms |   Locomotor.WorldLoaded
+     2 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     2 ms |   Locomotor.WorldLoaded
+     2 ms |   Locomotor.WorldLoaded
+    20 ms |   TerrainRenderer.WorldLoaded
+    30 ms |   ShroudRenderer.WorldLoaded
+     0 ms |   ResourceType.WorldLoaded
+     0 ms |   ResourceType.WorldLoaded
+     0 ms |   DevCommands.WorldLoaded
+     0 ms |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   PlayerCommands.WorldLoaded
+     0 ms |   HelpCommand.WorldLoaded
+     0 ms |   ScreenShaker.WorldLoaded
+     2 ms |   LegacyBridgeLayer.WorldLoaded
+     0 ms |   CustomTerrainDebugOverlay.WorldLoaded
+          |   DomainIndex.WorldLoaded
+    15 ms |   |   BuildDomains: 01:   In the thick of it for movement class 351
+    18 ms |   |   BuildDomains: 01:   In the thick of it for movement class 2048
+    17 ms |   |   BuildDomains: 01:   In the thick of it for movement class 2049
+    17 ms |   |   BuildDomains: 01:   In the thick of it for movement class 0
+    67 ms |   ----------------------------------------------
+     0 ms |   SmudgeLayer.WorldLoaded
+     1 ms |   SmudgeLayer.WorldLoaded
+   152 ms |   SpawnMapActors.WorldLoaded
+    10 ms |   StartGameNotification.WorldLoaded
+    60 ms |   LoadWidgetAtGameStart.WorldLoaded
+     0 ms |   TimeLimitManager.WorldLoaded
+     2 ms |   ResourceLayer.WorldLoaded
+    85 ms |   LuaScript.WorldLoaded
+     2 ms |   ResourceRenderer.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+   445 ms --------------------------------------------------
+     4 ms [1] Activity: Move
+     4 ms [1] Activity: AttackMoveActivity
+     4 ms [1] Activity: Hunt
+     1 ms [1] Trait: LuaScript
+     1 ms [1] Trait: Shroud
+     4 ms [2] Trait: RenderSprites
+     2 ms [20] Activity: Attack
+     2 ms [20] Activity: AttackMoveActivity
+     2 ms [20] Activity: Hunt
+     3 ms [40] Effect: InstantHit
+     4 ms [42] Trait: LuaScript
+     2 ms [48] Trait: AttackTurreted
+    15 ms [48] Effect: InstantHit
+     3 ms [54] Effect: RallyPointIndicator
+     6 ms [95] Trait: ClassicProductionQueue
+     3 ms [116] Trait: Demolishable
+     5 ms [119] Trait: LuaScript
+     5 ms [123] Trait: WithWallSpriteBody
+     1 ms [128] Trait: AttackTurreted
+     3 ms [128] Effect: InstantHit
+     1 ms [138] Activity: Move
+     4 ms [140] Trait: WithDecoration
+     3 ms [141] Trait: AttackTurreted
+     4 ms [151] Effect: InstantHit
+     1 ms [157] Effect: InstantHit
+     5 ms [185] Trait: ActorMap
+     3 ms [185] Effect: Bullet
+    16 ms [193] Effect: InstantHit
+     5 ms [201] Trait: LuaScript
+     4 ms [202] Trait: ScreenShaker
+     3 ms [215] Activity: Attack
+     3 ms [215] Activity: AttackMoveActivity
+     3 ms [215] Activity: Hunt
+     5 ms [220] Activity: MoveFirstHalf
+     5 ms [220] Activity: Move
+     6 ms [227] Activity: Attack
+     6 ms [227] Activity: AttackMoveActivity
+     6 ms [227] Activity: Hunt
+     1 ms [231] Effect: FlashTarget
+     5 ms [235] Activity: Move
+     7 ms [235] Activity: MoveWithinRange
+     8 ms [235] Activity: AttackActivity
+     3 ms [235] Activity: Demolish
+     5 ms [243] Effect: InstantHit
+     5 ms [244] Effect: InstantHit
+     5 ms [246] Trait: Shroud
+     5 ms [247] Activity: Attack
+     8 ms [256] Trait: FrozenActorLayer
+     1 ms [310] Activity: ChargeAttack
+     2 ms [312] Activity: Demolish
+    18 ms [349] Effect: InstantHit
+     1 ms [350] Trait: Selection
+     3 ms [377] Activity: Move
+     3 ms [377] Activity: MoveWithinRange
+     3 ms [377] Activity: Attack
+     1 ms [416] Activity: DeliverResources
+     1 ms [416] Activity: FindAndDeliverResources
+     1 ms [428] Activity: SpriteHarvesterDockSequence
+     1 ms [428] Activity: DeliverResources
+     1 ms [428] Activity: FindAndDeliverResources
+     4 ms [429] Activity: SpriteHarvesterDockSequence
+     4 ms [429] Activity: DeliverResources
+     4 ms [429] Activity: FindAndDeliverResources
+          PrepareMap
+   345 ms |   Map
+     3 ms |   Map.Music
+   355 ms --------------------------------------------------
+     9 ms NewWorld
+          LoadComplete
+     0 ms |   ScreenMap.WorldLoaded
+     0 ms |   MenuPaletteEffect.WorldLoaded
+     0 ms |   MusicPlaylist.WorldLoaded
+     0 ms |   TerrainGeometryOverlay.WorldLoaded
+     3 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+    13 ms |   TerrainRenderer.WorldLoaded
+    19 ms |   ShroudRenderer.WorldLoaded
+     0 ms |   ResourceType.WorldLoaded
+     0 ms |   ResourceType.WorldLoaded
+     0 ms |   DevCommands.WorldLoaded
+     0 ms |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   PlayerCommands.WorldLoaded
+     0 ms |   HelpCommand.WorldLoaded
+     1 ms |   LegacyBridgeLayer.WorldLoaded
+     0 ms |   CustomTerrainDebugOverlay.WorldLoaded
+          |   DomainIndex.WorldLoaded
+    11 ms |   |   BuildDomains: 01:   In the thick of it for movement class 351
+    11 ms |   |   BuildDomains: 01:   In the thick of it for movement class 2048
+    10 ms |   |   BuildDomains: 01:   In the thick of it for movement class 2049
+    10 ms |   |   BuildDomains: 01:   In the thick of it for movement class 0
+    41 ms |   ----------------------------------------------
+     0 ms |   SmudgeLayer.WorldLoaded
+     1 ms |   SmudgeLayer.WorldLoaded
+   139 ms |   SpawnMapActors.WorldLoaded
+     7 ms |   StartGameNotification.WorldLoaded
+    20 ms |   LoadWidgetAtGameStart.WorldLoaded
+     0 ms |   TimeLimitManager.WorldLoaded
+     2 ms |   ResourceLayer.WorldLoaded
+    72 ms |   LuaScript.WorldLoaded
+     2 ms |   ResourceRenderer.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+   332 ms --------------------------------------------------
+     2 ms [1] Activity: Move
+     2 ms [1] Activity: AttackMoveActivity
+     2 ms [1] Activity: Hunt
+     3 ms [205] Activity: Attack
+     3 ms [205] Activity: AttackMoveActivity
+     3 ms [205] Activity: Hunt
+     2 ms [213] Trait: AttackTurreted
+     1 ms [213] Effect: InstantHit
+     4 ms [232] Activity: Move
+     4 ms [232] Activity: MoveWithinRange
+     4 ms [232] Activity: Attack
+     2 ms [243] Effect: InstantHit
+     4 ms [258] Effect: InstantHit
+     3 ms [284] Effect: Bullet
+     1 ms [287] Effect: InstantHit
+     4 ms [292] Activity: Attack
+     4 ms [297] Effect: InstantHit
+     2 ms [358] Effect: SpriteEffect
+     5 ms [388] Activity: MoveFirstHalf
+     5 ms [388] Activity: Move
+     1 ms [408] Activity: Attack
+     1 ms [408] Activity: AttackMoveActivity
+     1 ms [408] Activity: Hunt
+     1 ms [445] Activity: MoveWithinRange
+     1 ms [445] Activity: AttackActivity
+     1 ms [450] Activity: Attack
+     1 ms [606] Activity: Attack
+     1 ms [611] Activity: Move
+     2 ms [611] Activity: MoveWithinRange
+     2 ms [611] Activity: Attack
+     3 ms [614] Trait: WithWallSpriteBody
+     1 ms [654] Activity: Move
+     1 ms [654] Activity: MoveWithinRange
+     1 ms [654] Activity: Attack
+     1 ms [655] Activity: MoveWithinRange
+     1 ms [655] Activity: AttackActivity
+     1 ms [658] Activity: Move
+     1 ms [658] Activity: MoveWithinRange
+     1 ms [658] Activity: Attack
+     4 ms [690] Activity: Move
+     4 ms [690] Activity: MoveWithinRange
+     4 ms [690] Activity: Attack
+     1 ms [710] Trait: AttackTurreted
+     1 ms [748] Activity: SpriteHarvesterDockSequence
+     1 ms [748] Activity: DeliverResources
+     1 ms [748] Activity: FindAndDeliverResources
+     4 ms [752] Activity: AttackActivity
+     5 ms [773] Activity: Attack
+     3 ms [890] Activity: MoveFirstHalf
+     3 ms [890] Activity: Move
+     8 ms [910] Activity: MoveSecondHalf
+     8 ms [910] Activity: Move
+     8 ms [910] Activity: HarvestResource
+     8 ms [910] Activity: FindAndDeliverResources
+     1 ms [958] Activity: Move
+     4 ms [1025] Effect: InstantHit
+     2 ms [1036] Effect: InstantHit
+     2 ms [1095] Effect: InstantHit
+     2 ms [1113] Trait: AttackTurreted
+     3 ms [1130] Effect: InstantHit
+    19 ms [1153] Activity: MoveFirstHalf
+    19 ms [1153] Activity: Move
+    19 ms [1153] Activity: DeliverResources
+    19 ms [1153] Activity: FindAndDeliverResources
+     4 ms [1158] Effect: InstantHit
+     2 ms [1164] Trait: ModularBot
+     2 ms [1174] Effect: InstantHit
+     2 ms [1191] Activity: Attack
+     2 ms [1207] Effect: InstantHit
+     2 ms [1219] Activity: Attack
+     4 ms [1540] Trait: WithWallSpriteBody
+     1 ms [1837] Activity: Move
+     1 ms [1843] Activity: Move
+     2 ms [1926] Effect: InstantHit
+     1 ms [2136] Activity: Move
+     9 ms [2214] Effect: InstantHit
+          PrepareMap
+   441 ms |   Map
+     4 ms |   Map.Music
+   453 ms --------------------------------------------------
+    14 ms NewWorld
+          LoadComplete
+     0 ms |   ScreenMap.WorldLoaded
+     0 ms |   MenuPaletteEffect.WorldLoaded
+     0 ms |   MusicPlaylist.WorldLoaded
+     0 ms |   TerrainGeometryOverlay.WorldLoaded
+     3 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+     1 ms |   Locomotor.WorldLoaded
+    12 ms |   TerrainRenderer.WorldLoaded
+    18 ms |   ShroudRenderer.WorldLoaded
+     0 ms |   ResourceType.WorldLoaded
+     0 ms |   ResourceType.WorldLoaded
+     0 ms |   DevCommands.WorldLoaded
+     0 ms |   DebugVisualizationCommands.WorldLoaded
+     0 ms |   PlayerCommands.WorldLoaded
+     0 ms |   HelpCommand.WorldLoaded
+     0 ms |   ScreenShaker.WorldLoaded
+     1 ms |   LegacyBridgeLayer.WorldLoaded
+     0 ms |   CustomTerrainDebugOverlay.WorldLoaded
+          |   DomainIndex.WorldLoaded
+    11 ms |   |   BuildDomains: 01:   In the thick of it for movement class 351
+    12 ms |   |   BuildDomains: 01:   In the thick of it for movement class 2048
+    12 ms |   |   BuildDomains: 01:   In the thick of it for movement class 2049
+    12 ms |   |   BuildDomains: 01:   In the thick of it for movement class 0
+    46 ms |   ----------------------------------------------
+     1 ms |   SmudgeLayer.WorldLoaded
+     1 ms |   SmudgeLayer.WorldLoaded
+   104 ms |   SpawnMapActors.WorldLoaded
+     5 ms |   StartGameNotification.WorldLoaded
+    14 ms |   LoadWidgetAtGameStart.WorldLoaded
+     0 ms |   TimeLimitManager.WorldLoaded
+     2 ms |   ResourceLayer.WorldLoaded
+    50 ms |   LuaScript.WorldLoaded
+     1 ms |   ResourceRenderer.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   GameSaveViewportManager.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+     0 ms |   MissionObjectives.WorldLoaded
+     0 ms |   PlayerStatistics.WorldLoaded
+     0 ms |   PlayerRadarTerrain.WorldLoaded
+   268 ms --------------------------------------------------
+     1 ms [1] Activity: Move
+     1 ms [1] Activity: AttackMoveActivity
+     1 ms [1] Activity: Hunt
+     5 ms [20] Activity: Attack
+     5 ms [20] Activity: AttackMoveActivity
+     5 ms [20] Activity: Hunt
+     2 ms [48] Trait: AttackTurreted
+     1 ms [49] Effect: InstantHit
+     1 ms [76] Effect: InstantHit
+     1 ms [106] Activity: Move
+     2 ms [106] Activity: AttackMoveActivity
+     2 ms [106] Activity: Hunt
+     3 ms [193] Activity: Move
+     3 ms [221] Activity: Attack
+     5 ms [221] Effect: InstantHit
+     3 ms [222] Trait: LuaScript
+     4 ms [231] Activity: ChargeAttack
+     3 ms [232] Effect: InstantHit
+     3 ms [242] Activity: MoveSecondHalf
+     3 ms [242] Activity: Move
+     3 ms [242] Activity: MoveWithinRange
+     3 ms [242] Activity: Attack
+     1 ms [243] Activity: Attack
+     1 ms [243] Activity: AttackMoveActivity
+     1 ms [243] Activity: Hunt
+     4 ms [253] Activity: ChargeFire
+     4 ms [253] Activity: ChargeAttack
+     6 ms [253] Effect: TeslaZap
+     3 ms [298] Effect: Bullet
+     3 ms [367] Activity: Move
+     3 ms [367] Activity: MoveWithinRange
+     3 ms [367] Activity: Attack
+     1 ms [488] Activity: Move
+     1 ms [488] Activity: MoveWithinRange
+     2 ms [488] Activity: Attack
+     1 ms [566] Trait: AttackTurreted
+     1 ms [585] Activity: Move
+     2 ms [585] Activity: MoveWithinRange
+     2 ms [585] Activity: Attack
+     8 ms [605] Effect: InstantHit
+     2 ms [640] Effect: InstantHit
