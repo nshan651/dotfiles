@@ -39,7 +39,7 @@ XF86MonBrightnessDown
 
 # Open TODO list
 super + r 
-    $TERMINAL -e nvim $XDG_DOCUMENTS_DIR/TODO.md
+    $TERMINAL -e nvim $WIKI/TODO.md
 
 # Web
 super + w

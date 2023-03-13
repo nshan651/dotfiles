@@ -6,12 +6,6 @@
 # Use $XINITRC variable if file exists.
 [ -f "$XINITRC" ] && alias startx="startx $XINITRC"
 
-# Config alias for dotfiles bare repo
-alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-
-# Config alias for wiki bare repo
-alias wiki='/usr/bin/git --git-dir=$HOME/Documents/wiki/.wiki/ --work-tree=$HOME/Documents/wiki/'
-
 # Alias true colors for tmux
 alias tmux="TERM=screen-256color-bce tmux"
 
@@ -20,6 +14,9 @@ alias mux=tmuxinator
 
 # monero wallet
 alias monerod=monderod --data-dir "$XDG_DATA_HOME"/bitmonero
+
+# xclip copy to clipboard
+alias xcp=xclip -selection clipboard
 
 # Verbosity settings
 alias \
