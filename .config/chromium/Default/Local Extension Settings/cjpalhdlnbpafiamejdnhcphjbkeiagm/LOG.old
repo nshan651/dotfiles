@@ -1,11 +1,25 @@
-2023/03/05-16:45:09.382 4394 Creating DB /home/nick/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm since it was missing.
-2023/03/05-16:45:09.396 4394 Reusing MANIFEST /home/nick/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
-2023/03/05-16:45:10.275 4395 Level-0 table #5: started
-2023/03/05-16:45:10.312 4395 Level-0 table #5: 1709540 bytes OK
-2023/03/05-16:45:10.322 4395 Delete type=0 #3
-2023/03/05-16:47:56.651 4395 Level-0 table #7: started
-2023/03/05-16:47:56.676 4395 Level-0 table #7: 1454950 bytes OK
-2023/03/05-16:47:56.680 4395 Delete type=0 #4
-2023/03/05-16:49:09.614 4395 Level-0 table #9: started
-2023/03/05-16:49:09.678 4395 Level-0 table #9: 1780812 bytes OK
-2023/03/05-16:49:09.687 4395 Delete type=0 #6
+2023/03/05-16:57:42.510 6578 Reusing MANIFEST /home/nick/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2023/03/05-16:57:42.511 6578 Recovering log #8
+2023/03/05-16:57:42.520 6578 Level-0 table #11: started
+2023/03/05-16:57:42.581 6578 Level-0 table #11: 1582239 bytes OK
+2023/03/05-16:57:42.590 6578 Delete type=0 #8
+2023/03/05-16:59:45.700 656d Level-0 table #14: started
+2023/03/05-16:59:45.766 656d Level-0 table #14: 2544712 bytes OK
+2023/03/05-16:59:45.771 656d Delete type=0 #12
+2023/03/05-17:06:01.715 656d Level-0 table #16: started
+2023/03/05-17:06:01.750 656d Level-0 table #16: 2839064 bytes OK
+2023/03/05-17:06:01.754 656d Delete type=0 #13
+2023/03/05-17:06:01.755 656d Compacting 4@0 + 1@1 files
+2023/03/05-17:06:01.780 656d Generated table #17@0: 12 keys, 2184927 bytes
+2023/03/05-17:06:01.810 656d Generated table #18@0: 9 keys, 2317557 bytes
+2023/03/05-17:06:01.829 656d Generated table #19@0: 15 keys, 824637 bytes
+2023/03/05-17:06:01.829 656d Compacted 4@0 + 1@1 files => 5327121 bytes
+2023/03/05-17:06:01.833 656d compacted to: files[ 0 3 1 0 0 0 0 ]
+2023/03/05-17:06:01.833 656d Delete type=2 #9
+2023/03/05-17:06:01.833 656d Delete type=2 #11
+2023/03/05-17:06:01.833 656d Delete type=2 #16
+2023/03/05-17:06:01.833 656d Delete type=2 #7
+2023/03/05-17:06:01.833 656d Delete type=2 #14
+2023/03/05-17:06:01.841 656d Level-0 table #21: started
+2023/03/05-17:06:01.868 656d Level-0 table #21: 3033821 bytes OK
+2023/03/05-17:06:01.873 656d Delete type=0 #15

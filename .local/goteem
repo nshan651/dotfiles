@@ -1,8 +1,26 @@
 #!/bin/sh
 # Got 'eem!
-# Script to stage and commit my dotfiles and wiki files.
+# Script to stage and commit my dotfiles, wiki, and more.
 
-# Update wiki
+# dwm
+cd $HOME/.local/opt/dwm
+git add -A
+git commit -m "Routine dwm update"
+git push
+
+# dwmblocks
+cd $HOME/.local/opt/dwmblocks
+git add -A
+git commit -m "Routine dwmblocks update"
+git push
+
+# st
+cd $HOME/.local/opt/st
+git add -A
+git commit -m "Routine st update"
+git push
+
+# Vimwiki
 cd $WIKI
 git add -A
 git commit -m "Routine wiki update"
@@ -11,12 +29,10 @@ git push
 # Copy configs and bin
 cp -rf $HOME/.config $GIT/dotfiles 
 cp -rf $HOME/.local/bin $GIT/dotfiles/.local
-
 # Update dotfiles
 cd $GIT/dotfiles
 git add -A
 git commit -m "Routine dotfile update"
 git push
-
 # Clean up
 rm -rf $GIT/dotfiles/.local $GIT/dotfiles/.config
