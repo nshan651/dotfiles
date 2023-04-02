@@ -1,10 +1,17 @@
 #!/bin/sh
 # Script for downloading yt channels using yt-dlp
 
-VIDEOS="$HOME/Videos"
-CHANNELS="$VIDEOS/channels"
-SUB_LIST="subs.txt"
+# VIDEOS="$XDG_VIDEOS_DIR"
+# CHANNELS="$XDG_VIDEOS_DIR/channels"
+CHANNELS="$XDG_VIDEOS_DIR"
+# SUB_LIST="$XDG_VIDEOS_DIR/subs.txt"
+SUB_LIST="$XDG_VIDEOS_DIR/vids.txt"
 
+
+while read line; do
+    # Download the 20 most recent thumbnails and video titles
+    yt-dlp --playlist-end 20 --write-thumbnail --skip-download -o "$CHANNELS/%(uploader)s/%(title)s.%(ext)s" "$line"
+done < "$SUB_LIST"
 
 # Download last 5 videos
 # yt-dlp -I1 "https://www.youtube.com/c/LukeSmithxyz/videos" -o "$HOME/Videos/channels/luke-smith/%(title)s.%(ext)s"
@@ -31,9 +38,3 @@ SUB_LIST="subs.txt"
 # Maybe...?
 # awk -F ',' '{ print $2 }' subs.txt | xargs $2 
 # cat subtest.txt | xargs -d ',' -I % echo %
-
-
-
-
-	
-done

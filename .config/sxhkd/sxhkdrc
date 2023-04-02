@@ -7,7 +7,7 @@
 
 # Refresh external monitors
 control + alt + 4
-    zsh monitors
+    ./monitors
 
 # 
 # ----- Utilities -----

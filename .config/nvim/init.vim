@@ -163,6 +163,10 @@ autocmd FileType vim imap <buffer> <F9> <esc>:w<CR>:so %<CR>
 autocmd BufRead,BufNewFile /tmp/calcurse* set filetype=markdown
 autocmd BufRead,BufNewFile ~/.calcurse/notes/* set filetype=markdown
 
+" Tries to 'print' the current file (convert to pdf)
+map <F5> :w<CR>:!printer %<CR>
+imap <F5> :w<CR>:!printer %<CR>
+
 "------------------------------------------------
 " --- Standard nvim settings ---
 "------------------------------------------------
@@ -179,7 +183,6 @@ if has('termguicolors')
 endif
 
 set bg=dark
-colorscheme kanagawa
 
 " let g:alduin_Shout_Dragon_Aspect = 1
 " let g:alduin_Shout_Become_Ethereal = 1
@@ -257,7 +260,6 @@ lua <<EOF
      },
      theme = "wave",
   })
-  -- colors = custom_colors })
   vim.cmd("colorscheme kanagawa")
 
   -- Setup nvim-cmp.

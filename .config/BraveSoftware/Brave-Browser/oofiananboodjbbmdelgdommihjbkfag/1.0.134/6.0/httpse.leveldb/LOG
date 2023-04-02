@@ -1,7 +1,0 @@
-2023/02/15-22:06:34.348 a0ec Recovering log #3
-2023/02/15-22:06:34.527 a0ec Level-0 table #5: started
-2023/02/15-22:06:34.587 a0ec Level-0 table #5: 2784740 bytes OK
-2023/02/15-22:06:34.591 a0ec Recovering log #7
-2023/02/15-22:06:34.602 a0ec Delete type=0 #3
-2023/02/15-22:06:34.602 a0ec Delete type=3 #2
-2023/02/15-22:06:34.602 a0ec Delete type=0 #7

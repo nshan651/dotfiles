@@ -1,7 +1,18 @@
 #!/bin/sh
 
 # Use neovim for vim if present.
-[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+if [ -x "$(command -v nvim)" ]
+then 
+    alias \
+        vi="nvim" \
+        vim="nvim" \
+        vimdiff="nvim -d"
+fi
+
+# Start emacsclient
+alias \
+    emacs="emacsclient -c -a 'emacs'" \
+    ee="emacsclient -c -a 'emacs'"
 
 # Use $XINITRC variable if file exists.
 [ -f "$XINITRC" ] && alias startx="startx $XINITRC"
@@ -16,7 +27,7 @@ alias mux=tmuxinator
 alias monerod=monderod --data-dir "$XDG_DATA_HOME"/bitmonero
 
 # xclip copy to clipboard
-alias xcp=xclip -selection clipboard
+alias xcp="xclip -selection clipboard"
 
 # Verbosity settings
 alias \

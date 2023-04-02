@@ -1,5 +1,5 @@
 {
-   "checksum": "a6a5a8b54a0cde11f3851df1d24639ce",
+   "checksum": "61752aa1b65f49bdbd65654c8691e253",
    "roots": {
       "bookmark_bar": {
          "children": [ {
@@ -9,13 +9,6 @@
             "name": "nshan.is",
             "type": "url",
             "url": "http://localhost:1313/"
-         }, {
-            "date_added": "13314474461973278",
-            "guid": "3777020e-4136-47ad-ac3f-b656871cabe3",
-            "id": "6",
-            "name": "nshan.is",
-            "type": "url",
-            "url": "https://nshan651.github.io/index.html"
          } ],
          "date_added": "13286378510279385",
          "date_modified": "13314474461973278",
