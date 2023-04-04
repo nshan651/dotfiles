@@ -1,17 +1,13 @@
 ## sxhkdrc config
 ## By Nick Shannon
 
-#
-# ----- Scripts -----
-#
+# === Scripts ===
 
 # Refresh external monitors
 control + alt + 4
-    ./monitors
+    monitors
 
-# 
-# ----- Utilities -----
-#
+# === Utilities ===
 
 # Volume controls
 XF86AudioLowerVolume
@@ -27,15 +23,13 @@ XF86AudioNext
     playerctl next 
 XF86AudioPrev	
     playerctl previous
-
 # Brightness
 XF86MonBrightnessUp
     xbacklight -inc 5
 XF86MonBrightnessDown
     xbacklight -dec 5
-#
-# ----- Universal keybinds -----
-#
+
+# === Universal keybinds ===
 
 # Open TODO list
 super + r 
@@ -48,6 +42,11 @@ super + w
 # Open Notes
 super + n 
     $TERMINAL -e nvim -c VimwikiIndex
+
+# Emacs
+super + e
+    emacsclient -c -a 'emacs'
+    
 
 # Newsboat
 super + shift + n
