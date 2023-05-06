@@ -1,21 +1,21 @@
-2023/03/21-20:42:47.413 3a9c3 Reusing MANIFEST /home/nick/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/03/21-20:42:47.413 3a9c3 Recovering log #10
-2023/03/21-20:42:47.428 3a9c3 Reusing old log /home/nick/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000010.log 
-2023/03/21-20:42:47.884 3a9c4 Level-0 table #15: started
-2023/03/21-20:42:47.925 3a9c4 Level-0 table #15: 2272328 bytes OK
-2023/03/21-20:42:47.934 3a9c4 Delete type=0 #10
-2023/03/21-20:44:44.191 3a9c3 Compacting 1@1 + 1@2 files
-2023/03/21-20:44:44.210 3a9c3 Generated table #16@1: 66 keys, 16216 bytes
-2023/03/21-20:44:44.210 3a9c3 Compacted 1@1 + 1@2 files => 16216 bytes
-2023/03/21-20:44:44.215 3a9c3 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/21-20:44:44.216 3a9c3 Delete type=2 #15
-2023/03/21-20:44:44.216 3a9c3 Delete type=2 #12
-2023/03/21-21:28:08.170 3a9c4 Level-0 table #18: started
-2023/03/21-21:28:08.214 3a9c4 Level-0 table #18: 1944448 bytes OK
-2023/03/21-21:28:08.221 3a9c4 Delete type=0 #14
-2023/03/21-21:35:32.182 3a9c3 Compacting 1@1 + 1@2 files
-2023/03/21-21:35:32.207 3a9c3 Generated table #19@1: 66 keys, 16160 bytes
-2023/03/21-21:35:32.207 3a9c3 Compacted 1@1 + 1@2 files => 16160 bytes
-2023/03/21-21:35:32.212 3a9c3 compacted to: files[ 0 0 1 0 0 0 0 ]
-2023/03/21-21:35:32.212 3a9c3 Delete type=2 #18
-2023/03/21-21:35:32.212 3a9c3 Delete type=2 #16
+2023/04/27-19:38:11.465 55b8 Reusing MANIFEST /home/nick/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/04/27-19:38:11.465 55b8 Recovering log #24
+2023/04/27-19:38:11.465 55b8 Reusing old log /home/nick/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000024.log 
+2023/04/27-19:38:26.503 55b8 Compacting 1@1 + 1@2 files
+2023/04/27-19:38:26.517 55b8 Generated table #27@1: 63 keys, 14453 bytes
+2023/04/27-19:38:26.517 55b8 Compacted 1@1 + 1@2 files => 14453 bytes
+2023/04/27-19:38:26.521 55b8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/27-19:38:26.522 55b8 Delete type=2 #25
+2023/04/27-19:38:26.522 55b8 Delete type=2 #23
+2023/04/27-19:54:07.847 29d2a Level-0 table #29: started
+2023/04/27-19:54:07.877 29d2a Level-0 table #29: 580730 bytes OK
+2023/04/27-19:54:07.884 29d2a Delete type=0 #24
+2023/04/27-19:54:07.885 29d2a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/04/27-19:54:07.885 29d2a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 67543 : 1
+2023/04/27-19:54:07.885 29d2a Compacting 1@1 + 1@2 files
+2023/04/27-19:54:07.896 29d2a Generated table #30@1: 64 keys, 14782 bytes
+2023/04/27-19:54:07.896 29d2a Compacted 1@1 + 1@2 files => 14782 bytes
+2023/04/27-19:54:07.904 29d2a compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/04/27-19:54:07.905 29d2a Delete type=2 #27
+2023/04/27-19:54:07.905 29d2a Delete type=2 #29
+2023/04/27-19:54:07.906 29d2a Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x0e\x00u\x00n\x00s\x00e\x00n\x00t\x00p\x00l\x00a\x00y\x00d\x00a\x00t\x00a' @ 67543 : 1 .. (end); will stop at (end)

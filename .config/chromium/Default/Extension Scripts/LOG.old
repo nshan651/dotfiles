@@ -1,2 +1,3 @@
-2022/11/14-13:56:59.781 9ce0 Creating DB /home/nick/.config/chromium/Default/Extension Scripts since it was missing.
-2022/11/14-13:56:59.798 9ce0 Reusing MANIFEST /home/nick/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/04/23-23:39:12.862 186cd Reusing MANIFEST /home/nick/.config/chromium/Default/Extension Scripts/MANIFEST-000001
+2023/04/23-23:39:12.862 186cd Recovering log #3
+2023/04/23-23:39:12.862 186cd Reusing old log /home/nick/.config/chromium/Default/Extension Scripts/000003.log 

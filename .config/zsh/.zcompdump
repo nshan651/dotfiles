@@ -1,4 +1,4 @@
-#files: 826	version: 5.9
+#files: 827	version: 5.9
 
 _comps=(
 '-' '_precommand'
@@ -597,7 +597,6 @@ _comps=(
 'import' '_imagemagick'
 'inc' '_mh'
 'includeres' '_psutils'
-'influx' '_influx-cli'
 'info' '_texinfo'
 'infocmp' '_terminals'
 'initctl' '_initctl'
@@ -902,6 +901,7 @@ _comps=(
 'paste' '_paste'
 'pasuspender' '_pulseaudio'
 'patch' '_patch'
+'patchelf' '_patchelf'
 'pax' '_pax'
 'pcat' '_pack'
 'pcp-htop' '_htop'
@@ -1676,11 +1676,11 @@ bindkey '^[~' _bash_complete-word
 
 autoload -Uz _bat _bloop _bootctl _busctl _bwrap \
             _cargo _coredumpctl _curl _heroku _hostnamectl \
-            _hugo _img2sixel _influx-cli _journalctl _jupyter \
-            _kdeconnect _kernel-install _lf _libinput _localectl \
-            _loginctl _luarocks _luarocks-admin _machinectl _mkinitcpio \
-            _mpv _netctl _netctl-gui _networkctl _oomctl \
-            _pacman _pdfgrep _pipenv _playerctl _podman \
+            _hugo _img2sixel _journalctl _jupyter _kdeconnect \
+            _kernel-install _lf _libinput _localectl _loginctl \
+            _luarocks _luarocks-admin _machinectl _mkinitcpio _mpv \
+            _netctl _netctl-gui _networkctl _oomctl _pacman \
+            _patchelf _pdfgrep _pipenv _playerctl _podman \
             _podman-remote _polybar _polybar_msg _pulseaudio _resolvectl \
             _rg _rustup _sd_hosts_or_user_at_host _sd_machines _sd_outputmodes \
             _sd_unit_files _systemctl _systemd _systemd-analyze _systemd-delta \
