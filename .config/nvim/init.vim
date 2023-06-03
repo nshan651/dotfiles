@@ -61,6 +61,8 @@ Plug 'AlessandroYorba/Alduin'
 Plug 'sainnhe/sonokai'
 Plug 'mcchrish/zenbones.nvim'
 Plug 'jaredgorski/SpaceCamp'
+" Org mode
+Plug 'jceb/vim-orgmode'
 " Plug 'sainnhe/everforest'
 Plug 'morhetz/gruvbox'
 Plug 'sainnhe/edge'
@@ -162,7 +164,8 @@ autocmd FileType vim imap <buffer> <F9> <esc>:w<CR>:so %<CR>
 " Make calcurse notes markdown compatible
 autocmd BufRead,BufNewFile /tmp/calcurse* set filetype=markdown
 autocmd BufRead,BufNewFile ~/.calcurse/notes/* set filetype=markdown
-
+" Syntax highlighting for org files
+autocmd FileType org setlocal filetype=markdown
 " Tries to 'print' the current file (convert to pdf)
 map <F5> :w<CR>:!printer %<CR>
 imap <F5> :w<CR>:!printer %<CR>

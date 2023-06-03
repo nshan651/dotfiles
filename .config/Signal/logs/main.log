@@ -1,0 +1,419 @@
+{"level":30,"time":"2023-06-01T19:40:50.755Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2023-06-01T19:40:50.756Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2023-06-01T19:40:50.757Z","msg":"locale: Preferred locales:  en-US, en"}
+{"level":30,"time":"2023-06-01T19:40:50.759Z","msg":"locale: Matched locale: en"}
+{"level":30,"time":"2023-06-01T19:40:50.803Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2023-06-01T19:40:50.805Z","msg":"app ready"}
+{"level":30,"time":"2023-06-01T19:40:50.805Z","msg":"starting version 6.19.0"}
+{"level":30,"time":"2023-06-01T19:40:50.805Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2023-06-01T19:40:50.806Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-01T19:40:50.808Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-01T19:40:50.808Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-06-01T19:40:50.809Z","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2023-06-01T19:40:50.810Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1854,\"height\":1032,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":1953,\"y\":35}"}
+{"level":30,"time":"2023-06-01T19:40:50.861Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-06-01T19:40:50.862Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2023-06-01T19:40:50.862Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-06-01T19:40:50.871Z","msg":"MainSQL: updateSchema:\n  Current user_version: 82;\n  Most recent db schema: 82;\n  SQLite version: 3.39.4;\n  SQLCipher version: 4.5.3 community;\n  (deprecated) schema_version: 360;\n"}
+{"level":30,"time":"2023-06-01T19:40:51.335Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-01T19:40:52.166Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-06-01T19:40:52.172Z","msg":"System tray service: created"}
+{"level":30,"time":"2023-06-01T19:40:52.172Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2023-06-01T19:40:52.172Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:40:52.172Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2023-06-01T19:40:52.174Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2023-06-01T19:40:52.175Z","msg":"Finish ensuring permissions in 3ms"}
+{"level":30,"time":"2023-06-01T19:40:52.176Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2023-06-01T19:40:52.176Z","msg":"showing main window"}
+{"level":30,"time":"2023-06-01T19:40:52.177Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:40:52.346Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-06-01T19:40:52.346Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-06-01T19:40:52.521Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2023-06-01T19:40:52.522Z","msg":"App loaded - time: 1718"}
+{"level":30,"time":"2023-06-01T19:40:52.522Z","msg":"SQL init - time: 67"}
+{"level":30,"time":"2023-06-01T19:40:52.522Z","msg":"Preload - time: 804"}
+{"level":30,"time":"2023-06-01T19:40:52.522Z","msg":"WebSocket connect - time: 333"}
+{"level":30,"time":"2023-06-01T19:40:52.522Z","msg":"Processed count: 0"}
+{"level":30,"time":"2023-06-01T19:40:52.522Z","msg":"Messages per second: 0"}
+{"level":30,"time":"2023-06-01T19:40:52.690Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-01T19:40:52.691Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:40:52.692Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:41:37.610Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685648496114"}
+{"level":30,"time":"2023-06-01T19:48:41.164Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T19:48:41.164Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:48:41.275Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:49:28.300Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-01T19:49:28.300Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:49:28.391Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:50:05.571Z","msg":"System tray service: setting unread count to 3"}
+{"level":30,"time":"2023-06-01T19:50:05.571Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:50:05.674Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:50:17.964Z","msg":"System tray service: setting unread count to 4"}
+{"level":30,"time":"2023-06-01T19:50:17.964Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:50:18.070Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:50:22.196Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T19:50:22.197Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:52:13.267Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T19:52:13.267Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:52:13.370Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:52:16.546Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-01T19:52:16.546Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:52:16.649Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:53:21.127Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T19:53:21.127Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:53:27.200Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":-3717,\"y\":35}"}
+{"level":30,"time":"2023-06-01T19:53:27.201Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:53:27.201Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:53:27.830Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-01T19:53:27.830Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:53:27.830Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:53:28.785Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":-3717,\"y\":35}"}
+{"level":30,"time":"2023-06-01T19:53:28.785Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:53:28.785Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:53:31.016Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-01T19:53:31.016Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:53:31.016Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T19:54:37.553Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T19:54:37.553Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:54:37.653Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:54:40.338Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:54:46.909Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T19:54:46.909Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:55:40.733Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T19:55:40.733Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:55:40.838Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:55:56.441Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T19:55:56.441Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:58:28.155Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T19:58:28.155Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:58:28.262Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T19:58:34.954Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T19:58:34.954Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:58:41.382Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T19:58:41.383Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T19:58:43.011Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T19:58:43.011Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:04:22.970Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T20:04:22.970Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:04:23.064Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T20:04:32.690Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T20:04:32.690Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:05:44.391Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T20:05:44.392Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:05:44.491Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T20:05:55.434Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T20:05:55.435Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:07:11.501Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-01T20:07:11.502Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T20:07:11.502Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T20:09:01.404Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T20:09:01.405Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:09:01.507Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T20:09:15.759Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-01T20:09:15.759Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:09:15.868Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T20:13:39.061Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T20:13:39.061Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:19:21.636Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-01T20:19:21.636Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:19:21.738Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T20:19:27.924Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-01T20:19:27.924Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:19:28.016Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T20:19:38.435Z","msg":"System tray service: setting unread count to 3"}
+{"level":30,"time":"2023-06-01T20:19:38.435Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:19:38.544Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T20:19:41.634Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-01T20:19:41.634Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T20:43:54.084Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-01T20:43:54.085Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T20:43:54.085Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-01T21:10:24.470Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-01T21:10:24.470Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T21:10:24.904Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T21:10:28.569Z","msg":"System tray service: setting unread count to 3"}
+{"level":30,"time":"2023-06-01T21:10:28.570Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T21:10:28.682Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T21:10:33.335Z","msg":"System tray service: setting unread count to 4"}
+{"level":30,"time":"2023-06-01T21:10:33.335Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T21:10:33.439Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T21:33:55.536Z","msg":"System tray service: setting unread count to 5"}
+{"level":30,"time":"2023-06-01T21:33:55.536Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T21:33:55.651Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-01T21:34:08.015Z","msg":"System tray service: setting unread count to 6"}
+{"level":30,"time":"2023-06-01T21:34:08.015Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-01T21:34:08.110Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:05:07.869Z","msg":"System tray service: setting unread count to 7"}
+{"level":30,"time":"2023-06-02T00:05:07.870Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:05:07.998Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:13:08.666Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T00:13:08.666Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:15:03.022Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T00:15:03.022Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:15:03.146Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:15:36.300Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-02T00:15:36.300Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:15:36.415Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:15:47.797Z","msg":"System tray service: setting unread count to 3"}
+{"level":30,"time":"2023-06-02T00:15:47.798Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:15:47.929Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:16:10.831Z","msg":"System tray service: setting unread count to 4"}
+{"level":30,"time":"2023-06-02T00:16:10.831Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:16:10.972Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:16:18.913Z","msg":"System tray service: setting unread count to 5"}
+{"level":30,"time":"2023-06-02T00:16:18.913Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:16:19.022Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:16:20.641Z","msg":"System tray service: setting unread count to 6"}
+{"level":30,"time":"2023-06-02T00:16:20.642Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:16:20.776Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:16:30.365Z","msg":"System tray service: setting unread count to 7"}
+{"level":30,"time":"2023-06-02T00:16:30.365Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:16:30.490Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:16:53.410Z","msg":"System tray service: setting unread count to 8"}
+{"level":30,"time":"2023-06-02T00:16:53.410Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:16:53.510Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:16:56.999Z","msg":"System tray service: setting unread count to 9"}
+{"level":30,"time":"2023-06-02T00:16:56.999Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:16:57.109Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:16:59.349Z","msg":"System tray service: setting unread count to 10"}
+{"level":30,"time":"2023-06-02T00:16:59.349Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:16:59.466Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:24:38.306Z","msg":"System tray service: setting unread count to 11"}
+{"level":30,"time":"2023-06-02T00:24:38.306Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:24:38.431Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T00:36:54.934Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T00:36:54.935Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T00:58:22.104Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649027618"}
+{"level":30,"time":"2023-06-02T00:58:22.105Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649204981"}
+{"level":30,"time":"2023-06-02T00:58:22.407Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649257261"}
+{"level":30,"time":"2023-06-02T00:58:22.407Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649262120"}
+{"level":30,"time":"2023-06-02T00:58:22.407Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649270760"}
+{"level":30,"time":"2023-06-02T00:58:22.407Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649299649"}
+{"level":30,"time":"2023-06-02T00:58:23.840Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649417368"}
+{"level":30,"time":"2023-06-02T00:58:23.841Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649424499"}
+{"level":30,"time":"2023-06-02T00:58:23.841Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649477792"}
+{"level":30,"time":"2023-06-02T00:58:23.841Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649483775"}
+{"level":30,"time":"2023-06-02T00:58:23.842Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649488617"}
+{"level":30,"time":"2023-06-02T00:58:24.296Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649590337"}
+{"level":30,"time":"2023-06-02T00:58:24.296Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649595293"}
+{"level":30,"time":"2023-06-02T00:58:24.296Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649688770"}
+{"level":30,"time":"2023-06-02T00:58:24.296Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649719893"}
+{"level":30,"time":"2023-06-02T00:58:24.296Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649824419"}
+{"level":30,"time":"2023-06-02T00:58:24.297Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649965495"}
+{"level":30,"time":"2023-06-02T00:58:24.297Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685649985273"}
+{"level":30,"time":"2023-06-02T00:58:24.297Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685650119191"}
+{"level":30,"time":"2023-06-02T00:58:24.297Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685650127932"}
+{"level":30,"time":"2023-06-02T00:58:24.297Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685650134480"}
+{"level":30,"time":"2023-06-02T00:58:24.298Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685650136475"}
+{"level":30,"time":"2023-06-02T00:58:25.176Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685650689597"}
+{"level":30,"time":"2023-06-02T00:58:25.177Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685650739370"}
+{"level":30,"time":"2023-06-02T00:58:25.177Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685652184359"}
+{"level":30,"time":"2023-06-02T01:15:47.445Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T01:15:47.445Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:15:47.560Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T01:26:47.616Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-02T01:26:47.617Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:26:47.741Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T01:37:48.477Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T01:37:48.477Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:41:04.451Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T01:41:08.883Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T01:41:08.883Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:41:08.996Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T01:41:19.553Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-02T01:41:19.553Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:41:19.686Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T01:41:26.373Z","msg":"System tray service: setting unread count to 3"}
+{"level":30,"time":"2023-06-02T01:41:26.373Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:41:26.474Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T01:41:50.071Z","msg":"System tray service: setting unread count to 4"}
+{"level":30,"time":"2023-06-02T01:41:50.071Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:41:50.182Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T01:42:14.476Z","msg":"System tray service: setting unread count to 5"}
+{"level":30,"time":"2023-06-02T01:42:14.476Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T01:42:14.599Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T02:21:59.498Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T02:21:59.498Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T02:32:38.325Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T02:32:38.325Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T02:32:38.433Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T02:32:41.394Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-02T02:32:41.394Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T02:32:41.523Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T02:32:45.185Z","msg":"System tray service: setting unread count to 3"}
+{"level":30,"time":"2023-06-02T02:32:45.185Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T02:32:45.290Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T02:39:01.604Z","msg":"System tray service: setting unread count to 4"}
+{"level":30,"time":"2023-06-02T02:39:01.605Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T02:39:01.714Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T02:50:53.172Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T02:50:53.172Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T02:50:55.423Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-06-02T02:50:55.424Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T02:50:55.424Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2023-06-02T02:50:55.475Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2023-06-02T02:50:55.481Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-06-02T02:50:55.481Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2023-06-02T02:50:55.481Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2023-06-02T02:50:55.484Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2023-06-02T02:50:55.484Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:30:54.861Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2023-06-02T16:30:54.863Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2023-06-02T16:30:54.863Z","msg":"locale: Preferred locales:  en-US, en"}
+{"level":30,"time":"2023-06-02T16:30:54.865Z","msg":"locale: Matched locale: en"}
+{"level":30,"time":"2023-06-02T16:30:54.921Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2023-06-02T16:30:54.922Z","msg":"app ready"}
+{"level":30,"time":"2023-06-02T16:30:54.922Z","msg":"starting version 6.19.0"}
+{"level":30,"time":"2023-06-02T16:30:54.922Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2023-06-02T16:30:54.923Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-02T16:30:54.929Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-02T16:30:54.929Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-06-02T16:30:54.930Z","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2023-06-02T16:30:54.931Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1854,\"height\":1032,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T16:30:54.979Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-06-02T16:30:54.979Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2023-06-02T16:30:54.979Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-06-02T16:30:54.990Z","msg":"MainSQL: updateSchema:\n  Current user_version: 82;\n  Most recent db schema: 82;\n  SQLite version: 3.39.4;\n  SQLCipher version: 4.5.3 community;\n  (deprecated) schema_version: 360;\n"}
+{"level":30,"time":"2023-06-02T16:30:55.462Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-02T16:30:56.331Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-06-02T16:30:56.335Z","msg":"System tray service: created"}
+{"level":30,"time":"2023-06-02T16:30:56.335Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2023-06-02T16:30:56.335Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:30:56.336Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2023-06-02T16:30:56.337Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2023-06-02T16:30:56.337Z","msg":"showing main window"}
+{"level":30,"time":"2023-06-02T16:30:56.338Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:30:56.343Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2023-06-02T16:30:56.345Z","msg":"Finish ensuring permissions in 9ms"}
+{"level":30,"time":"2023-06-02T16:30:56.485Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-06-02T16:30:56.485Z","msg":"Background throttling enabled because no call is active"}
+{"level":40,"time":"2023-06-02T16:30:56.725Z","msg":"MainSQL: getAllUnprocessedAndIncrementAttempts: deleting 1 invalid unprocessed envelopes"}
+{"level":30,"time":"2023-06-02T16:30:56.847Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T16:30:56.849Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T16:30:56.849Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T16:30:57.628Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2023-06-02T16:30:57.629Z","msg":"App loaded - time: 2708"}
+{"level":30,"time":"2023-06-02T16:30:57.630Z","msg":"SQL init - time: 69"}
+{"level":30,"time":"2023-06-02T16:30:57.630Z","msg":"Preload - time: 848"}
+{"level":30,"time":"2023-06-02T16:30:57.630Z","msg":"WebSocket connect - time: 339"}
+{"level":30,"time":"2023-06-02T16:30:57.630Z","msg":"Processed count: 29"}
+{"level":30,"time":"2023-06-02T16:30:57.630Z","msg":"Messages per second: 19.066403681788298"}
+{"level":30,"time":"2023-06-02T16:30:58.472Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T16:30:58.472Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:31:01.543Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T16:31:01.543Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:32:58.799Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T16:32:58.800Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:32:58.902Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T16:33:06.994Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T16:33:07.725Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T16:33:07.725Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:33:59.667Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T16:33:59.668Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T16:33:59.824Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T16:39:42.550Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T16:39:42.550Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T17:12:02.175Z","msg":"Prevent display sleep service: preventing display sleep"}
+{"level":30,"time":"2023-06-02T17:12:02.176Z","msg":"Background throttling disabled because a call is active"}
+{"level":30,"time":"2023-06-02T17:17:11.453Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T17:17:11.454Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T17:17:11.455Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T17:17:18.109Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T17:17:18.109Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T17:17:18.110Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T17:18:12.987Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-06-02T17:18:12.987Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-06-02T17:18:15.221Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T17:18:15.222Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T17:18:15.222Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":40,"time":"2023-06-02T17:37:44.813Z","msg":"MainSQL: getAllUnprocessedAndIncrementAttempts: deleting 1 invalid unprocessed envelopes"}
+{"level":30,"time":"2023-06-02T17:57:09.340Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T17:57:18.877Z","msg":"Prevent display sleep service: preventing display sleep"}
+{"level":30,"time":"2023-06-02T17:57:18.877Z","msg":"Background throttling disabled because a call is active"}
+{"level":30,"time":"2023-06-02T17:59:36.885Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685723484564"}
+{"level":30,"time":"2023-06-02T17:59:36.885Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685723597916"}
+{"level":30,"time":"2023-06-02T17:59:36.885Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685726256531"}
+{"level":30,"time":"2023-06-02T17:59:36.886Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685727228733"}
+{"level":30,"time":"2023-06-02T17:59:36.886Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685727254153"}
+{"level":30,"time":"2023-06-02T17:59:36.886Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685727332606"}
+{"level":30,"time":"2023-06-02T17:59:36.886Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685727344492"}
+{"level":30,"time":"2023-06-02T17:59:36.886Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685727744863"}
+{"level":30,"time":"2023-06-02T18:20:17.455Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-06-02T18:20:17.463Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-06-02T18:20:47.519Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T18:20:47.519Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T18:20:47.636Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T18:22:45.145Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T18:22:45.145Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T18:22:50.527Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685730168187"}
+{"level":30,"time":"2023-06-02T18:27:57.729Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685730476578"}
+{"level":30,"time":"2023-06-02T18:28:06.748Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685730485818"}
+{"level":30,"time":"2023-06-02T18:28:46.073Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685730524718"}
+{"level":30,"time":"2023-06-02T18:29:01.198Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685730539783"}
+{"level":30,"time":"2023-06-02T18:30:57.495Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685730656485"}
+{"level":30,"time":"2023-06-02T18:32:36.008Z","msg":"System tray service: setting unread count to 1"}
+{"level":30,"time":"2023-06-02T18:32:36.008Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T18:32:36.105Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T18:32:47.343Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-06-02T18:32:47.343Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T18:32:47.452Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T18:32:52.046Z","msg":"System tray service: setting unread count to 3"}
+{"level":30,"time":"2023-06-02T18:32:52.046Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T18:32:52.180Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T18:32:57.899Z","msg":"System tray service: setting unread count to 4"}
+{"level":30,"time":"2023-06-02T18:32:57.899Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T18:32:57.997Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T18:36:17.761Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T18:36:25.032Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-06-02T18:36:25.033Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T18:36:26.622Z","msg":"Prevent display sleep service: preventing display sleep"}
+{"level":30,"time":"2023-06-02T18:36:26.622Z","msg":"Background throttling disabled because a call is active"}
+{"level":30,"time":"2023-06-02T18:47:48.663Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T18:47:48.670Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-02T19:02:08.245Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1685732524069"}
+{"level":30,"time":"2023-06-02T19:08:08.089Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-06-02T19:08:08.090Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-06-02T19:09:19.290Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T19:09:19.290Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:09:19.290Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:09:20.282Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T19:09:20.282Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:09:20.282Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:09:24.841Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T19:09:24.841Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:09:24.841Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:16.864Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T19:11:16.865Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:16.865Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:17.521Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T19:11:17.522Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:17.523Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:19.170Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-06-02T19:11:19.170Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:19.170Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:20.649Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":1905,\"y\":45}"}
+{"level":30,"time":"2023-06-02T19:11:20.650Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:20.650Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:21.439Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1776,\"height\":954,\"x\":1992,\"y\":74}"}
+{"level":30,"time":"2023-06-02T19:11:21.440Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:11:21.441Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:12:46.329Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1776,\"height\":954,\"x\":1992,\"y\":74}"}
+{"level":30,"time":"2023-06-02T19:12:46.329Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:12:46.329Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:13:02.072Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1776,\"height\":954,\"x\":1992,\"y\":74}"}
+{"level":30,"time":"2023-06-02T19:13:02.073Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:13:02.073Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:13:05.497Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1776,\"height\":954,\"x\":94,\"y\":64}"}
+{"level":30,"time":"2023-06-02T19:13:05.497Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:13:05.497Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-06-02T19:13:10.324Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-06-02T19:13:10.324Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-06-02T19:13:11.468Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-06-02T19:13:11.470Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-06-02T19:13:11.471Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2023-06-02T19:13:11.540Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2023-06-02T19:13:11.547Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-06-02T19:13:11.547Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2023-06-02T19:13:11.547Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2023-06-02T19:13:11.549Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2023-06-02T19:13:11.549Z","msg":"System tray service: rendering no tray"}

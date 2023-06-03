@@ -39,6 +39,10 @@ super + r
 super + w
     $BROWSER
 
+# Passmenu
+super + shift + p
+    passmenu
+
 # Open Notes
 super + n 
     $TERMINAL -e nvim -c VimwikiIndex
@@ -46,7 +50,6 @@ super + n
 # Emacs
 super + e
     emacsclient -c -a 'emacs'
-    
 
 # Newsboat
 super + shift + n
@@ -63,10 +66,6 @@ super + c
 # RSS feed reader
 super + F1
     $TERMINAL -e newsboat
-
-# Web browser
-# super + F2
-#     $BROWSER	
 
 # Ranger 
 super + F3

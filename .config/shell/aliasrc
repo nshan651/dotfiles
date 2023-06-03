@@ -10,9 +10,7 @@ then
 fi
 
 # Start emacsclient
-alias \
-    emacs="emacsclient -c -a 'emacs'" \
-    ee="emacsclient -c -a 'emacs'"
+alias ee="emacsclient -c -a 'emacs'"
 
 # Use $XINITRC variable if file exists.
 [ -f "$XINITRC" ] && alias startx="startx $XINITRC"

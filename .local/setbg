@@ -1,10 +1,7 @@
 #!/bin/sh
 # Sets the background
 
-feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/library/trinity.webp"
+#feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/library/trinity.webp"
 # feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/maps/map3.jpg"
-#
-# feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/camping/campfire-forest.jpg"
-# feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/lib.jpg"
-# feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/art/thiemeyer_road_to_samarkand.jpg"
-# feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/zion/zion-sunset.jpg"
+# feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/forests/lantern.jpg"
+feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/north-shore/tettegouche.jpg"
