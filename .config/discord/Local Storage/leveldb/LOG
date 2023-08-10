@@ -1,5 +1,0 @@
-2023/05/13-23:27:37.209 1a6d Creating DB /home/nick/.config/discord/Local Storage/leveldb since it was missing.
-2023/05/13-23:27:37.222 1a6d Reusing MANIFEST /home/nick/.config/discord/Local Storage/leveldb/MANIFEST-000001
-2023/05/13-23:33:12.773 2cac Level-0 table #5: started
-2023/05/13-23:33:12.846 2cac Level-0 table #5: 1610176 bytes OK
-2023/05/13-23:33:12.856 2cac Delete type=0 #3

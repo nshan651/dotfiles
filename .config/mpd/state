@@ -2,8 +2,8 @@ sw_volume: 88
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 1
-time: 191.117000
+current: 18
+time: 25.070000
 random: 0
 repeat: 1
 single: 0
@@ -30,4 +30,5 @@ playlist_begin
 15:Frank Ocean/Endless/16 Frank Ocean - Rushes To.mp3
 16:Frank Ocean/Endless/17 Frank Ocean - Higgs.mp3
 17:Frank Ocean/Endless/18 Frank Ocean - Outro.mp3
+18:Kid Cudi/Kid Cudi - The Prayer.mp3
 playlist_end

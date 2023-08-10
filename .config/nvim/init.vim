@@ -61,6 +61,7 @@ Plug 'AlessandroYorba/Alduin'
 Plug 'sainnhe/sonokai'
 Plug 'mcchrish/zenbones.nvim'
 Plug 'jaredgorski/SpaceCamp'
+Plug 'ishan9299/modus-theme-vim' 
 " Org mode
 Plug 'jceb/vim-orgmode'
 " Plug 'sainnhe/everforest'
@@ -197,6 +198,7 @@ set bg=dark
 " colorscheme gruvbox-material
 " colorscheme kanagawa
 "colorscheme everforest
+colorscheme modus-vivendi
 
 " Toggle transpareny
 let t:isTransparent = 0
@@ -263,7 +265,7 @@ lua <<EOF
      },
      theme = "wave",
   })
-  vim.cmd("colorscheme kanagawa")
+  --vim.cmd("colorscheme kanagawa")
 
   -- Setup nvim-cmp.
   local cmp = require'cmp'

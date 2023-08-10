@@ -82,23 +82,25 @@
     (size 840 697))
 (session-info "toplevel"
     (factory-entry "gimp-file-save-dialog")
-    (position 538 223)
-    (size 840 697))
+    (position 537 223)
+    (size 840 697)
+    (monitor 1))
 (session-info "toplevel"
     (factory-entry "gimp-file-export-dialog")
-    (position 594 195)
-    (size 840 697))
+    (position 537 195)
+    (size 840 697)
+    (monitor 1))
 (session-info "toplevel"
     (factory-entry "gimp-operation-tool-dialog")
     (position 773 440))
 (session-info "toplevel"
     (factory-entry "gimp-toolbox-color-dialog")
-    (position 1092 43)
+    (position 747 43)
     (monitor 1))
 (session-info "toplevel"
     (factory-entry "gimp-image-new-dialog")
-    (position 414 248)
-    (monitor 2))
+    (position 756 248)
+    (monitor 1))
 (session-info "toplevel"
     (factory-entry "gimp-rotate-tool-dialog")
     (position 727 428)

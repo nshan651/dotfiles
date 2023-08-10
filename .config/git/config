@@ -3,3 +3,5 @@
 	name = nshan651
 [credential]
 	helper = /usr/bin/pass-git-helper
+[init]
+	defaultBranch = main

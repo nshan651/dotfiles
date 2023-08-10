@@ -7,9 +7,11 @@
 # Preferences dialog.
 
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(monitor-xresolution 168)
-(monitor-yresolution 171)
-(layer-new-name "jeff")
+(monitor-xresolution 81)
+(monitor-yresolution 81)
+(layer-new-name "background")
+(layer-new-fill-type white)
+(layer-resize-fill-type white)
 (fill-options
     (style solid)
     (antialias yes)

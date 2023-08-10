@@ -1,3 +1,15 @@
-2023/04/27-22:08:48.899 3a658 Reusing MANIFEST /home/nick/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/04/27-22:08:48.899 3a658 Recovering log #14
-2023/04/27-22:08:48.899 3a658 Reusing old log /home/nick/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000014.log 
+2023/05/02-21:34:28.188 142e Reusing MANIFEST /home/nick/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/05/02-21:34:28.189 142e Recovering log #14
+2023/05/02-21:34:28.197 142e Reusing old log /home/nick/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000014.log 
+2023/05/02-21:44:28.665 5b72 Level-0 table #19: started
+2023/05/02-21:44:28.706 5b72 Level-0 table #19: 812059 bytes OK
+2023/05/02-21:44:28.714 5b72 Delete type=0 #14
+2023/05/02-21:44:28.716 5b72 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/05/02-21:44:28.716 5b72 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x0b\x02\x1f\x03\x00p\xf0U\xf7}xB\x00\x03\x00\x00\x00\x00\x00\x00 @' @ 5928 : 1
+2023/05/02-21:44:28.716 5b72 Compacting 1@1 + 1@2 files
+2023/05/02-21:44:28.736 5b72 Generated table #20@1: 359 keys, 28514 bytes
+2023/05/02-21:44:28.736 5b72 Compacted 1@1 + 1@2 files => 28514 bytes
+2023/05/02-21:44:28.743 5b72 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/05/02-21:44:28.743 5b72 Delete type=2 #19
+2023/05/02-21:44:28.743 5b72 Delete type=2 #16
+2023/05/02-21:44:28.744 5b72 Manual compaction at level-1 from '\x00\x0b\x02\x1f\x03\x00p\xf0U\xf7}xB\x00\x03\x00\x00\x00\x00\x00\x00 @' @ 5928 : 1 .. (end); will stop at (end)

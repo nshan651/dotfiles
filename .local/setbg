@@ -1,7 +1,11 @@
 #!/bin/sh
-# Sets the background
+# Set wallpaper
 
-#feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/library/trinity.webp"
-# feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/maps/map3.jpg"
-# feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/forests/lantern.jpg"
-feh --no-fehbg --bg-scale "$XDG_PICTURES_DIR/wallpaper/north-shore/tettegouche.jpg"
+SETBG="/home/nick/dox/pix/wallpaper/ireland/stone-bridge-ireland.jpg"
+
+if [ $# -eq 1 ]; then
+    SETBG=$(readlink -f "$1")
+    sed -i "s|SETBG=\".*\"|SETBG=\"$SETBG\"|" ~/.local/bin/setbg
+fi
+
+feh --no-fehbg --bg-scale "$SETBG"

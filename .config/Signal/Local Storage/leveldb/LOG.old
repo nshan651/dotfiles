@@ -1,3 +1,3 @@
-2023/06/01-14:40:50.727 509f Reusing MANIFEST /home/nick/.config/Signal/Local Storage/leveldb/MANIFEST-000001
-2023/06/01-14:40:50.728 509f Recovering log #3
-2023/06/01-14:40:50.729 509f Reusing old log /home/nick/.config/Signal/Local Storage/leveldb/000003.log 
+2023/08/05-12:13:24.709 18640 Reusing MANIFEST /home/nick/.config/Signal/Local Storage/leveldb/MANIFEST-000001
+2023/08/05-12:13:24.710 18640 Recovering log #3
+2023/08/05-12:13:24.711 18640 Reusing old log /home/nick/.config/Signal/Local Storage/leveldb/000003.log 

@@ -23,6 +23,13 @@ XF86AudioNext
     playerctl next 
 XF86AudioPrev	
     playerctl previous
+# Alt controls in case there are no dedicated audio buttons
+super + Next 
+    pactl set-sink-volume 0 -5%
+super + Prior 
+    pactl set-sink-volume 0 +5%
+super + Home
+    playerctl play-pause
 # Brightness
 XF86MonBrightnessUp
     xbacklight -inc 5
@@ -67,7 +74,7 @@ super + c
 super + F1
     $TERMINAL -e newsboat
 
-# Ranger 
+# lf 
 super + F3
     $TERMINAL -e lfub 
 
