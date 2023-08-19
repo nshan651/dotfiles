@@ -1,7 +1,0 @@
-#!/bin/sh
-# Batch convert .HEIC files to .jpg
-for f in *.HEIC;
-do
-	heif-convert $f ${f/%.HEIC/.jpg};
-done
-
