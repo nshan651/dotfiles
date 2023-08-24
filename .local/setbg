@@ -1,0 +1,11 @@
+#!/bin/sh
+# Set wallpaper
+
+SETBG="/home/nick/dox/pix/wallpaper/north-shore/tettegouche.jpg"
+
+if [ $# -eq 1 ]; then
+    SETBG=$(readlink -f "$1")
+    sed -i "s|SETBG=\".*\"|SETBG=\"$SETBG\"|" ~/.local/bin/setbg
+fi
+
+feh --no-fehbg --bg-scale "$SETBG"

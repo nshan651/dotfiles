@@ -1,0 +1,108 @@
+{"level":30,"time":"2023-08-05T17:13:24.750Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2023-08-05T17:13:24.751Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2023-08-05T17:13:24.751Z","msg":"locale: Preferred locales:  en-US, en"}
+{"level":30,"time":"2023-08-05T17:13:24.753Z","msg":"locale: Matched locale: en"}
+{"level":30,"time":"2023-08-05T17:13:24.796Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2023-08-05T17:13:24.797Z","msg":"app ready"}
+{"level":30,"time":"2023-08-05T17:13:24.798Z","msg":"starting version 6.20.0"}
+{"level":30,"time":"2023-08-05T17:13:24.798Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2023-08-05T17:13:24.798Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-08-05T17:13:24.800Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-08-05T17:13:24.801Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-08-05T17:13:24.801Z","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2023-08-05T17:13:24.802Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1854,\"height\":1032,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":30,\"y\":32}"}
+{"level":30,"time":"2023-08-05T17:13:24.834Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-08-05T17:13:24.834Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2023-08-05T17:13:24.835Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-08-05T17:13:24.842Z","msg":"MainSQL: updateSchema:\n  Current user_version: 82;\n  Most recent db schema: 83;\n  SQLite version: 3.39.4;\n  SQLCipher version: 4.5.3 community;\n  (deprecated) schema_version: 360;\n"}
+{"level":30,"time":"2023-08-05T17:13:24.864Z","msg":"MainSQL: updateToSchemaVersion83: success!"}
+{"level":30,"time":"2023-08-05T17:13:24.864Z","msg":"MainSQL: updateSchema: optimize took 0ms"}
+{"level":30,"time":"2023-08-05T17:13:25.257Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-08-05T17:13:25.999Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-08-05T17:13:26.006Z","msg":"System tray service: created"}
+{"level":30,"time":"2023-08-05T17:13:26.006Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2023-08-05T17:13:26.006Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-08-05T17:13:26.006Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2023-08-05T17:13:26.008Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2023-08-05T17:13:26.009Z","msg":"Finish ensuring permissions in 3ms"}
+{"level":30,"time":"2023-08-05T17:13:26.010Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2023-08-05T17:13:26.010Z","msg":"showing main window"}
+{"level":30,"time":"2023-08-05T17:13:26.011Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-08-05T17:13:26.055Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2023-08-05T17:13:26.256Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-08-05T17:13:26.256Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"App loaded - time: 1463"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"SQL init - time: 67"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"Preload - time: 680"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"WebSocket connect - time: -1691255605918"}
+{"level":30,"time":"2023-08-05T17:13:26.261Z","msg":"Processed count: 0"}
+{"level":30,"time":"2023-08-05T17:13:26.261Z","msg":"Messages per second: 0"}
+{"level":30,"time":"2023-08-05T17:13:26.517Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-08-05T17:13:26.521Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:13:26.522Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:13:28.371Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-08-05T17:13:28.372Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:13:28.373Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:14:17.602Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-08-05T17:14:17.604Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-08-05T17:14:17.604Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2023-08-05T17:14:17.684Z","msg":"MainSQL: slow query close duration=63ms"}
+{"level":30,"time":"2023-08-05T17:14:17.685Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2023-08-05T17:14:17.693Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-08-05T17:14:17.693Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2023-08-05T17:14:17.693Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2023-08-05T17:14:17.698Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2023-08-05T17:14:17.698Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-08-05T17:14:20.285Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2023-08-05T17:14:20.286Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2023-08-05T17:14:20.286Z","msg":"locale: Preferred locales:  en-US, en"}
+{"level":30,"time":"2023-08-05T17:14:20.288Z","msg":"locale: Matched locale: en"}
+{"level":30,"time":"2023-08-05T17:14:20.323Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2023-08-05T17:14:20.324Z","msg":"app ready"}
+{"level":30,"time":"2023-08-05T17:14:20.324Z","msg":"starting version 6.20.0"}
+{"level":30,"time":"2023-08-05T17:14:20.325Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2023-08-05T17:14:20.325Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-08-05T17:14:20.327Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-08-05T17:14:20.327Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-08-05T17:14:20.328Z","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2023-08-05T17:14:20.328Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1854,\"height\":1032,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-08-05T17:14:20.346Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-08-05T17:14:20.346Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2023-08-05T17:14:20.346Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-08-05T17:14:20.351Z","msg":"MainSQL: updateSchema:\n  Current user_version: 83;\n  Most recent db schema: 83;\n  SQLite version: 3.39.4;\n  SQLCipher version: 4.5.3 community;\n  (deprecated) schema_version: 363;\n"}
+{"level":30,"time":"2023-08-05T17:14:20.668Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-08-05T17:14:21.280Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-08-05T17:14:21.284Z","msg":"System tray service: created"}
+{"level":30,"time":"2023-08-05T17:14:21.284Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2023-08-05T17:14:21.284Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-08-05T17:14:21.284Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2023-08-05T17:14:21.285Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2023-08-05T17:14:21.286Z","msg":"Finish ensuring permissions in 2ms"}
+{"level":30,"time":"2023-08-05T17:14:21.289Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2023-08-05T17:14:21.289Z","msg":"showing main window"}
+{"level":30,"time":"2023-08-05T17:14:21.290Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-08-05T17:14:21.438Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-08-05T17:14:21.438Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-08-05T17:14:21.533Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2023-08-05T17:14:21.539Z","msg":"App loaded - time: 1215"}
+{"level":30,"time":"2023-08-05T17:14:21.540Z","msg":"SQL init - time: 29"}
+{"level":30,"time":"2023-08-05T17:14:21.540Z","msg":"Preload - time: 603"}
+{"level":30,"time":"2023-08-05T17:14:21.540Z","msg":"WebSocket connect - time: -1691255661252"}
+{"level":30,"time":"2023-08-05T17:14:21.540Z","msg":"Processed count: 0"}
+{"level":30,"time":"2023-08-05T17:14:21.540Z","msg":"Messages per second: 0"}
+{"level":30,"time":"2023-08-05T17:14:21.794Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-08-05T17:14:21.798Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:14:21.799Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:14:33.583Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1854,\"height\":1032,\"x\":33,\"y\":35}"}
+{"level":30,"time":"2023-08-05T17:14:33.584Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:14:33.591Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-08-05T17:15:06.949Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-08-05T17:15:06.950Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-08-05T17:15:06.951Z","msg":"requestShutdown: Requesting close of mainWindow..."}
+{"level":30,"time":"2023-08-05T17:15:07.025Z","msg":"MainSQL: slow query close duration=52ms"}
+{"level":30,"time":"2023-08-05T17:15:07.026Z","msg":"requestShutdown: Response received"}
+{"level":30,"time":"2023-08-05T17:15:07.032Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-08-05T17:15:07.032Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2023-08-05T17:15:07.032Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
+{"level":30,"time":"2023-08-05T17:15:07.034Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
+{"level":30,"time":"2023-08-05T17:15:07.034Z","msg":"System tray service: rendering no tray"}

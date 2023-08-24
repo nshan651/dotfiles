@@ -1,0 +1,15 @@
+#!/bin/zsh
+# Wrapper script for converting markdown files to pdfs
+
+# Remove the file extension from the base name
+PDF=${1%.(md|docx|odt|html)}.pdf
+# Make print directory where outputs are stored
+mkdir -p "$XDG_DOWNLOAD_DIR/print"
+# Specifies where resources are stored
+DATA_DIR="$(dirname "$1")" 
+if [ -n "$2" ]; then
+    DATA_DIR="$2"
+fi
+pandoc --data-dir="$DATA_DIR" \
+    -o "$XDG_DOWNLOAD_DIR/print/$(basename "$PDF")" \
+    "$1"

@@ -1,0 +1,9 @@
+# GIMP gimp-text-tool options
+
+(palette "Color History")
+(font "Wuncon Siji")
+(font-size 12)
+(hint-style full)
+(justify center)
+
+# end of gimp-text-tool options

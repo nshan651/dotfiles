@@ -1,0 +1,801 @@
+{"level":30,"time":"2023-08-05T17:13:25.759Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2023-08-05T17:13:25.918Z","msg":"preload complete"}
+{"level":30,"time":"2023-08-05T17:13:25.919Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.22.0 signal_node::logging rust/bridge/node/src/logging.rs:133"}
+{"level":30,"time":"2023-08-05T17:13:25.999Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2023-08-05T17:13:26.010Z","msg":"initializeMessageCounter: picking max of db/stored counters"}
+{"level":40,"time":"2023-08-05T17:13:26.010Z","msg":"initializeMessageCounter: mismatch between db/stored counters"}
+{"level":30,"time":"2023-08-05T17:13:26.010Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2023-08-05T17:13:26.011Z","msg":"background page reloaded"}
+{"level":30,"time":"2023-08-05T17:13:26.011Z","msg":"environment: production"}
+{"level":30,"time":"2023-08-05T17:13:26.017Z","msg":"Storage fetch"}
+{"level":30,"time":"2023-08-05T17:13:26.022Z","msg":"SocketManager: connecting authenticated socket (hasStoriesDisabled=true)"}
+{"level":30,"time":"2023-08-05T17:13:26.037Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:13:26.037Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2023-08-05T17:13:26.037Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:13:26.037Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2023-08-05T17:13:26.037Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:13:26.037Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2023-08-05T17:13:26.038Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2023-08-05T17:13:26.039Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2023-08-05T17:13:26.043Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2023-08-05T17:13:26.043Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2023-08-05T17:13:26.043Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2023-08-05T17:13:26.043Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2023-08-05T17:13:26.043Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-08-05T17:13:26.043Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-08-05T17:13:26.043Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":40,"time":"2023-08-05T17:13:26.052Z","msg":"This instance has not been used for 30 days. Last heartbeat: 1686096000000. Last startup: 1686113080993."}
+{"level":40,"time":"2023-08-05T17:13:26.052Z","msg":"unlinkAndDisconnect: Client is no longer authorized; deleting local configuration"}
+{"level":30,"time":"2023-08-05T17:13:26.052Z","msg":"unlinkAndDisconnect: logging out"}
+{"level":30,"time":"2023-08-05T17:13:26.052Z","msg":"MessageReceiver.stopProcessing"}
+{"level":40,"time":"2023-08-05T17:13:26.052Z","msg":"WebSocket: aborting connection authenticated"}
+{"level":40,"time":"2023-08-05T17:13:26.053Z","msg":"SocketManager: authenticated socket connection failed with error: Error: Process \"WebSocket.connect(authenticated)\" was aborted\n    at H4.abort ([REDACTED]/resources/app.asar/preload.bundle.js:76:371846)\n    at RP.logout ([REDACTED]/resources/app.asar/preload.bundle.js:76:379466)\n    at Object.ie [as logout] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6387)\n    at unlinkAndDisconnect ([REDACTED]/resources/app.asar/preload.bundle.js:160:42595)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:160:9423"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:13:26.053Z","msg":"waitBatcher#flushAllWaitBatchers"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"Flushing start messageBatcher.saveNewMessageBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"Flushing complete messageBatcher.saveNewMessageBatcher for waitBatcher"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"Flushing start deleteSentProtoBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"Flushing complete deleteSentProtoBatcher for waitBatcher"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"unlinkAndDisconnect: removing configuration, mode Soft"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"onEmpty: All outstanding database requests complete"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"Next signed key rotation scheduled for 2023-06-09T04:44:48.324Z"}
+{"level":30,"time":"2023-08-05T17:13:26.054Z","msg":"NotificationService: enabling"}
+{"level":30,"time":"2023-08-05T17:13:26.056Z","msg":"Rotating signed prekey..."}
+{"level":50,"time":"2023-08-05T17:13:26.057Z","msg":"rotateSignedPrekey() failed. Trying again in five minutes"}
+{"level":30,"time":"2023-08-05T17:13:26.098Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.098Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-08-05T17:13:26.098Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.098Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.099Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.139Z","msg":"unlinkAndDisconnect: Successfully cleared local configuration"}
+{"level":30,"time":"2023-08-05T17:13:26.161Z","msg":"Starting background data migration. Target version: 10"}
+{"level":30,"time":"2023-08-05T17:13:26.163Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-08-05T17:13:26.166Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:26.171Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2023-08-05T17:13:26.172Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2023-08-05T17:13:26.199Z","msg":"ConversationController: done with initial fetch"}
+{"level":30,"time":"2023-08-05T17:13:26.209Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.209Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-08-05T17:13:26.209Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.209Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.209Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-08-05T17:13:26.210Z","msg":"checkForConflicts: starting..."}
+{"level":30,"time":"2023-08-05T17:13:26.210Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2023-08-05T17:13:26.210Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2023-08-05T17:13:26.223Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2023-08-05T17:13:26.223Z","msg":"Initializing network observer"}
+{"level":30,"time":"2023-08-05T17:13:26.243Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2023-08-05T17:13:26.243Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2023-08-05T17:13:26.243Z","msg":"src/core/call_manager.rs:453 RingRTC v2.27.0"}
+{"level":30,"time":"2023-08-05T17:13:26.243Z","msg":"src/core/call_manager.rs:495 set_self_uuid():"}
+{"level":30,"time":"2023-08-05T17:13:26.244Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2023-08-05T17:13:26.244Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2023-08-05T17:13:26.244Z","msg":"listening for registration events"}
+{"level":30,"time":"2023-08-05T17:13:26.255Z","msg":"setIsInitialSync(false)"}
+{"level":30,"time":"2023-08-05T17:13:26.255Z","msg":"connect {\"connectCount\":0}"}
+{"level":30,"time":"2023-08-05T17:13:26.255Z","msg":"Our profile key service: kicking off a new fetch"}
+{"level":30,"time":"2023-08-05T17:13:26.255Z","msg":"Our profile key service: waiting for 1 promises before fetching"}
+{"level":30,"time":"2023-08-05T17:13:26.255Z","msg":"open inbox"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"App loaded - messages: 0"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"StartupQueue: Processing 0 actions"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"Downloading recent attachments of total attachments 0 0"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"Our profile key service: fetching profile key from storage"}
+{"level":30,"time":"2023-08-05T17:13:26.260Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-08-05T17:13:26.263Z","msg":"Build expires (local): 2023-08-30T09:27:46.000Z"}
+{"level":30,"time":"2023-08-05T17:13:26.348Z","msg":"Creating new RoutineProfileRefresher instance with id 2"}
+{"level":30,"time":"2023-08-05T17:13:26.348Z","msg":"RoutineProfileRefresher.start/2: waiting for 0ms"}
+{"level":30,"time":"2023-08-05T17:13:26.369Z","msg":"routineProfileRefresh/2: starting"}
+{"level":30,"time":"2023-08-05T17:13:26.369Z","msg":"routineProfileRefresh/2: updating last refresh time"}
+{"level":30,"time":"2023-08-05T17:13:26.392Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:26.392Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:26.398Z","msg":"routineProfileRefresh/2: starting to refresh conversations"}
+{"level":30,"time":"2023-08-05T17:13:26.398Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-08-05T17:13:26.400Z","msg":"getProfile: generating profile key credential request for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-08-05T17:13:26.404Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-08-05T17:13:26.405Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521/[REDACTED]60e?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-08-05T17:13:26.405Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:26.405Z","msg":"getProfile: generating profile key credential request for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:26.407Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:26.407Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df/[REDACTED]500?credentialType=expiringProfileKey (unauth)"}
+{"level":50,"time":"2023-08-05T17:13:26.436Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-08-05T17:13:26.437Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:13:26.437Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:13:26.437Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:13:26.437Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:13:26.437Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:13:26.437Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:13:26.438Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-08-05T17:13:26.438Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-08-05T17:13:26.438Z","msg":"connect: Error refreshing remote config: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6726)\n    at async Object.refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245119)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:23770)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6732)\n    at Object.refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245127)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:23803)\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:13:26.438Z","msg":"NotificationService: disabling"}
+{"level":30,"time":"2023-08-05T17:13:26.438Z","msg":"initializeGroupCredentialFetcher: starting..."}
+{"level":30,"time":"2023-08-05T17:13:26.438Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:13:26.439Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":30,"time":"2023-08-05T17:13:26.439Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:26.440Z","msg":"MessageReceiver.queueAllCached: not running due to stopped processing"}
+{"level":30,"time":"2023-08-05T17:13:26.440Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:13:26.440Z","msg":"attachment_downloads/start: enabling"}
+{"level":30,"time":"2023-08-05T17:13:26.441Z","msg":"JobQueueDatabaseStore adding job [REDACTED]28c to queue \"single proto\""}
+{"level":30,"time":"2023-08-05T17:13:26.441Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/unauthenticated_delivery"}
+{"level":30,"time":"2023-08-05T17:13:26.446Z","msg":"single proto job queue: added new job [REDACTED]28c"}
+{"level":30,"time":"2023-08-05T17:13:26.446Z","msg":"single proto job queue: enqueuing job [REDACTED]28c"}
+{"level":30,"time":"2023-08-05T17:13:26.447Z","msg":"single proto job queue: running job [REDACTED]28c, attempt 1 of 110"}
+{"level":30,"time":"2023-08-05T17:13:26.447Z","msg":"single proto job queue, job ID [REDACTED]28c, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-08-05T17:13:26.447Z","msg":"single proto job queue: job [REDACTED]28c succeeded on attempt 1"}
+{"level":30,"time":"2023-08-05T17:13:26.447Z","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":40,"time":"2023-08-05T17:13:26.453Z","msg":"WebSocketResource: Socket closed"}
+{"level":50,"time":"2023-08-05T17:13:26.453Z","msg":"GET (WS) https://chat.signal.org/v1/config -1 Error"}
+{"level":50,"time":"2023-08-05T17:13:26.454Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521/[REDACTED]60e?credentialType=expiringProfileKey (unauth) -1 Error"}
+{"level":50,"time":"2023-08-05T17:13:26.454Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df/[REDACTED]500?credentialType=expiringProfileKey (unauth) -1 Error"}
+{"level":30,"time":"2023-08-05T17:13:26.631Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:26.631Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-08-05T17:13:26.680Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:13:26.680Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/unauthenticated_delivery 401 Error"}
+{"level":50,"time":"2023-08-05T17:13:26.681Z","msg":"Error: Unable to register for unauthenticated delivery support. HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Ae [as registerSupportForUnauthenticatedDelivery] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8052)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24855)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Ae [as registerSupportForUnauthenticatedDelivery] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8058)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24863)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:13:26.682Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/capabilities"}
+{"level":50,"time":"2023-08-05T17:13:26.684Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:13:26.685Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:13:26.685Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 1000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199225)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24170)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":50,"time":"2023-08-05T17:13:26.701Z","msg":"Top-level unhandled promise rejection: Error: storageService.sync: Cannot start; no storage key!\n    at sync ([REDACTED]/resources/app.asar/preload.bundle.js:79:246747)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:79:251370\n    at run ([REDACTED]/resources/app.asar/preload.bundle.js:74:639937)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:74:639984\n    at run ([REDACTED]/resources/app.asar/preload.bundle.js:70:30858)\n    at bX._tryToStartAnother ([REDACTED]/resources/app.asar/preload.bundle.js:70:29920)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:70:31095\n    at new Promise (<anonymous>)\n    at bX.add ([REDACTED]/resources/app.asar/preload.bundle.js:70:30724)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:79:225824"}
+{"level":50,"time":"2023-08-05T17:13:26.729Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:13:26.730Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/capabilities 401 Error"}
+{"level":50,"time":"2023-08-05T17:13:26.730Z","msg":"Error: Unable to register our capabilities. HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.ze [as registerCapabilities] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8158)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:25210)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.ze [as registerCapabilities] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8164)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:25218)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:13:26.731Z","msg":"Start idle detector"}
+{"level":30,"time":"2023-08-05T17:13:26.731Z","msg":"challenge: online, starting 0 queues"}
+{"level":30,"time":"2023-08-05T17:13:26.731Z","msg":"challenge: startAllQueues force=false"}
+{"level":40,"time":"2023-08-05T17:13:26.732Z","msg":"idleDetector/idle: fetching at most 25 for migration"}
+{"level":30,"time":"2023-08-05T17:13:26.739Z","msg":"idleDetector/idle: Upgraded messages: {\"done\":true,\"numProcessed\":0,\"fetchDuration\":3,\"upgradeDuration\":1,\"saveDuration\":2,\"totalDuration\":6}"}
+{"level":30,"time":"2023-08-05T17:13:26.739Z","msg":"Stop idle detector"}
+{"level":30,"time":"2023-08-05T17:13:26.739Z","msg":"idleDetector/idle: Background migration complete. Stopping."}
+{"level":30,"time":"2023-08-05T17:13:27.056Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:13:27.437Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:13:27.437Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:13:27.437Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:13:27.437Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:13:27.438Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:13:27.439Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:13:27.439Z","msg":"SocketManager.reconnect: complete."}
+{"level":40,"time":"2023-08-05T17:13:27.450Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:13:27.454Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-08-05T17:13:27.455Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:27.458Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521/[REDACTED]60e?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-08-05T17:13:27.458Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df/[REDACTED]500?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-08-05T17:13:27.638Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:27.639Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:27.686Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:13:27.687Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":30,"time":"2023-08-05T17:13:27.693Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521/[REDACTED]60e?credentialType=expiringProfileKey (unauth) 200 Success"}
+{"level":30,"time":"2023-08-05T17:13:27.695Z","msg":"saveIdentity([REDACTED]b83): Saving new identity..."}
+{"level":30,"time":"2023-08-05T17:13:27.699Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df/[REDACTED]500?credentialType=expiringProfileKey (unauth) 200 Success"}
+{"level":30,"time":"2023-08-05T17:13:27.700Z","msg":"saveIdentity([REDACTED]1f3): Saving new identity..."}
+{"level":50,"time":"2023-08-05T17:13:27.701Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:13:27.702Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-08-05T17:13:27.703Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6726)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245119)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:244050)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6732)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245127)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14228)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14307)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14888)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:244056)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:160:12181\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:13:27.712Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-08-05T17:13:27.726Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-08-05T17:13:27.727Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:27.732Z","msg":"changedConvoBatcher: deduped 2 into 2"}
+{"level":50,"time":"2023-08-05T17:13:27.740Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:13:27.740Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:13:27.740Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 5000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)"}
+{"level":30,"time":"2023-08-05T17:13:27.744Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A=="}
+{"level":30,"time":"2023-08-05T17:13:27.746Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-08-05T17:13:27.747Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-08-05T17:13:28.113Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A== 200 Success"}
+{"level":30,"time":"2023-08-05T17:13:28.123Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:28.124Z","msg":"routineProfileRefresh/2: successfully refreshed 2 out of 2 conversation(s)"}
+{"level":30,"time":"2023-08-05T17:13:28.124Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-08-05T17:13:28.702Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:13:28.702Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:13:28.702Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:13:28.702Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:13:28.703Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:13:28.703Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:13:28.703Z","msg":"SocketManager.reconnect: complete."}
+{"level":40,"time":"2023-08-05T17:13:28.715Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:13:31.019Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:13:31.019Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-08-05T17:13:31.789Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) open start"}
+{"level":30,"time":"2023-08-05T17:13:31.800Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:31.800Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df (unauth)"}
+{"level":30,"time":"2023-08-05T17:13:31.800Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":40,"time":"2023-08-05T17:13:31.816Z","msg":"lookupOrCreate: Called with neither e164 nor uuid! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-08-05T17:13:31.826Z","msg":"loadNewestMessages/[REDACTED]1f3 ([REDACTED]316): loaded 4 messages, latest timestamp=1686113183054"}
+{"level":30,"time":"2023-08-05T17:13:31.855Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) open took 66ms"}
+{"level":30,"time":"2023-08-05T17:13:31.868Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-08-05T17:13:31.911Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1686113183054,\"newestUnreadAt\":1685937937771,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:32.007Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:32.007Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:13:32.019Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:13:32.053Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df (unauth) 200 Success"}
+{"level":30,"time":"2023-08-05T17:13:32.054Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:32.071Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A=="}
+{"level":30,"time":"2023-08-05T17:13:32.132Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A== 200 Success"}
+{"level":30,"time":"2023-08-05T17:13:32.152Z","msg":"storageService[captureChange] updateVerified from=1 to=0 [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:13:32.155Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-08-05T17:13:32.653Z","msg":"storageService.upload: no storageKey, requesting new keys"}
+{"level":30,"time":"2023-08-05T17:13:32.654Z","msg":"JobQueueDatabaseStore adding job [REDACTED]466 to queue \"single proto\""}
+{"level":30,"time":"2023-08-05T17:13:32.659Z","msg":"single proto job queue: added new job [REDACTED]466"}
+{"level":30,"time":"2023-08-05T17:13:32.659Z","msg":"single proto job queue: enqueuing job [REDACTED]466"}
+{"level":30,"time":"2023-08-05T17:13:32.660Z","msg":"single proto job queue: running job [REDACTED]466, attempt 1 of 110"}
+{"level":30,"time":"2023-08-05T17:13:32.660Z","msg":"single proto job queue, job ID [REDACTED]466, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-08-05T17:13:32.660Z","msg":"single proto job queue: job [REDACTED]466 succeeded on attempt 1"}
+{"level":30,"time":"2023-08-05T17:13:32.741Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:13:32.742Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":50,"time":"2023-08-05T17:13:32.790Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-08-05T17:13:32.790Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:13:32.790Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:13:32.790Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:13:32.790Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:13:32.790Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:13:32.791Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:13:32.791Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-08-05T17:13:32.791Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:13:32.792Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 30000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)"}
+{"level":40,"time":"2023-08-05T17:13:32.804Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:13:35.230Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1686113183054,\"newestUnreadAt\":1685937937771,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:42.566Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:13:42.566Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-08-05T17:13:42.581Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1686113183054,\"newestUnreadAt\":1685937937771,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:43.566Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":40,"time":"2023-08-05T17:13:46.726Z","msg":"Failed to parse integer out of global.attachments.maxBytes feature flag"}
+{"level":40,"time":"2023-08-05T17:13:46.774Z","msg":"Failed to parse integer out of global.attachments.maxBytes feature flag"}
+{"level":30,"time":"2023-08-05T17:13:46.787Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1685553131187,\"newestUnreadAt\":25,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:46.810Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-08-05T17:13:47.287Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1686113183054,\"newestUnreadAt\":1685937937771,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:51.782Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:13:51.782Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-08-05T17:13:51.789Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1686113183054,\"newestUnreadAt\":1685937937771,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:52.649Z","msg":"CompositionInput: Submitting message 1691255632649 with 0 ranges"}
+{"level":30,"time":"2023-08-05T17:13:52.659Z","msg":"withPreSendChecks: Send pre-checks took 9ms"}
+{"level":30,"time":"2023-08-05T17:13:52.664Z","msg":"Sending message to conversation [REDACTED]1f3 ([REDACTED]316) with timestamp 1691255632649"}
+{"level":40,"time":"2023-08-05T17:13:52.664Z","msg":"restoreContact([REDACTED]1f3 ([REDACTED]316)) storage? false: not removed"}
+{"level":40,"time":"2023-08-05T17:13:52.670Z","msg":"lookupOrCreate: Called with neither e164 nor uuid! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-08-05T17:13:52.670Z","msg":"enqueueMessageForSend: saving message [REDACTED]7eb and job [REDACTED]a4f"}
+{"level":30,"time":"2023-08-05T17:13:52.687Z","msg":"JobQueueDatabaseStore adding job [REDACTED]a4f to queue \"conversation\""}
+{"level":30,"time":"2023-08-05T17:13:52.687Z","msg":"conversation job queue: added new job [REDACTED]a4f"}
+{"level":30,"time":"2023-08-05T17:13:52.687Z","msg":"conversation job queue: enqueuing job [REDACTED]a4f"}
+{"level":30,"time":"2023-08-05T17:13:52.690Z","msg":"conversation job queue: running job [REDACTED]a4f, attempt 1 of 110"}
+{"level":30,"time":"2023-08-05T17:13:52.691Z","msg":"conversation job queue, job ID [REDACTED]a4f, attempt 1: calculating timeRemaining and shouldContinue..."}
+{"level":30,"time":"2023-08-05T17:13:52.692Z","msg":"conversation job queue, job ID [REDACTED]a4f, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-08-05T17:13:52.694Z","msg":"beforeMessageSend([REDACTED]1f3 ([REDACTED]316)): clearDraft(true) addMessage(true)"}
+{"level":30,"time":"2023-08-05T17:13:52.728Z","msg":"ConversationModel([REDACTED]1f3 ([REDACTED]316).sendMessage(1691255632649): render save took 41ms"}
+{"level":30,"time":"2023-08-05T17:13:52.728Z","msg":"conversation job queue, job ID [REDACTED]a4f, attempt 1: message [REDACTED]7eb ran out of time. Giving up on sending it"}
+{"level":50,"time":"2023-08-05T17:13:52.736Z","msg":"Message.saveErrors: Error: Message send ran out of time\n    at sendNormalMessage ([REDACTED]/resources/app.asar/preload.bundle.js:79:28351)\n    at async One.run ([REDACTED]/resources/app.asar/preload.bundle.js:79:126063)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:75:54897\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:70:31021)"}
+{"level":30,"time":"2023-08-05T17:13:52.758Z","msg":"conversation job queue: job [REDACTED]a4f succeeded on attempt 1"}
+{"level":30,"time":"2023-08-05T17:13:52.765Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:52.782Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:13:53.758Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-08-05T17:13:53.761Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-08-05T17:13:55.379Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:13:55.379Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-08-05T17:13:55.391Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:13:56.379Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:14:02.793Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:14:02.794Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":30,"time":"2023-08-05T17:14:02.794Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:02.982Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:02.983Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-08-05T17:14:03.028Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-08-05T17:14:03.028Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:14:03.028Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:14:03.028Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:14:03.028Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:14:03.028Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:14:03.029Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:14:03.029Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-08-05T17:14:03.029Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:14:03.030Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 120000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)"}
+{"level":40,"time":"2023-08-05T17:14:03.042Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:14:10.841Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:14:10.842Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-08-05T17:14:10.850Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:14:11.144Z","msg":"onConversationClosed/[REDACTED]1f3 ([REDACTED]316): unloading due to force unload requested"}
+{"level":30,"time":"2023-08-05T17:14:11.144Z","msg":"onConversationClosed/[REDACTED]1f3 ([REDACTED]316): clearing draft info"}
+{"level":30,"time":"2023-08-05T17:14:11.163Z","msg":"InstallScreen/getQRCode: race to 10000ms"}
+{"level":30,"time":"2023-08-05T17:14:11.181Z","msg":"changedConvoBatcher: deduped 2 into 1"}
+{"level":30,"time":"2023-08-05T17:14:11.362Z","msg":"provisioning socket open"}
+{"level":30,"time":"2023-08-05T17:14:11.842Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:14:17.610Z","msg":"background/shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.610Z","msg":"attachment_downloads/stop: disabling"}
+{"level":30,"time":"2023-08-05T17:14:17.610Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2023-08-05T17:14:17.610Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2023-08-05T17:14:17.610Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.611Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.612Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.612Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2023-08-05T17:14:17.612Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2023-08-05T17:14:17.612Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2023-08-05T17:14:17.613Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2023-08-05T17:14:17.613Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2023-08-05T17:14:17.613Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:14:17.613Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:14:17.614Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.615Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]33f ([REDACTED]016) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]33f ([REDACTED]016) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]111 ([REDACTED]970) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]111 ([REDACTED]970) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.616Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) jobQueue shutdown complete"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.617Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:17.618Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2023-08-05T17:14:17.619Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2023-08-05T17:14:17.619Z","msg":"Client.shutdown"}
+{"level":30,"time":"2023-08-05T17:14:17.619Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2023-08-05T17:14:17.694Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2023-08-05T17:14:17.695Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:14:21.099Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2023-08-05T17:14:21.252Z","msg":"preload complete"}
+{"level":30,"time":"2023-08-05T17:14:21.253Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.22.0 signal_node::logging rust/bridge/node/src/logging.rs:133"}
+{"level":30,"time":"2023-08-05T17:14:21.280Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2023-08-05T17:14:21.285Z","msg":"initializeMessageCounter: picking max of db/stored counters"}
+{"level":30,"time":"2023-08-05T17:14:21.285Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2023-08-05T17:14:21.286Z","msg":"background page reloaded"}
+{"level":30,"time":"2023-08-05T17:14:21.286Z","msg":"environment: production"}
+{"level":30,"time":"2023-08-05T17:14:21.287Z","msg":"Storage fetch"}
+{"level":30,"time":"2023-08-05T17:14:21.290Z","msg":"SocketManager: connecting authenticated socket (hasStoriesDisabled=false)"}
+{"level":30,"time":"2023-08-05T17:14:21.303Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:14:21.304Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-08-05T17:14:21.305Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:14:21.305Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-08-05T17:14:21.305Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2023-08-05T17:14:21.305Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2023-08-05T17:14:21.305Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2023-08-05T17:14:21.305Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2023-08-05T17:14:21.309Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2023-08-05T17:14:21.309Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2023-08-05T17:14:21.309Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2023-08-05T17:14:21.310Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2023-08-05T17:14:21.310Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-08-05T17:14:21.310Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-08-05T17:14:21.310Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2023-08-05T17:14:21.355Z","msg":"Starting background data migration. Target version: 10"}
+{"level":30,"time":"2023-08-05T17:14:21.357Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-08-05T17:14:21.359Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:21.363Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2023-08-05T17:14:21.364Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2023-08-05T17:14:21.390Z","msg":"ConversationController: done with initial fetch"}
+{"level":30,"time":"2023-08-05T17:14:21.403Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-08-05T17:14:21.403Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-08-05T17:14:21.403Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-08-05T17:14:21.403Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-08-05T17:14:21.403Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-08-05T17:14:21.404Z","msg":"checkForConflicts: starting..."}
+{"level":30,"time":"2023-08-05T17:14:21.404Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2023-08-05T17:14:21.405Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2023-08-05T17:14:21.418Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2023-08-05T17:14:21.418Z","msg":"Initializing network observer"}
+{"level":30,"time":"2023-08-05T17:14:21.424Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2023-08-05T17:14:21.424Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2023-08-05T17:14:21.425Z","msg":"src/core/call_manager.rs:453 RingRTC v2.27.0"}
+{"level":30,"time":"2023-08-05T17:14:21.425Z","msg":"src/core/call_manager.rs:495 set_self_uuid():"}
+{"level":30,"time":"2023-08-05T17:14:21.425Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2023-08-05T17:14:21.426Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2023-08-05T17:14:21.426Z","msg":"listening for registration events"}
+{"level":30,"time":"2023-08-05T17:14:21.436Z","msg":"setIsInitialSync(false)"}
+{"level":30,"time":"2023-08-05T17:14:21.437Z","msg":"connect {\"connectCount\":0}"}
+{"level":30,"time":"2023-08-05T17:14:21.437Z","msg":"Our profile key service: kicking off a new fetch"}
+{"level":30,"time":"2023-08-05T17:14:21.437Z","msg":"Our profile key service: waiting for 1 promises before fetching"}
+{"level":30,"time":"2023-08-05T17:14:21.437Z","msg":"open inbox"}
+{"level":30,"time":"2023-08-05T17:14:21.440Z","msg":"Our profile key service: fetching profile key from storage"}
+{"level":30,"time":"2023-08-05T17:14:21.440Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":40,"time":"2023-08-05T17:14:21.520Z","msg":"SocketManager: authenticated socket connection failed with error: HTTPError: connectResource: invalid websocket response; code: 403\n    at WebSocketClient.<anonymous> ([REDACTED]/resources/app.asar/preload.bundle.js:76:373361)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nOriginal stack:\nError\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:76:373131)\n    at RP.connectResource ([REDACTED]/resources/app.asar/preload.bundle.js:76:380655)\n    at RP.authenticate ([REDACTED]/resources/app.asar/preload.bundle.js:76:375301)\n    at Object.f [as connect] ([REDACTED]/resources/app.asar/preload.bundle.js:78:2589)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:160:859\n    at [REDACTED]/resources/app.asar/preload.bundle.js:93:64989\n    at Array.forEach (<anonymous>)\n    at R$.callListeners ([REDACTED]/resources/app.asar/preload.bundle.js:93:64978)\n    at R$.fetch ([REDACTED]/resources/app.asar/preload.bundle.js:93:64591)\nCaused by: undefined"}
+{"level":40,"time":"2023-08-05T17:14:21.525Z","msg":"unlinkAndDisconnect: Client is no longer authorized; deleting local configuration"}
+{"level":30,"time":"2023-08-05T17:14:21.526Z","msg":"unlinkAndDisconnect: logging out"}
+{"level":30,"time":"2023-08-05T17:14:21.526Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2023-08-05T17:14:21.526Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:14:21.526Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.526Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.526Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:14:21.527Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:14:21.528Z","msg":"waitBatcher#flushAllWaitBatchers"}
+{"level":30,"time":"2023-08-05T17:14:21.529Z","msg":"Flushing start messageBatcher.saveNewMessageBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.529Z","msg":"Flushing complete messageBatcher.saveNewMessageBatcher for waitBatcher"}
+{"level":30,"time":"2023-08-05T17:14:21.529Z","msg":"Flushing start deleteSentProtoBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:14:21.529Z","msg":"Flushing complete deleteSentProtoBatcher for waitBatcher"}
+{"level":30,"time":"2023-08-05T17:14:21.529Z","msg":"unlinkAndDisconnect: removing configuration, mode Full"}
+{"level":30,"time":"2023-08-05T17:14:21.530Z","msg":"onEmpty: All outstanding database requests complete"}
+{"level":30,"time":"2023-08-05T17:14:21.532Z","msg":"Next signed key rotation scheduled for 2023-08-05T17:14:21.532Z"}
+{"level":30,"time":"2023-08-05T17:14:21.532Z","msg":"NotificationService: enabling"}
+{"level":30,"time":"2023-08-05T17:14:21.538Z","msg":"App loaded - messages: 0"}
+{"level":30,"time":"2023-08-05T17:14:21.539Z","msg":"StartupQueue: Processing 0 actions"}
+{"level":30,"time":"2023-08-05T17:14:21.539Z","msg":"Downloading recent attachments of total attachments 0 0"}
+{"level":30,"time":"2023-08-05T17:14:21.543Z","msg":"Build expires (local): 2023-08-30T09:27:46.000Z"}
+{"level":30,"time":"2023-08-05T17:14:21.564Z","msg":"Rotating signed prekey..."}
+{"level":40,"time":"2023-08-05T17:14:21.565Z","msg":"rotateSignedPreKey(PNI): No identity key pair!"}
+{"level":50,"time":"2023-08-05T17:14:21.565Z","msg":"rotateSignedPrekey() failed. Trying again in five minutes"}
+{"level":30,"time":"2023-08-05T17:14:21.571Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:21.571Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-08-05T17:14:21.641Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-08-05T17:14:21.641Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:14:21.641Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:14:21.641Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:14:21.641Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:14:21.641Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:14:21.642Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:14:21.642Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-08-05T17:14:21.642Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-08-05T17:14:21.642Z","msg":"connect: Error refreshing remote config: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6726)\n    at async Object.refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245119)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:23770)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6732)\n    at Object.refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245127)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:23803)\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:14:21.642Z","msg":"NotificationService: disabling"}
+{"level":30,"time":"2023-08-05T17:14:21.642Z","msg":"initializeGroupCredentialFetcher: starting..."}
+{"level":30,"time":"2023-08-05T17:14:21.642Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:14:21.643Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":30,"time":"2023-08-05T17:14:21.643Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:21.643Z","msg":"MessageReceiver.queueAllCached: not running due to stopped processing"}
+{"level":30,"time":"2023-08-05T17:14:21.644Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:14:21.644Z","msg":"attachment_downloads/start: enabling"}
+{"level":30,"time":"2023-08-05T17:14:21.645Z","msg":"JobQueueDatabaseStore adding job [REDACTED]4dc to queue \"single proto\""}
+{"level":30,"time":"2023-08-05T17:14:21.645Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/unauthenticated_delivery"}
+{"level":30,"time":"2023-08-05T17:14:21.662Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-08-05T17:14:21.662Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-08-05T17:14:21.662Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-08-05T17:14:21.662Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-08-05T17:14:21.662Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":40,"time":"2023-08-05T17:14:21.665Z","msg":"Called storage.get before storage is ready. key: chromiumRegistrationDone"}
+{"level":40,"time":"2023-08-05T17:14:21.665Z","msg":"Called storage.get before storage is ready. key: chromiumRegistrationDone"}
+{"level":30,"time":"2023-08-05T17:14:21.666Z","msg":"Creating new RoutineProfileRefresher instance with id 2"}
+{"level":40,"time":"2023-08-05T17:14:21.667Z","msg":"Called storage.get before storage is ready. key: lastAttemptedToRefreshProfilesAt"}
+{"level":30,"time":"2023-08-05T17:14:21.667Z","msg":"RoutineProfileRefresher.start/2: waiting for 0ms"}
+{"level":40,"time":"2023-08-05T17:14:21.667Z","msg":"Called storage.put before storage is ready. key: zoomFactor"}
+{"level":30,"time":"2023-08-05T17:14:21.676Z","msg":"single proto job queue: added new job [REDACTED]4dc"}
+{"level":30,"time":"2023-08-05T17:14:21.677Z","msg":"single proto job queue: enqueuing job [REDACTED]4dc"}
+{"level":30,"time":"2023-08-05T17:14:21.677Z","msg":"single proto job queue: running job [REDACTED]4dc, attempt 1 of 110"}
+{"level":30,"time":"2023-08-05T17:14:21.680Z","msg":"single proto job queue, job ID [REDACTED]4dc, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-08-05T17:14:21.680Z","msg":"single proto job queue: job [REDACTED]4dc succeeded on attempt 1"}
+{"level":30,"time":"2023-08-05T17:14:21.680Z","msg":"routineProfileRefresh/2: starting"}
+{"level":30,"time":"2023-08-05T17:14:21.680Z","msg":"routineProfileRefresh/2: updating last refresh time"}
+{"level":40,"time":"2023-08-05T17:14:21.683Z","msg":"WebSocketResource: Socket closed"}
+{"level":50,"time":"2023-08-05T17:14:21.684Z","msg":"GET (WS) https://chat.signal.org/v1/config -1 Error"}
+{"level":30,"time":"2023-08-05T17:14:21.684Z","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2023-08-05T17:14:21.715Z","msg":"routineProfileRefresh/2: starting to refresh conversations"}
+{"level":30,"time":"2023-08-05T17:14:21.715Z","msg":"routineProfileRefresh/2: successfully refreshed 0 out of 0 conversation(s)"}
+{"level":30,"time":"2023-08-05T17:14:21.742Z","msg":"unlinkAndDisconnect: Successfully cleared local configuration"}
+{"level":30,"time":"2023-08-05T17:14:21.863Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:21.863Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-08-05T17:14:21.896Z","msg":"Top-level unhandled promise rejection: Error: storageService.sync: Cannot start; no storage key!\n    at sync ([REDACTED]/resources/app.asar/preload.bundle.js:79:246747)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:79:251370\n    at run ([REDACTED]/resources/app.asar/preload.bundle.js:74:639937)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:74:639984\n    at run ([REDACTED]/resources/app.asar/preload.bundle.js:70:30858)\n    at bX._tryToStartAnother ([REDACTED]/resources/app.asar/preload.bundle.js:70:29920)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:70:31095\n    at new Promise (<anonymous>)\n    at bX.add ([REDACTED]/resources/app.asar/preload.bundle.js:70:30724)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:79:225824"}
+{"level":50,"time":"2023-08-05T17:14:21.912Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:14:21.912Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/unauthenticated_delivery 401 Error"}
+{"level":50,"time":"2023-08-05T17:14:21.912Z","msg":"Error: Unable to register for unauthenticated delivery support. HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Ae [as registerSupportForUnauthenticatedDelivery] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8052)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24855)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Ae [as registerSupportForUnauthenticatedDelivery] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8058)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24863)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:14:21.913Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/capabilities"}
+{"level":50,"time":"2023-08-05T17:14:21.915Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:14:21.916Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:14:21.916Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 1000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199225)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24170)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":50,"time":"2023-08-05T17:14:21.962Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:14:21.963Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/capabilities 401 Error"}
+{"level":50,"time":"2023-08-05T17:14:21.964Z","msg":"Error: Unable to register our capabilities. HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.ze [as registerCapabilities] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8158)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:25210)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.ze [as registerCapabilities] ([REDACTED]/resources/app.asar/preload.bundle.js:78:8164)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:25218)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:14:21.964Z","msg":"Start idle detector"}
+{"level":30,"time":"2023-08-05T17:14:21.964Z","msg":"challenge: online, starting 0 queues"}
+{"level":30,"time":"2023-08-05T17:14:21.965Z","msg":"challenge: startAllQueues force=false"}
+{"level":40,"time":"2023-08-05T17:14:21.965Z","msg":"idleDetector/idle: fetching at most 25 for migration"}
+{"level":30,"time":"2023-08-05T17:14:21.968Z","msg":"idleDetector/idle: Upgraded messages: {\"done\":true,\"numProcessed\":0,\"fetchDuration\":1,\"upgradeDuration\":0,\"saveDuration\":1,\"totalDuration\":2}"}
+{"level":30,"time":"2023-08-05T17:14:21.968Z","msg":"Stop idle detector"}
+{"level":30,"time":"2023-08-05T17:14:21.968Z","msg":"idleDetector/idle: Background migration complete. Stopping."}
+{"level":30,"time":"2023-08-05T17:14:22.534Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:14:22.642Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:14:22.642Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:14:22.642Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:14:22.642Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:14:22.642Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:14:22.646Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:14:22.646Z","msg":"SocketManager.reconnect: complete."}
+{"level":40,"time":"2023-08-05T17:14:22.656Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:14:22.685Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-08-05T17:14:22.685Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:22.860Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:22.860Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-08-05T17:14:22.904Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:14:22.905Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-08-05T17:14:22.905Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6726)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245119)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:244050)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.be [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:78:6732)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:245127)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14228)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14307)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14888)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:76:244056)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:160:12181\nCaused by: undefined"}
+{"level":30,"time":"2023-08-05T17:14:22.917Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:14:22.918Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":50,"time":"2023-08-05T17:14:22.962Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-08-05T17:14:22.962Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:14:22.963Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 5000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)"}
+{"level":30,"time":"2023-08-05T17:14:22.969Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-08-05T17:14:22.971Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-08-05T17:14:23.905Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:14:23.905Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:14:23.905Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:14:23.905Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:14:23.905Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:14:23.909Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:14:23.909Z","msg":"SocketManager.reconnect: complete."}
+{"level":40,"time":"2023-08-05T17:14:23.920Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:14:27.964Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:14:27.964Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":30,"time":"2023-08-05T17:14:27.972Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:28.169Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:28.169Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-08-05T17:14:28.216Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-08-05T17:14:28.217Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:14:28.217Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:14:28.217Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:14:28.217Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:14:28.217Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:14:28.217Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:14:28.218Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-08-05T17:14:28.218Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:14:28.218Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 30000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)"}
+{"level":40,"time":"2023-08-05T17:14:28.229Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:14:33.836Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) open start"}
+{"level":30,"time":"2023-08-05T17:14:33.848Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:14:33.848Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df (unauth)"}
+{"level":30,"time":"2023-08-05T17:14:33.848Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":40,"time":"2023-08-05T17:14:33.865Z","msg":"lookupOrCreate: Called with neither e164 nor uuid! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-08-05T17:14:33.876Z","msg":"lookupOrCreate: Called with neither e164 nor uuid! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-08-05T17:14:33.876Z","msg":"loadNewestMessages/[REDACTED]1f3 ([REDACTED]316): loaded 5 messages, latest timestamp=1691255632649"}
+{"level":30,"time":"2023-08-05T17:14:33.907Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) open took 71ms"}
+{"level":30,"time":"2023-08-05T17:14:33.968Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:14:34.055Z","msg":"SocketManager: connected unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:34.055Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-08-05T17:14:34.103Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df (unauth) 200 Success"}
+{"level":30,"time":"2023-08-05T17:14:34.105Z","msg":"saveIdentity([REDACTED]1f3): Saving new identity..."}
+{"level":30,"time":"2023-08-05T17:14:34.122Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-08-05T17:14:34.139Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A=="}
+{"level":30,"time":"2023-08-05T17:14:34.279Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A== 200 Success"}
+{"level":30,"time":"2023-08-05T17:14:41.957Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:14:41.958Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-08-05T17:14:41.971Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:14:42.958Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":40,"time":"2023-08-05T17:14:47.345Z","msg":"Failed to parse integer out of global.attachments.maxBytes feature flag"}
+{"level":30,"time":"2023-08-05T17:14:47.382Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:14:47.382Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":40,"time":"2023-08-05T17:14:47.387Z","msg":"Failed to parse integer out of global.attachments.maxBytes feature flag"}
+{"level":30,"time":"2023-08-05T17:14:47.389Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:14:47.440Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-08-05T17:14:47.889Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:14:48.382Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:14:54.175Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-08-05T17:14:54.861Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-08-05T17:14:54.861Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-08-05T17:14:54.864Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255632649,\"newestUnreadAt\":1686113081959,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:14:55.700Z","msg":"CompositionInput: Submitting message 1691255695700 with 0 ranges"}
+{"level":30,"time":"2023-08-05T17:14:55.711Z","msg":"withPreSendChecks: Send pre-checks took 9ms"}
+{"level":30,"time":"2023-08-05T17:14:55.716Z","msg":"Sending message to conversation [REDACTED]1f3 ([REDACTED]316) with timestamp 1691255695700"}
+{"level":40,"time":"2023-08-05T17:14:55.716Z","msg":"restoreContact([REDACTED]1f3 ([REDACTED]316)) storage? false: not removed"}
+{"level":40,"time":"2023-08-05T17:14:55.721Z","msg":"lookupOrCreate: Called with neither e164 nor uuid! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-08-05T17:14:55.721Z","msg":"enqueueMessageForSend: saving message [REDACTED]0f2 and job [REDACTED]531"}
+{"level":30,"time":"2023-08-05T17:14:55.737Z","msg":"JobQueueDatabaseStore adding job [REDACTED]531 to queue \"conversation\""}
+{"level":30,"time":"2023-08-05T17:14:55.737Z","msg":"conversation job queue: added new job [REDACTED]531"}
+{"level":30,"time":"2023-08-05T17:14:55.737Z","msg":"conversation job queue: enqueuing job [REDACTED]531"}
+{"level":30,"time":"2023-08-05T17:14:55.739Z","msg":"conversation job queue: running job [REDACTED]531, attempt 1 of 110"}
+{"level":30,"time":"2023-08-05T17:14:55.739Z","msg":"conversation job queue, job ID [REDACTED]531, attempt 1: calculating timeRemaining and shouldContinue..."}
+{"level":30,"time":"2023-08-05T17:14:55.739Z","msg":"conversation job queue, job ID [REDACTED]531, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-08-05T17:14:55.740Z","msg":"beforeMessageSend([REDACTED]1f3 ([REDACTED]316)): clearDraft(true) addMessage(true)"}
+{"level":30,"time":"2023-08-05T17:14:55.769Z","msg":"ConversationModel([REDACTED]1f3 ([REDACTED]316).sendMessage(1691255695700): render save took 32ms"}
+{"level":30,"time":"2023-08-05T17:14:55.769Z","msg":"conversation job queue, job ID [REDACTED]531, attempt 1: message [REDACTED]0f2 ran out of time. Giving up on sending it"}
+{"level":50,"time":"2023-08-05T17:14:55.778Z","msg":"Message.saveErrors: Error: Message send ran out of time\n    at sendNormalMessage ([REDACTED]/resources/app.asar/preload.bundle.js:79:28351)\n    at async One.run ([REDACTED]/resources/app.asar/preload.bundle.js:79:126063)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:75:54897\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:70:31021)"}
+{"level":30,"time":"2023-08-05T17:14:55.798Z","msg":"conversation job queue: job [REDACTED]531 succeeded on attempt 1"}
+{"level":30,"time":"2023-08-05T17:14:55.807Z","msg":"markConversationRead([REDACTED]1f3 ([REDACTED]316)) {\"newestSentAt\":1691255695700,\"newestUnreadAt\":1686113081960,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-08-05T17:14:55.861Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-08-05T17:14:56.798Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-08-05T17:14:56.801Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-08-05T17:14:58.219Z","msg":"maybeFetchNewCredentials: fetching credentials for 1691193600000 through 1691712000000"}
+{"level":30,"time":"2023-08-05T17:14:58.220Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000"}
+{"level":50,"time":"2023-08-05T17:14:58.270Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-08-05T17:14:58.270Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-08-05T17:14:58.270Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-08-05T17:14:58.270Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-08-05T17:14:58.270Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-08-05T17:14:58.270Z","msg":"WebSocketResource.close()"}
+{"level":30,"time":"2023-08-05T17:14:58.271Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-08-05T17:14:58.272Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-08-05T17:14:58.272Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1691193600&redemptionEndSeconds=1691712000 401 Error"}
+{"level":30,"time":"2023-08-05T17:14:58.272Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 120000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:78:925)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:696)\n    at async z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5821)\n    at async Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3304)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200306)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199315)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:78:867)\n    at z ([REDACTED]/resources/app.asar/preload.bundle.js:78:5827)\n    at Object.Nm [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:79:3310)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:79:200314)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:79:199321)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:79:199219)"}
+{"level":40,"time":"2023-08-05T17:14:58.283Z","msg":"WebSocketResource: Socket closed"}
+{"level":30,"time":"2023-08-05T17:15:06.961Z","msg":"background/shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.962Z","msg":"attachment_downloads/stop: disabling"}
+{"level":30,"time":"2023-08-05T17:15:06.962Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.963Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.964Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.964Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.964Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2023-08-05T17:15:06.964Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2023-08-05T17:15:06.964Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2023-08-05T17:15:06.965Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2023-08-05T17:15:06.965Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2023-08-05T17:15:06.965Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:15:06.966Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:15:06.966Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:15:06.966Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:15:06.966Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:15:06.966Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-08-05T17:15:06.966Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:15:06.966Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.967Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]33f ([REDACTED]016) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.968Z","msg":"conversation [REDACTED]33f ([REDACTED]016) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]111 ([REDACTED]970) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]111 ([REDACTED]970) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) jobQueue shutdown start"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) no jobQueue to shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) jobQueue shutdown complete"}
+{"level":30,"time":"2023-08-05T17:15:06.969Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-08-05T17:15:06.970Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-08-05T17:15:06.971Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2023-08-05T17:15:06.971Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2023-08-05T17:15:06.971Z","msg":"Client.shutdown"}
+{"level":30,"time":"2023-08-05T17:15:06.972Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2023-08-05T17:15:07.033Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2023-08-05T17:15:07.033Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}

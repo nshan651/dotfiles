@@ -1,0 +1,10 @@
+# settings
+
+(GimpGegl-gimp-desaturate-config "2022-02-01 10:35:13"
+    (time 1643733313)
+    (mode luma))
+(GimpGegl-gimp-desaturate-config "2022-02-01 10:00:03"
+    (time 1643731203)
+    (mode luminance))
+
+# end of settings

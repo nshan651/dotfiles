@@ -1,0 +1,15 @@
+# GIMP user context
+
+(tool "gimp-bucket-fill-tool")
+(paint-info "gimp-paintbrush")
+(background (color-rgb 0.086274512112140656 0.094117648899555206 0.098039217293262482))
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(mybrush "100% Opaque")
+(pattern "Pine")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(font "Wuncon Siji")
+(tool-preset "Core Pointer")
+
+# end of user context
