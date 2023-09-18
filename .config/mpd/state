@@ -2,8 +2,8 @@ sw_volume: 88
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 21
-time: 108.390000
+current: 32
+time: 209.925000
 random: 0
 repeat: 1
 single: 0
@@ -12,26 +12,37 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Frank Ocean/Endless/01 Frank Ocean - Device Control.mp3
-1:Frank Ocean/Endless/02 Frank Ocean - At Your Best.mp3
-2:Frank Ocean/Endless/03 Frank Ocean - Mine.mp3
-3:Frank Ocean/Endless/04 Frank Ocean- Unity.mp3
-4:Frank Ocean/Endless/05 Frank Ocean - Ambience 001.mp3
-5:Frank Ocean/Endless/06 Frank Ocean - Commes Des Garcons.mp3
-6:Frank Ocean/Endless/07 Frank Ocean - Ambience 002.mp3
-7:Frank Ocean/Endless/08 Frank Ocean - Wither.mp3
-8:Frank Ocean/Endless/09 Frank Ocean - Hublots.mp3
-9:Frank Ocean/Endless/10 Frank Ocean - In Here Somewhere.mp3
-10:Frank Ocean/Endless/11 Frank Ocean - Slide on Me.mp3
-11:Frank Ocean/Endless/12 Frank Ocean - Sideways.mp3
-12:Frank Ocean/Endless/13 Frank Ocean - Florida.mp3
-13:Frank Ocean/Endless/14 Frank Ocean - Deathwish.mp3
-14:Frank Ocean/Endless/15 Frank Ocean - Rushes.mp3
-15:Frank Ocean/Endless/16 Frank Ocean - Rushes To.mp3
-16:Frank Ocean/Endless/17 Frank Ocean - Higgs.mp3
-17:Frank Ocean/Endless/18 Frank Ocean - Outro.mp3
-18:Kid Cudi/Kid Cudi - The Prayer.mp3
-19:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Chain Heavy (Ft. Kanye West, Talib Kweli & Consequence).mp3
-20:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Christian Dior Denim Flow (Ft. Kanye West, Kid Cudi, Pusha T, John Legend, Lloyd Banks & Ryan Leslie).mp3
-21:Kanye West/Diamonds Remix Rihanna ft. Kanye West.mp3
+0:Frank Ocean/Endless/02 Frank Ocean - At Your Best.mp3
+1:Frank Ocean/Endless/03 Frank Ocean - Mine.mp3
+2:Frank Ocean/Endless/04 Frank Ocean- Unity.mp3
+3:Frank Ocean/Endless/05 Frank Ocean - Ambience 001.mp3
+4:Frank Ocean/Endless/06 Frank Ocean - Commes Des Garcons.mp3
+5:Frank Ocean/Endless/07 Frank Ocean - Ambience 002.mp3
+6:Frank Ocean/Endless/08 Frank Ocean - Wither.mp3
+7:Frank Ocean/Endless/09 Frank Ocean - Hublots.mp3
+8:Frank Ocean/Endless/10 Frank Ocean - In Here Somewhere.mp3
+9:Frank Ocean/Endless/11 Frank Ocean - Slide on Me.mp3
+10:Frank Ocean/Endless/12 Frank Ocean - Sideways.mp3
+11:Frank Ocean/Endless/13 Frank Ocean - Florida.mp3
+12:Frank Ocean/Endless/14 Frank Ocean - Deathwish.mp3
+13:Frank Ocean/Endless/15 Frank Ocean - Rushes.mp3
+14:Frank Ocean/Endless/16 Frank Ocean - Rushes To.mp3
+15:Frank Ocean/Endless/17 Frank Ocean - Higgs.mp3
+16:Frank Ocean/Endless/18 Frank Ocean - Outro.mp3
+17:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Chain Heavy (Ft. Kanye West, Talib Kweli & Consequence).mp3
+18:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Christian Dior Denim Flow (Ft. Kanye West, Kid Cudi, Pusha T, John Legend, Lloyd Banks & Ryan Leslie).mp3
+19:Kanye West/Diamonds Remix Rihanna ft. Kanye West.mp3
+20:Pusha T/Pusha T - What Dreams Are Made Of (S-Type Official Remix) (128 kbps).mp3
+21:Death Grips/Death_Grips_-_03_-_Spread_Eagle_Cross_the_Block.mp3
+22:Armand Hammer/WHT LBL/4 - Artichoke.mp3
+23:Armand Hammer/WHT LBL/10 - Venn Diagrams.mp3
+24:Armand Hammer/WHT LBL/13 - Resin.mp3
+25:Armand Hammer/WHT LBL/12 - Windbreaker.mp3
+26:Armand Hammer/WHT LBL/7 - Tu Tienes Wifi.mp3
+27:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 01 Native Sun.mp3
+28:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 04 Patra.mp3
+29:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 08 Omega 3 Remix.mp3
+30:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 16 Fools Gold Remix feat. Open Mike Eagle & Moka Only.mp3
+31:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 15 Burnout.mp3
+32:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 13 Marooned.mp3
 playlist_end

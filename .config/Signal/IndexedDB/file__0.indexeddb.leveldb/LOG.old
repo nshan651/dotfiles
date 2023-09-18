@@ -1,6 +1,7 @@
-2023/05/31-11:51:56.487 bf68 Creating DB /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb since it was missing.
-2023/05/31-11:51:56.498 bf68 Reusing MANIFEST /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2023/05/31-11:51:56.530 bf66 Level-0 table #5: started
-2023/05/31-11:51:56.534 bf66 Level-0 table #5: 484 bytes OK
-2023/05/31-11:51:56.540 bf66 Delete type=0 #3
-2023/05/31-11:51:56.541 bf66 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/06/01-11:26:16.648 9c54f Reusing MANIFEST /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2023/06/01-11:26:16.649 9c54f Recovering log #4
+2023/06/01-11:26:16.649 9c54f Reusing old log /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000004.log 
+2023/06/01-11:26:16.665 9c54f Level-0 table #8: started
+2023/06/01-11:26:16.669 9c54f Level-0 table #8: 467 bytes OK
+2023/06/01-11:26:16.673 9c54f Delete type=0 #4
+2023/06/01-11:26:16.673 9c54f Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
