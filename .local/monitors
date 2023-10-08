@@ -3,8 +3,6 @@
 xrandr \
     --output DP2-1-8 --auto --primary --mode 1920x1080 --rotate normal \
     --output DP2-3 --auto --mode 1920x1080 --rotate normal --right-of DP2-1-8
-
 # xrandr \
-#     --output eDP1 --auto --primary --mode 1920x1080 --rotate normal \
-#     --output DP2-1-8 --auto --mode 1920x1080 --rotate normal --right-of eDP1 \
-#     --output DP2-3 --auto --mode 1920x1080 --rotate normal --right-of DP2-1-8
+#     --output DP1 --auto --primary --mode 1920x1080 --rotate normal \
+#     --output DP2-1 --auto --mode 1920x1080 --rotate normal --left-of DP1

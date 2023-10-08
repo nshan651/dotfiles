@@ -1,246 +1,165 @@
-{"level":30,"time":"2023-09-15T01:46:53.741Z","msg":"app.ready: hour cycle preference: UnknownPreference"}
-{"level":30,"time":"2023-09-15T01:46:53.741Z","msg":"app.ready: preferred system locales: en-US, en"}
-{"level":30,"time":"2023-09-15T01:46:53.742Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
-{"level":30,"time":"2023-09-15T01:46:53.742Z","msg":"locale: Preferred locales:  en-US, en"}
-{"level":30,"time":"2023-09-15T01:46:53.744Z","msg":"locale: Matched locale: en"}
-{"level":40,"time":"2023-09-15T01:46:53.772Z","msg":"intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.io/docs/getting-started/message-distribution"}
-{"level":30,"time":"2023-09-15T01:46:53.773Z","msg":"locale: Text info direction for en: ltr"}
-{"level":30,"time":"2023-09-15T01:46:53.774Z","msg":"app ready"}
-{"level":30,"time":"2023-09-15T01:46:53.775Z","msg":"starting version 6.29.1"}
-{"level":30,"time":"2023-09-15T01:46:53.775Z","msg":"media access status [object Undefined] [object Undefined]"}
-{"level":30,"time":"2023-09-15T01:46:53.777Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T01:46:53.779Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T01:46:53.779Z","msg":"got fast spellcheck setting true"}
-{"level":30,"time":"2023-09-15T01:46:53.780Z","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
-{"level":30,"time":"2023-09-15T01:46:53.780Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1920,\"height\":1080,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":0,\"y\":0}"}
-{"level":30,"time":"2023-09-15T01:46:53.812Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
-{"level":30,"time":"2023-09-15T01:46:53.812Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
-{"level":30,"time":"2023-09-15T01:46:53.812Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
-{"level":30,"time":"2023-09-15T01:46:53.843Z","msg":"MainSQL: updateSchema:\n  Current user_version: 83;\n  Most recent db schema: 87;\n  SQLite version: 3.39.4;\n  SQLCipher version: 4.5.3 community;\n  (deprecated) schema_version: 363;\n"}
-{"level":30,"time":"2023-09-15T01:46:53.844Z","msg":"MainSQL: updateToSchemaVersion84: success!"}
-{"level":30,"time":"2023-09-15T01:46:53.844Z","msg":"MainSQL: updateToSchemaVersion85: success!"}
-{"level":30,"time":"2023-09-15T01:46:53.860Z","msg":"MainSQL: updateToSchemaVersion86: success!"}
-{"level":30,"time":"2023-09-15T01:46:53.860Z","msg":"MainSQL: updateToSchemaVersion87: Found 0 keys"}
-{"level":30,"time":"2023-09-15T01:46:53.861Z","msg":"MainSQL: updateToSchemaVersion87: success!"}
-{"level":30,"time":"2023-09-15T01:46:53.861Z","msg":"MainSQL: updateSchema: optimize took 0ms"}
-{"level":30,"time":"2023-09-15T01:46:54.309Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T01:46:55.037Z","msg":"got fast spellcheck setting true"}
-{"level":30,"time":"2023-09-15T01:46:55.044Z","msg":"System tray service: created"}
-{"level":30,"time":"2023-09-15T01:46:55.044Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
-{"level":30,"time":"2023-09-15T01:46:55.044Z","msg":"System tray service: rendering no tray"}
-{"level":30,"time":"2023-09-15T01:46:55.044Z","msg":"Begin ensuring permissions"}
-{"level":30,"time":"2023-09-15T01:46:55.045Z","msg":"main window is ready-to-show"}
-{"level":30,"time":"2023-09-15T01:46:55.045Z","msg":"showing main window"}
-{"level":30,"time":"2023-09-15T01:46:55.045Z","msg":"System tray service: rendering no tray"}
-{"level":30,"time":"2023-09-15T01:46:55.047Z","msg":"Ensuring file permissions for 4 files"}
-{"level":30,"time":"2023-09-15T01:46:55.049Z","msg":"Finish ensuring permissions in 4ms"}
-{"level":30,"time":"2023-09-15T01:46:55.149Z","msg":"deleteAllBadges: deleted 0 files"}
-{"level":30,"time":"2023-09-15T01:46:55.162Z","msg":"MainSQL: removeKnownStickers: About to iterate through 219 stickers"}
-{"level":30,"time":"2023-09-15T01:46:55.164Z","msg":"MainSQL: removeKnownStickers: Done processing 219 stickers"}
-{"level":30,"time":"2023-09-15T01:46:55.164Z","msg":"deleteAllStickers: deleted 0 files"}
-{"level":30,"time":"2023-09-15T01:46:55.166Z","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 14 conversations"}
-{"level":30,"time":"2023-09-15T01:46:55.166Z","msg":"MainSQL: removeKnownDraftAttachments: Done processing 14 conversations"}
-{"level":30,"time":"2023-09-15T01:46:55.166Z","msg":"deleteAllDraftAttachments: deleted 0 files"}
-{"level":30,"time":"2023-09-15T01:46:55.171Z","msg":"cleanupOrphanedAttachments: found 63 attachments on disk"}
-{"level":30,"time":"2023-09-15T01:46:55.171Z","msg":"MainSQL: getKnownConversationAttachments: About to iterate through 14"}
-{"level":30,"time":"2023-09-15T01:46:55.172Z","msg":"MainSQL: getKnownConversationAttachments: Done processing"}
-{"level":30,"time":"2023-09-15T01:46:55.172Z","msg":"cleanupOrphanedAttachments: found 4 conversation attachments (1 missing), 60 remain"}
-{"level":30,"time":"2023-09-15T01:46:55.172Z","msg":"cleanupOrphanedAttachments: took 36ms"}
-{"level":30,"time":"2023-09-15T01:46:55.173Z","msg":"Begin ensuring permissions"}
-{"level":30,"time":"2023-09-15T01:46:55.173Z","msg":"MainSQL: getKnownMessageAttachments(8b93d7e780c03503): Starting iteration through 449 messages"}
-{"level":30,"time":"2023-09-15T01:46:55.191Z","msg":"Ensuring file permissions for 572 files"}
-{"level":50,"time":"2023-09-15T01:46:55.192Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
-{"level":50,"time":"2023-09-15T01:46:55.193Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
-{"level":30,"time":"2023-09-15T01:46:55.209Z","msg":"Finish ensuring permissions in 36ms"}
-{"level":30,"time":"2023-09-15T01:46:55.235Z","msg":"MainSQL: finishGetKnownMessageAttachments(8b93d7e780c03503): reached the end after processing 449 messages"}
-{"level":30,"time":"2023-09-15T01:46:55.236Z","msg":"cleanupOrphanedAttachments: found 56 message attachments, (0 missing) 4 remain"}
-{"level":30,"time":"2023-09-15T01:46:55.241Z","msg":"deleteAll: deleted 4 files"}
-{"level":30,"time":"2023-09-15T01:46:55.241Z","msg":"deleteOrphanedAttachments: took 69ms"}
-{"level":30,"time":"2023-09-15T01:46:55.311Z","msg":"Prevent display sleep service: allowing display sleep"}
-{"level":30,"time":"2023-09-15T01:46:55.311Z","msg":"Background throttling enabled because no call is active"}
-{"level":30,"time":"2023-09-15T01:46:55.333Z","msg":"updater/start: Updates disabled - not starting new version checks"}
-{"level":30,"time":"2023-09-15T01:46:55.334Z","msg":"App loaded - time: 1561"}
-{"level":30,"time":"2023-09-15T01:46:55.334Z","msg":"SQL init - time: 88"}
-{"level":30,"time":"2023-09-15T01:46:55.334Z","msg":"Preload - time: 684"}
-{"level":30,"time":"2023-09-15T01:46:55.334Z","msg":"WebSocket connect - time: -1694742414956"}
-{"level":30,"time":"2023-09-15T01:46:55.334Z","msg":"Processed count: 0"}
-{"level":30,"time":"2023-09-15T01:46:55.334Z","msg":"Messages per second: 0"}
-{"level":30,"time":"2023-09-15T01:46:55.569Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1050,\"height\":1049,\"x\":1923,\"y\":28}"}
-{"level":30,"time":"2023-09-15T01:46:55.571Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:46:55.571Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:48:46.590Z","msg":"MainSQL: slow query createOrUpdateItem duration=72ms"}
-{"level":30,"time":"2023-09-15T01:48:51.895Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1050,\"height\":1049,\"x\":1923,\"y\":28}"}
-{"level":30,"time":"2023-09-15T01:48:51.896Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:48:51.897Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:48:59.606Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1694742537800"}
-{"level":30,"time":"2023-09-15T01:49:08.093Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1050,\"height\":1049,\"x\":1923,\"y\":28}"}
-{"level":30,"time":"2023-09-15T01:49:08.093Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:49:08.093Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:49:09.875Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1914,\"height\":1049,\"x\":1923,\"y\":28}"}
-{"level":30,"time":"2023-09-15T01:49:09.875Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:49:09.875Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:49:10.675Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1914,\"height\":1049,\"x\":1923,\"y\":28}"}
-{"level":30,"time":"2023-09-15T01:49:10.676Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:49:10.677Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:49:24.877Z","msg":"Prevent display sleep service: preventing display sleep"}
-{"level":30,"time":"2023-09-15T01:49:24.877Z","msg":"Background throttling disabled because a call is active"}
-{"level":30,"time":"2023-09-15T01:51:33.055Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1050,\"height\":1049,\"x\":0,\"y\":25}"}
-{"level":30,"time":"2023-09-15T01:51:33.055Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T01:51:33.056Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:09.791Z","msg":"app.ready: hour cycle preference: UnknownPreference"}
-{"level":30,"time":"2023-09-15T02:08:09.792Z","msg":"app.ready: preferred system locales: en-US, en"}
-{"level":30,"time":"2023-09-15T02:08:09.793Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
-{"level":30,"time":"2023-09-15T02:08:09.793Z","msg":"locale: Preferred locales:  en-US, en"}
-{"level":30,"time":"2023-09-15T02:08:09.795Z","msg":"locale: Matched locale: en"}
-{"level":40,"time":"2023-09-15T02:08:09.838Z","msg":"intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.io/docs/getting-started/message-distribution"}
-{"level":30,"time":"2023-09-15T02:08:09.839Z","msg":"locale: Text info direction for en: ltr"}
-{"level":30,"time":"2023-09-15T02:08:09.841Z","msg":"app ready"}
-{"level":30,"time":"2023-09-15T02:08:09.842Z","msg":"starting version 6.29.1"}
-{"level":30,"time":"2023-09-15T02:08:09.842Z","msg":"media access status [object Undefined] [object Undefined]"}
-{"level":30,"time":"2023-09-15T02:08:09.844Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T02:08:09.846Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T02:08:09.846Z","msg":"got fast spellcheck setting true"}
-{"level":30,"time":"2023-09-15T02:08:09.847Z","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
-{"level":30,"time":"2023-09-15T02:08:09.848Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1050,\"height\":1049,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":0,\"y\":25}"}
-{"level":30,"time":"2023-09-15T02:08:09.890Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
-{"level":30,"time":"2023-09-15T02:08:09.890Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
-{"level":30,"time":"2023-09-15T02:08:09.890Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
-{"level":30,"time":"2023-09-15T02:08:09.900Z","msg":"MainSQL: updateSchema:\n  Current user_version: 87;\n  Most recent db schema: 87;\n  SQLite version: 3.39.4;\n  SQLCipher version: 4.5.3 community;\n  (deprecated) schema_version: 370;\n"}
-{"level":30,"time":"2023-09-15T02:08:10.506Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T02:08:11.463Z","msg":"got fast spellcheck setting true"}
-{"level":30,"time":"2023-09-15T02:08:11.464Z","msg":"main window is ready-to-show"}
-{"level":30,"time":"2023-09-15T02:08:11.464Z","msg":"showing main window"}
-{"level":30,"time":"2023-09-15T02:08:11.473Z","msg":"System tray service: created"}
-{"level":30,"time":"2023-09-15T02:08:11.474Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
-{"level":30,"time":"2023-09-15T02:08:11.475Z","msg":"System tray service: rendering no tray"}
-{"level":30,"time":"2023-09-15T02:08:11.475Z","msg":"Begin ensuring permissions"}
-{"level":30,"time":"2023-09-15T02:08:11.481Z","msg":"Ensuring file permissions for 4 files"}
-{"level":30,"time":"2023-09-15T02:08:11.483Z","msg":"Finish ensuring permissions in 7ms"}
-{"level":30,"time":"2023-09-15T02:08:11.590Z","msg":"deleteAllBadges: deleted 0 files"}
-{"level":30,"time":"2023-09-15T02:08:11.613Z","msg":"MainSQL: removeKnownStickers: About to iterate through 219 stickers"}
-{"level":30,"time":"2023-09-15T02:08:11.615Z","msg":"MainSQL: removeKnownStickers: Done processing 219 stickers"}
-{"level":30,"time":"2023-09-15T02:08:11.615Z","msg":"deleteAllStickers: deleted 0 files"}
-{"level":30,"time":"2023-09-15T02:08:11.618Z","msg":"MainSQL: removeKnownDraftAttachments: About to iterate through 20 conversations"}
-{"level":30,"time":"2023-09-15T02:08:11.619Z","msg":"MainSQL: removeKnownDraftAttachments: Done processing 20 conversations"}
-{"level":30,"time":"2023-09-15T02:08:11.620Z","msg":"deleteAllDraftAttachments: deleted 0 files"}
-{"level":30,"time":"2023-09-15T02:08:11.626Z","msg":"cleanupOrphanedAttachments: found 61 attachments on disk"}
-{"level":30,"time":"2023-09-15T02:08:11.626Z","msg":"MainSQL: getKnownConversationAttachments: About to iterate through 20"}
-{"level":30,"time":"2023-09-15T02:08:11.627Z","msg":"MainSQL: getKnownConversationAttachments: Done processing"}
-{"level":30,"time":"2023-09-15T02:08:11.627Z","msg":"cleanupOrphanedAttachments: found 6 conversation attachments (1 missing), 56 remain"}
-{"level":30,"time":"2023-09-15T02:08:11.628Z","msg":"cleanupOrphanedAttachments: took 56ms"}
-{"level":30,"time":"2023-09-15T02:08:11.629Z","msg":"Begin ensuring permissions"}
-{"level":30,"time":"2023-09-15T02:08:11.629Z","msg":"MainSQL: getKnownMessageAttachments(bcf1c7f8f7be4b89): Starting iteration through 452 messages"}
-{"level":30,"time":"2023-09-15T02:08:11.656Z","msg":"Ensuring file permissions for 572 files"}
-{"level":50,"time":"2023-09-15T02:08:11.658Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonCookie'"}
-{"level":50,"time":"2023-09-15T02:08:11.658Z","msg":"ensureFilePermissions: Error from chmod ENOENT: no such file or directory, chmod '[REDACTED]/SingletonLock'"}
-{"level":30,"time":"2023-09-15T02:08:11.706Z","msg":"Finish ensuring permissions in 77ms"}
-{"level":30,"time":"2023-09-15T02:08:11.735Z","msg":"MainSQL: finishGetKnownMessageAttachments(bcf1c7f8f7be4b89): reached the end after processing 452 messages"}
-{"level":30,"time":"2023-09-15T02:08:11.735Z","msg":"cleanupOrphanedAttachments: found 56 message attachments, (0 missing) 0 remain"}
-{"level":30,"time":"2023-09-15T02:08:11.736Z","msg":"deleteAll: deleted 0 files"}
-{"level":30,"time":"2023-09-15T02:08:11.736Z","msg":"deleteOrphanedAttachments: took 109ms"}
-{"level":30,"time":"2023-09-15T02:08:11.844Z","msg":"Prevent display sleep service: allowing display sleep"}
-{"level":30,"time":"2023-09-15T02:08:11.844Z","msg":"Background throttling enabled because no call is active"}
-{"level":30,"time":"2023-09-15T02:08:11.980Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":1011,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:08:11.982Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:11.983Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:12.250Z","msg":"updater/start: Updates disabled - not starting new version checks"}
-{"level":30,"time":"2023-09-15T02:08:12.252Z","msg":"App loaded - time: 2413"}
-{"level":30,"time":"2023-09-15T02:08:12.253Z","msg":"SQL init - time: 62"}
-{"level":30,"time":"2023-09-15T02:08:12.253Z","msg":"Preload - time: 941"}
-{"level":30,"time":"2023-09-15T02:08:12.253Z","msg":"WebSocket connect - time: 413"}
-{"level":30,"time":"2023-09-15T02:08:12.253Z","msg":"Processed count: 11"}
-{"level":30,"time":"2023-09-15T02:08:12.253Z","msg":"Messages per second: 10.387157695939566"}
-{"level":30,"time":"2023-09-15T02:08:22.557Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T02:08:22.613Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T02:08:26.275Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:26.275Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:37.657Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":641,\"height\":1029,\"x\":1950,\"y\":35}"}
-{"level":30,"time":"2023-09-15T02:08:37.658Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:37.658Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:49.904Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:08:49.905Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:08:49.905Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:09:40.800Z","msg":"Approving request for permission 'notifications'"}
-{"level":30,"time":"2023-09-15T02:09:47.952Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:09:47.953Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:09:47.954Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:09:48.629Z","msg":"Prevent display sleep service: preventing display sleep"}
-{"level":30,"time":"2023-09-15T02:09:48.629Z","msg":"Background throttling disabled because a call is active"}
-{"level":30,"time":"2023-09-15T02:12:57.155Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:12:57.156Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:12:57.157Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:12:59.595Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T02:12:59.663Z","msg":"got fast theme-setting value dark"}
-{"level":30,"time":"2023-09-15T02:13:21.440Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":false,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:13:21.441Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:21.442Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:25.984Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1920,\"height\":1080,\"x\":1920,\"y\":0}"}
-{"level":30,"time":"2023-09-15T02:13:25.985Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:25.986Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:38.582Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:13:38.582Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:38.583Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:42.858Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:13:42.859Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:42.860Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:51.244Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:13:51.245Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:13:51.245Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:16:08.915Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":919,\"height\":1029,\"x\":1950,\"y\":35}"}
-{"level":30,"time":"2023-09-15T02:16:08.915Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:16:08.915Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:16:13.731Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":919,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:16:13.732Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:16:13.732Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:24:32.473Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":919,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:24:32.474Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:24:32.475Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:24:43.613Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1694744680087"}
-{"level":30,"time":"2023-09-15T02:47:12.542Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":919,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:47:12.551Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:47:12.551Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:04.891Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":919,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:48:04.892Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:04.893Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:36.159Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":641,\"height\":1029,\"x\":1950,\"y\":35}"}
-{"level":30,"time":"2023-09-15T02:48:36.159Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:36.167Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:37.425Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:48:37.425Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:37.425Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:39.799Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:48:39.799Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:39.800Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:40.370Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":641,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:48:40.370Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:40.371Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:45.654Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:48:45.654Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:45.655Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:47.499Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:48:47.499Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:47.507Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:48.035Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:48:48.035Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:48:48.036Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:52:04.692Z","msg":"Prevent display sleep service: allowing display sleep"}
-{"level":30,"time":"2023-09-15T02:52:04.692Z","msg":"Background throttling enabled because no call is active"}
-{"level":30,"time":"2023-09-15T02:52:06.215Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:52:06.216Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:52:06.216Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:52:30.144Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:52:30.145Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:52:30.145Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:55:42.361Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
-{"level":30,"time":"2023-09-15T02:55:42.362Z","msg":"config/set: Saving ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:55:42.363Z","msg":"config/set: Saved ephemeral config to disk"}
-{"level":30,"time":"2023-09-15T02:59:03.446Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
-{"level":30,"time":"2023-09-15T02:59:03.447Z","msg":"System tray service: rendering no tray"}
-{"level":30,"time":"2023-09-15T02:59:03.447Z","msg":"requestShutdown: Requesting close of mainWindow..."}
-{"level":30,"time":"2023-09-15T02:59:03.503Z","msg":"MainSQL: slow query close duration=43ms"}
-{"level":30,"time":"2023-09-15T02:59:03.504Z","msg":"requestShutdown: Response received"}
-{"level":30,"time":"2023-09-15T02:59:03.507Z","msg":"before-quit event {\"readyForShutdown\":true,\"shouldQuit\":false}"}
-{"level":30,"time":"2023-09-15T02:59:03.507Z","msg":"System tray service: markShouldQuit"}
-{"level":30,"time":"2023-09-15T02:59:03.507Z","msg":"close event {\"readyForShutdown\":true,\"shouldQuit\":true}"}
-{"level":30,"time":"2023-09-15T02:59:03.509Z","msg":"System tray service: updating main window. Previously, there was a window, and now there is not"}
-{"level":30,"time":"2023-09-15T02:59:03.509Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T22:22:22.194Z","msg":"app.ready: hour cycle preference: UnknownPreference"}
+{"level":30,"time":"2023-09-19T22:22:22.195Z","msg":"app.ready: preferred system locales: en-US, en"}
+{"level":30,"time":"2023-09-19T22:22:22.195Z","msg":"locale: Supported locales: af-ZA, ar, az-AZ, bg-BG, bn-BD, bs-BA, ca, cs, da, de, el, en, es, et-EE, eu, fa-IR, fi, fr, ga-IE, gl-ES, gu-IN, he, hi-IN, hr-HR, hu, id, it, ja, ka-GE, kk-KZ, km-KH, kn-IN, ko, ky-KG, lt-LT, lv-LV, mk-MK, ml-IN, mr-IN, ms, my, nb, nl, pa-IN, pl, pt-BR, pt-PT, ro-RO, ru, sk-SK, sl-SI, sq-AL, sr, sv, sw, ta-IN, te-IN, th, tl-PH, tr, ug, uk-UA, ur, vi, yue, zh-CN, zh-HK, zh-Hant"}
+{"level":30,"time":"2023-09-19T22:22:22.195Z","msg":"locale: Preferred locales:  en-US, en"}
+{"level":30,"time":"2023-09-19T22:22:22.197Z","msg":"locale: Matched locale: en"}
+{"level":40,"time":"2023-09-19T22:22:22.231Z","msg":"intl.onWarn [@formatjs/intl] \"defaultRichTextElements\" was specified but \"message\" was not pre-compiled. \nPlease consider using \"@formatjs/cli\" to pre-compile your messages for performance.\nFor more details see https://formatjs.io/docs/getting-started/message-distribution"}
+{"level":30,"time":"2023-09-19T22:22:22.231Z","msg":"locale: Text info direction for en: ltr"}
+{"level":30,"time":"2023-09-19T22:22:22.233Z","msg":"app ready"}
+{"level":30,"time":"2023-09-19T22:22:22.234Z","msg":"starting version 6.29.1"}
+{"level":30,"time":"2023-09-19T22:22:22.234Z","msg":"media access status [object Undefined] [object Undefined]"}
+{"level":30,"time":"2023-09-19T22:22:22.236Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-09-19T22:22:22.238Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-09-19T22:22:22.238Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-09-19T22:22:22.239Z","msg":"getSystemTraySetting had no flags and did no DB lookups. Returning DoNotUseSystemTray"}
+{"level":30,"time":"2023-09-19T22:22:22.239Z","msg":"Initializing BrowserWindow config: {\"show\":false,\"width\":1854,\"height\":1029,\"minWidth\":300,\"minHeight\":200,\"autoHideMenuBar\":false,\"titleBarStyle\":\"default\",\"titleBarOverlay\":false,\"backgroundColor\":\"#121212\",\"webPreferences\":{\"devTools\":false,\"spellcheck\":true,\"enableBlinkFeatures\":\"CSSPseudoDir,CSSLogical\",\"nodeIntegration\":false,\"nodeIntegrationInWorker\":false,\"sandbox\":false,\"contextIsolation\":true,\"preload\":\"[REDACTED]/preload.bundle.js\",\"backgroundThrottling\":true,\"enablePreferredSizeMode\":true,\"disableBlinkFeatures\":\"Accelerated2dCanvas,AcceleratedSmallCanvases\"},\"icon\":\"[REDACTED]/images/signal-logo-desktop-linux.png\",\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:22:22.274Z","msg":"spellcheck: user locales: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-09-19T22:22:22.274Z","msg":"spellcheck: available spellchecker languages: [\"af\",\"bg\",\"ca\",\"cs\",\"cy\",\"da\",\"de\",\"de-DE\",\"el\",\"en\",\"en-AU\",\"en-CA\",\"en-GB\",\"en-GB-oxendict\",\"en-US\",\"es\",\"es-419\",\"es-AR\",\"es-ES\",\"es-MX\",\"es-US\",\"et\",\"fa\",\"fo\",\"fr\",\"fr-FR\",\"he\",\"hi\",\"hr\",\"hu\",\"hy\",\"id\",\"it\",\"it-IT\",\"ko\",\"lt\",\"lv\",\"nb\",\"nl\",\"pl\",\"pt\",\"pt-BR\",\"pt-PT\",\"ro\",\"ru\",\"sh\",\"sk\",\"sl\",\"sq\",\"sr\",\"sv\",\"ta\",\"tg\",\"tr\",\"uk\",\"vi\"]"}
+{"level":30,"time":"2023-09-19T22:22:22.274Z","msg":"spellcheck: setting languages to: [\"en-US\",\"en\"]"}
+{"level":30,"time":"2023-09-19T22:22:22.285Z","msg":"MainSQL: updateSchema:\n  Current user_version: 87;\n  Most recent db schema: 87;\n  SQLite version: 3.39.4;\n  SQLCipher version: 4.5.3 community;\n  (deprecated) schema_version: 370;\n"}
+{"level":30,"time":"2023-09-19T22:22:22.779Z","msg":"got fast theme-setting value dark"}
+{"level":30,"time":"2023-09-19T22:22:22.802Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1920,\"height\":1080,\"x\":1920,\"y\":0}"}
+{"level":30,"time":"2023-09-19T22:22:22.803Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:22.804Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:23.544Z","msg":"got fast spellcheck setting true"}
+{"level":30,"time":"2023-09-19T22:22:23.549Z","msg":"System tray service: created"}
+{"level":30,"time":"2023-09-19T22:22:23.549Z","msg":"System tray service: updating main window. Previously, there was not a window, and now there is"}
+{"level":30,"time":"2023-09-19T22:22:23.549Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T22:22:23.550Z","msg":"Begin ensuring permissions"}
+{"level":30,"time":"2023-09-19T22:22:23.550Z","msg":"Ensuring file permissions for 4 files"}
+{"level":30,"time":"2023-09-19T22:22:23.551Z","msg":"Finish ensuring permissions in 1ms"}
+{"level":30,"time":"2023-09-19T22:22:23.554Z","msg":"main window is ready-to-show"}
+{"level":30,"time":"2023-09-19T22:22:23.554Z","msg":"showing main window"}
+{"level":30,"time":"2023-09-19T22:22:23.555Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T22:22:23.757Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-09-19T22:22:23.757Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-09-19T22:22:25.869Z","msg":"MainSQL: slow query saveMessages duration=57ms"}
+{"level":30,"time":"2023-09-19T22:22:29.492Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:22:29.493Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:29.494Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:32.426Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:22:32.426Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:32.426Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:34.667Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:22:34.667Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:34.668Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:35.277Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:22:35.278Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:35.279Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:37.476Z","msg":"MainSQL: slow query saveMessages duration=56ms"}
+{"level":30,"time":"2023-09-19T22:22:37.711Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:22:37.712Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:37.712Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:22:39.331Z","msg":"MainSQL: slow query saveMessages duration=64ms"}
+{"level":30,"time":"2023-09-19T22:22:43.320Z","msg":"MainSQL: slow query saveMessages duration=43ms"}
+{"level":30,"time":"2023-09-19T22:22:43.432Z","msg":"updater/start: Updates disabled - not starting new version checks"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"System tray service: setting unread count to 5"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"App loaded - time: 21201"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"SQL init - time: 54"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"Preload - time: 775"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"WebSocket connect - time: 342"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"Processed count: 667"}
+{"level":30,"time":"2023-09-19T22:22:43.433Z","msg":"Messages per second: 33.2105158334993"}
+{"level":30,"time":"2023-09-19T22:22:44.425Z","msg":"System tray service: setting unread count to 4"}
+{"level":30,"time":"2023-09-19T22:22:44.425Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T22:22:45.323Z","msg":"MainSQL: slow query saveMessage duration=45ms"}
+{"level":30,"time":"2023-09-19T22:23:11.489Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:23:11.490Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:23:11.491Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:23:12.757Z","msg":"System tray service: setting unread count to 2"}
+{"level":30,"time":"2023-09-19T22:23:12.757Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T22:23:14.318Z","msg":"System tray service: setting unread count to 0"}
+{"level":30,"time":"2023-09-19T22:23:14.318Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T22:23:22.817Z","msg":"MainSQL: deleteSentProtoRecipient: Deleting proto payload for timestamp 1695162202052"}
+{"level":30,"time":"2023-09-19T22:23:38.761Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:23:38.762Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:23:38.762Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:25:16.862Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:25:16.862Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:25:16.863Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:25:20.876Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:25:20.876Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:25:20.877Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:26:52.616Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:26:52.617Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:26:52.617Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:26:55.731Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":826,\"height\":1029,\"x\":2980,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:26:55.731Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:26:55.732Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:15.379Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":826,\"height\":1029,\"x\":2980,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:39:15.379Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:15.380Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:29.605Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":826,\"height\":1029,\"x\":2980,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:39:29.605Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:29.606Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:32.610Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:39:32.610Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:32.610Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:38.680Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:39:38.681Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:38.681Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:39.500Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":826,\"height\":1029,\"x\":2977,\"y\":35}"}
+{"level":30,"time":"2023-09-19T22:39:39.500Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:39:39.501Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:42:29.358Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:42:29.359Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:42:29.360Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:42:32.671Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:42:32.672Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:42:32.673Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:45:14.890Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":826,\"height\":1029,\"x\":2977,\"y\":35}"}
+{"level":30,"time":"2023-09-19T22:45:14.890Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:45:14.890Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:45:58.964Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:45:58.964Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:45:58.965Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:48:42.617Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:48:42.617Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:48:42.617Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:50:48.954Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:50:48.954Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:50:48.955Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:50:49.870Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:50:49.870Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:50:49.870Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:51:51.812Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:51:51.812Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:51:51.813Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:51:54.551Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:51:54.551Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:51:54.552Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:52:30.684Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":826,\"height\":1029,\"x\":2980,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:52:30.684Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:52:30.685Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:53:47.070Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:53:47.070Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:53:47.071Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:53:48.001Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:53:48.002Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:53:48.002Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:55:12.389Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:55:12.389Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:55:12.390Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:55:14.106Z","msg":"Prevent display sleep service: preventing display sleep"}
+{"level":30,"time":"2023-09-19T22:55:14.107Z","msg":"Background throttling disabled because a call is active"}
+{"level":30,"time":"2023-09-19T22:55:16.578Z","msg":"Prevent display sleep service: allowing display sleep"}
+{"level":30,"time":"2023-09-19T22:55:16.578Z","msg":"Background throttling enabled because no call is active"}
+{"level":30,"time":"2023-09-19T22:55:23.113Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:55:23.113Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:55:23.121Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:55:57.062Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":826,\"height\":1029,\"x\":2977,\"y\":35}"}
+{"level":30,"time":"2023-09-19T22:55:57.063Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:55:57.063Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:56:46.198Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:56:46.198Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:56:46.198Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:56:50.060Z","msg":"Updating BrowserWindow config: %s {\"maximized\":false,\"autoHideMenuBar\":false,\"fullscreen\":true,\"width\":1854,\"height\":1029,\"x\":1953,\"y\":38}"}
+{"level":30,"time":"2023-09-19T22:56:50.061Z","msg":"config/set: Saving ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T22:56:50.061Z","msg":"config/set: Saved ephemeral config to disk"}
+{"level":30,"time":"2023-09-19T23:15:29.578Z","msg":"Approving request for permission 'notifications'"}
+{"level":30,"time":"2023-09-19T23:34:10.024Z","msg":"before-quit event {\"readyForShutdown\":false,\"shouldQuit\":false}"}
+{"level":30,"time":"2023-09-19T23:34:10.024Z","msg":"System tray service: markShouldQuit"}
+{"level":30,"time":"2023-09-19T23:34:10.025Z","msg":"close event {\"readyForShutdown\":false,\"shouldQuit\":true}"}
+{"level":30,"time":"2023-09-19T23:34:10.026Z","msg":"System tray service: rendering no tray"}
+{"level":30,"time":"2023-09-19T23:34:10.026Z","msg":"requestShutdown: Requesting close of mainWindow..."}

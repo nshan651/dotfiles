@@ -1,7 +1,7 @@
 #!/bin/sh
 # Set wallpaper
 
-SETBG="/home/nick/dox/pix/wallpaper/north-shore/tettegouche.jpg"
+SETBG="/home/nick/dox/pix/wallpaper/forests/forest-path.jpg"
 
 if [ $# -eq 1 ]; then
     SETBG=$(readlink -f "$1")
