@@ -54,13 +54,13 @@ Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
 " Colorscheme add-ons
 Plug 'ishan9299/modus-theme-vim' 
+" Plug 'sainnhe/everforest'
 " Plug 'sainnhe/gruvbox-material'
 " Plug 'rebelot/kanagawa.nvim'
 " Plug 'EdenEast/nightfox.nvim'
 " Plug 'AlessandroYorba/Alduin'
 " Plug 'sainnhe/sonokai'
-" Plug 'mcchrish/zenbones.nvim'
-" Plug 'sainnhe/everforest'
+Plug 'mcchrish/zenbones.nvim'
 " Plug 'morhetz/gruvbox'
 " Plug 'sainnhe/edge'
 " Plug 'dracula/vim', { 'as': 'dracula' }
@@ -74,13 +74,14 @@ let mapleader = "\<Space>"
 " --- |Pluggin Settings| ---
 "------------------------------------------------
 
-let g:lightline = {
-      \ 'colorscheme': 'wombat',
-      \ }
+" let g:lightline = { 'colorscheme': 'wombat', }
+" let g:lightline = { 'colorscheme': 'solarized', }
+" let g:lightline = { 'colorscheme': 'one', }
+let g:lightline = { 'colorscheme': 'vimbones', }
 
 " Colorscheme plugin settings
-"let g:everforest_background = 'medium'
-let g:gruvbox_material_background = 'hard'
+" let g:everforest_background = 'hard'
+" let g:gruvbox_material_background = 'hard'
 "let g:sonokai_style = 'espresso'
 "let g:sonokai_style = 'default'
 
@@ -199,9 +200,13 @@ if has('termguicolors')
     set termguicolors
 endif
 
-set bg=dark
+" set bg=dark
+set bg=light
 
-colorscheme modus-vivendi
+colorscheme vimbones 
+" colorscheme gruvbox-material
+" colorscheme modus-vivendi
+" colorscheme everforest
 
 " Toggle transpareny
 let t:isTransparent = 0

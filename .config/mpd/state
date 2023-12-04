@@ -2,8 +2,8 @@ sw_volume: 88
 audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 32
-time: 209.925000
+current: 36
+time: 66.916000
 random: 0
 repeat: 1
 single: 0
@@ -45,4 +45,8 @@ playlist_begin
 30:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 16 Fools Gold Remix feat. Open Mike Eagle & Moka Only.mp3
 31:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 15 Burnout.mp3
 32:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 13 Marooned.mp3
+33:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 02 My Blank Verse.mp3
+34:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 07 Bottle Service.mp3
+35:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 05 Mozambique feat. Faro Z & Curly Castro.mp3
+36:Kendrick Lamar/Kendrick Lamar - The Heart Part IV.mp3
 playlist_end

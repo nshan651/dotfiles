@@ -1,7 +1,13 @@
-2023/06/01-11:26:16.648 9c54f Reusing MANIFEST /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
-2023/06/01-11:26:16.649 9c54f Recovering log #4
-2023/06/01-11:26:16.649 9c54f Reusing old log /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000004.log 
-2023/06/01-11:26:16.665 9c54f Level-0 table #8: started
-2023/06/01-11:26:16.669 9c54f Level-0 table #8: 467 bytes OK
-2023/06/01-11:26:16.673 9c54f Delete type=0 #4
-2023/06/01-11:26:16.673 9c54f Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/09/14-21:08:11.489 3182 Reusing MANIFEST /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2023/09/14-21:08:11.489 3182 Recovering log #7
+2023/09/14-21:08:11.489 3182 Reusing old log /home/nick/.config/Signal/IndexedDB/file__0.indexeddb.leveldb/000007.log 
+2023/09/14-21:08:11.513 31b5 Level-0 table #11: started
+2023/09/14-21:08:11.516 31b5 Level-0 table #11: 470 bytes OK
+2023/09/14-21:08:11.520 31b5 Delete type=0 #7
+2023/09/14-21:08:11.520 3182 Manual compaction at level-0 from '\x00\x03\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at '\x00\x03\x00\x00\x05' @ 45 : 1
+2023/09/14-21:08:11.520 3182 Compacting 1@0 + 1@1 files
+2023/09/14-21:08:11.524 3182 Generated table #12@0: 7 keys, 359 bytes
+2023/09/14-21:08:11.524 3182 Compacted 1@0 + 1@1 files => 359 bytes
+2023/09/14-21:08:11.528 3182 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/09/14-21:08:11.528 3182 Delete type=2 #11
+2023/09/14-21:08:11.528 3182 Manual compaction at level-0 from '\x00\x03\x00\x00\x05' @ 45 : 1 .. '\x00\x04\x00\x00\x00' @ 0 : 0; will stop at (end)
