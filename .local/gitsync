@@ -1,0 +1,56 @@
+#!/bin/bash
+# Backup dotfiles, wiki, and more.
+
+unix_box="debox"
+selfhost="selfhost"
+
+# Define git repos
+git_repos=("$GIT"/*)
+misc_repos=(
+    ".local/opt/st"
+    ".local/opt/dwm"
+    ".local/opt/dwmblocks" 
+    ".emacs.d"
+    "org"
+    "dox/family-finance"
+    "dox/personal-finance"
+    "dox/pass"
+)
+repos=("${git_repos[@]}" "${misc_repos[@]}")
+
+update_repo() {
+    repo_dir="$1"
+    repo_name=$(basename "$repo_dir")
+    cd "$HOME"/"$repo_dir"
+
+    branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+    remote=$(git remote | grep "^$selfhost$")
+    
+    # If a remote connection does not exist, create one
+    if [[ ! -v "$remote" ]]; then
+        ssh "$unix_box" \
+            "mkdir -p ~/sync/${repo_dir}; cd ~/sync/${repo_dir} && git init --bare"
+        git remote remove "$remote"
+        git remote add "$remote" "$unix_box":~/sync/"$repo_dir"
+    fi
+
+    # Check in updates
+    git add -A
+    git commit -m "Routine backup of ${repo_name}"
+    git push origin "$branch"
+    git push "$remote" "$branch"
+}
+
+
+# Copy configs and bin
+cp -rf $HOME/.config $GIT/dotfiles 
+cp -rf $HOME/.local/bin $GIT/dotfiles/.local
+
+for repo in "${repos[@]}"; do
+    # Strip $HOME from path
+    repo="${repo#$HOME/}"
+    update_repo "$repo"
+done
+
+# Clean up
+rm -rf $GIT/dotfiles/.local $GIT/dotfiles/.config

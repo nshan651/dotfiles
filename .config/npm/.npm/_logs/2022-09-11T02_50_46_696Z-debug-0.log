@@ -1,0 +1,72 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@8.19.1
+2 info using node@v18.8.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 0ms
+6 timing config:load:builtin Completed in 0ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 2ms
+10 timing config:load:file:/home/nick/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 0ms
+12 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:validate Completed in 0ms
+15 timing config:load:credentials Completed in 1ms
+16 timing config:load:setEnvs Completed in 1ms
+17 timing config:load Completed in 9ms
+18 timing npm:load:configload Completed in 9ms
+19 timing npm:load:mkdirpcache Completed in 3ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm i cryptocoins-icons
+22 verbose argv "i" "cryptocoins-icons"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing config:load:flatten Completed in 2ms
+25 timing npm:load:display Completed in 4ms
+26 verbose logfile logs-max:10 dir:/home/nick/.npm/_logs
+27 verbose logfile /home/nick/.npm/_logs/2022-09-11T02_50_46_696Z-debug-0.log
+28 timing npm:load:logFile Completed in 3ms
+29 timing npm:load:timers Completed in 0ms
+30 timing npm:load:configScope Completed in 0ms
+31 timing npm:load Completed in 20ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 14ms
+36 timing idealTree:userRequests Completed in 2ms
+37 silly idealTree buildDeps
+38 silly fetch manifest cryptocoins-icons@^2.9.0
+39 timing arborist:ctor Completed in 0ms
+40 http fetch GET 200 https://registry.npmjs.org/cryptocoins-icons 15ms (cache hit)
+41 silly placeDep ROOT cryptocoins-icons@2.9.0 REPLACE for:  want: ^2.9.0
+42 timing idealTree:#root Completed in 22ms
+43 timing idealTree:node_modules/cryptocoins-icons Completed in 0ms
+44 timing idealTree:buildDeps Completed in 23ms
+45 timing idealTree:fixDepFlags Completed in 0ms
+46 timing idealTree Completed in 41ms
+47 timing reify:loadTrees Completed in 41ms
+48 timing reify:diffTrees Completed in 1ms
+49 silly reify moves {}
+50 timing reify:retireShallow Completed in 1ms
+51 timing reify:createSparse Completed in 0ms
+52 timing reify:loadBundles Completed in 0ms
+53 silly audit bulk request { 'crypto-icons': [ '1.0.65' ], 'cryptocoins-icons': [ '2.9.0' ] }
+54 timing reify:unpack Completed in 1ms
+55 timing reify:unretire Completed in 0ms
+56 timing build:queue Completed in 0ms
+57 timing build:deps Completed in 1ms
+58 timing build Completed in 1ms
+59 timing reify:build Completed in 1ms
+60 timing reify:trash Completed in 0ms
+61 timing reify:save Completed in 7ms
+62 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 231ms
+63 timing auditReport:getReport Completed in 233ms
+64 silly audit report {}
+65 timing auditReport:init Completed in 0ms
+66 timing reify:audit Completed in 235ms
+67 timing reify Completed in 289ms
+68 timing command:i Completed in 299ms
+69 verbose exit 0
+70 timing npm Completed in 371ms
+71 info ok

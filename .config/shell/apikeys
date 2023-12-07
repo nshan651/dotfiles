@@ -1,0 +1,7 @@
+TEST_KEY="test"
+
+# Alpaca API secrets
+ALPACA_API_KEY="PKXMX6G6AIO58KF31A2G"
+ALPACA_SECRET_KEY="srpyewlXAy06U2vS9lvvXHukiBRF1FTJv5J8M3wd"
+ALPACA_BASE_URL="https://paper-api.alpaca.markets"
+

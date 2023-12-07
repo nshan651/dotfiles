@@ -1,0 +1,1137 @@
+{"level":30,"time":"2023-11-23T02:39:43.884Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2023-11-23T02:39:44.074Z","msg":"preload complete"}
+{"level":30,"time":"2023-11-23T02:39:44.074Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.31.0 signal_node::logging rust/bridge/node/src/logging.rs:133"}
+{"level":30,"time":"2023-11-23T02:39:44.111Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2023-11-23T02:39:44.117Z","msg":"initializeMessageCounter: picking max of db/stored counters"}
+{"level":30,"time":"2023-11-23T02:39:44.117Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2023-11-23T02:39:44.117Z","msg":"background page reloaded"}
+{"level":30,"time":"2023-11-23T02:39:44.117Z","msg":"environment: production"}
+{"level":30,"time":"2023-11-23T02:39:44.119Z","msg":"Storage fetch"}
+{"level":30,"time":"2023-11-23T02:39:44.124Z","msg":"SocketManager: connecting authenticated socket (hasStoriesDisabled=false)"}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:39:44.135Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-11-23T02:39:44.136Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:39:44.136Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-11-23T02:39:44.136Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:39:44.136Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2023-11-23T02:39:44.136Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2023-11-23T02:39:44.136Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2023-11-23T02:39:44.138Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2023-11-23T02:39:44.140Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2023-11-23T02:39:44.140Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2023-11-23T02:39:44.140Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2023-11-23T02:39:44.140Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-11-23T02:39:44.140Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-11-23T02:39:44.141Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":40,"time":"2023-11-23T02:39:44.145Z","msg":"This instance has not been used for 30 days. Last heartbeat: 1697414400000. Last startup: 1697420856419."}
+{"level":40,"time":"2023-11-23T02:39:44.145Z","msg":"unlinkAndDisconnect: Client is no longer authorized; deleting local configuration"}
+{"level":30,"time":"2023-11-23T02:39:44.145Z","msg":"unlinkAndDisconnect: logging out"}
+{"level":30,"time":"2023-11-23T02:39:44.145Z","msg":"MessageReceiver.stopProcessing"}
+{"level":40,"time":"2023-11-23T02:39:44.145Z","msg":"WebSocket: aborting connection authenticated"}
+{"level":40,"time":"2023-11-23T02:39:44.146Z","msg":"SocketManager: authenticated socket connection failed with error: Error: Process \"WebSocket.connect(authenticated)\" was aborted\n    at EH.abort ([REDACTED]/resources/app.asar/preload.bundle.js:80:486549)\n    at $M.logout ([REDACTED]/resources/app.asar/preload.bundle.js:80:494239)\n    at Object.H [as logout] ([REDACTED]/resources/app.asar/preload.bundle.js:82:6647)\n    at unlinkAndDisconnect ([REDACTED]/resources/app.asar/preload.bundle.js:160:40962)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:160:10392"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.146Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"waitBatcher#flushAllWaitBatchers"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"Flushing start messageBatcher.saveNewMessageBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"Flushing complete messageBatcher.saveNewMessageBatcher for waitBatcher"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"Flushing start deleteSentProtoBatcher for waitBatcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"Flushing complete deleteSentProtoBatcher for waitBatcher"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"unlinkAndDisconnect: removing configuration, mode Soft"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"onEmpty: All outstanding database requests complete"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"UpdateKeysListener: Next update scheduled for 2023-10-18T01:45:19.605Z"}
+{"level":30,"time":"2023-11-23T02:39:44.147Z","msg":"NotificationService: enabling"}
+{"level":30,"time":"2023-11-23T02:39:44.148Z","msg":"UpdateKeysListener: Updating keys..."}
+{"level":50,"time":"2023-11-23T02:39:44.149Z","msg":"UpdateKeysListener.run failure - trying again in five minutes Error: getIdentityKeyOrThrow: Missing identity key\n    at l3.getIdentityKeyOrThrow ([REDACTED]/resources/app.asar/preload.bundle.js:75:32731)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:75:34106\n    at run ([REDACTED]/resources/app.asar/preload.bundle.js:71:663356)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:71:663403\n    at run ([REDACTED]/resources/app.asar/preload.bundle.js:43:30553)\n    at JZ._tryToStartAnother ([REDACTED]/resources/app.asar/preload.bundle.js:43:29615)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:43:30790\n    at new Promise (<anonymous>)\n    at JZ.add ([REDACTED]/resources/app.asar/preload.bundle.js:43:30419)\n    at l3.queueTask ([REDACTED]/resources/app.asar/preload.bundle.js:75:29404)"}
+{"level":30,"time":"2023-11-23T02:39:44.220Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.220Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.220Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-11-23T02:39:44.220Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.220Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.220Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.242Z","msg":"unlinkAndDisconnect: Successfully cleared local configuration"}
+{"level":30,"time":"2023-11-23T02:39:44.256Z","msg":"Starting background data migration. Target version: 10"}
+{"level":30,"time":"2023-11-23T02:39:44.256Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-11-23T02:39:44.257Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:39:44.258Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2023-11-23T02:39:44.258Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2023-11-23T02:39:44.272Z","msg":"ConversationController: done with initial fetch"}
+{"level":30,"time":"2023-11-23T02:39:44.323Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.323Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.323Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-11-23T02:39:44.323Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.323Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.323Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-11-23T02:39:44.324Z","msg":"checkForConflicts: starting..."}
+{"level":30,"time":"2023-11-23T02:39:44.325Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2023-11-23T02:39:44.325Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2023-11-23T02:39:44.343Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2023-11-23T02:39:44.343Z","msg":"Initializing network observer"}
+{"level":30,"time":"2023-11-23T02:39:44.363Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2023-11-23T02:39:44.363Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2023-11-23T02:39:44.364Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 196ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:39:44.367Z","msg":"src/core/call_manager.rs:456 RingRTC v2.33.0"}
+{"level":30,"time":"2023-11-23T02:39:44.367Z","msg":"src/core/call_manager.rs:497 set_self_uuid():"}
+{"level":30,"time":"2023-11-23T02:39:44.371Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2023-11-23T02:39:44.371Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2023-11-23T02:39:44.371Z","msg":"listening for registration events"}
+{"level":30,"time":"2023-11-23T02:39:44.386Z","msg":"setIsInitialSync(false)"}
+{"level":30,"time":"2023-11-23T02:39:44.386Z","msg":"connect {\"connectCount\":0}"}
+{"level":30,"time":"2023-11-23T02:39:44.386Z","msg":"Our profile key service: kicking off a new fetch"}
+{"level":30,"time":"2023-11-23T02:39:44.386Z","msg":"Our profile key service: waiting for 1 promises before fetching"}
+{"level":30,"time":"2023-11-23T02:39:44.386Z","msg":"open inbox"}
+{"level":30,"time":"2023-11-23T02:39:44.391Z","msg":"App loaded - messages: 0"}
+{"level":30,"time":"2023-11-23T02:39:44.391Z","msg":"StartupQueue: Processing 0 actions"}
+{"level":30,"time":"2023-11-23T02:39:44.391Z","msg":"Downloading recent attachments of total attachments 0 0"}
+{"level":30,"time":"2023-11-23T02:39:44.391Z","msg":"Our profile key service: fetching profile key from storage"}
+{"level":30,"time":"2023-11-23T02:39:44.391Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-11-23T02:39:44.409Z","msg":"Build expires (local): 2024-01-18T09:20:22.000Z"}
+{"level":30,"time":"2023-11-23T02:39:44.599Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 341ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:39:44.628Z","msg":"Creating new RoutineProfileRefresher instance with id 2"}
+{"level":30,"time":"2023-11-23T02:39:44.629Z","msg":"RoutineProfileRefresher.start/2: waiting for 0ms"}
+{"level":30,"time":"2023-11-23T02:39:44.649Z","msg":"routineProfileRefresh/2: starting"}
+{"level":30,"time":"2023-11-23T02:39:44.650Z","msg":"routineProfileRefresh/2: updating last refresh time"}
+{"level":30,"time":"2023-11-23T02:39:44.654Z","msg":"SocketManager: connected unauthenticated socket (localPort: 52458)"}
+{"level":30,"time":"2023-11-23T02:39:44.654Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:39:44.665Z","msg":"routineProfileRefresh/2: starting to refresh conversations"}
+{"level":30,"time":"2023-11-23T02:39:44.665Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]111 ([REDACTED]970)"}
+{"level":30,"time":"2023-11-23T02:39:44.665Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]18b ([REDACTED]550)"}
+{"level":30,"time":"2023-11-23T02:39:44.668Z","msg":"getProfile: generating profile key credential request for conversation [REDACTED]18b ([REDACTED]550)"}
+{"level":30,"time":"2023-11-23T02:39:44.672Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]18b ([REDACTED]550)"}
+{"level":30,"time":"2023-11-23T02:39:44.673Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]18b/[REDACTED]774/[REDACTED]e0a?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-11-23T02:39:44.673Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]f13 ([REDACTED]97c)"}
+{"level":30,"time":"2023-11-23T02:39:44.673Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]f13 ([REDACTED]97c)"}
+{"level":30,"time":"2023-11-23T02:39:44.673Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f13/[REDACTED]6fa"}
+{"level":30,"time":"2023-11-23T02:39:44.673Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]1a8 ([REDACTED]3c8)"}
+{"level":30,"time":"2023-11-23T02:39:44.673Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]1a8 ([REDACTED]3c8)"}
+{"level":30,"time":"2023-11-23T02:39:44.674Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1a8"}
+{"level":30,"time":"2023-11-23T02:39:44.674Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]7f6 ([REDACTED]5f0)"}
+{"level":30,"time":"2023-11-23T02:39:44.674Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]111 ([REDACTED]970)"}
+{"level":30,"time":"2023-11-23T02:39:44.674Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]cd6 ([REDACTED]195)"}
+{"level":50,"time":"2023-11-23T02:39:44.701Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-11-23T02:39:44.701Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:39:44.702Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:39:44.702Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-11-23T02:39:44.702Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-11-23T02:39:44.702Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2023-11-23T02:39:44.702Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:39:44.702Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-11-23T02:39:44.702Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-11-23T02:39:44.703Z","msg":"connect: Error refreshing remote config: code: 401"}
+{"level":30,"time":"2023-11-23T02:39:44.703Z","msg":"NotificationService: disabling"}
+{"level":30,"time":"2023-11-23T02:39:44.703Z","msg":"initializeGroupCredentialFetcher: starting..."}
+{"level":30,"time":"2023-11-23T02:39:44.703Z","msg":"maybeFetchNewCredentials: fetching credentials for 1700697600000 through 1701216000000"}
+{"level":30,"time":"2023-11-23T02:39:44.703Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true"}
+{"level":30,"time":"2023-11-23T02:39:44.704Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:39:44.704Z","msg":"MessageReceiver.queueAllCached: not running due to stopped processing"}
+{"level":30,"time":"2023-11-23T02:39:44.704Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:39:44.704Z","msg":"attachment_downloads/start: enabling"}
+{"level":30,"time":"2023-11-23T02:39:44.705Z","msg":"JobQueueDatabaseStore adding job [REDACTED]e5a to queue \"single proto\""}
+{"level":30,"time":"2023-11-23T02:39:44.705Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/unauthenticated_delivery"}
+{"level":30,"time":"2023-11-23T02:39:44.710Z","msg":"single proto job queue: added new job [REDACTED]e5a"}
+{"level":30,"time":"2023-11-23T02:39:44.710Z","msg":"single proto job queue: enqueuing job [REDACTED]e5a"}
+{"level":30,"time":"2023-11-23T02:39:44.711Z","msg":"single proto job queue: running job [REDACTED]e5a, attempt 1 of 110"}
+{"level":30,"time":"2023-11-23T02:39:44.711Z","msg":"single proto job queue, job ID [REDACTED]e5a, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-11-23T02:39:44.711Z","msg":"single proto job queue: job [REDACTED]e5a succeeded on attempt 1"}
+{"level":30,"time":"2023-11-23T02:39:44.712Z","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":40,"time":"2023-11-23T02:39:44.717Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":50,"time":"2023-11-23T02:39:44.718Z","msg":"GET (WS) https://chat.signal.org/v1/config -1 Error"}
+{"level":50,"time":"2023-11-23T02:39:44.718Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]18b/[REDACTED]774/[REDACTED]e0a?credentialType=expiringProfileKey (unauth) -1 Error"}
+{"level":50,"time":"2023-11-23T02:39:44.718Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f13/[REDACTED]6fa -1 Error"}
+{"level":50,"time":"2023-11-23T02:39:44.718Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1a8 -1 Error"}
+{"level":30,"time":"2023-11-23T02:39:44.845Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 139ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:39:44.891Z","msg":"SocketManager: connected unauthenticated socket (localPort: 52474)"}
+{"level":30,"time":"2023-11-23T02:39:44.892Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-11-23T02:39:44.937Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:44.938Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/unauthenticated_delivery 401 Error"}
+{"level":50,"time":"2023-11-23T02:39:44.938Z","msg":"Error: Unable to register for unauthenticated delivery support. HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.Qe [as registerSupportForUnauthenticatedDelivery] ([REDACTED]/resources/app.asar/preload.bundle.js:82:8376)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24185)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.Qe [as registerSupportForUnauthenticatedDelivery] ([REDACTED]/resources/app.asar/preload.bundle.js:82:8382)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24193)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nCaused by: undefined"}
+{"level":30,"time":"2023-11-23T02:39:44.939Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/capabilities"}
+{"level":50,"time":"2023-11-23T02:39:44.942Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:44.942Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:44.943Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 1000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3534)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62949)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61976)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3540)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62957)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61982)\n    at Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61886)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:23502)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"}
+{"level":50,"time":"2023-11-23T02:39:44.985Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:44.986Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/capabilities 401 Error"}
+{"level":50,"time":"2023-11-23T02:39:44.986Z","msg":"Error: Unable to register our capabilities. HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.pe [as registerCapabilities] ([REDACTED]/resources/app.asar/preload.bundle.js:82:8482)\n    at async connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24538)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.pe [as registerCapabilities] ([REDACTED]/resources/app.asar/preload.bundle.js:82:8488)\n    at connect ([REDACTED]/resources/app.asar/preload.bundle.js:160:24546)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\nCaused by: undefined"}
+{"level":30,"time":"2023-11-23T02:39:44.987Z","msg":"Start idle detector"}
+{"level":30,"time":"2023-11-23T02:39:44.987Z","msg":"challenge: online, starting 0 queues"}
+{"level":30,"time":"2023-11-23T02:39:44.988Z","msg":"challenge: startAllQueues force=false"}
+{"level":30,"time":"2023-11-23T02:39:45.149Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:39:45.599Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:39:45.602Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:39:45.702Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:39:45.702Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:39:45.702Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-11-23T02:39:45.702Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-11-23T02:39:45.702Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2023-11-23T02:39:45.703Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:39:45.703Z","msg":"SocketManager.reconnect: complete."}
+{"level":40,"time":"2023-11-23T02:39:45.715Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":30,"time":"2023-11-23T02:39:45.719Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-11-23T02:39:45.719Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:39:45.721Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]18b/[REDACTED]774/[REDACTED]e0a?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-11-23T02:39:45.722Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f13/[REDACTED]6fa"}
+{"level":30,"time":"2023-11-23T02:39:45.722Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1a8"}
+{"level":30,"time":"2023-11-23T02:39:45.869Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 147ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:39:45.916Z","msg":"SocketManager: connected unauthenticated socket (localPort: 39886)"}
+{"level":30,"time":"2023-11-23T02:39:45.916Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:39:45.943Z","msg":"maybeFetchNewCredentials: fetching credentials for 1700697600000 through 1701216000000"}
+{"level":30,"time":"2023-11-23T02:39:45.944Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true"}
+{"level":30,"time":"2023-11-23T02:39:45.970Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]18b/[REDACTED]774/[REDACTED]e0a?credentialType=expiringProfileKey (unauth) 200 Success"}
+{"level":30,"time":"2023-11-23T02:39:45.973Z","msg":"saveIdentity([REDACTED]18b): Saving new identity..."}
+{"level":50,"time":"2023-11-23T02:39:45.975Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:45.975Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f13/[REDACTED]6fa 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:45.976Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]7f6 ([REDACTED]5f0)"}
+{"level":30,"time":"2023-11-23T02:39:45.976Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]7f6"}
+{"level":30,"time":"2023-11-23T02:39:45.977Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]f13 ([REDACTED]97c)"}
+{"level":30,"time":"2023-11-23T02:39:45.977Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]ec5 ([REDACTED]ee5)"}
+{"level":50,"time":"2023-11-23T02:39:45.979Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:45.979Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1a8 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:45.980Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]cd6 ([REDACTED]195)"}
+{"level":30,"time":"2023-11-23T02:39:45.980Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]cd6"}
+{"level":30,"time":"2023-11-23T02:39:45.980Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]1a8 ([REDACTED]3c8)"}
+{"level":30,"time":"2023-11-23T02:39:45.981Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]d59 ([REDACTED]f79)"}
+{"level":50,"time":"2023-11-23T02:39:45.982Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:45.982Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-11-23T02:39:45.984Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.se [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:82:6987)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:7163)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:6061)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.se [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:82:6993)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:7171)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14265)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14344)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14927)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:6067)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:160:13514\nCaused by: undefined"}
+{"level":30,"time":"2023-11-23T02:39:45.990Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]18b ([REDACTED]550)"}
+{"level":30,"time":"2023-11-23T02:39:46.003Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]ec5 ([REDACTED]ee5)"}
+{"level":30,"time":"2023-11-23T02:39:46.003Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]ec5"}
+{"level":30,"time":"2023-11-23T02:39:46.003Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]18b ([REDACTED]550)"}
+{"level":30,"time":"2023-11-23T02:39:46.003Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]e44 ([REDACTED]631)"}
+{"level":50,"time":"2023-11-23T02:39:46.005Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.005Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.005Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 5000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3534)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62949)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61976)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3540)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62957)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61982)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)"}
+{"level":30,"time":"2023-11-23T02:39:46.006Z","msg":"changedConvoBatcher: deduped 2 into 1"}
+{"level":50,"time":"2023-11-23T02:39:46.022Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.022Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]7f6 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.022Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]d59 ([REDACTED]f79)"}
+{"level":30,"time":"2023-11-23T02:39:46.022Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]d59"}
+{"level":30,"time":"2023-11-23T02:39:46.023Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]7f6 ([REDACTED]5f0)"}
+{"level":30,"time":"2023-11-23T02:39:46.023Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]28f ([REDACTED]e1d)"}
+{"level":50,"time":"2023-11-23T02:39:46.027Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.027Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]cd6 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.027Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]e44 ([REDACTED]631)"}
+{"level":30,"time":"2023-11-23T02:39:46.028Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]e44"}
+{"level":30,"time":"2023-11-23T02:39:46.028Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]cd6 ([REDACTED]195)"}
+{"level":30,"time":"2023-11-23T02:39:46.028Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]746 ([REDACTED]67c)"}
+{"level":50,"time":"2023-11-23T02:39:46.048Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.049Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]ec5 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.049Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]28f ([REDACTED]e1d)"}
+{"level":30,"time":"2023-11-23T02:39:46.049Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]28f"}
+{"level":30,"time":"2023-11-23T02:39:46.049Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]ec5 ([REDACTED]ee5)"}
+{"level":30,"time":"2023-11-23T02:39:46.049Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]f5e ([REDACTED]cd5)"}
+{"level":50,"time":"2023-11-23T02:39:46.067Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.067Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]d59 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.067Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]746 ([REDACTED]67c)"}
+{"level":30,"time":"2023-11-23T02:39:46.067Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]746"}
+{"level":30,"time":"2023-11-23T02:39:46.068Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]d59 ([REDACTED]f79)"}
+{"level":30,"time":"2023-11-23T02:39:46.068Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]1f3 ([REDACTED]316)"}
+{"level":50,"time":"2023-11-23T02:39:46.072Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.072Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]e44 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.072Z","msg":"getProfile: getting unversioned profile for conversation [REDACTED]f5e ([REDACTED]cd5)"}
+{"level":30,"time":"2023-11-23T02:39:46.072Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f5e"}
+{"level":30,"time":"2023-11-23T02:39:46.072Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]e44 ([REDACTED]631)"}
+{"level":30,"time":"2023-11-23T02:39:46.072Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]4d3 ([REDACTED]025)"}
+{"level":50,"time":"2023-11-23T02:39:46.094Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.095Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]28f 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.095Z","msg":"getProfile: generating profile key credential request for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-11-23T02:39:46.101Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-11-23T02:39:46.101Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df/[REDACTED]303?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-11-23T02:39:46.101Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]28f ([REDACTED]e1d)"}
+{"level":30,"time":"2023-11-23T02:39:46.101Z","msg":"routineProfileRefresh/2: refreshing profile for [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":50,"time":"2023-11-23T02:39:46.112Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.112Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]746 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.113Z","msg":"getProfile: generating profile key credential request for conversation [REDACTED]4d3 ([REDACTED]025)"}
+{"level":30,"time":"2023-11-23T02:39:46.118Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]4d3 ([REDACTED]025)"}
+{"level":30,"time":"2023-11-23T02:39:46.119Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]4d3/[REDACTED]cce/[REDACTED]500?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-11-23T02:39:46.119Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]746 ([REDACTED]67c)"}
+{"level":50,"time":"2023-11-23T02:39:46.122Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:39:46.122Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]f5e 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:46.123Z","msg":"getProfile: generating profile key credential request for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-11-23T02:39:46.128Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-11-23T02:39:46.128Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521/[REDACTED]007?credentialType=expiringProfileKey (unauth)"}
+{"level":30,"time":"2023-11-23T02:39:46.128Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]f5e ([REDACTED]cd5)"}
+{"level":30,"time":"2023-11-23T02:39:46.155Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]1f3/[REDACTED]3df/[REDACTED]303?credentialType=expiringProfileKey (unauth) 200 Success"}
+{"level":30,"time":"2023-11-23T02:39:46.156Z","msg":"saveIdentity([REDACTED]1f3): Saving new identity..."}
+{"level":30,"time":"2023-11-23T02:39:46.170Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-11-23T02:39:46.177Z","msg":"changedConvoBatcher: deduped 2 into 1"}
+{"level":30,"time":"2023-11-23T02:39:46.202Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]4d3/[REDACTED]cce/[REDACTED]500?credentialType=expiringProfileKey (unauth) 200 Success"}
+{"level":30,"time":"2023-11-23T02:39:46.202Z","msg":"saveIdentity([REDACTED]4d3): Saving new identity..."}
+{"level":30,"time":"2023-11-23T02:39:46.203Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521/[REDACTED]007?credentialType=expiringProfileKey (unauth) 200 Success"}
+{"level":30,"time":"2023-11-23T02:39:46.203Z","msg":"saveIdentity([REDACTED]b83): Saving new identity..."}
+{"level":30,"time":"2023-11-23T02:39:46.219Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A=="}
+{"level":30,"time":"2023-11-23T02:39:46.221Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]4d3 ([REDACTED]025)"}
+{"level":30,"time":"2023-11-23T02:39:46.224Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]w=="}
+{"level":30,"time":"2023-11-23T02:39:46.224Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-11-23T02:39:46.227Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-11-23T02:39:46.227Z","msg":"changedConvoBatcher: deduped 3 into 2"}
+{"level":30,"time":"2023-11-23T02:39:46.292Z","msg":"createHTTPSAgent.createConnection(cdn.signal.org): connected to IPv4 addr after 24ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:39:46.294Z","msg":"createHTTPSAgent.createConnection(cdn.signal.org): connected to IPv4 addr after 25ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:39:46.614Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]w== 200 Success"}
+{"level":30,"time":"2023-11-23T02:39:46.623Z","msg":"GET (REST) https://cdn.signal.org/[REDACTED]A== 200 Success"}
+{"level":30,"time":"2023-11-23T02:39:46.628Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]4d3 ([REDACTED]025)"}
+{"level":30,"time":"2023-11-23T02:39:46.629Z","msg":"routineProfileRefresh/2: refreshed profile for [REDACTED]1f3 ([REDACTED]316)"}
+{"level":30,"time":"2023-11-23T02:39:46.629Z","msg":"routineProfileRefresh/2: successfully refreshed 15 out of 15 conversation(s)"}
+{"level":30,"time":"2023-11-23T02:39:46.975Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:39:46.975Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:39:46.975Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-11-23T02:39:46.976Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-11-23T02:39:46.976Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2023-11-23T02:39:46.976Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:39:46.976Z","msg":"SocketManager.reconnect: complete."}
+{"level":40,"time":"2023-11-23T02:39:46.993Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":30,"time":"2023-11-23T02:39:47.884Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) open start"}
+{"level":30,"time":"2023-11-23T02:39:47.908Z","msg":"getProfile: getting versioned profile for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-11-23T02:39:47.908Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521 (unauth)"}
+{"level":30,"time":"2023-11-23T02:39:47.908Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":40,"time":"2023-11-23T02:39:47.927Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:39:47.936Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-11-23T02:39:47.936Z","msg":"loadNewestMessages/[REDACTED]b83 ([REDACTED]9f4): loaded 30 messages, latest timestamp=1697420870901"}
+{"level":30,"time":"2023-11-23T02:39:48.047Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) open took 163ms"}
+{"level":30,"time":"2023-11-23T02:39:48.107Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:39:48.107Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:39:48.107Z","msg":"GlobalAudioContext: waveform cache miss [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:39:48.211Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1697420870901,\"newestUnreadAt\":1697420702049,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:39:48.319Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 391ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:39:48.399Z","msg":"SocketManager: connected unauthenticated socket (localPort: 39890)"}
+{"level":30,"time":"2023-11-23T02:39:48.399Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:39:48.449Z","msg":"GET (WS) https://chat.signal.org/v1/profile/[REDACTED]b83/[REDACTED]521 (unauth) 200 Success"}
+{"level":30,"time":"2023-11-23T02:39:48.449Z","msg":"getProfile: setting sealedSender to ENABLED for conversation [REDACTED]b83 ([REDACTED]9f4)"}
+{"level":30,"time":"2023-11-23T02:39:51.006Z","msg":"maybeFetchNewCredentials: fetching credentials for 1700697600000 through 1701216000000"}
+{"level":30,"time":"2023-11-23T02:39:51.007Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true"}
+{"level":50,"time":"2023-11-23T02:39:51.051Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-11-23T02:39:51.052Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:39:51.052Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:39:51.052Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-11-23T02:39:51.052Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-11-23T02:39:51.052Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2023-11-23T02:39:51.053Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:39:51.053Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-11-23T02:39:51.053Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true 401 Error"}
+{"level":30,"time":"2023-11-23T02:39:51.053Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 30000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3534)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62949)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61976)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3540)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62957)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61982)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)"}
+{"level":40,"time":"2023-11-23T02:39:51.065Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":30,"time":"2023-11-23T02:39:55.892Z","msg":"onOutgoingVideoCallInConversation: about to start a video call"}
+{"level":30,"time":"2023-11-23T02:39:55.894Z","msg":"onOutgoingVideoCallInConversation: call is deemed \"safe\". Making call"}
+{"level":30,"time":"2023-11-23T02:39:55.895Z","msg":"CallingClass.startCallingLobby()"}
+{"level":30,"time":"2023-11-23T02:39:55.896Z","msg":"onOutgoingVideoCallInConversation: started the call"}
+{"level":30,"time":"2023-11-23T02:39:55.900Z","msg":"CallingClass.startCallingLobby(): Starting lobby"}
+{"level":30,"time":"2023-11-23T02:39:56.113Z","msg":"MediaDevice: available devices changed (from->to) [object Undefined] {\"availableCameras\":[{\"deviceId\":\"08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe\",\"kind\":\"videoinput\",\"label\":\"In...3)\",\"groupId\":\"5d94c198d6d8a46e14cc5a8d62dae482b2868acfddae8a22fe603cd8b1b21e35\"}],\"availableMicrophones\":[\"de...eo\",\"Bu...eo\"],\"availableSpeakers\":[\"de...eo\",\"Bu...eo\"],\"selectedMicrophone\":\"de...eo\",\"selectedSpeaker\":\"de...eo\",\"selectedCamera\":\"08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe\"}"}
+{"level":30,"time":"2023-11-23T02:39:56.113Z","msg":"MediaDevice: selecting camera 08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe"}
+{"level":30,"time":"2023-11-23T02:39:56.113Z","msg":"MediaDevice: selecting microphone 0 de...eo"}
+{"level":30,"time":"2023-11-23T02:39:56.114Z","msg":"MediaDevice: selecting speaker 0 de...eo"}
+{"level":30,"time":"2023-11-23T02:39:56.166Z","msg":"Service.ts:0 startCapturing(): 960x720@30"}
+{"level":30,"time":"2023-11-23T02:39:56.260Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:39:56.260Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:39:56.260Z","msg":"GlobalAudioContext: waveform cache hit [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:39:56.271Z","msg":"src/webrtc/peer_connection_factory.rs:589 PeerConnectionFactory::get_audio_recording_devices(): device_count: 2"}
+{"level":30,"time":"2023-11-23T02:39:56.271Z","msg":"src/webrtc/peer_connection_factory.rs:438 PeerConnectionFactory::get_audio_playout_devices(): device_count: 2"}
+{"level":30,"time":"2023-11-23T02:39:56.271Z","msg":"src/webrtc/peer_connection_factory.rs:671 PeerConnectionFactory::set_audio_recording_device(0)"}
+{"level":30,"time":"2023-11-23T02:39:56.271Z","msg":"src/webrtc/peer_connection_factory.rs:520 PeerConnectionFactory::set_audio_playout_device(0)"}
+{"level":30,"time":"2023-11-23T02:40:02.482Z","msg":"Service.ts:0 stopCapturing()"}
+{"level":30,"time":"2023-11-23T02:40:02.554Z","msg":"Service.ts:0 startCapturing(): 960x720@30"}
+{"level":30,"time":"2023-11-23T02:40:03.025Z","msg":"Service.ts:0 stopCapturing()"}
+{"level":40,"time":"2023-11-23T02:40:03.322Z","msg":"Service.ts:0 startCapturing(): different state after getUserMedia()"}
+{"level":30,"time":"2023-11-23T02:40:05.701Z","msg":"CallingClass.startOutgoingDirectCall()"}
+{"level":30,"time":"2023-11-23T02:40:05.718Z","msg":"CallingClass.startOutgoingDirectCall(): Getting call settings"}
+{"level":30,"time":"2023-11-23T02:40:05.719Z","msg":"CallingClass.startOutgoingDirectCall(): Starting in RingRTC"}
+{"level":40,"time":"2023-11-23T02:40:05.721Z","msg":"Service.ts:0 stopCapturing(): not capturing"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/core/call_manager.rs:522 API:create_outgoing_call(0x16815caff1321595):"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/core/call_manager.rs:1057 ringrtc!\t1700707205719\tapp -> cm: call()\t0x16815caff1321595\tAudio\t2"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/core/call.rs:200 new(): call_id: 0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/core/call_fsm.rs:234 state: NotYetStarted, event: (StartCall)"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/core/call_fsm.rs:471 handle_start_call():"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/core/call_manager.rs:2135 ringrtc!\t1700707205723\tcm -> app: start()\t0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/native.rs:497 NativePlatform::on_start_call(): remote_peer: [REDACTED]b83, call_id: 0x16815caff1321595, direction: OutGoing, call_media_type: Audio"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/electron.rs:1124 #outgoing_audio_enabled: true"}
+{"level":30,"time":"2023-11-23T02:40:05.769Z","msg":"src/electron.rs:1124 #outgoing_audio_enabled: true"}
+{"level":30,"time":"2023-11-23T02:40:05.770Z","msg":"GET (REST) https://chat.signal.org/v1/accounts/turn"}
+{"level":30,"time":"2023-11-23T02:40:05.940Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 136ms (attempts v4=1 v6=0)"}
+{"level":50,"time":"2023-11-23T02:40:05.982Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-11-23T02:40:05.982Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:40:05.982Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:40:05.982Z","msg":"SocketManager.onOffline"}
+{"level":30,"time":"2023-11-23T02:40:05.982Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:40:05.982Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-11-23T02:40:05.983Z","msg":"GET (REST) https://chat.signal.org/v1/accounts/turn 401 Error"}
+{"level":50,"time":"2023-11-23T02:40:05.983Z","msg":"Service.ts:0 RingRTC.handleStartCall exception: HTTPError: Invalid authentication, most likely someone re-registered and invalidated our registration. (original: promiseAjax: error response; code: 401)"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call_manager.rs:543 API:CallManager::handle_drop_call():"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call_manager.rs:1129 ringrtc!\t1700707205983\tapp -> cm: drop()\t0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call_manager.rs:1135 handle_drop_call(): active call_id: 0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call_manager.rs:988 conclude_call(): call_id: 0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call_manager.rs:2152 ringrtc!\t1700707205983\tcm -> app: event(EndedAppDroppedCall)"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/native.rs:518 NativePlatform::on_event(): remote_peer: [REDACTED]b83, event: EndedAppDroppedCall"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call_manager.rs:928 terminate_call(): call_id: 0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call.rs:910 terminate(): ref_count: 3"}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call.rs:931 terminate(): waiting for terminate complete..."}
+{"level":30,"time":"2023-11-23T02:40:05.983Z","msg":"src/core/call_fsm.rs:234 state: Terminating, event: (Terminate)"}
+{"level":40,"time":"2023-11-23T02:40:05.984Z","msg":"Service.ts:0 stopCapturing(): not capturing"}
+{"level":30,"time":"2023-11-23T02:40:05.984Z","msg":"getLocalCallEventFromDirectCall ended"}
+{"level":30,"time":"2023-11-23T02:40:05.984Z","msg":"getLocalCallEventFromCallEndedReason Declined"}
+{"level":30,"time":"2023-11-23T02:40:05.986Z","msg":"updateLocalCallHistory: Processing call event: CallEvent (1621679251565712789, [REDACTED]b83, Direct, LocalMissed, Outgoing, Audio, Direct, 1700707205984)"}
+{"level":30,"time":"2023-11-23T02:40:05.986Z","msg":"src/core/call.rs:956 notify_terminate_complete(): notifying terminate complete..."}
+{"level":30,"time":"2023-11-23T02:40:05.986Z","msg":"src/core/call.rs:945 terminate(): terminate complete: ref_count: 3"}
+{"level":30,"time":"2023-11-23T02:40:05.986Z","msg":"src/core/call.rs:138 Call: Dropping last reference: 0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.986Z","msg":"src/core/call_manager.rs:2291 ringrtc!\t1700707205983\tcm -> app: call_concluded()\t0x16815caff1321595"}
+{"level":30,"time":"2023-11-23T02:40:05.986Z","msg":"src/native.rs:689 NativePlatform::on_call_concluded(): remote_peer: [REDACTED]b83"}
+{"level":30,"time":"2023-11-23T02:40:05.987Z","msg":"updateLocalCallHistory: No previous call history"}
+{"level":30,"time":"2023-11-23T02:40:05.988Z","msg":"transitionDirectCallStatus null LocalMissed Outgoing"}
+{"level":30,"time":"2023-11-23T02:40:05.988Z","msg":"transitionCallHistory: Transitioned call history timestamp (before: undefined, after: 1700707205984)"}
+{"level":30,"time":"2023-11-23T02:40:05.988Z","msg":"saveCallHistory: Saving call history: CallHistory (1621679251565712789, [REDACTED]b83, Direct, Missed, Outgoing, Audio, Direct, 1700707205984)"}
+{"level":30,"time":"2023-11-23T02:40:06.022Z","msg":"saveCallHistory: No previous call history message [REDACTED]9f4"}
+{"level":30,"time":"2023-11-23T02:40:06.031Z","msg":"saveCallHistory: Saved call history message: [REDACTED]524"}
+{"level":40,"time":"2023-11-23T02:40:06.032Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:40:06.032Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: ConversationModel.onNewMessage"}
+{"level":30,"time":"2023-11-23T02:40:06.033Z","msg":"conversation.queueJob([REDACTED]b83 ([REDACTED]9f4), updateLocalCallHistory): took 47ms"}
+{"level":30,"time":"2023-11-23T02:40:06.058Z","msg":"updateRemoteCallHistory: Not syncing call history: CallHistory (1621679251565712789, [REDACTED]b83, Direct, Missed, Outgoing, Audio, Direct, 1700707205984)"}
+{"level":30,"time":"2023-11-23T02:40:06.126Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:40:06.127Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:40:06.127Z","msg":"GlobalAudioContext: waveform cache hit [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:40:06.146Z","msg":"changedConvoBatcher: deduped 3 into 1"}
+{"level":30,"time":"2023-11-23T02:40:06.197Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707205984,\"newestUnreadAt\":1697420702052,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:40:07.032Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:40:07.032Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:40:08.462Z","msg":"onOutgoingVideoCallInConversation: about to start a video call"}
+{"level":30,"time":"2023-11-23T02:40:08.462Z","msg":"onOutgoingVideoCallInConversation: call is deemed \"safe\". Making call"}
+{"level":30,"time":"2023-11-23T02:40:08.463Z","msg":"CallingClass.startCallingLobby()"}
+{"level":30,"time":"2023-11-23T02:40:08.463Z","msg":"onOutgoingVideoCallInConversation: started the call"}
+{"level":30,"time":"2023-11-23T02:40:08.466Z","msg":"CallingClass.startCallingLobby(): Starting lobby"}
+{"level":30,"time":"2023-11-23T02:40:08.590Z","msg":"MediaDevice: available devices changed (from->to) [object Undefined] {\"availableCameras\":[{\"deviceId\":\"08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe\",\"kind\":\"videoinput\",\"label\":\"In...3)\",\"groupId\":\"5d94c198d6d8a46e14cc5a8d62dae482b2868acfddae8a22fe603cd8b1b21e35\"}],\"availableMicrophones\":[\"de...eo\",\"Bu...eo\"],\"availableSpeakers\":[\"de...eo\",\"Bu...eo\"],\"selectedMicrophone\":\"de...eo\",\"selectedSpeaker\":\"de...eo\",\"selectedCamera\":\"08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe\"}"}
+{"level":30,"time":"2023-11-23T02:40:08.591Z","msg":"MediaDevice: selecting camera 08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe"}
+{"level":30,"time":"2023-11-23T02:40:08.591Z","msg":"MediaDevice: selecting microphone 0 de...eo"}
+{"level":30,"time":"2023-11-23T02:40:08.592Z","msg":"MediaDevice: selecting speaker 0 de...eo"}
+{"level":30,"time":"2023-11-23T02:40:08.627Z","msg":"Service.ts:0 startCapturing(): 960x720@30"}
+{"level":30,"time":"2023-11-23T02:40:08.693Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:40:08.693Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:40:08.693Z","msg":"GlobalAudioContext: waveform cache hit [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:40:08.705Z","msg":"src/webrtc/peer_connection_factory.rs:671 PeerConnectionFactory::set_audio_recording_device(0)"}
+{"level":30,"time":"2023-11-23T02:40:08.705Z","msg":"src/webrtc/peer_connection_factory.rs:520 PeerConnectionFactory::set_audio_playout_device(0)"}
+{"level":30,"time":"2023-11-23T02:40:11.858Z","msg":"CallingClass.startOutgoingDirectCall()"}
+{"level":30,"time":"2023-11-23T02:40:11.864Z","msg":"CallingClass.startOutgoingDirectCall(): Getting call settings"}
+{"level":30,"time":"2023-11-23T02:40:11.864Z","msg":"CallingClass.startOutgoingDirectCall(): Starting in RingRTC"}
+{"level":40,"time":"2023-11-23T02:40:11.864Z","msg":"Service.ts:0 startCapturing(): already capturing"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/core/call_manager.rs:522 API:create_outgoing_call(0x9d324c8f622f8102):"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/core/call_manager.rs:1057 ringrtc!\t1700707211864\tapp -> cm: call()\t0x9d324c8f622f8102\tVideo\t2"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/core/call.rs:200 new(): call_id: 0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/core/call_fsm.rs:234 state: NotYetStarted, event: (StartCall)"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/core/call_fsm.rs:471 handle_start_call():"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/core/call_manager.rs:2135 ringrtc!\t1700707211864\tcm -> app: start()\t0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/native.rs:497 NativePlatform::on_start_call(): remote_peer: [REDACTED]b83, call_id: 0x9d324c8f622f8102, direction: OutGoing, call_media_type: Video"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/electron.rs:1124 #outgoing_audio_enabled: true"}
+{"level":30,"time":"2023-11-23T02:40:11.911Z","msg":"src/electron.rs:1124 #outgoing_audio_enabled: true"}
+{"level":30,"time":"2023-11-23T02:40:11.912Z","msg":"GET (REST) https://chat.signal.org/v1/accounts/turn"}
+{"level":50,"time":"2023-11-23T02:40:11.956Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-11-23T02:40:11.956Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:40:11.956Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:40:11.956Z","msg":"SocketManager.onOffline"}
+{"level":30,"time":"2023-11-23T02:40:11.956Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:40:11.956Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-11-23T02:40:11.956Z","msg":"GET (REST) https://chat.signal.org/v1/accounts/turn 401 Error"}
+{"level":50,"time":"2023-11-23T02:40:11.957Z","msg":"Service.ts:0 RingRTC.handleStartCall exception: HTTPError: Invalid authentication, most likely someone re-registered and invalidated our registration. (original: promiseAjax: error response; code: 401)"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_manager.rs:543 API:CallManager::handle_drop_call():"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_manager.rs:1129 ringrtc!\t1700707211957\tapp -> cm: drop()\t0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_manager.rs:1135 handle_drop_call(): active call_id: 0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_manager.rs:988 conclude_call(): call_id: 0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_manager.rs:2152 ringrtc!\t1700707211957\tcm -> app: event(EndedAppDroppedCall)"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/native.rs:518 NativePlatform::on_event(): remote_peer: [REDACTED]b83, event: EndedAppDroppedCall"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_manager.rs:928 terminate_call(): call_id: 0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call.rs:910 terminate(): ref_count: 3"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call.rs:931 terminate(): waiting for terminate complete..."}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_fsm.rs:234 state: Terminating, event: (Terminate)"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call.rs:956 notify_terminate_complete(): notifying terminate complete..."}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call.rs:945 terminate(): terminate complete: ref_count: 3"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call.rs:138 Call: Dropping last reference: 0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/core/call_manager.rs:2291 ringrtc!\t1700707211957\tcm -> app: call_concluded()\t0x9d324c8f622f8102"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"src/native.rs:689 NativePlatform::on_call_concluded(): remote_peer: [REDACTED]b83"}
+{"level":30,"time":"2023-11-23T02:40:11.957Z","msg":"Service.ts:0 stopCapturing()"}
+{"level":30,"time":"2023-11-23T02:40:11.958Z","msg":"getLocalCallEventFromDirectCall ended"}
+{"level":30,"time":"2023-11-23T02:40:11.958Z","msg":"getLocalCallEventFromCallEndedReason Declined"}
+{"level":30,"time":"2023-11-23T02:40:11.959Z","msg":"updateLocalCallHistory: Processing call event: CallEvent (11327200191501533442, [REDACTED]b83, Direct, LocalMissed, Outgoing, Video, Direct, 1700707211958)"}
+{"level":30,"time":"2023-11-23T02:40:11.966Z","msg":"updateLocalCallHistory: No previous call history"}
+{"level":30,"time":"2023-11-23T02:40:11.966Z","msg":"transitionDirectCallStatus null LocalMissed Outgoing"}
+{"level":30,"time":"2023-11-23T02:40:11.966Z","msg":"transitionCallHistory: Transitioned call history timestamp (before: undefined, after: 1700707211958)"}
+{"level":30,"time":"2023-11-23T02:40:11.966Z","msg":"saveCallHistory: Saving call history: CallHistory (11327200191501533442, [REDACTED]b83, Direct, Missed, Outgoing, Video, Direct, 1700707211958)"}
+{"level":30,"time":"2023-11-23T02:40:11.994Z","msg":"saveCallHistory: No previous call history message [REDACTED]9f4"}
+{"level":30,"time":"2023-11-23T02:40:12.002Z","msg":"saveCallHistory: Saved call history message: [REDACTED]cfb"}
+{"level":40,"time":"2023-11-23T02:40:12.002Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:40:12.002Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: ConversationModel.onNewMessage"}
+{"level":30,"time":"2023-11-23T02:40:12.003Z","msg":"conversation.queueJob([REDACTED]b83 ([REDACTED]9f4), updateLocalCallHistory): took 44ms"}
+{"level":30,"time":"2023-11-23T02:40:12.021Z","msg":"updateRemoteCallHistory: Not syncing call history: CallHistory (11327200191501533442, [REDACTED]b83, Direct, Missed, Outgoing, Video, Direct, 1700707211958)"}
+{"level":30,"time":"2023-11-23T02:40:12.085Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:40:12.085Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:40:12.085Z","msg":"GlobalAudioContext: waveform cache hit [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:40:12.097Z","msg":"changedConvoBatcher: deduped 3 into 1"}
+{"level":30,"time":"2023-11-23T02:40:12.120Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707211958,\"newestUnreadAt\":1697420702053,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:40:13.002Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:40:13.003Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:40:14.723Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-23T02:40:16.716Z","msg":"onOutgoingAudioCallInConversation: about to start an audio call"}
+{"level":30,"time":"2023-11-23T02:40:16.717Z","msg":"onOutgoingAudioCallInConversation: call is deemed \"safe\". Making call"}
+{"level":30,"time":"2023-11-23T02:40:16.717Z","msg":"CallingClass.startCallingLobby()"}
+{"level":30,"time":"2023-11-23T02:40:16.717Z","msg":"onOutgoingAudioCallInConversation: started the call"}
+{"level":30,"time":"2023-11-23T02:40:16.722Z","msg":"CallingClass.startCallingLobby(): Starting lobby"}
+{"level":30,"time":"2023-11-23T02:40:16.849Z","msg":"MediaDevice: available devices changed (from->to) [object Undefined] {\"availableCameras\":[{\"deviceId\":\"08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe\",\"kind\":\"videoinput\",\"label\":\"In...3)\",\"groupId\":\"5d94c198d6d8a46e14cc5a8d62dae482b2868acfddae8a22fe603cd8b1b21e35\"}],\"availableMicrophones\":[\"de...eo\",\"Bu...eo\"],\"availableSpeakers\":[\"de...eo\",\"Bu...eo\"],\"selectedMicrophone\":\"de...eo\",\"selectedSpeaker\":\"de...eo\",\"selectedCamera\":\"08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe\"}"}
+{"level":30,"time":"2023-11-23T02:40:16.849Z","msg":"MediaDevice: selecting camera 08bfd90b1b1ed836b71be438cd045fee9fa1d49a1fb696cf99f6fe8fb73302fe"}
+{"level":30,"time":"2023-11-23T02:40:16.849Z","msg":"MediaDevice: selecting microphone 0 de...eo"}
+{"level":30,"time":"2023-11-23T02:40:16.850Z","msg":"MediaDevice: selecting speaker 0 de...eo"}
+{"level":30,"time":"2023-11-23T02:40:16.936Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:40:16.936Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:40:16.936Z","msg":"GlobalAudioContext: waveform cache hit [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:40:16.945Z","msg":"src/webrtc/peer_connection_factory.rs:671 PeerConnectionFactory::set_audio_recording_device(0)"}
+{"level":30,"time":"2023-11-23T02:40:16.945Z","msg":"src/webrtc/peer_connection_factory.rs:520 PeerConnectionFactory::set_audio_playout_device(0)"}
+{"level":30,"time":"2023-11-23T02:40:21.054Z","msg":"maybeFetchNewCredentials: fetching credentials for 1700697600000 through 1701216000000"}
+{"level":30,"time":"2023-11-23T02:40:21.055Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true"}
+{"level":30,"time":"2023-11-23T02:40:21.055Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:40:21.204Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 144ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:40:21.249Z","msg":"SocketManager: connected unauthenticated socket (localPort: 57476)"}
+{"level":30,"time":"2023-11-23T02:40:21.249Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-11-23T02:40:21.294Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-11-23T02:40:21.294Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:40:21.295Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:40:21.295Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-11-23T02:40:21.295Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-11-23T02:40:21.295Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2023-11-23T02:40:21.296Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:40:21.296Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-11-23T02:40:21.296Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true 401 Error"}
+{"level":30,"time":"2023-11-23T02:40:21.297Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 120000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3534)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62949)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61976)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3540)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62957)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61982)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)"}
+{"level":40,"time":"2023-11-23T02:40:21.308Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":30,"time":"2023-11-23T02:40:21.437Z","msg":"CallingClass.startOutgoingDirectCall()"}
+{"level":30,"time":"2023-11-23T02:40:21.454Z","msg":"CallingClass.startOutgoingDirectCall(): Getting call settings"}
+{"level":30,"time":"2023-11-23T02:40:21.455Z","msg":"CallingClass.startOutgoingDirectCall(): Starting in RingRTC"}
+{"level":40,"time":"2023-11-23T02:40:21.455Z","msg":"Service.ts:0 stopCapturing(): not capturing"}
+{"level":30,"time":"2023-11-23T02:40:21.496Z","msg":"src/core/call_manager.rs:522 API:create_outgoing_call(0x30b29ed465235373):"}
+{"level":30,"time":"2023-11-23T02:40:21.496Z","msg":"src/core/call_manager.rs:1057 ringrtc!\t1700707221455\tapp -> cm: call()\t0x30b29ed465235373\tAudio\t2"}
+{"level":30,"time":"2023-11-23T02:40:21.496Z","msg":"src/core/call.rs:200 new(): call_id: 0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.497Z","msg":"src/core/call_fsm.rs:234 state: NotYetStarted, event: (StartCall)"}
+{"level":30,"time":"2023-11-23T02:40:21.497Z","msg":"src/core/call_fsm.rs:471 handle_start_call():"}
+{"level":30,"time":"2023-11-23T02:40:21.497Z","msg":"src/core/call_manager.rs:2135 ringrtc!\t1700707221455\tcm -> app: start()\t0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.497Z","msg":"src/native.rs:497 NativePlatform::on_start_call(): remote_peer: [REDACTED]b83, call_id: 0x30b29ed465235373, direction: OutGoing, call_media_type: Audio"}
+{"level":30,"time":"2023-11-23T02:40:21.497Z","msg":"src/electron.rs:1124 #outgoing_audio_enabled: true"}
+{"level":30,"time":"2023-11-23T02:40:21.497Z","msg":"src/electron.rs:1124 #outgoing_audio_enabled: true"}
+{"level":30,"time":"2023-11-23T02:40:21.497Z","msg":"GET (REST) https://chat.signal.org/v1/accounts/turn"}
+{"level":50,"time":"2023-11-23T02:40:21.538Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:40:21.538Z","msg":"GET (REST) https://chat.signal.org/v1/accounts/turn 401 Error"}
+{"level":50,"time":"2023-11-23T02:40:21.538Z","msg":"Service.ts:0 RingRTC.handleStartCall exception: HTTPError: Invalid authentication, most likely someone re-registered and invalidated our registration. (original: promiseAjax: error response; code: 401)"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call_manager.rs:543 API:CallManager::handle_drop_call():"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call_manager.rs:1129 ringrtc!\t1700707221539\tapp -> cm: drop()\t0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call_manager.rs:1135 handle_drop_call(): active call_id: 0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call_manager.rs:988 conclude_call(): call_id: 0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call_manager.rs:2152 ringrtc!\t1700707221539\tcm -> app: event(EndedAppDroppedCall)"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/native.rs:518 NativePlatform::on_event(): remote_peer: [REDACTED]b83, event: EndedAppDroppedCall"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call_manager.rs:928 terminate_call(): call_id: 0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call.rs:910 terminate(): ref_count: 3"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call.rs:931 terminate(): waiting for terminate complete..."}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"src/core/call_fsm.rs:234 state: Terminating, event: (Terminate)"}
+{"level":40,"time":"2023-11-23T02:40:21.539Z","msg":"Service.ts:0 stopCapturing(): not capturing"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"getLocalCallEventFromDirectCall ended"}
+{"level":30,"time":"2023-11-23T02:40:21.539Z","msg":"getLocalCallEventFromCallEndedReason Declined"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"updateLocalCallHistory: Processing call event: CallEvent (3509041694742106995, [REDACTED]b83, Direct, LocalMissed, Outgoing, Audio, Direct, 1700707221539)"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"src/core/call.rs:956 notify_terminate_complete(): notifying terminate complete..."}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"src/core/call.rs:945 terminate(): terminate complete: ref_count: 3"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"src/core/call.rs:138 Call: Dropping last reference: 0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"src/core/call_manager.rs:2291 ringrtc!\t1700707221539\tcm -> app: call_concluded()\t0x30b29ed465235373"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"src/native.rs:689 NativePlatform::on_call_concluded(): remote_peer: [REDACTED]b83"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"updateLocalCallHistory: No previous call history"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"transitionDirectCallStatus null LocalMissed Outgoing"}
+{"level":30,"time":"2023-11-23T02:40:21.540Z","msg":"transitionCallHistory: Transitioned call history timestamp (before: undefined, after: 1700707221539)"}
+{"level":30,"time":"2023-11-23T02:40:21.541Z","msg":"saveCallHistory: Saving call history: CallHistory (3509041694742106995, [REDACTED]b83, Direct, Missed, Outgoing, Audio, Direct, 1700707221539)"}
+{"level":30,"time":"2023-11-23T02:40:21.571Z","msg":"saveCallHistory: No previous call history message [REDACTED]9f4"}
+{"level":30,"time":"2023-11-23T02:40:21.578Z","msg":"saveCallHistory: Saved call history message: [REDACTED]80a"}
+{"level":40,"time":"2023-11-23T02:40:21.579Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:40:21.580Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: ConversationModel.onNewMessage"}
+{"level":30,"time":"2023-11-23T02:40:21.582Z","msg":"conversation.queueJob([REDACTED]b83 ([REDACTED]9f4), updateLocalCallHistory): took 43ms"}
+{"level":30,"time":"2023-11-23T02:40:21.606Z","msg":"updateRemoteCallHistory: Not syncing call history: CallHistory (3509041694742106995, [REDACTED]b83, Direct, Missed, Outgoing, Audio, Direct, 1700707221539)"}
+{"level":30,"time":"2023-11-23T02:40:21.669Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:40:21.669Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:40:21.669Z","msg":"GlobalAudioContext: waveform cache hit [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:40:21.687Z","msg":"changedConvoBatcher: deduped 3 into 1"}
+{"level":30,"time":"2023-11-23T02:40:21.713Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707221539,\"newestUnreadAt\":1697420702054,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:40:22.295Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:40:22.295Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:40:22.295Z","msg":"SocketManager.onOffline"}
+{"level":30,"time":"2023-11-23T02:40:22.295Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:40:22.295Z","msg":"SocketManager.reconnect: complete."}
+{"level":30,"time":"2023-11-23T02:40:22.579Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:40:22.581Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:40:30.766Z","msg":"MessageAudio: loading audio and computing waveform"}
+{"level":30,"time":"2023-11-23T02:40:30.766Z","msg":"VoiceNotesPlaybackContext: queue computing peaks for [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48:47"}
+{"level":30,"time":"2023-11-23T02:40:30.766Z","msg":"GlobalAudioContext: waveform cache hit [REDACTED]/54/54ad47aac8464de739ad3fb4f222df0effc94e7e9075992eef195ea2f3702d48"}
+{"level":30,"time":"2023-11-23T02:40:32.875Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-23T02:40:32.876Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-23T02:40:32.879Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707221539,\"newestUnreadAt\":1697420702054,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:40:33.876Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:40:40.652Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-23T02:40:40.653Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-23T02:40:40.660Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707221539,\"newestUnreadAt\":1697420702054,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:40:41.653Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:40:44.710Z","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2023-11-23T02:40:44.725Z","msg":"WebSocketResource(unauthenticated).close: Already closed! 3001/No response to keepalive request"}
+{"level":30,"time":"2023-11-23T02:40:46.579Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:46.629Z","msg":"RoutineProfileRefresher.start/2: waiting for 3538021ms"}
+{"level":30,"time":"2023-11-23T02:40:46.733Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-23T02:40:46.734Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-23T02:40:46.742Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707221539,\"newestUnreadAt\":1697420702054,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:40:46.744Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:46.940Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:47.350Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:47.741Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:40:47.842Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:48.007Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:48.297Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:49.090Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:49.513Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:49.898Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:50.056Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:50.263Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:50.289Z","msg":"CompositionInput: Submitting message 1700707250289 with 0 ranges"}
+{"level":30,"time":"2023-11-23T02:40:50.308Z","msg":"withPreSendChecks: Send pre-checks took 18ms"}
+{"level":30,"time":"2023-11-23T02:40:50.308Z","msg":"Sending message to conversation [REDACTED]b83 ([REDACTED]9f4) with timestamp 1700707250289"}
+{"level":40,"time":"2023-11-23T02:40:50.310Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-11-23T02:40:50.310Z","msg":"enqueueMessageForSend: saving message [REDACTED]b35 and job [REDACTED]66d"}
+{"level":30,"time":"2023-11-23T02:40:50.329Z","msg":"JobQueueDatabaseStore adding job [REDACTED]66d to queue \"conversation\""}
+{"level":30,"time":"2023-11-23T02:40:50.330Z","msg":"conversation job queue: added new job [REDACTED]66d"}
+{"level":30,"time":"2023-11-23T02:40:50.330Z","msg":"conversation job queue: enqueuing job [REDACTED]66d"}
+{"level":30,"time":"2023-11-23T02:40:50.331Z","msg":"conversation job queue: running job [REDACTED]66d, attempt 1 of 110"}
+{"level":30,"time":"2023-11-23T02:40:50.332Z","msg":"conversation job queue, job ID [REDACTED]66d, attempt 1: calculating timeRemaining and shouldContinue..."}
+{"level":30,"time":"2023-11-23T02:40:50.332Z","msg":"conversation job queue, job ID [REDACTED]66d, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-11-23T02:40:50.333Z","msg":"conversation job queue, job ID [REDACTED]66d, attempt 1: message [REDACTED]b35 ran out of time. Giving up on sending it"}
+{"level":40,"time":"2023-11-23T02:40:50.334Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:40:50.334Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":50,"time":"2023-11-23T02:40:50.335Z","msg":"Message.saveErrors: Error: Message send ran out of time\n    at sendNormalMessage ([REDACTED]/resources/app.asar/preload.bundle.js:83:29304)\n    at async aae.run ([REDACTED]/resources/app.asar/preload.bundle.js:83:97554)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:80:72078\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:43:30716)"}
+{"level":40,"time":"2023-11-23T02:40:50.336Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:40:50.336Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-11-23T02:40:50.338Z","msg":"beforeMessageSend([REDACTED]b83 ([REDACTED]9f4)): clearDraft(true) addMessage(true)"}
+{"level":40,"time":"2023-11-23T02:40:50.378Z","msg":"restoreContact([REDACTED]b83 ([REDACTED]9f4)) storage? false: not removed"}
+{"level":30,"time":"2023-11-23T02:40:50.380Z","msg":"ConversationModel([REDACTED]b83 ([REDACTED]9f4).sendMessage(1700707250289): render save took 50ms"}
+{"level":30,"time":"2023-11-23T02:40:50.400Z","msg":"conversation job queue: job [REDACTED]66d succeeded on attempt 1"}
+{"level":30,"time":"2023-11-23T02:40:50.416Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707250289,\"newestUnreadAt\":1697420702055,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:40:51.400Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:40:51.401Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:40:53.802Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:54.076Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:54.249Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:55.326Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:55.769Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:56.010Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:56.396Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:56.926Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:57.097Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:57.509Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:58.058Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:58.788Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:59.033Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:59.250Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:59.482Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:59.660Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:40:59.839Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:00.025Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:00.433Z","msg":"CompositionInput: Submitting message 1700707260433 with 0 ranges"}
+{"level":30,"time":"2023-11-23T02:41:00.463Z","msg":"withPreSendChecks: Send pre-checks took 29ms"}
+{"level":30,"time":"2023-11-23T02:41:00.463Z","msg":"Sending message to conversation [REDACTED]b83 ([REDACTED]9f4) with timestamp 1700707260433"}
+{"level":40,"time":"2023-11-23T02:41:00.464Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-11-23T02:41:00.464Z","msg":"enqueueMessageForSend: saving message [REDACTED]69a and job [REDACTED]1e8"}
+{"level":30,"time":"2023-11-23T02:41:00.478Z","msg":"JobQueueDatabaseStore adding job [REDACTED]1e8 to queue \"conversation\""}
+{"level":30,"time":"2023-11-23T02:41:00.478Z","msg":"conversation job queue: added new job [REDACTED]1e8"}
+{"level":30,"time":"2023-11-23T02:41:00.478Z","msg":"conversation job queue: enqueuing job [REDACTED]1e8"}
+{"level":30,"time":"2023-11-23T02:41:00.479Z","msg":"conversation job queue: running job [REDACTED]1e8, attempt 1 of 110"}
+{"level":30,"time":"2023-11-23T02:41:00.479Z","msg":"conversation job queue, job ID [REDACTED]1e8, attempt 1: calculating timeRemaining and shouldContinue..."}
+{"level":30,"time":"2023-11-23T02:41:00.479Z","msg":"conversation job queue, job ID [REDACTED]1e8, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-11-23T02:41:00.479Z","msg":"conversation job queue, job ID [REDACTED]1e8, attempt 1: message [REDACTED]69a ran out of time. Giving up on sending it"}
+{"level":40,"time":"2023-11-23T02:41:00.479Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:41:00.479Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":50,"time":"2023-11-23T02:41:00.480Z","msg":"Message.saveErrors: Error: Message send ran out of time\n    at sendNormalMessage ([REDACTED]/resources/app.asar/preload.bundle.js:83:29304)\n    at async aae.run ([REDACTED]/resources/app.asar/preload.bundle.js:83:97554)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:80:72078\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:43:30716)"}
+{"level":40,"time":"2023-11-23T02:41:00.480Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:41:00.480Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-11-23T02:41:00.482Z","msg":"beforeMessageSend([REDACTED]b83 ([REDACTED]9f4)): clearDraft(true) addMessage(true)"}
+{"level":40,"time":"2023-11-23T02:41:00.513Z","msg":"restoreContact([REDACTED]b83 ([REDACTED]9f4)) storage? false: not removed"}
+{"level":30,"time":"2023-11-23T02:41:00.514Z","msg":"ConversationModel([REDACTED]b83 ([REDACTED]9f4).sendMessage(1700707260433): render save took 36ms"}
+{"level":30,"time":"2023-11-23T02:41:00.515Z","msg":"conversation job queue: job [REDACTED]1e8 succeeded on attempt 1"}
+{"level":30,"time":"2023-11-23T02:41:00.539Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707260433,\"newestUnreadAt\":1697420702056,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:41:01.515Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:41:01.516Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:41:03.282Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:03.708Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:04.058Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:04.264Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:04.456Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:04.869Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:05.654Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:06.249Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:06.478Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:07.764Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:08.080Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:08.207Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:08.477Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:08.695Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:08.929Z","msg":"changedConvoBatcher: deduped 1 into 1"}
+{"level":30,"time":"2023-11-23T02:41:09.115Z","msg":"CompositionInput: Submitting message 1700707269114 with 0 ranges"}
+{"level":30,"time":"2023-11-23T02:41:09.140Z","msg":"withPreSendChecks: Send pre-checks took 25ms"}
+{"level":30,"time":"2023-11-23T02:41:09.140Z","msg":"Sending message to conversation [REDACTED]b83 ([REDACTED]9f4) with timestamp 1700707269114"}
+{"level":40,"time":"2023-11-23T02:41:09.140Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-11-23T02:41:09.140Z","msg":"enqueueMessageForSend: saving message [REDACTED]ed2 and job [REDACTED]fac"}
+{"level":30,"time":"2023-11-23T02:41:09.153Z","msg":"JobQueueDatabaseStore adding job [REDACTED]fac to queue \"conversation\""}
+{"level":30,"time":"2023-11-23T02:41:09.153Z","msg":"conversation job queue: added new job [REDACTED]fac"}
+{"level":30,"time":"2023-11-23T02:41:09.153Z","msg":"conversation job queue: enqueuing job [REDACTED]fac"}
+{"level":30,"time":"2023-11-23T02:41:09.154Z","msg":"conversation job queue: running job [REDACTED]fac, attempt 1 of 110"}
+{"level":30,"time":"2023-11-23T02:41:09.154Z","msg":"conversation job queue, job ID [REDACTED]fac, attempt 1: calculating timeRemaining and shouldContinue..."}
+{"level":30,"time":"2023-11-23T02:41:09.154Z","msg":"conversation job queue, job ID [REDACTED]fac, attempt 1: skipping this job because we're unlinked"}
+{"level":30,"time":"2023-11-23T02:41:09.154Z","msg":"conversation job queue, job ID [REDACTED]fac, attempt 1: message [REDACTED]ed2 ran out of time. Giving up on sending it"}
+{"level":40,"time":"2023-11-23T02:41:09.154Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:41:09.154Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":50,"time":"2023-11-23T02:41:09.155Z","msg":"Message.saveErrors: Error: Message send ran out of time\n    at sendNormalMessage ([REDACTED]/resources/app.asar/preload.bundle.js:83:29304)\n    at async aae.run ([REDACTED]/resources/app.asar/preload.bundle.js:83:97554)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:80:72078\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:43:30716)"}
+{"level":40,"time":"2023-11-23T02:41:09.155Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":40,"time":"2023-11-23T02:41:09.155Z","msg":"lookupOrCreate: Called with neither e164 nor serviceId! reason: MessageModel.getSenderIdentifier"}
+{"level":30,"time":"2023-11-23T02:41:09.156Z","msg":"beforeMessageSend([REDACTED]b83 ([REDACTED]9f4)): clearDraft(true) addMessage(true)"}
+{"level":40,"time":"2023-11-23T02:41:09.183Z","msg":"restoreContact([REDACTED]b83 ([REDACTED]9f4)) storage? false: not removed"}
+{"level":30,"time":"2023-11-23T02:41:09.184Z","msg":"ConversationModel([REDACTED]b83 ([REDACTED]9f4).sendMessage(1700707269114): render save took 31ms"}
+{"level":30,"time":"2023-11-23T02:41:09.185Z","msg":"conversation job queue: job [REDACTED]fac succeeded on attempt 1"}
+{"level":30,"time":"2023-11-23T02:41:09.206Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707269114,\"newestUnreadAt\":1697420702057,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:41:10.186Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:41:10.187Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:41:44.709Z","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2023-11-23T02:42:02.867Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-23T02:42:02.868Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-23T02:42:02.878Z","msg":"markConversationRead([REDACTED]b83 ([REDACTED]9f4)) {\"newestSentAt\":1700707269114,\"newestUnreadAt\":1697420702057,\"unreadMessages\":0,\"unreadReactions\":0}"}
+{"level":30,"time":"2023-11-23T02:42:03.868Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:42:05.704Z","msg":"onConversationClosed/[REDACTED]b83 ([REDACTED]9f4): unloading due to force unload requested"}
+{"level":30,"time":"2023-11-23T02:42:05.704Z","msg":"onConversationClosed/[REDACTED]b83 ([REDACTED]9f4): clearing draft info"}
+{"level":30,"time":"2023-11-23T02:42:05.740Z","msg":"InstallScreen/getQRCode: race to 10000ms"}
+{"level":30,"time":"2023-11-23T02:42:05.750Z","msg":"changedConvoBatcher: deduped 2 into 1"}
+{"level":30,"time":"2023-11-23T02:42:05.904Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 151ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:42:05.953Z","msg":"provisioning socket open"}
+{"level":40,"time":"2023-11-23T02:42:10.118Z","msg":"idleDetector/idle: fetching at most 25 for migration"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.130Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.131Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:10.132Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":30,"time":"2023-11-23T02:42:10.180Z","msg":"idleDetector/idle: Upgraded messages: {\"done\":false,\"numProcessed\":25,\"fetchDuration\":7,\"upgradeDuration\":4,\"saveDuration\":51,\"totalDuration\":62}"}
+{"level":30,"time":"2023-11-23T02:42:10.180Z","msg":"Stop idle detector"}
+{"level":30,"time":"2023-11-23T02:42:10.180Z","msg":"idleDetector/idle: Background migration not complete. Pausing for 10000ms."}
+{"level":30,"time":"2023-11-23T02:42:11.180Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:42:11.183Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:42:20.181Z","msg":"Start idle detector"}
+{"level":40,"time":"2023-11-23T02:42:20.181Z","msg":"idleDetector/idle: fetching at most 25 for migration"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.185Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.186Z","msg":"Message.getSourceServiceId: Called for non-incoming/non-outgoing message"}
+{"level":40,"time":"2023-11-23T02:42:20.186Z","msg":"Message.getSourceDevice: Called for non-incoming/non-outgoing message"}
+{"level":30,"time":"2023-11-23T02:42:20.207Z","msg":"idleDetector/idle: Upgraded messages: {\"done\":true,\"numProcessed\":7,\"fetchDuration\":2,\"upgradeDuration\":1,\"saveDuration\":23,\"totalDuration\":26}"}
+{"level":30,"time":"2023-11-23T02:42:20.207Z","msg":"Stop idle detector"}
+{"level":30,"time":"2023-11-23T02:42:20.207Z","msg":"idleDetector/idle: Background migration complete. Stopping."}
+{"level":30,"time":"2023-11-23T02:42:21.207Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:42:21.209Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:42:21.297Z","msg":"maybeFetchNewCredentials: fetching credentials for 1700697600000 through 1701216000000"}
+{"level":30,"time":"2023-11-23T02:42:21.298Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true"}
+{"level":30,"time":"2023-11-23T02:42:21.298Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:42:21.441Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 142ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:42:21.487Z","msg":"SocketManager: connected unauthenticated socket (localPort: 37488)"}
+{"level":30,"time":"2023-11-23T02:42:21.488Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-11-23T02:42:21.537Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":30,"time":"2023-11-23T02:42:21.538Z","msg":"reconnectToWebSocket starting..."}
+{"level":30,"time":"2023-11-23T02:42:21.538Z","msg":"SocketManager.reconnect: starting..."}
+{"level":30,"time":"2023-11-23T02:42:21.539Z","msg":"SocketManager.onOffline"}
+{"level":40,"time":"2023-11-23T02:42:21.539Z","msg":"WebSocket: closing socket unauthenticated"}
+{"level":30,"time":"2023-11-23T02:42:21.539Z","msg":"WebSocketResource(unauthenticated).close(3000)"}
+{"level":30,"time":"2023-11-23T02:42:21.541Z","msg":"SocketManager.onOnline"}
+{"level":30,"time":"2023-11-23T02:42:21.541Z","msg":"SocketManager.reconnect: complete."}
+{"level":50,"time":"2023-11-23T02:42:21.541Z","msg":"GET (WS) https://chat.signal.org/v1/certificate/auth/group?redemptionStartSeconds=1700697600&redemptionEndSeconds=1701216000&pniAsServiceId=true 401 Error"}
+{"level":30,"time":"2023-11-23T02:42:21.542Z","msg":"runWithRetry: maybeFetchNewCredentials failed. Waiting 300000ms for retry. Error: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3534)\n    at async maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62949)\n    at async runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61976)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.um [as getGroupCredentials] ([REDACTED]/resources/app.asar/preload.bundle.js:83:3540)\n    at maybeFetchNewCredentials ([REDACTED]/resources/app.asar/preload.bundle.js:75:62957)\n    at runWithRetry ([REDACTED]/resources/app.asar/preload.bundle.js:75:61982)\n    at async Object.initializeGroupCredentialFetcher ([REDACTED]/resources/app.asar/preload.bundle.js:75:61880)"}
+{"level":40,"time":"2023-11-23T02:42:21.553Z","msg":"WebSocketResource(unauthenticated): Socket closed"}
+{"level":30,"time":"2023-11-23T02:42:35.963Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-23T02:42:37.197Z","msg":"WebSocketResource(provisioning).close(3000)"}
+{"level":40,"time":"2023-11-23T02:42:37.231Z","msg":"WebSocketResource(provisioning): Socket closed"}
+{"level":30,"time":"2023-11-23T02:42:37.232Z","msg":"provisioning socket closed. Code: 3000 Reason: normal"}
+{"level":30,"time":"2023-11-23T02:42:41.288Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-23T02:42:41.288Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-23T02:42:42.288Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:42:42.420Z","msg":"WebAPI: starting registration"}
+{"level":30,"time":"2023-11-23T02:42:42.424Z","msg":"createAccount: Number is +[REDACTED]299, password has length: 22"}
+{"level":30,"time":"2023-11-23T02:42:42.424Z","msg":"createAccount: Erasing configuration (soft)"}
+{"level":30,"time":"2023-11-23T02:42:42.446Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-11-23T02:42:42.446Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2023-11-23T02:42:42.446Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-11-23T02:42:42.447Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-11-23T02:42:42.447Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-11-23T02:42:42.447Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-11-23T02:42:42.448Z","msg":"Sender certificate service: Clearing in-progress fetches and deleting cached certificates"}
+{"level":30,"time":"2023-11-23T02:42:42.466Z","msg":"generateLastRestortKyberKey(ACI): Saving new last resort prekey 1"}
+{"level":30,"time":"2023-11-23T02:42:42.472Z","msg":"generateLastRestortKyberKey(PNI): Saving new last resort prekey 2"}
+{"level":30,"time":"2023-11-23T02:42:42.477Z","msg":"AccountManager.generateSignedPreKey(ACI): Saving new signed prekey 1"}
+{"level":30,"time":"2023-11-23T02:42:42.482Z","msg":"AccountManager.generateSignedPreKey(PNI): Saving new signed prekey 2"}
+{"level":30,"time":"2023-11-23T02:42:42.494Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/link"}
+{"level":30,"time":"2023-11-23T02:42:42.494Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:42:42.637Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 141ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:42:42.684Z","msg":"SocketManager: connected unauthenticated socket (localPort: 49088)"}
+{"level":30,"time":"2023-11-23T02:42:42.684Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-11-23T02:42:42.738Z","msg":"PUT (WS) https://chat.signal.org/v1/devices/link 409 Error"}
+{"level":30,"time":"2023-11-23T02:42:42.738Z","msg":"WebAPI: finishing registration"}
+{"level":50,"time":"2023-11-23T02:42:42.739Z","msg":"account.registerSecondDevice: got an error HTTPError: promiseAjax: error response; code: 409\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:82:15084\n    at async Ee ([REDACTED]/resources/app.asar/preload.bundle.js:82:13478)\n    at async l3.createAccount ([REDACTED]/resources/app.asar/preload.bundle.js:75:42124)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:75:32194\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:71:663350)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:82:15090\n    at Ee ([REDACTED]/resources/app.asar/preload.bundle.js:82:13484)\n    at async l3.createAccount ([REDACTED]/resources/app.asar/preload.bundle.js:75:42124)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:75:32194\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:71:663350)\n    at async [REDACTED]/resources/app.asar/preload.bundle.js:71:663383\n    at async run ([REDACTED]/resources/app.asar/preload.bundle.js:43:30716)\nCaused by: undefined"}
+{"level":30,"time":"2023-11-23T02:42:44.709Z","msg":"attachment_downloads/_maybeStartJob: no attachment jobs to run"}
+{"level":30,"time":"2023-11-23T02:42:49.625Z","msg":"shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.631Z","msg":"background/shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.631Z","msg":"attachment_downloads/stop: disabling"}
+{"level":30,"time":"2023-11-23T02:42:49.631Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2023-11-23T02:42:49.631Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2023-11-23T02:42:49.631Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2023-11-23T02:42:49.632Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:42:49.633Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2023-11-23T02:42:49.634Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation groupv2([REDACTED]zQ4=) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation groupv2([REDACTED]zQ4=) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]18b ([REDACTED]550) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]18b ([REDACTED]550) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]f5e ([REDACTED]cd5) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]f5e ([REDACTED]cd5) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]746 ([REDACTED]67c) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]746 ([REDACTED]67c) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.635Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]4d3 ([REDACTED]025) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]4d3 ([REDACTED]025) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]33f ([REDACTED]016) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]33f ([REDACTED]016) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]111 ([REDACTED]970) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]111 ([REDACTED]970) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]f13 ([REDACTED]97c) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]f13 ([REDACTED]97c) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) jobQueue shutdown complete"}
+{"level":30,"time":"2023-11-23T02:42:49.636Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2023-11-23T02:42:49.637Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2023-11-23T02:42:49.638Z","msg":"Client.shutdown"}
+{"level":30,"time":"2023-11-23T02:42:49.638Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2023-11-23T02:42:49.708Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2023-11-23T02:42:49.708Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:48:54.644Z","msg":"Profile Service initialized"}
+{"level":30,"time":"2023-11-23T02:48:54.856Z","msg":"preload complete"}
+{"level":30,"time":"2023-11-23T02:48:54.857Z","msg":"@signalapp/libsignal-client Initializing libsignal version:0.31.0 signal_node::logging rust/bridge/node/src/logging.rs:133"}
+{"level":30,"time":"2023-11-23T02:48:54.887Z","msg":"NotificationService initialized"}
+{"level":30,"time":"2023-11-23T02:48:54.899Z","msg":"initializeMessageCounter: picking max of db/stored counters"}
+{"level":30,"time":"2023-11-23T02:48:54.899Z","msg":"Our profile key service: initializing"}
+{"level":30,"time":"2023-11-23T02:48:54.900Z","msg":"background page reloaded"}
+{"level":30,"time":"2023-11-23T02:48:54.900Z","msg":"environment: production"}
+{"level":30,"time":"2023-11-23T02:48:54.901Z","msg":"Checking for the existence of IndexedDB data..."}
+{"level":30,"time":"2023-11-23T02:48:54.928Z","msg":"Storage fetch"}
+{"level":40,"time":"2023-11-23T02:48:54.931Z","msg":"SocketManager authenticate was called without credentials"}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"conversation job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"conversation\""}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"single proto job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"single proto\""}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"read sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"read sync\""}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"view sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:48:54.932Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view sync\""}
+{"level":30,"time":"2023-11-23T02:48:54.933Z","msg":"view once open sync job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:48:54.933Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-11-23T02:48:54.933Z","msg":"remove storage key job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:48:54.933Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-11-23T02:48:54.933Z","msg":"report spam job queue: starting to stream jobs"}
+{"level":30,"time":"2023-11-23T02:48:54.933Z","msg":"JobQueueDatabaseStore fetching existing jobs for queue \"report spam\""}
+{"level":30,"time":"2023-11-23T02:48:54.933Z","msg":"Initializing MessageReceiver"}
+{"level":30,"time":"2023-11-23T02:48:54.934Z","msg":"Sender certificate service initialized"}
+{"level":30,"time":"2023-11-23T02:48:54.937Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"conversation\""}
+{"level":30,"time":"2023-11-23T02:48:54.937Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"single proto\""}
+{"level":30,"time":"2023-11-23T02:48:54.937Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"read sync\""}
+{"level":30,"time":"2023-11-23T02:48:54.937Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view sync\""}
+{"level":30,"time":"2023-11-23T02:48:54.937Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"view once open sync\""}
+{"level":30,"time":"2023-11-23T02:48:54.937Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"remove storage key\""}
+{"level":30,"time":"2023-11-23T02:48:54.937Z","msg":"JobQueueDatabaseStore finished fetching existing 0 jobs for queue \"report spam\""}
+{"level":30,"time":"2023-11-23T02:48:55.020Z","msg":"ftsOptimizer: starting"}
+{"level":30,"time":"2023-11-23T02:48:55.020Z","msg":"Starting background data migration. Target version: 10"}
+{"level":30,"time":"2023-11-23T02:48:55.032Z","msg":"GET (WS) https://chat.signal.org/v1/config"}
+{"level":30,"time":"2023-11-23T02:48:55.033Z","msg":"SocketManager: connecting unauthenticated socket"}
+{"level":30,"time":"2023-11-23T02:48:55.039Z","msg":"RetryPlaceholders.constructor: Started with 0 items, lifespan of 3600000"}
+{"level":30,"time":"2023-11-23T02:48:55.039Z","msg":"ConversationController: starting initial fetch"}
+{"level":30,"time":"2023-11-23T02:48:55.067Z","msg":"ConversationController: done with initial fetch"}
+{"level":30,"time":"2023-11-23T02:48:55.084Z","msg":"SignalProtocolStore: Finished caching identityKeys data"}
+{"level":30,"time":"2023-11-23T02:48:55.084Z","msg":"SignalProtocolStore: Finished caching kyberPreKeys data"}
+{"level":30,"time":"2023-11-23T02:48:55.084Z","msg":"SignalProtocolStore: Finished caching sessions data"}
+{"level":30,"time":"2023-11-23T02:48:55.084Z","msg":"SignalProtocolStore: Finished caching preKeys data"}
+{"level":30,"time":"2023-11-23T02:48:55.084Z","msg":"SignalProtocolStore: Finished caching senderKeys data"}
+{"level":30,"time":"2023-11-23T02:48:55.084Z","msg":"SignalProtocolStore: Finished caching signedPreKeys data"}
+{"level":30,"time":"2023-11-23T02:48:55.086Z","msg":"checkForConflicts: starting..."}
+{"level":30,"time":"2023-11-23T02:48:55.086Z","msg":"checkForConflicts: complete!"}
+{"level":30,"time":"2023-11-23T02:48:55.087Z","msg":"Storage/getItemsState: now preparing copy of items..."}
+{"level":30,"time":"2023-11-23T02:48:55.104Z","msg":"challenge: loading 0 challenges"}
+{"level":30,"time":"2023-11-23T02:48:55.104Z","msg":"Initializing network observer"}
+{"level":30,"time":"2023-11-23T02:48:55.105Z","msg":"BadgeDownloader#checkForFilesToDownload: downloading 0 badge(s)"}
+{"level":30,"time":"2023-11-23T02:48:55.105Z","msg":"Expiration start timestamp cleanup: starting..."}
+{"level":30,"time":"2023-11-23T02:48:55.116Z","msg":"Expiration start timestamp cleanup: Found 0 messages for cleanup"}
+{"level":30,"time":"2023-11-23T02:48:55.117Z","msg":"Expiration start timestamp cleanup: Cancelling update; we don't have our own UUID"}
+{"level":30,"time":"2023-11-23T02:48:55.117Z","msg":"Expiration start timestamp cleanup: complete"}
+{"level":30,"time":"2023-11-23T02:48:55.117Z","msg":"listening for registration events"}
+{"level":30,"time":"2023-11-23T02:48:55.132Z","msg":"Build expires (local): 2024-01-18T09:20:22.000Z"}
+{"level":30,"time":"2023-11-23T02:48:55.284Z","msg":"ftsOptimizer: took 263ms and 2 steps"}
+{"level":30,"time":"2023-11-23T02:48:55.285Z","msg":"InstallScreen/getQRCode: race to 10000ms"}
+{"level":30,"time":"2023-11-23T02:48:55.334Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 266ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:48:55.388Z","msg":"SocketManager: connected unauthenticated socket (localPort: 45604)"}
+{"level":30,"time":"2023-11-23T02:48:55.388Z","msg":"SocketManager: starting expiration timer for unauthenticated socket"}
+{"level":50,"time":"2023-11-23T02:48:55.436Z","msg":"Got 401 from Signal Server. We might be unlinked."}
+{"level":50,"time":"2023-11-23T02:48:55.437Z","msg":"GET (WS) https://chat.signal.org/v1/config 401 Error"}
+{"level":50,"time":"2023-11-23T02:48:55.437Z","msg":"Top-level unhandled promise rejection: HTTPError: promiseAjax: error response; code: 401\n    at makeHTTPError ([REDACTED]/resources/app.asar/preload.bundle.js:82:951)\n    at _promiseAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:111)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async _retryAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:696)\n    at async j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5951)\n    at async Object.se [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:82:6987)\n    at async refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:7163)\n    at async Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:6061)\nOriginal stack:\nError\n    at _outerAjax ([REDACTED]/resources/app.asar/preload.bundle.js:82:867)\n    at j ([REDACTED]/resources/app.asar/preload.bundle.js:82:5957)\n    at Object.se [as getConfig] ([REDACTED]/resources/app.asar/preload.bundle.js:82:6993)\n    at refreshRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:7171)\n    at invokeFunc ([REDACTED]/resources/app.asar/preload.bundle.js:3:14265)\n    at leadingEdge ([REDACTED]/resources/app.asar/preload.bundle.js:3:14344)\n    at debounced ([REDACTED]/resources/app.asar/preload.bundle.js:3:14927)\n    at Object.initRemoteConfig ([REDACTED]/resources/app.asar/preload.bundle.js:80:6067)\n    at [REDACTED]/resources/app.asar/preload.bundle.js:160:13514\nCaused by: undefined"}
+{"level":30,"time":"2023-11-23T02:48:55.440Z","msg":"createHTTPSAgent.createConnection(chat.signal.org): connected to IPv4 addr after 145ms (attempts v4=1 v6=0)"}
+{"level":30,"time":"2023-11-23T02:48:55.483Z","msg":"provisioning socket open"}
+{"level":30,"time":"2023-11-23T02:48:56.130Z","msg":"checkExpiringMessages: checking for expiring messages"}
+{"level":30,"time":"2023-11-23T02:48:56.131Z","msg":"checkExpiringMessages: found no messages to expire"}
+{"level":30,"time":"2023-11-23T02:49:25.457Z","msg":"WebSocketResources.KeepAlive(unauthenticated).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-23T02:49:25.484Z","msg":"WebSocketResources.KeepAlive(provisioning).send: Sending a keepalive message"}
+{"level":30,"time":"2023-11-23T02:49:48.905Z","msg":"NotificationService: clearing notification and requesting an update"}
+{"level":40,"time":"2023-11-23T02:49:48.905Z","msg":"registerForActive: Failed to to refresh remote config. Code: 401"}
+{"level":30,"time":"2023-11-23T02:49:49.906Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is focused; there is no notification data"}
+{"level":30,"time":"2023-11-23T02:49:51.200Z","msg":"background/shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.201Z","msg":"background/shutdown: shutting down messageReceiver"}
+{"level":30,"time":"2023-11-23T02:49:51.201Z","msg":"MessageReceiver.stopProcessing"}
+{"level":30,"time":"2023-11-23T02:49:51.201Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-23T02:49:51.201Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.201Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.201Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.201Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.202Z","msg":"background/shutdown: flushing conversations"}
+{"level":30,"time":"2023-11-23T02:49:51.203Z","msg":"Sleeper: shutting down, settling 0 in-progress sleep calls"}
+{"level":30,"time":"2023-11-23T02:49:51.203Z","msg":"Sleeper: sleep tasks settled"}
+{"level":30,"time":"2023-11-23T02:49:51.203Z","msg":"background/shutdown: shutting down queues"}
+{"level":30,"time":"2023-11-23T02:49:51.204Z","msg":"StartupQueue: Waiting for 0 tasks to drain"}
+{"level":30,"time":"2023-11-23T02:49:51.204Z","msg":"conversation job queue: shutdown: stop accepting new work and drain 0 promise queues"}
+{"level":30,"time":"2023-11-23T02:49:51.204Z","msg":"single proto job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:49:51.204Z","msg":"read sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:49:51.204Z","msg":"view sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"view once open sync job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"remove storage key job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"report spam job queue: shutdown: stop accepting new work and drain 1 promise queues"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"conversation job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"single proto job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"read sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"view sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"view once open sync job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"remove storage key job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"report spam job queue: shutdown: complete"}
+{"level":30,"time":"2023-11-23T02:49:51.205Z","msg":"background/shutdown: shutting down conversation queues"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]b83 ([REDACTED]9f4) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation groupv2([REDACTED]zQ4=) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation groupv2([REDACTED]zQ4=) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]18b ([REDACTED]550) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]18b ([REDACTED]550) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]1f3 ([REDACTED]316) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]f5e ([REDACTED]cd5) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.206Z","msg":"conversation [REDACTED]f5e ([REDACTED]cd5) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]746 ([REDACTED]67c) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]746 ([REDACTED]67c) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]d1c ([REDACTED]5ba) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]1a8 ([REDACTED]3c8) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]4d3 ([REDACTED]025) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]4d3 ([REDACTED]025) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]7f6 ([REDACTED]5f0) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]cd6 ([REDACTED]195) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]33f ([REDACTED]016) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]33f ([REDACTED]016) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]220 ([REDACTED]7ab) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]111 ([REDACTED]970) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]111 ([REDACTED]970) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]ec5 ([REDACTED]ee5) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]f13 ([REDACTED]97c) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]f13 ([REDACTED]97c) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.207Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"conversation [REDACTED]d88 ([REDACTED]0cb) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"conversation [REDACTED]d59 ([REDACTED]f79) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"conversation [REDACTED]e44 ([REDACTED]631) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) jobQueue shutdown start"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"conversation [REDACTED]28f ([REDACTED]e1d) no jobQueue to shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"background/shutdown: all queues shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"background/shutdown: waiting for all batchers"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"batcher#waitForAllBatchers"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing sql.Client.updateConversationBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing complete sql.Client.updateConversationBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing messageBatcher.updateMessageBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing complete messageBatcher.updateMessageBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing Whisper.deliveryReceiptBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing complete Whisper.deliveryReceiptBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing respondWithProfileKeyBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing complete respondWithProfileKeyBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing MessageReceiver.decryptAndCacheBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing complete MessageReceiver.decryptAndCacheBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.208Z","msg":"Flushing MessageReceiver.cacheRemoveBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.209Z","msg":"Flushing complete MessageReceiver.cacheRemoveBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.209Z","msg":"Flushing changedConvoBatcher batcher items.length=0"}
+{"level":30,"time":"2023-11-23T02:49:51.209Z","msg":"Flushing complete changedConvoBatcher for batcher"}
+{"level":30,"time":"2023-11-23T02:49:51.209Z","msg":"waitBatcher#waitForAllWaitBatchers"}
+{"level":30,"time":"2023-11-23T02:49:51.209Z","msg":"background/shutdown: closing the database"}
+{"level":30,"time":"2023-11-23T02:49:51.209Z","msg":"Client.shutdown"}
+{"level":30,"time":"2023-11-23T02:49:51.209Z","msg":"data.shutdown: shutdown requested. 0 jobs outstanding"}
+{"level":30,"time":"2023-11-23T02:49:51.270Z","msg":"NotificationService: clearing notification and updating"}
+{"level":30,"time":"2023-11-23T02:49:51.270Z","msg":"NotificationService not updating notifications. Notifications are disabled; app is not focused; there is no notification data"}

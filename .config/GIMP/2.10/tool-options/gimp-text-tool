@@ -1,0 +1,10 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.85882353782653809 0.82745099067687988 0.83137255907058716))
+(palette "Color History")
+(font "Wuncon Siji")
+(font-size 12)
+(hint-style full)
+(justify center)
+
+# end of gimp-text-tool options

@@ -1,0 +1,15 @@
+#!/bin/sh
+# Batch convert .HEIC files to .jpg
+
+PHOTOS_DIR="$PWD"
+[ $# -eq 1 ] && PHOTOS_DIR="$(readlink -f "$1")"
+
+for f in "$PHOTOS_DIR"/*.HEIC;
+do
+	heif-convert $f ${f/%.HEIC/.jpg};
+done
+
+# JPG_DIR="$XDG_DOWNLOAD_DIR/jpg"
+JPG_DIR="$PHOTOS_DIR/jpg"
+mkdir -p "$JPG_DIR"
+mv "$PHOTOS_DIR"/*.jpg "$JPG_DIR"

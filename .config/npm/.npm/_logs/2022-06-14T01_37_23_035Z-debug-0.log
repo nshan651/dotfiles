@@ -1,0 +1,79 @@
+0 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'pack', '--unsafe-perm' ]
+1 info using npm@8.5.5
+2 info using node@v18.3.0
+3 timing npm:load:whichnode Completed in 0ms
+4 timing config:load:defaults Completed in 3ms
+5 timing config:load:file:/usr/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 info found workspace root at /home/nick/.cache/yay/heroku-cli/src/cli
+10 timing config:load:file:/home/nick/.cache/yay/heroku-cli/src/cli/.npmrc Completed in 0ms
+11 timing config:load:project Completed in 21ms
+12 timing config:load:file:/home/nick/.npmrc Completed in 0ms
+13 timing config:load:user Completed in 0ms
+14 timing config:load:file:/usr/etc/npmrc Completed in 0ms
+15 timing config:load:global Completed in 1ms
+16 timing config:load:validate Completed in 0ms
+17 timing config:load:credentials Completed in 1ms
+18 timing config:load:setEnvs Completed in 1ms
+19 timing config:load Completed in 31ms
+20 timing npm:load:configload Completed in 31ms
+21 timing npm:load:setTitle Completed in 0ms
+22 timing config:load:flatten Completed in 2ms
+23 timing npm:load:display Completed in 4ms
+24 verbose logfile /home/nick/.npm/_logs/2022-06-14T01_37_23_035Z-debug-0.log
+25 timing npm:load:logFile Completed in 3ms
+26 timing npm:load:timers Completed in 0ms
+27 timing npm:load:configScope Completed in 0ms
+28 timing npm:load Completed in 39ms
+29 silly logfile start cleaning logs, removing 1 files
+30 notice
+31 notice 📦  heroku@7.60.1
+32 notice === Tarball Contents ===
+33 notice 746B  LICENSE                             
+33 notice 5.1kB README.md                           
+33 notice 254B  bin/run                             
+33 notice 31B   bin/run.cmd                         
+33 notice 1.1kB lib/analytics.d.ts                  
+33 notice 3.6kB lib/analytics.js                    
+33 notice 330B  lib/deps.d.ts                       
+33 notice 472B  lib/deps.js                         
+33 notice 707B  lib/file.d.ts                       
+33 notice 2.0kB lib/file.js                         
+33 notice 144B  lib/hooks/init/terms-of-service.d.ts
+33 notice 764B  lib/hooks/init/terms-of-service.js  
+33 notice 79B   lib/hooks/init/version.d.ts         
+33 notice 622B  lib/hooks/init/version.js           
+33 notice 86B   lib/hooks/prerun/analytics.d.ts     
+33 notice 331B  lib/hooks/prerun/analytics.js       
+33 notice 85B   lib/hooks/update/b.d.ts             
+33 notice 1.7kB lib/hooks/update/b.js               
+33 notice 85B   lib/hooks/update/brew.d.ts          
+33 notice 1.7kB lib/hooks/update/brew.js            
+33 notice 85B   lib/hooks/update/completions.d.ts   
+33 notice 275B  lib/hooks/update/completions.js     
+33 notice 82B   lib/hooks/update/plugin-migrate.d.ts
+33 notice 2.4kB lib/hooks/update/plugin-migrate.js  
+33 notice 81B   lib/hooks/update/tidy.d.ts          
+33 notice 1.2kB lib/hooks/update/tidy.js            
+33 notice 38B   lib/index.d.ts                      
+33 notice 149B  lib/index.js                        
+33 notice 648B  lib/user-config.d.ts                
+33 notice 3.4kB lib/user-config.js                  
+33 notice 34B   oclif.manifest.json                 
+33 notice 8.3kB package.json                        
+34 notice === Tarball Details ===
+35 notice name:          heroku                                  
+35 notice version:       7.60.1                                  
+35 notice filename:      heroku-7.60.1.tgz                       
+35 notice package size:  10.2 kB                                 
+35 notice unpacked size: 36.7 kB                                 
+35 notice shasum:        c2e07cfdd7112e73f2abbf065ded505c55b3eafe
+35 notice integrity:     sha512-QpUaJzdEJtYzC[...]XyHhTKxJgAdlA==
+35 notice total files:   32                                      
+36 notice
+37 timing command:pack Completed in 4715ms
+38 verbose exit 0
+39 timing npm Completed in 4883ms
+40 info ok

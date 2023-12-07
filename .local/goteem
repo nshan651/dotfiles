@@ -1,0 +1,73 @@
+#!/bin/sh
+# Got 'eem!
+# Script to stage and commit my dotfiles, wiki, and more.
+
+# # dwm
+# cd $HOME/.local/opt/dwm
+# git add -A
+# git commit -m "Routine dwm update"
+# git push
+
+# # dwmblocks
+# cd $HOME/.local/opt/dwmblocks
+# git add -A
+# git commit -m "Routine dwmblocks update"
+# git push
+
+# # st
+# cd $HOME/.local/opt/st
+# git add -A
+# git commit -m "Routine st update"
+# git push
+
+# # Vimwiki
+# cd $WIKI
+# git add -A
+# git commit -m "Routine wiki update"
+# git push
+
+# # Emacs.d
+# cd $HOME/.emacs.d
+# git add -A
+# git commit -m "Routine emacs update"
+# git push
+
+# # Copy configs and bin
+# cp -rf $HOME/.config $GIT/dotfiles 
+# cp -rf $HOME/.local/bin $GIT/dotfiles/.local
+
+# # Update dotfiles
+# cd $GIT/dotfiles
+# git add -A
+# git commit -m "Routine dotfile update"
+# git push
+
+# # Clean up
+# rm -rf $GIT/dotfiles/.local $GIT/dotfiles/.config
+
+# for dir in "$GIT"/*/; do
+#     cd "$dir"
+#     dir_name=$(basename "$dir")
+#     # echo "$dir_name"
+#     cd "$GIT/$dir_name"
+#     branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+#     echo "$branch"
+#     git remote remove selfhost
+#     git remote add selfhost debox:~/git/"$dir_name"
+#     # "$branch"
+# done
+
+# Back up to selfhost
+for dir in "$GIT"/*/; do
+    dir_name=$(basename "$dir")
+    # cd "$GIT/$dir_name"
+    cd "$dir"
+    echo "$PWD"
+    branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+    echo "$branch"
+    # git add -A
+    # git commit -m "Routine updates to ${dir_name}"
+    # git push selfhost "$branch"
+    # cd ..
+done
+
