@@ -1,4 +1,0 @@
-#!/bin/sh
-# Script to recreate a weekly TODO template
-
-echo -e "# TODO\n\n## HIGH\n\n*\n\n### MEDIUM\n\n*\n\n#### LOW\n\n*" > "$HOME/Documents/wiki/TODO.md"
