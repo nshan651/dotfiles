@@ -4,9 +4,10 @@
 unix_box="debox"
 selfhost="selfhost"
 
-# Define git repos
-git_repos=("$GIT"/*)
+# Define project and misc repos
+project_repos=("$GIT"/*)
 misc_repos=(
+    ".local/dotfiles"
     ".local/opt/st"
     ".local/opt/dwm"
     ".local/opt/dwmblocks" 
@@ -16,7 +17,7 @@ misc_repos=(
     "dox/personal-finance"
     "dox/pass"
 )
-repos=("${git_repos[@]}" "${misc_repos[@]}")
+repos=("${project_repos[@]}" "${misc_repos[@]}")
 
 update_repo() {
     repo_dir="$1"
@@ -41,16 +42,26 @@ update_repo() {
     git push "$remote" "$branch"
 }
 
+pre_updates() {
+    # Copy over dotfiles
+    mkdir -p $HOME/.config/dotfiles/.local
+    rsync -av $HOME/.local/bin $HOME/.config/dotfiles/.local
+    rsync -av --exclude="dotfiles" $HOME/.config $HOME/.config/dotfiles/
+}
 
-# Copy configs and bin
-cp -rf $HOME/.config $GIT/dotfiles 
-cp -rf $HOME/.local/bin $GIT/dotfiles/.local
+post_updates() {
+    # Clean up dotfiles
+    rm -rf $HOME/.config/dotfiles/.local $HOME/.config/dotfiles/.config
+}
 
-for repo in "${repos[@]}"; do
-    # Strip $HOME from path
-    repo="${repo#$HOME/}"
-    update_repo "$repo"
-done
+pre_updates
 
-# Clean up
-rm -rf $GIT/dotfiles/.local $GIT/dotfiles/.config
+update_repo ".local/dotfiles"
+
+# for repo in "${repos[@]}"; do
+#     # Strip $HOME from path
+#     repo="${repo#$HOME/}"
+#     update_repo "$repo"
+# done
+
+post_updates

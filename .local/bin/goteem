@@ -58,16 +58,16 @@
 # done
 
 # Back up to selfhost
-for dir in "$GIT"/*/; do
-    dir_name=$(basename "$dir")
-    # cd "$GIT/$dir_name"
-    cd "$dir"
-    echo "$PWD"
-    branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
-    echo "$branch"
+# for dir in "$GIT"/*/; do
+#     dir_name=$(basename "$dir")
+#     # cd "$GIT/$dir_name"
+#     cd "$dir"
+#     echo "$PWD"
+#     branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+#     echo "$branch"
     # git add -A
     # git commit -m "Routine updates to ${dir_name}"
     # git push selfhost "$branch"
     # cd ..
-done
+# done
 
