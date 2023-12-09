@@ -7,7 +7,7 @@ selfhost="selfhost"
 # Define project and misc repos
 project_repos=("$GIT"/*)
 misc_repos=(
-    ".local/dotfiles"
+    ".config/dotfiles"
     ".local/opt/st"
     ".local/opt/dwm"
     ".local/opt/dwmblocks" 
@@ -28,7 +28,7 @@ update_repo() {
     remote=$(git remote | grep "^$selfhost$")
     
     # If a remote connection does not exist, create one
-    if [[ -v "$remote" ]]; then
+    if [[ ! -v "$remote" ]]; then
         ssh "$unix_box" \
             "mkdir -p ~/sync/${repo_dir}; cd ~/sync/${repo_dir} && git init --bare"
         git remote remove "$remote"
@@ -71,7 +71,7 @@ post_updates() {
 
 pre_updates
 
-update_repo ".local/dotfiles"
+update_repo ".config/dotfiles"
 
 # for repo in "${repos[@]}"; do
 #     # Strip $HOME from path
