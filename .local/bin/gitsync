@@ -28,12 +28,16 @@ update_repo() {
     remote=$(git remote | grep "^$selfhost$")
     
     # If a remote connection does not exist, create one
-    if [[ ! -v "$remote" ]]; then
+    if [[ -v "$remote" ]]; then
         ssh "$unix_box" \
             "mkdir -p ~/sync/${repo_dir}; cd ~/sync/${repo_dir} && git init --bare"
         git remote remove "$remote"
         git remote add "$remote" "$unix_box":~/sync/"$repo_dir"
     fi
+
+    printf "=====================================================================\n"
+    printf "                    === %s ===                                       \n" "$repo_name"
+    printf "=====================================================================\n"
 
     # Check in updates
     git add -A
@@ -43,15 +47,26 @@ update_repo() {
 }
 
 pre_updates() {
+    printf "=====================================================================\n"
+    printf "                    === PRE_UPDATES ===                              \n"
+    printf "=====================================================================\n"
+    printf "Copying over .config/ and .local/bin to dotfiles...\n"
     # Copy over dotfiles
     mkdir -p $HOME/.config/dotfiles/.local
-    rsync -av $HOME/.local/bin $HOME/.config/dotfiles/.local
-    rsync -av --exclude="dotfiles" $HOME/.config $HOME/.config/dotfiles/
+    rsync -a $HOME/.local/bin $HOME/.config/dotfiles/.local
+    rsync -a --exclude="dotfiles" $HOME/.config $HOME/.config/dotfiles/
+    printf "Done.\n"
 }
 
 post_updates() {
     # Clean up dotfiles
+    printf "=====================================================================\n"
+    printf "                    === POST_UPDATES ===                             \n"
+    printf "=====================================================================\n"
+
+    printf "Cleaning up dotfiles...\n"
     rm -rf $HOME/.config/dotfiles/.local $HOME/.config/dotfiles/.config
+    printf "Done.\n"
 }
 
 pre_updates
