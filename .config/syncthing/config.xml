@@ -1,7 +1,10 @@
 <configuration version="37">
-    <folder id="default" label="Default Folder" path="/home/nick/Sync" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
+    <folder id="2cje2-fpy3g" label="" path="/media/ssd/sync" type="sendreceive" rescanIntervalS="3600" fsWatcherEnabled="true" fsWatcherDelayS="10" ignorePerms="false" autoNormalize="true">
         <filesystemType>basic</filesystemType>
         <device id="CPFDLVP-T7NRXII-XYS66PM-IIMZ3TO-HO47BN5-TB7E2KA-ZW5DINE-SENR3QW" introducedBy="">
+            <encryptionPassword></encryptionPassword>
+        </device>
+        <device id="MMNLBM6-KZ7LAO5-LIYHEBG-MXT2PYN-EJ7ICTQ-WZ3K7B3-6BFUCKS-JC7AQAW" introducedBy="">
             <encryptionPassword></encryptionPassword>
         </device>
         <minDiskFree unit="%">1</minDiskFree>
@@ -51,6 +54,17 @@
         <remoteGUIPort>0</remoteGUIPort>
         <numConnections>0</numConnections>
     </device>
+    <device id="MMNLBM6-KZ7LAO5-LIYHEBG-MXT2PYN-EJ7ICTQ-WZ3K7B3-6BFUCKS-JC7AQAW" name="debox" compression="metadata" introducer="false" skipIntroductionRemovals="false" introducedBy="">
+        <address>dynamic</address>
+        <paused>false</paused>
+        <autoAcceptFolders>false</autoAcceptFolders>
+        <maxSendKbps>0</maxSendKbps>
+        <maxRecvKbps>0</maxRecvKbps>
+        <maxRequestKiB>0</maxRequestKiB>
+        <untrusted>false</untrusted>
+        <remoteGUIPort>0</remoteGUIPort>
+        <numConnections>0</numConnections>
+    </device>
     <gui enabled="true" tls="true" debugging="false" sendBasicAuthPrompt="false">
         <address>127.0.0.1:8384</address>
         <user>nshan651</user>
@@ -62,14 +76,14 @@
     <options>
         <listenAddress>default</listenAddress>
         <globalAnnounceServer>default</globalAnnounceServer>
-        <globalAnnounceEnabled>true</globalAnnounceEnabled>
+        <globalAnnounceEnabled>false</globalAnnounceEnabled>
         <localAnnounceEnabled>true</localAnnounceEnabled>
         <localAnnouncePort>21027</localAnnouncePort>
         <localAnnounceMCAddr>[ff12::8384]:21027</localAnnounceMCAddr>
         <maxSendKbps>0</maxSendKbps>
         <maxRecvKbps>0</maxRecvKbps>
         <reconnectionIntervalS>60</reconnectionIntervalS>
-        <relaysEnabled>true</relaysEnabled>
+        <relaysEnabled>false</relaysEnabled>
         <relayReconnectIntervalM>10</relayReconnectIntervalM>
         <startBrowser>true</startBrowser>
         <natEnabled>true</natEnabled>

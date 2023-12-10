@@ -1,0 +1,104 @@
+{
+  "app_name": "Bustard",
+  "app_title": "The Talos Principle",
+  "asset_infos": {
+    "Windows": {
+      "app_name": "Bustard",
+      "asset_id": "Bustard",
+      "build_version": "461288",
+      "catalog_item_id": "b38ff84f6ba242e2a34f3e345d89658a",
+      "label_name": "Live-Windows",
+      "metadata": {},
+      "namespace": "400cc6605aee41de88f976b587a48aa0"
+    }
+  },
+  "base_urls": [],
+  "metadata": {
+    "ageGatings": {},
+    "applicationId": "",
+    "categories": [
+      {
+        "path": "public"
+      },
+      {
+        "path": "games"
+      },
+      {
+        "path": "applications"
+      }
+    ],
+    "creationDate": "2019-09-10T21:03:46.028Z",
+    "customAttributes": {
+      "CanRunOffline": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "CanSkipKoreanIdVerification": {
+        "type": "STRING",
+        "value": "true"
+      },
+      "FolderName": {
+        "type": "STRING",
+        "value": "TheTalosPrinciple"
+      },
+      "PresenceId": {
+        "type": "STRING",
+        "value": "400cc6605aee41de88f976b587a48aa0"
+      },
+      "RequirementsJson": {
+        "type": "STRING",
+        "value": "[]"
+      },
+      "UseAccessControl": {
+        "type": "STRING",
+        "value": "false"
+      }
+    },
+    "description": "The Talos Principle",
+    "developer": "Devolver Digital, Inc.",
+    "developerId": "o-plnhdz2wfx5etjjeh88szjqy2gx8gw",
+    "endOfSupport": false,
+    "entitlementName": "b38ff84f6ba242e2a34f3e345d89658a",
+    "entitlementType": "EXECUTABLE",
+    "eulaIds": [
+      "egstore"
+    ],
+    "id": "b38ff84f6ba242e2a34f3e345d89658a",
+    "itemType": "DURABLE",
+    "keyImages": [
+      {
+        "height": 1440,
+        "md5": "32996ef25108c006dc7b3cff4094f2b8",
+        "size": 293066,
+        "type": "DieselGameBox",
+        "uploadedDate": "2023-05-19T22:49:21.424Z",
+        "url": "https://cdn1.epicgames.com/item/400cc6605aee41de88f976b587a48aa0/EGS_TheTalosPrinciple_Croteam_S1_2560x1440-32996ef25108c006dc7b3cff4094f2b8",
+        "width": 2560
+      },
+      {
+        "height": 1600,
+        "md5": "99695aa789e71af91d231cd7532811c3",
+        "size": 271634,
+        "type": "DieselGameBoxTall",
+        "uploadedDate": "2023-05-19T22:49:26.704Z",
+        "url": "https://cdn1.epicgames.com/item/400cc6605aee41de88f976b587a48aa0/EGS_TheTalosPrinciple_Croteam_S2_1200x1600-99695aa789e71af91d231cd7532811c3",
+        "width": 1200
+      }
+    ],
+    "lastModifiedDate": "2023-05-19T22:55:04.750Z",
+    "namespace": "400cc6605aee41de88f976b587a48aa0",
+    "releaseInfo": [
+      {
+        "appId": "Bustard",
+        "dateAdded": "2019-09-10T00:00:00.000Z",
+        "id": "7029b8e8e8394076a279b5755be639f7",
+        "platform": [
+          "Windows"
+        ]
+      }
+    ],
+    "status": "ACTIVE",
+    "title": "The Talos Principle",
+    "unsearchable": false
+  }
+}

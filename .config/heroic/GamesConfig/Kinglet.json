@@ -1,0 +1,27 @@
+{
+  "Kinglet": {
+    "autoInstallDxvk": true,
+    "autoInstallVkd3d": true,
+    "preferSystemLibs": false,
+    "enableEsync": true,
+    "enableFsync": true,
+    "nvidiaPrime": false,
+    "enviromentOptions": [],
+    "wrapperOptions": [],
+    "showFps": false,
+    "useGameMode": false,
+    "language": "",
+    "wineVersion": {
+      "bin": "/home/nick/.config/heroic/tools/wine/Wine-GE-Proton8-25/bin/wine",
+      "name": "Wine - Wine-GE-Proton8-25",
+      "type": "wine",
+      "lib": "/home/nick/.config/heroic/tools/wine/Wine-GE-Proton8-25/lib64",
+      "lib32": "/home/nick/.config/heroic/tools/wine/Wine-GE-Proton8-25/lib",
+      "wineserver": "/home/nick/.config/heroic/tools/wine/Wine-GE-Proton8-25/bin/wineserver"
+    },
+    "winePrefix": "/home/nick/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI",
+    "wineCrossoverBottle": "Heroic"
+  },
+  "version": "v0",
+  "explicit": true
+}

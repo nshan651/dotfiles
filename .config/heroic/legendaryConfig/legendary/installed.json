@@ -1,0 +1,77 @@
+{
+  "Kinglet": {
+    "app_name": "Kinglet",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/831ad738547e46e195f87d54e98b8e79/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/831ad738547e46e195f87d54e98b8e79/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/831ad738547e46e195f87d54e98b8e79/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "Base/Binaries/Win64EOS/CivilizationVI.exe",
+    "install_path": "/media/ssd/sync/dox/games/pc/SidMeiersCivilizationVI",
+    "install_size": 20000244015,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Sid Meier's Civilization VI",
+    "uninstaller": null,
+    "version": "1.0.12.951533_nebraska_update1_Kinglet"
+  },
+  "KingletAztec": {
+    "app_name": "KingletAztec",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/831ad738547e46e195f87d54e98b8e79/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/831ad738547e46e195f87d54e98b8e79/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-37m6jbj5wcvrcvm4wusv7nazdfvbjk/831ad738547e46e195f87d54e98b8e79/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "",
+    "install_path": "/media/ssd/sync/dox/games/pc/SidMeiersCivilizationVI",
+    "install_size": 233,
+    "install_tags": [],
+    "is_dlc": true,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "Civilization VI : Aztec DLC",
+    "uninstaller": null,
+    "version": "1.0.12.951533_nebraska_update1_KingletAztec"
+  },
+  "d6407c9e6fd54cb492b8c6635480d792": {
+    "app_name": "d6407c9e6fd54cb492b8c6635480d792",
+    "base_urls": [
+      "https://download.epicgames.com/Builds/Org/o-x6pmn2h8elkycylakfrdw79xp2hrpv/5900d5b75cb24e4ca6ac93c30155fb72/default",
+      "https://epicgames-download1.akamaized.net/Builds/Org/o-x6pmn2h8elkycylakfrdw79xp2hrpv/5900d5b75cb24e4ca6ac93c30155fb72/default",
+      "https://fastly-download.epicgames.com/Builds/Org/o-x6pmn2h8elkycylakfrdw79xp2hrpv/5900d5b75cb24e4ca6ac93c30155fb72/default"
+    ],
+    "can_run_offline": true,
+    "egl_guid": "",
+    "executable": "AShortHike.exe",
+    "install_path": "/media/ssd/sync/dox/games/pc/AShortHike",
+    "install_size": 323443121,
+    "install_tags": [],
+    "is_dlc": false,
+    "launch_parameters": "",
+    "manifest_path": null,
+    "needs_verification": false,
+    "platform": "Windows",
+    "prereq_info": null,
+    "requires_ot": false,
+    "save_path": null,
+    "title": "A Short Hike",
+    "uninstaller": null,
+    "version": "1.9_v3_Windows"
+  }
+}

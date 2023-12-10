@@ -1,0 +1,231 @@
+{
+	"Sid Meiers Civilization VI": {
+		"pcgamingwiki": null,
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"comp_100": 1180694,
+			"comp_main": 81049,
+			"comp_plus": 297901
+		},
+		"gamesdb": {
+			"steamID": "289070"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 2
+		}
+	},
+	"__timestamp": {
+		"Sid Meiers Civilization VI": "Sun Dec 10 2023 14:31:14 GMT-0600 (Central Standard Time)",
+		"Sunless Sea": "Sun Dec 10 2023 14:39:14 GMT-0600 (Central Standard Time)",
+		"A Short Hike": "Sun Dec 10 2023 14:40:57 GMT-0600 (Central Standard Time)",
+		"Steep": "Sun Dec 10 2023 14:41:47 GMT-0600 (Central Standard Time)",
+		"Surviving Mars": "Sun Dec 10 2023 14:41:55 GMT-0600 (Central Standard Time)",
+		"The Talos Principle": "Sun Dec 10 2023 14:42:17 GMT-0600 (Central Standard Time)",
+		"Pine": "Sun Dec 10 2023 14:42:38 GMT-0600 (Central Standard Time)"
+	},
+	"Sunless Sea": {
+		"pcgamingwiki": {
+			"steamID": "304650",
+			"howLongToBeatID": "23113",
+			"metacritic": {
+				"score": "81",
+				"urlid": "sunless-sea"
+			},
+			"opencritic": {
+				"score": "82",
+				"urlid": "1410/sunless-sea"
+			},
+			"igdb": {
+				"score": "85",
+				"urlid": "sunless-sea"
+			},
+			"direct3DVersions": [
+				"9.0c"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"comp_100": 411527,
+			"comp_main": 62798,
+			"comp_plus": 207695
+		},
+		"gamesdb": {
+			"steamID": "304650"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 2
+		}
+	},
+	"A Short Hike": {
+		"pcgamingwiki": {
+			"steamID": "1055540",
+			"howLongToBeatID": "66152",
+			"metacritic": {
+				"score": "82",
+				"urlid": "a-short-hike"
+			},
+			"opencritic": {
+				"score": "87",
+				"urlid": "8025/a-short-hike"
+			},
+			"igdb": {
+				"score": "",
+				"urlid": ""
+			},
+			"direct3DVersions": [
+				"11"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"comp_100": 16392,
+			"comp_main": 5315,
+			"comp_plus": 7632
+		},
+		"gamesdb": {
+			"steamID": "1055540"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "platinum",
+			"steamDeckCatagory": 3
+		}
+	},
+	"Steep": {
+		"pcgamingwiki": {
+			"steamID": "460920",
+			"howLongToBeatID": "38010",
+			"metacritic": {
+				"score": "72",
+				"urlid": "steep"
+			},
+			"opencritic": {
+				"score": "71",
+				"urlid": "3215/steep"
+			},
+			"igdb": {
+				"score": "73",
+				"urlid": "steep"
+			},
+			"direct3DVersions": [
+				"11"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"comp_100": 135415,
+			"comp_main": 41349,
+			"comp_plus": 82169
+		},
+		"gamesdb": {
+			"steamID": "460920"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 2
+		}
+	},
+	"Surviving Mars": {
+		"pcgamingwiki": {
+			"steamID": "464920",
+			"howLongToBeatID": "45951",
+			"metacritic": {
+				"score": "76",
+				"urlid": "surviving-mars"
+			},
+			"opencritic": {
+				"score": "77",
+				"urlid": "5735/surviving-mars"
+			},
+			"igdb": {
+				"score": "74",
+				"urlid": "surviving-mars"
+			},
+			"direct3DVersions": [
+				"11"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"comp_100": 424022,
+			"comp_main": 78635,
+			"comp_plus": 151824
+		},
+		"gamesdb": {
+			"steamID": "464920"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 1
+		}
+	},
+	"The Talos Principle": {
+		"pcgamingwiki": {
+			"steamID": "835960",
+			"howLongToBeatID": "129256",
+			"metacritic": {
+				"score": "88",
+				"urlid": "the-talos-principle-2"
+			},
+			"opencritic": {
+				"score": "89",
+				"urlid": "15695/the-talos-principle-2"
+			},
+			"igdb": {
+				"score": "",
+				"urlid": ""
+			},
+			"direct3DVersions": [
+				"12"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"comp_100": 102451,
+			"comp_main": 56881,
+			"comp_plus": 75968
+		},
+		"gamesdb": {
+			"steamID": "257510"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 2
+		}
+	},
+	"Pine": {
+		"pcgamingwiki": {
+			"steamID": "1042780",
+			"howLongToBeatID": "71432",
+			"metacritic": {
+				"score": "",
+				"urlid": ""
+			},
+			"opencritic": {
+				"score": "42",
+				"urlid": "8661/pine"
+			},
+			"igdb": {
+				"score": "",
+				"urlid": ""
+			},
+			"direct3DVersions": [
+				"11"
+			]
+		},
+		"applegamingwiki": null,
+		"howlongtobeat": {
+			"comp_100": 130495,
+			"comp_main": 63886,
+			"comp_plus": 84085
+		},
+		"gamesdb": {
+			"steamID": "1042780"
+		},
+		"steamInfo": {
+			"compatibilityLevel": "gold",
+			"steamDeckCatagory": 3
+		}
+	}
+}

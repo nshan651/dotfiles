@@ -1,0 +1,395 @@
+{
+	"cd14dcaa4f3443f19f7169a980559c62": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fsid-meiers-civilization-vl%2Fhome%2FEGS_SidMeiersCivilizationVI_FiraxisGames_S2-860x1148-61e11c241a0ace459d14df2d7a4f2d9dc67ab8d7.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Firaxis Games",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "2K",
+			"description": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.\n\n# EXPANSIVE EMPIRES\n\nSee the marvels of your empire spread across the map like never before. Each city spans multiple tiles so you can custom build your cities to take full advantage of the local terrain.\n\n#  ACTIVE RESEARCH\n\nUnlock boosts that speed your civilization’s progress through history. To advance more quickly, use your units to actively explore, develop your environment, and discover new cultures.\n\n#  DYNAMIC DIPLOMACY\n\nInteractions with other civilizations change over the course of the game, from primitive first interactions where conflict is a fact of life, to late game alliances and negotiations.\n\n#  COMBINED ARMS\n\nExpanding on the “one unit per tile” design, support units can now be embedded with other units, like anti-tank support with infantry, or a warrior with settlers. Similar units can also be combined to form powerful “Corps” units.\n\n#  ENHANCED MULTIPLAYER\n\nIn addition to traditional multiplayer modes, cooperate and compete with your friends in a wide variety of situations all designed to be easily completed in a single session.\n\n#  A CIV FOR ALL PLAYERS\n\nCivilization VI provides veteran players new ways to build and tune their civilization for the greatest chance of success. New tutorial systems introduce new players to the underlying concepts so they can easily get started.\n",
+			"shortDescription": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.",
+			"title": "Sid Meier’s Civilization® VI",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "64bit: Win7 / Win8.1 / Win10",
+				"recommended": "64bit: Win7 / Win8.1 / Win10"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core i3 2.5 GHz or AMD Phenom II 2.6",
+				"recommended": "Fourth generation Intel Core i5 2.5 GHz or AMD FX8350 4.0 GHz or greater"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "4GB",
+				"recommended": "8GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "17 GB",
+				"recommended": "23 GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "DirectX",
+				"minimum": "11",
+				"recommended": "11"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "1GB DirectX 11 Video Card (AMD 5570, NVIDIA 450 or Intel Integrated Graphics 530",
+				"recommended": "2GB DirectX 11 Video Card (AMD 7970 or NVIDIA 770 or greater)"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/sid-meiers-civilization-vi"
+	},
+	"__timestamp": {
+		"cd14dcaa4f3443f19f7169a980559c62": "Sun Dec 10 2023 14:31:19 GMT-0600 (Central Standard Time)",
+		"f672c20984f04f69936e6057feefe3d1": "Sun Dec 10 2023 14:39:13 GMT-0600 (Central Standard Time)",
+		"fd0183d33a5a40ff8cd4a6ebb52f6ace": "Sun Dec 10 2023 14:40:48 GMT-0600 (Central Standard Time)",
+		"a646020cb93b4ea995cda70647bbe001": "Sun Dec 10 2023 14:41:41 GMT-0600 (Central Standard Time)",
+		"d759128018124dcabb1fbee9bb28e178": "Sun Dec 10 2023 14:41:53 GMT-0600 (Central Standard Time)",
+		"400cc6605aee41de88f976b587a48aa0": "Sun Dec 10 2023 14:42:12 GMT-0600 (Central Standard Time)",
+		"7e1b3a8e19c949c0bfaed0424a8c4bb5": "Sun Dec 10 2023 14:42:36 GMT-0600 (Central Standard Time)"
+	},
+	"f672c20984f04f69936e6057feefe3d1": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-sunlesssea-failbettergames-s2-1200x1600-2f506585222e.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Failbetter Games",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Failbetter Games",
+			"description": "![Image 1](https://cdn2.unrealengine.com/egs-sunlesssea-failbettergames-g2-00-700x117-743f058f8c8c.jpg)\n\n# LOSE YOUR MIND. EAT YOUR CREW. DIE.\n\nSunless Sea is a Gothic Horror RPG with a focus on exploration, exquisite storytelling and frequent death.\n\n![Image 2](https://cdn2.unrealengine.com/egs-sunlesssea-failbettergames-g2-01-700x126-adcae3d1d46a.jpg)\n\n# Captain a Victorian steamship on a vast underground sea\n\nIf the giant crabs, sentient icebergs and swarms of bats don’t get you, madness and cannibalism certainly will. But that old black ocean beckons, and there’s loot for the brave souls who dare to sail her.\n\n![Image 3](https://cdn2.unrealengine.com/59dbccb4-25fc-4a9d-856e-928d1a3d0ab5-700x126-605382ba4cc2.jpeg)\n\n# Seek out intriguing individuals for your crew\n\nHire unique officers like the Haunted Doctor and the Irrepressible Cannoneer. Each has a story to tell, if you can draw it out of them.\n\n![Image 4](https://cdn2.unrealengine.com/egs-sunlesssea-failbettergames-g2-03-700x126-a90dc9f0d9e6.jpg)\n\n# Stray from the gas-lamps of civilization\n\nLight and dark, terror and madness: spend too long on the wide, dark sea and your crew will grow fearful and eventually lose their sanity.\n\n![Image 5](https://cdn2.unrealengine.com/egs-sunlesssea-failbettergames-g2-04-700x126-a8d074c73179.jpg)\n\n# Carve a life for your captain in a cruel and unique world\n\nA deep, compelling world packed with 350,000+ words of stories and secrets. Find your father’s bones. Determine London’s destiny. Defy the gods of the deep sea.\n\n![Image 6](https://cdn2.unrealengine.com/egs-sunlesssea-failbettergames-g2-05-700x126-e2ef8b413f7b.jpg)\n\n# Your captain will die.\n\nPass on resources from one generation to the next. Acquire a family home and a hoard of heirlooms. Build a legacy of zailors who braved the sea and lost - or, occasionally, won.\n\nFeatures\n- Beautiful, hand drawn art - castles of ice, prisons perched on lily pads, fog-shrouded lighthouses and the DAWN MACHINE.\n- Real-time combat against ships and Zee-beasts, spider-crewed dreadnoughts and sentient icebergs.\n- Upgrade your steamship with powerful engines, cannons and pneumatic torpedo guns. (Or buy a bigger, better ship.)\n- Trade or smuggle silk and souls, mushroom wine and hallucinogenic honey.",
+			"shortDescription": "LOSE YOUR MIND. EAT YOUR CREW. DIE. Take the helm of your steamship and set sail for the unknown! Sunless Sea is a game of discovery, loneliness and frequent death, set in the award-winning Victorian Gothic universe of Fallen London.",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Mac OS X 10.6 or later",
+				"recommended": "Mac OS X 10.6 or later"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "2Ghz or better",
+				"recommended": "2Ghz or better"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "1 GB RAM",
+				"recommended": "1 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "700 MB available space",
+				"recommended": "700 MB available space"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": " 1280x768 minimum resolution",
+				"recommended": " 1280x768 minimum resolution"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/sunless-sea"
+	},
+	"fd0183d33a5a40ff8cd4a6ebb52f6ace": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fa-short-hike%2Fhome%2FEGS_AShortHike_AdamRobinsonYu_S2-860x1148-390b1d289145d91742517482607bb234720d3f75.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Adam Robinson-Yu",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Adam Robinson-Yu",
+			"description": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak Provincial Park.\nFollow the marked trails or explore the backcountry as you make your way to the summit. Along the way, meet other hikers, discover hidden treasures, and take in the world around you.\n\n# Key Features\n\n• Explore the island any way you like. Choose your own path to follow and see where it leads you. You never know what you might stumble into!\n• Hike at your own pace — there’s no need to rush to the summit! Take your time fishing along the river banks or swimming by the lakeshore.\n• Collect hidden treasures to reach new heights. Try taking a dive off the mountain peaks to soar above the forests.\n• Chat with the other hikers you meet along your route. You might be able to help each other out!\n• Listen to a lush original soundtrack by Mark Sparling that progresses dynamically as you explore the wilderness.\n",
+			"shortDescription": "Hike, climb, and soar through the peaceful mountainside landscapes of Hawk Peak. Follow the trails or explore the backcountry as you make your way to the summit. Along the way, meet other hikers, discover hidden treasures, and take in the world around you",
+			"title": "A Short Hike",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 7 SP1+ (or later)",
+				"recommended": "Windows 7 SP1+ (or later)"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel or AMD Dual Core at 2 GHz or better",
+				"recommended": "Intel or AMD Dual Core at 2 GHz or better"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": " 2 GB RAM",
+				"recommended": " 2 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "400 MB available space",
+				"recommended": "400 MB available space"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Direct X",
+				"minimum": "Version 11",
+				"recommended": "Version 11"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "Intel Graphics 4400 or better",
+				"recommended": "Intel Graphics 4400 or better"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/a-short-hike"
+	},
+	"a646020cb93b4ea995cda70647bbe001": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fsteep%2Fhome%2FS2_BANNER_1280x1440-1280x1440-4729bbae8f961f3462dbc27e113c645265b2cee6.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Ubisoft Annecy, Ubisoft Montpellier, Ubisoft Kiev",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Ubisoft",
+			"description": "Defy and master the mountain alone or with friends on skis, wingsuits, snowboards and paragliders. Record and share your best stunts.\n\n# RIDE YOUR WAY\n\nConquer the world's most epic mountains on skis, wingsuits, snowboards, and paragliders.\n\n# LIVE UNFORGETTABLE MOMENTS WITH OTHERS \n\nRide solo or drop in next to other players to share thrilling, adrenaline-fueled rides.\n\n# THE MOUNTAIN IS YOURS TO EXPLORE \n\nCreate your own path through a massive open-world, and share your best custom lines with friends.\n\n",
+			"shortDescription": "Ride a massive open world across the Alps, where the powder is always fresh and the run never ends. ",
+			"title": "Steep",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 10",
+				"recommended": "Windows 10"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "CPU",
+				"minimum": "Intel Core i5 2400S at 2.5 Ghz or AMD FX-4100 at 3.6 Ghz",
+				"recommended": "Intel Core i7 3770K at 3.5 Ghz or AMD FX-8350 at 4.0 Ghz"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "RAM",
+				"minimum": "6 GB RAM",
+				"recommended": "8 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "GeForce GTX 560TI or Radeon R7 260X",
+				"recommended": "GeForce GTX 970 or Radeon R9 390"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "DiurectX",
+				"minimum": "Version 11"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Network",
+				"minimum": "Broadband Internet connection",
+				"recommended": "Broadband Internet connection"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "25 GB available space",
+				"recommended": "25 GB available space"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Sound Card",
+				"minimum": "DirectX® compatible sound card with latest drivers",
+				"recommended": "DirectX® compatible sound card with latest drivers"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Additional Notes",
+				"minimum": "Additional Notes: SUPPORTED VIDEO CARDS (at time of release): NVIDIA GeForce® GTX660 or better, GeForce® GTX700/900/1000 series, AMD Radeon R9 260X or better, AMD Radeon R9 300 series, Fury series. Laptop versions of these cards may work but are NOT officially supported. For an up-to-date list of supported chipsets, please visit the FAQ for this game on our website: http://support.ubi.com. PERIPHERAL SUPPORTED: Windows®-compatible keyboard and mouse required, optional controller",
+				"recommended": "Additional Notes: SUPPORTED VIDEO CARDS (at time of release): NVIDIA GeForce® GTX660 or better, GeForce® GTX700/900/1000 series, AMD Radeon R9 260X or better, AMD Radeon R9 300 series, Fury series. Laptop versions of these cards may work but are NOT officially supported. For an up-to-date list of supported chipsets, please visit the FAQ for this game on our website: http://support.ubi.com. PERIPHERAL SUPPORTED: Windows®-compatible keyboard and mouse required, optional controller"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/steep"
+	},
+	"d759128018124dcabb1fbee9bb28e178": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-haemimontgames-survivingmarssearch-s2-1280x1440-bde91f7c1a94.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Haemimont Games",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Paradox Interactive",
+			"description": "## Colonize Mars and discover her secrets, with minimal casualties.\n\nWelcome Home! The time has come to stake your claim on the Red Planet and build the first functioning human colonies on Mars! All you need are supplies, oxygen, decades of training, experience with sandstorms, and a can-do attitude to discover the purpose of those weird black cubes that appeared out of nowhere. With a bit of sprucing up, this place is going to be awesome! \n\nSurviving Mars is a sci-fi city builder all about colonizing Mars and surviving the process. Choose a space agency for resources and financial support before determining a location for your colony. Build domes and infrastructure, research new possibilities and utilize drones to unlock more elaborate ways to shape and expand your settlement. Cultivate your own food, mine minerals or just relax by the bar after a hard day’s work. Most important of all, though, is keeping your colonists alive. Not an easy task on a strange new planet.\n\nThere will be challenges to overcome. Execute your strategy and improve your colony’s chances of survival while unlocking the mysteries of this alien world. Are you ready? Mars is waiting for you.\n\n## Main Features:\n\nBuilding a sustainable colony in space\nBuilding on a planet not fit for human life challenges you to build a smart, functional colony. Bad planning isn’t about traffic jams, it’s about survival of your colonists. You really don’t want rolling blackouts in a city constructed in a place without oxygen.\n\nIndividually simulated colonists\nEach colonist is a unique individual with problems and strengths that influence the needs and behavior of the other colonists. Things can get really interesting if your chief scientists develops alcoholism after one too many long nights in the lab.\n\nFuturistic Space Dome construction\nRetro-futuristic super structures housing colonists, factories and commercial buildings with their own “neighborhood personality.” Create colonies that value science over everything else, while tired workers drink their pay away at a local bar, or attempt a utopia among the stars.\n\nExploration of Mars’ secrets\nInspired by the classic sci-fi of Asimov and Clarke, Surviving Mars holds many secrets. During each playthrough players may encounter one of Mars’ individually crafted mysteries. Uncovering these secrets might bring your colony great fortune, or terrible ruin. What is that sphere that manifested itself outside colony HUB B, and is it friendly?\n\nRandomized research tree\nCombine static and random research through experimentation, which allows for a different experience for each journey through the game. Attain new scientific breakthroughs by exploring the uncharted terrain of Mars's surface.",
+			"shortDescription": "The time has come to stake your claim on the Red Planet and build the first functioning human colonies on Mars! There will be challenges to overcome. Execute your strategy and improve your colony's chances of survival while unlocking the mysteries of this alien world. ",
+			"title": "Surviving Mars",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "OSX 10.11 or newer",
+				"recommended": "OSX 10.11 or newer"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "4th Generation Intel i3 CPU or equivalent",
+				"recommended": "Fast quad-core CPUs"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "4 GB RAM",
+				"recommended": "8 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "OpenGL 4.1 (GeForce 600/AMD Radeon 5000 or higher) with 1GB of video RAM",
+				"recommended": "GeForce 970-level GPU with 4GB of video RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "6 GB available space",
+				"recommended": "6 GB available space"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/surviving-mars"
+	},
+	"400cc6605aee41de88f976b587a48aa0": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-thetalosprinciple-croteam-s2-1200x1600-dfb193e1af3c.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": " Croteam",
+			"_type": "Diesel Product About",
+			"publisherAttribution": " Devolver Digital",
+			"description": "[![Talos2](https://cdn2.unrealengine.com/talos2-egs-banner-1920x400-52a7c46b81f6.jpg)](https://store.epicgames.com/en-US/p/the-talos-principle-2-ab1034)\n\n# About The Talos Principle\nAs if awakening from a deep sleep, you find yourself in a strange, contradictory world of ancient ruins and advanced technology. Tasked by your creator with solving a series of increasingly complex puzzles, you must decide whether to have faith or to ask the difficult questions: Who are you? What is your purpose? And what are you going to do about it?\n\n# Key Features\n- Overcome more than 120 immersive puzzles in a stunning world.\n- Divert drones, manipulate laser beams, and even replicate time to prove your worth - or to find a way out.\n- Explore a story about humanity, technology, and civilization. Uncover clues, devise theories, and make up your own mind.\n- Choose your own path through the game's non-linear world, solving puzzles your way.\n- But remember: choices have consequences, and somebody's always watching you.",
+			"shortDescription": "The Talos Principle is a first-person puzzle game in the tradition of philosophical science fiction. Made by Croteam and written by Tom Jubert (FTL, The Swapper) and Jonas Kyratzes (The Sea Will Claim Everything).",
+			"title": "",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 7",
+				"recommended": "Windows 7 64-bit"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "CPU",
+				"minimum": "Dual-core 2.0 GHz",
+				"recommended": "Quad-core 3.0 GHz"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "GPU",
+				"minimum": "2 GB RAM",
+				"recommended": "4 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "DirectX",
+				"minimum": " DirectX 11 class GPU with 1GB VRAM (nVidia GeForce 480 GTX, AMD Radeon HD 5870)",
+				"recommended": "Version 9.0c"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "5 GB available space",
+				"recommended": "8 GB available space"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/the-talos-principle"
+	},
+	"7e1b3a8e19c949c0bfaed0424a8c4bb5": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/egs-pine-twirlbound-s2-1200x1600-afa61f401e9d.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Twirlbound",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "Kongregate",
+			"description": "# A Story of Humans\n\nPine is an open world action adventure simulation game. Set in the beautiful world of Albamare, you take on the role of Hue, a smart young adult who will have to explore, trade, and fight his way through a vibrant world filled with creatures much smarter than humans.\n\n![Image1](https://cdn2.unrealengine.com/egs-pine-twirlbound-g2-00-1920x1080-d2088780e6fa.jpg)\n\n# Their Story Becomes Yours\n\nAs you're looking for a new home for your tribe to settle in, you'll have to engage with the large-scale ecology of Albamare. Prepare by exploring, bartering, talking, crafting and fighting in six different biomes, with and against a diverse cast of species that will not simply help you.\n\n![Image2](https://cdn2.unrealengine.com/egs-pine-twirlbound-g2-01-1920x1080-ba52ee081a4a.jpg)\n\n# A Struggle for Survival\n\nIn Pine, things will happen across the open game world even without your involvement. All organisms are alive and will try what they can to survive. You can choose to befriend a species, fight alongside them, or you may also to attack them, steal their food or force them to abandon their current habitat. All of this will make the species move across the ecological spectrum.\n\n![Image3](https://cdn2.unrealengine.com/egs-pine-twirlbound-g2-02-1920x1080-1eea62b08718.jpg)\n\n\n",
+			"shortDescription": "An open-world action adventure game set in a simulated world in which humans never reached the top of the food chain. Fight with or against a variety of species as you make your way to a new home for your human tribe.",
+			"title": "Pine",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "Windows 7 (64-bit)",
+				"recommended": "Windows 10 (64-bit)"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Quad Core 3.2 Ghz or equivalent",
+				"recommended": "Quad Core 3.40 Ghz or equivalent"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "8 GB RAM",
+				"recommended": "8 GB RAM"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "4 GB available space",
+				"recommended": "4 GB available space"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "NVIDIA GeForce GTX 660 or equivalent",
+				"recommended": "NVIDIA GeForce GTX 970 or equivalent"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/pine"
+	}
+}

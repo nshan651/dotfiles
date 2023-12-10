@@ -1,0 +1,355 @@
+{
+	"Kinglet": {
+		"game": {
+			"app_name": "Kinglet",
+			"title": "Sid Meier's Civilization VI",
+			"version": "1.0.12.951533_nebraska_update1_Kinglet",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_Kinglet"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": [
+				{
+					"app_name": "KingletAztec",
+					"title": "Civilization VI : Aztec DLC",
+					"installable": [
+						{
+							"id": "ed7d946319cb4a10a4574f47b5ff4029",
+							"appId": "KingletAztec",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "cd9e44a9d1b14b8d84923bb985bc1636"
+				}
+			]
+		},
+		"install": null,
+		"manifest": {
+			"size": 2498787,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "Kinglet",
+			"launch_exe": "2KLauncher/LauncherPatcher.exe",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_Kinglet",
+			"build_id": "2poNxzw22xYJoxkf68acs9FgHSA",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 42193,
+			"num_chunks": 16235,
+			"disk_size": 20000244015,
+			"download_size": 10900844103,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"__timestamp": {
+		"Kinglet": "Sun Dec 10 2023 14:31:15 GMT-0600 (Central Standard Time)",
+		"2420b50453144c07b3b847fff941275d": "Sun Dec 10 2023 14:39:20 GMT-0600 (Central Standard Time)",
+		"KingletAztec": "Sun Dec 10 2023 14:40:31 GMT-0600 (Central Standard Time)",
+		"d6407c9e6fd54cb492b8c6635480d792": "Sun Dec 10 2023 14:40:49 GMT-0600 (Central Standard Time)",
+		"Barracuda": "Sun Dec 10 2023 14:41:46 GMT-0600 (Central Standard Time)",
+		"Ovenbird": "Sun Dec 10 2023 14:41:56 GMT-0600 (Central Standard Time)",
+		"Bustard": "Sun Dec 10 2023 14:42:14 GMT-0600 (Central Standard Time)",
+		"6d564ff21f9c45b7b782b7113ad60be8": "Sun Dec 10 2023 14:42:38 GMT-0600 (Central Standard Time)"
+	},
+	"2420b50453144c07b3b847fff941275d": {
+		"game": {
+			"app_name": "2420b50453144c07b3b847fff941275d",
+			"title": "Sunless Sea",
+			"version": "2.2.11.3212a-Windows",
+			"platform_versions": {
+				"Windows": "2.2.11.3212a-Windows"
+			},
+			"cloud_saves_supported": true,
+			"cloud_save_folder": "{AppData}/../LocalLow/Failbetter Games/Sunless Sea/saves/",
+			"cloud_save_folder_mac": "{UserLibrary}/Application Support/unity.Failbetter Games.Sunless Sea/saves/",
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 64851,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "25230acc0ccd4a65ac29b2c6a99d3373",
+			"launch_exe": "Sunless Sea.exe",
+			"launch_command": "",
+			"build_version": "2.2.11.3212a-Windows",
+			"build_id": "P9620whjj204r_jwfx9Kdgc3-g0",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 79,
+			"num_chunks": 900,
+			"disk_size": 942738171,
+			"download_size": 367344790,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"KingletAztec": {
+		"game": {
+			"app_name": "KingletAztec",
+			"title": "Civilization VI : Aztec DLC",
+			"version": "1.0.12.951533_nebraska_update1_KingletAztec",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_KingletAztec"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": true,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 247,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "KingletAztec",
+			"launch_exe": "",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_KingletAztec",
+			"build_id": "Qm4WtUpzqZebQnH-pySO8HBUYcE",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 1,
+			"num_chunks": 1,
+			"disk_size": 233,
+			"download_size": 1287,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"d6407c9e6fd54cb492b8c6635480d792": {
+		"game": {
+			"app_name": "d6407c9e6fd54cb492b8c6635480d792",
+			"title": "A Short Hike",
+			"version": "1.9_v3_Windows",
+			"platform_versions": {
+				"Windows": "1.9_v3_Windows"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 30284,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "4f7a17e19b614e2680c22da81a517516",
+			"launch_exe": "AShortHike.exe",
+			"launch_command": "",
+			"build_version": "1.9_v3_Windows",
+			"build_id": "Yn63_ogxudSBUgg0IBtSOiCNcL8",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 217,
+			"num_chunks": 310,
+			"disk_size": 323443121,
+			"download_size": 224713043,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"Barracuda": {
+		"game": {
+			"app_name": "Barracuda",
+			"title": "Steep",
+			"version": "1.00",
+			"platform_versions": {
+				"Windows": "1.00"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": "ubisoft",
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 2010362,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "BarracudaStaging",
+			"launch_exe": "UplayLaunch.exe",
+			"launch_command": "-UplayId=3279",
+			"build_version": "1.00",
+			"build_id": "FtwJBnacI2KgExtgIeNS0wppwI4",
+			"prerequisites": {
+				"ids": [
+					"uplay"
+				],
+				"name": "Uplay",
+				"path": "Uplay/UplayInstaller.exe",
+				"args": "/S"
+			},
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 466,
+			"num_chunks": 30661,
+			"disk_size": 32149714857,
+			"download_size": 31634960764,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"Ovenbird": {
+		"game": {
+			"app_name": "Ovenbird",
+			"title": "Surviving Mars",
+			"version": "1.5_Fuglesang.1011166-Windows",
+			"platform_versions": {
+				"Windows": "1.5_Fuglesang.1011166-Windows"
+			},
+			"cloud_saves_supported": true,
+			"cloud_save_folder": "{appdata}/../roaming/Surviving Mars/Save/",
+			"cloud_save_folder_mac": "{UserLibrary}/Application Support/Surviving Mars/Save/",
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 491104,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "OvenbirdStaging",
+			"launch_exe": "MarsEpic.exe",
+			"launch_command": "",
+			"build_version": "1.5_Fuglesang.1011166-Windows",
+			"build_id": "iXlXeTmoGly2BqTtiuxHcUCocyA",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 406,
+			"num_chunks": 7177,
+			"disk_size": 7630784075,
+			"download_size": 6841328303,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"Bustard": {
+		"game": {
+			"app_name": "Bustard",
+			"title": "The Talos Principle",
+			"version": "461288",
+			"platform_versions": {
+				"Windows": "461288"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 355924,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "Bustard",
+			"launch_exe": "Talos.exe",
+			"launch_command": "",
+			"build_version": "461288",
+			"build_id": "GYc0ayhulcsug10c-GMdu7ykYXs",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 72,
+			"num_chunks": 5479,
+			"disk_size": 5744208578,
+			"download_size": 5684092649,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"6d564ff21f9c45b7b782b7113ad60be8": {
+		"game": {
+			"app_name": "6d564ff21f9c45b7b782b7113ad60be8",
+			"title": "Pine",
+			"version": "Patch 13",
+			"platform_versions": {
+				"Windows": "Patch 13"
+			},
+			"cloud_saves_supported": true,
+			"cloud_save_folder": "{AppData}/../LocalLow/Twirlbound/Pine/saves/",
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": []
+		},
+		"install": null,
+		"manifest": {
+			"size": 185928,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "740db4f870db4b59adc6049671fd8df1",
+			"launch_exe": "Pine.exe",
+			"launch_command": "",
+			"build_version": "Patch 13",
+			"build_id": "acWMMZzuc9iAEam318Xt5H-Ja6M",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 550,
+			"num_chunks": 2454,
+			"disk_size": 2572630924,
+			"download_size": 2324267153,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	}
+}

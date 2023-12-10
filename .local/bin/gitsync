@@ -71,12 +71,10 @@ post_updates() {
 
 pre_updates
 
-update_repo ".config/dotfiles"
-
-# for repo in "${repos[@]}"; do
-#     # Strip $HOME from path
-#     repo="${repo#$HOME/}"
-#     update_repo "$repo"
-# done
+for repo in "${repos[@]}"; do
+    # Strip $HOME from path
+    repo="${repo#$HOME/}"
+    update_repo "$repo"
+done
 
 post_updates
