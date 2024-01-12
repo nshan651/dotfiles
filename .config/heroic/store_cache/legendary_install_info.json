@@ -1,69 +1,13 @@
 {
-	"Kinglet": {
-		"game": {
-			"app_name": "Kinglet",
-			"title": "Sid Meier's Civilization VI",
-			"version": "1.0.12.951533_nebraska_update1_Kinglet",
-			"platform_versions": {
-				"Windows": "1.0.12.951533_nebraska_update1_Kinglet"
-			},
-			"cloud_saves_supported": false,
-			"cloud_save_folder": null,
-			"cloud_save_folder_mac": null,
-			"is_dlc": false,
-			"external_activation": null,
-			"launch_options": [],
-			"owned_dlc": [
-				{
-					"app_name": "KingletAztec",
-					"title": "Civilization VI : Aztec DLC",
-					"installable": [
-						{
-							"id": "ed7d946319cb4a10a4574f47b5ff4029",
-							"appId": "KingletAztec",
-							"platform": [
-								"Windows"
-							],
-							"dateAdded": "2019-08-19T00:00:00.000Z"
-						}
-					],
-					"id": "cd9e44a9d1b14b8d84923bb985bc1636"
-				}
-			]
-		},
-		"install": null,
-		"manifest": {
-			"size": 2498787,
-			"type": "binary",
-			"version": 17,
-			"feature_level": 17,
-			"app_name": "Kinglet",
-			"launch_exe": "2KLauncher/LauncherPatcher.exe",
-			"launch_command": "",
-			"build_version": "1.0.12.951533_nebraska_update1_Kinglet",
-			"build_id": "2poNxzw22xYJoxkf68acs9FgHSA",
-			"prerequisites": null,
-			"uninstaller": null,
-			"install_tags": [
-				""
-			],
-			"num_files": 42193,
-			"num_chunks": 16235,
-			"disk_size": 20000244015,
-			"download_size": 10900844103,
-			"tag_disk_size": [],
-			"tag_download_size": []
-		}
-	},
 	"__timestamp": {
-		"Kinglet": "Sun Dec 10 2023 14:31:15 GMT-0600 (Central Standard Time)",
 		"2420b50453144c07b3b847fff941275d": "Sun Dec 10 2023 14:39:20 GMT-0600 (Central Standard Time)",
 		"KingletAztec": "Sun Dec 10 2023 14:40:31 GMT-0600 (Central Standard Time)",
 		"d6407c9e6fd54cb492b8c6635480d792": "Sun Dec 10 2023 14:40:49 GMT-0600 (Central Standard Time)",
 		"Barracuda": "Sun Dec 10 2023 14:41:46 GMT-0600 (Central Standard Time)",
 		"Ovenbird": "Sun Dec 10 2023 14:41:56 GMT-0600 (Central Standard Time)",
 		"Bustard": "Sun Dec 10 2023 14:42:14 GMT-0600 (Central Standard Time)",
-		"6d564ff21f9c45b7b782b7113ad60be8": "Sun Dec 10 2023 14:42:38 GMT-0600 (Central Standard Time)"
+		"6d564ff21f9c45b7b782b7113ad60be8": "Sun Dec 10 2023 14:42:38 GMT-0600 (Central Standard Time)",
+		"Kinglet": "Mon Dec 25 2023 15:45:27 GMT-0600 (Central Standard Time)"
 	},
 	"2420b50453144c07b3b847fff941275d": {
 		"game": {
@@ -348,6 +292,78 @@
 			"num_chunks": 2454,
 			"disk_size": 2572630924,
 			"download_size": 2324267153,
+			"tag_disk_size": [],
+			"tag_download_size": []
+		}
+	},
+	"Kinglet": {
+		"game": {
+			"app_name": "Kinglet",
+			"title": "Sid Meier's Civilization VI",
+			"version": "1.0.12.951533_nebraska_update1_Kinglet",
+			"platform_versions": {
+				"Windows": "1.0.12.951533_nebraska_update1_Kinglet"
+			},
+			"cloud_saves_supported": false,
+			"cloud_save_folder": null,
+			"cloud_save_folder_mac": null,
+			"is_dlc": false,
+			"external_activation": null,
+			"launch_options": [],
+			"owned_dlc": [
+				{
+					"app_name": "KingletAztec",
+					"title": "Civilization VI : Aztec DLC",
+					"installable": [
+						{
+							"id": "ed7d946319cb4a10a4574f47b5ff4029",
+							"appId": "KingletAztec",
+							"platform": [
+								"Windows"
+							],
+							"dateAdded": "2019-08-19T00:00:00.000Z"
+						}
+					],
+					"id": "cd9e44a9d1b14b8d84923bb985bc1636"
+				}
+			]
+		},
+		"install": {
+			"platform": "Windows",
+			"version": "1.0.12.951533_nebraska_update1_Kinglet",
+			"disk_size": 20000244015,
+			"install_path": "/media/ssd/sync/dox/games/pc/SidMeiersCivilizationVI",
+			"save_path": null,
+			"synced_egl_guid": "",
+			"install_tags": [],
+			"requires_ovt": false,
+			"installed_dlc": [
+				{
+					"app_name": "KingletAztec",
+					"title": "Civilization VI : Aztec DLC",
+					"install_size": 233
+				}
+			]
+		},
+		"manifest": {
+			"size": 2498787,
+			"type": "binary",
+			"version": 17,
+			"feature_level": 17,
+			"app_name": "Kinglet",
+			"launch_exe": "2KLauncher/LauncherPatcher.exe",
+			"launch_command": "",
+			"build_version": "1.0.12.951533_nebraska_update1_Kinglet",
+			"build_id": "2poNxzw22xYJoxkf68acs9FgHSA",
+			"prerequisites": null,
+			"uninstaller": null,
+			"install_tags": [
+				""
+			],
+			"num_files": 42193,
+			"num_chunks": 16235,
+			"disk_size": 20000244015,
+			"download_size": 10900844103,
 			"tag_disk_size": [],
 			"tag_download_size": []
 		}

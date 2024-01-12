@@ -209,6 +209,9 @@ colorscheme kanagawa
 " colorscheme modus-vivendi
 " colorscheme everforest
 
+" Set color column
+set colorcolumn=80
+
 " Toggle transpareny
 let t:isTransparent = 0
 function! BGToggleTransparency()

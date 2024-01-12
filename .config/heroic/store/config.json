@@ -1,10 +1,10 @@
 {
 	"general-logs": {
-		"currentLogFile": "/home/nick/.config/heroic/logs/2023-12-10T20_26_56-heroic.log",
-		"lastLogFile": "",
-		"legendaryLogFile": "/home/nick/.config/heroic/logs/2023-12-10T20_26_56-legendary.log",
-		"gogdlLogFile": "/home/nick/.config/heroic/logs/2023-12-10T20_26_56-gogdl.log",
-		"nileLogFile": "/home/nick/.config/heroic/logs/2023-12-10T20_26_56-nile.log"
+		"currentLogFile": "/home/nick/.config/heroic/logs/2023-12-25T21_44_53-heroic.log",
+		"lastLogFile": "/home/nick/.config/heroic/logs/2023-12-10T20_26_56-heroic.log",
+		"legendaryLogFile": "/home/nick/.config/heroic/logs/2023-12-25T21_44_53-legendary.log",
+		"gogdlLogFile": "/home/nick/.config/heroic/logs/2023-12-25T21_44_53-gogdl.log",
+		"nileLogFile": "/home/nick/.config/heroic/logs/2023-12-25T21_44_53-nile.log"
 	},
 	"settings": {
 		"checkUpdatesInterval": 10,
@@ -55,5 +55,12 @@
 		"displayName": "platypusOMEGA",
 		"user": "nick"
 	},
-	"theme": "cyberSpaceOasisAlt"
+	"theme": "cyberSpaceOasisAlt",
+	"window-props": {
+		"x": 4,
+		"y": 23,
+		"width": 1912,
+		"height": 1053,
+		"maximized": false
+	}
 }

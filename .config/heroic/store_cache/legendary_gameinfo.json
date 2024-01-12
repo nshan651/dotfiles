@@ -1,68 +1,12 @@
 {
-	"cd14dcaa4f3443f19f7169a980559c62": {
-		"about": {
-			"image": {
-				"src": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fsid-meiers-civilization-vl%2Fhome%2FEGS_SidMeiersCivilizationVI_FiraxisGames_S2-860x1148-61e11c241a0ace459d14df2d7a4f2d9dc67ab8d7.jpg",
-				"_type": "Diesel Image"
-			},
-			"developerAttribution": "Firaxis Games",
-			"_type": "Diesel Product About",
-			"publisherAttribution": "2K",
-			"description": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.\n\n# EXPANSIVE EMPIRES\n\nSee the marvels of your empire spread across the map like never before. Each city spans multiple tiles so you can custom build your cities to take full advantage of the local terrain.\n\n#  ACTIVE RESEARCH\n\nUnlock boosts that speed your civilization’s progress through history. To advance more quickly, use your units to actively explore, develop your environment, and discover new cultures.\n\n#  DYNAMIC DIPLOMACY\n\nInteractions with other civilizations change over the course of the game, from primitive first interactions where conflict is a fact of life, to late game alliances and negotiations.\n\n#  COMBINED ARMS\n\nExpanding on the “one unit per tile” design, support units can now be embedded with other units, like anti-tank support with infantry, or a warrior with settlers. Similar units can also be combined to form powerful “Corps” units.\n\n#  ENHANCED MULTIPLAYER\n\nIn addition to traditional multiplayer modes, cooperate and compete with your friends in a wide variety of situations all designed to be easily completed in a single session.\n\n#  A CIV FOR ALL PLAYERS\n\nCivilization VI provides veteran players new ways to build and tune their civilization for the greatest chance of success. New tutorial systems introduce new players to the underlying concepts so they can easily get started.\n",
-			"shortDescription": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.",
-			"title": "Sid Meier’s Civilization® VI",
-			"developerLogo": {
-				"_type": "Diesel Image"
-			}
-		},
-		"reqs": [
-			{
-				"_type": "Diesel System Detail Item",
-				"title": "OS",
-				"minimum": "64bit: Win7 / Win8.1 / Win10",
-				"recommended": "64bit: Win7 / Win8.1 / Win10"
-			},
-			{
-				"_type": "Diesel System Detail Item",
-				"title": "Processor",
-				"minimum": "Intel Core i3 2.5 GHz or AMD Phenom II 2.6",
-				"recommended": "Fourth generation Intel Core i5 2.5 GHz or AMD FX8350 4.0 GHz or greater"
-			},
-			{
-				"_type": "Diesel System Detail Item",
-				"title": "Memory",
-				"minimum": "4GB",
-				"recommended": "8GB"
-			},
-			{
-				"_type": "Diesel System Detail Item",
-				"title": "Storage",
-				"minimum": "17 GB",
-				"recommended": "23 GB"
-			},
-			{
-				"_type": "Diesel System Detail Item",
-				"title": "DirectX",
-				"minimum": "11",
-				"recommended": "11"
-			},
-			{
-				"_type": "Diesel System Detail Item",
-				"title": "Graphics",
-				"minimum": "1GB DirectX 11 Video Card (AMD 5570, NVIDIA 450 or Intel Integrated Graphics 530",
-				"recommended": "2GB DirectX 11 Video Card (AMD 7970 or NVIDIA 770 or greater)"
-			}
-		],
-		"storeUrl": "https://www.epicgames.com/store/product/sid-meiers-civilization-vi"
-	},
 	"__timestamp": {
-		"cd14dcaa4f3443f19f7169a980559c62": "Sun Dec 10 2023 14:31:19 GMT-0600 (Central Standard Time)",
 		"f672c20984f04f69936e6057feefe3d1": "Sun Dec 10 2023 14:39:13 GMT-0600 (Central Standard Time)",
 		"fd0183d33a5a40ff8cd4a6ebb52f6ace": "Sun Dec 10 2023 14:40:48 GMT-0600 (Central Standard Time)",
 		"a646020cb93b4ea995cda70647bbe001": "Sun Dec 10 2023 14:41:41 GMT-0600 (Central Standard Time)",
 		"d759128018124dcabb1fbee9bb28e178": "Sun Dec 10 2023 14:41:53 GMT-0600 (Central Standard Time)",
 		"400cc6605aee41de88f976b587a48aa0": "Sun Dec 10 2023 14:42:12 GMT-0600 (Central Standard Time)",
-		"7e1b3a8e19c949c0bfaed0424a8c4bb5": "Sun Dec 10 2023 14:42:36 GMT-0600 (Central Standard Time)"
+		"7e1b3a8e19c949c0bfaed0424a8c4bb5": "Sun Dec 10 2023 14:42:36 GMT-0600 (Central Standard Time)",
+		"cd14dcaa4f3443f19f7169a980559c62": "Mon Dec 25 2023 15:45:19 GMT-0600 (Central Standard Time)"
 	},
 	"f672c20984f04f69936e6057feefe3d1": {
 		"about": {
@@ -391,5 +335,61 @@
 			}
 		],
 		"storeUrl": "https://www.epicgames.com/store/product/pine"
+	},
+	"cd14dcaa4f3443f19f7169a980559c62": {
+		"about": {
+			"image": {
+				"src": "https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fsid-meiers-civilization-vl%2Fhome%2FEGS_SidMeiersCivilizationVI_FiraxisGames_S2-860x1148-61e11c241a0ace459d14df2d7a4f2d9dc67ab8d7.jpg",
+				"_type": "Diesel Image"
+			},
+			"developerAttribution": "Firaxis Games",
+			"_type": "Diesel Product About",
+			"publisherAttribution": "2K",
+			"description": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.\n\n# EXPANSIVE EMPIRES\n\nSee the marvels of your empire spread across the map like never before. Each city spans multiple tiles so you can custom build your cities to take full advantage of the local terrain.\n\n#  ACTIVE RESEARCH\n\nUnlock boosts that speed your civilization’s progress through history. To advance more quickly, use your units to actively explore, develop your environment, and discover new cultures.\n\n#  DYNAMIC DIPLOMACY\n\nInteractions with other civilizations change over the course of the game, from primitive first interactions where conflict is a fact of life, to late game alliances and negotiations.\n\n#  COMBINED ARMS\n\nExpanding on the “one unit per tile” design, support units can now be embedded with other units, like anti-tank support with infantry, or a warrior with settlers. Similar units can also be combined to form powerful “Corps” units.\n\n#  ENHANCED MULTIPLAYER\n\nIn addition to traditional multiplayer modes, cooperate and compete with your friends in a wide variety of situations all designed to be easily completed in a single session.\n\n#  A CIV FOR ALL PLAYERS\n\nCivilization VI provides veteran players new ways to build and tune their civilization for the greatest chance of success. New tutorial systems introduce new players to the underlying concepts so they can easily get started.\n",
+			"shortDescription": "Civilization VI offers new ways to interact with your world, expand your empire across the map, advance your culture, and compete against history’s greatest leaders to build a civilization that will stand the test of time.",
+			"title": "Sid Meier’s Civilization® VI",
+			"developerLogo": {
+				"_type": "Diesel Image"
+			}
+		},
+		"reqs": [
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "OS",
+				"minimum": "64bit: Win7 / Win8.1 / Win10",
+				"recommended": "64bit: Win7 / Win8.1 / Win10"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Processor",
+				"minimum": "Intel Core i3 2.5 GHz or AMD Phenom II 2.6",
+				"recommended": "Fourth generation Intel Core i5 2.5 GHz or AMD FX8350 4.0 GHz or greater"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Memory",
+				"minimum": "4GB",
+				"recommended": "8GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Storage",
+				"minimum": "17 GB",
+				"recommended": "23 GB"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "DirectX",
+				"minimum": "11",
+				"recommended": "11"
+			},
+			{
+				"_type": "Diesel System Detail Item",
+				"title": "Graphics",
+				"minimum": "1GB DirectX 11 Video Card (AMD 5570, NVIDIA 450 or Intel Integrated Graphics 530",
+				"recommended": "2GB DirectX 11 Video Card (AMD 7970 or NVIDIA 770 or greater)"
+			}
+		],
+		"storeUrl": "https://www.epicgames.com/store/product/sid-meiers-civilization-vi"
 	}
 }

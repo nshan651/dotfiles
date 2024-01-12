@@ -1,0 +1,77 @@
+(15:44:53) INFO:    [Legendary]:        Legendary location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary
+(15:44:53) INFO:    [Gog]:              GOGDL location: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl
+(15:44:53) INFO:    [Connection]:       Connectivity: check-online
+(15:44:53) INFO:    [Connection]:       Pinging external endpoints
+(15:44:53) INFO:    [Backend]:          DRM module staus {
+  "oimompecagnajdejgnnjijobebaeigek": {
+    "name": "Widevine Content Decryption Module",
+    "status": "new",
+    "version": "4.10.2710.0"
+  }
+}
+(15:44:54) WARNING: [Backend]:          Protocol already registered.
+(15:44:54) INFO:    [Connection]:       Connectivity: online
+(15:44:54) ERROR:   [Gog]:              Unable to syncQueued playtime, userData not present
+(15:44:54) INFO:    [Backend]:          AreWeAntiCheatYet data downloaded
+(15:44:54) INFO:    [Backend]:          Loading Screen Ready
+(15:44:54) INFO:    [Frontend]:         Refreshing undefined Library
+(15:44:54) WARNING: [Backend]:          refresh not implemented on Sideload Library Manager
+(15:44:54) INFO:    [Legendary]:        Refreshing library...
+(15:44:54) INFO:    [Legendary]:        Refreshing Epic Games...
+(15:44:54) INFO:    [Legendary]:        Game list updated, got 99 games & DLCs
+(15:44:54) INFO:    [Backend]:          Frontend Ready
+(15:44:54) WARNING: [Backend]:          listUpdateableGames not implemented on Sideload Library Manager
+(15:44:54) INFO:    [Gog]:              Found 0 game(s) to update
+(15:44:54) INFO:    [Backend]:          Checking for new Heroic Updates
+(15:44:54) INFO:    [Backend]:          Checking for current version changelog
+(15:44:54) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(15:44:54) INFO:    [Legendary]:        Checking for game updates: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary list --third-party
+(15:44:55) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary --version
+(15:44:55) INFO:    [Gog]:              Running command: /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/gogdl --auth-config-path /home/nick/.config/heroic/gog_store/auth.json --version
+(15:44:55) INFO:    [Nile]:             Running command: NILE_CONFIG_PATH=/home/nick/.config/heroic/nile_config /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/nile --version
+(15:44:56) INFO:    [Backend]:          
+System Information:
+CPU: 8x Intel(R) Core(TM) i5-8265U CPU @ 1.60GHz
+Memory: 7.97 GB (used: 1.69 GB)
+GPUs:
+  GPU 0:
+    Name: Intel Corporation WhiskeyLake-U GT2 [UHD Graphics 620]
+    IDs: D=3ea0 V=8086 SD=08af SV=1028
+    Driver: i915
+OS: Arch Linux 6.6.8-arch1-1 (linux)
+
+The current system is not a Steam Deck
+We are not running inside a Flatpak container
+
+Software Versions:
+  Heroic: 2.11.0 Kumachi
+  Legendary: 0.20.33 Undue Alarm
+  gogdl: 0.7.3
+  Nile: 1.0.0 Jonathan Joestar
+
+(15:44:56) WARNING: [DXVKInstaller]:    No GPU with Vulkan 1.1 support found, VKD3D will not work
+(15:44:56) WARNING: [DXVKInstaller]:    No GPU with Vulkan 1.1 support found, DXVK will not work
+(15:44:56) INFO:    [Winetricks]:       Downloading Winetricks
+(15:44:56) INFO:    [DXVKInstaller]:    Updating dxvk-nvapi to: dxvk-nvapi-v0.6.4
+(15:44:58) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/jp7677/dxvk-nvapi/releases/download/v0.6.4/dxvk-nvapi-v0.6.4.tar.gz
+(15:44:58) INFO:    [DownloadManager]:  Downloader: Finished downloading https://github.com/jp7677/dxvk-nvapi/releases/download/v0.6.4/dxvk-nvapi-v0.6.4.tar.gz
+(15:44:58) INFO:    [DXVKInstaller]:    downloaded dxvk-nvapi
+(15:44:58) INFO:    [DXVKInstaller]:    extracting dxvk-nvapi
+(15:44:58) INFO:    [Backend]:          Extracting /home/nick/.config/heroic/tools/dxvk-nvapi/dxvk-nvapi-v0.6.4.tar.gz to /home/nick/.config/heroic/tools/dxvk-nvapi/dxvk-nvapi-v0.6.4 using native tar
+(15:44:58) ERROR:   [Backend]:          Extracting Error: tar: /home/nick/.config/heroic/tools/dxvk-nvapi/dxvk-nvapi-v0.6.4: Cannot open: No such file or directory
+tar: Error is not recoverable: exiting now
+
+(15:44:58) INFO:    [DXVKInstaller]:    dxvk-nvapi updated!
+(15:44:58) INFO:    [WineDownloader]:   Updating wine versions info
+(15:44:58) INFO:    [WineDownloader]:   Fetching upstream information...
+(15:44:59) INFO:    [Backend]:          Starting the Download Queue
+(15:45:01) INFO:    [WineDownloader]:   wine versions updated
+(15:45:01) INFO:    [Legendary]:        Found 0 games to update
+(15:45:19) INFO:    [Legendary]:        Checking if EOS Overlay is enabled: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary eos-overlay info --prefix "/home/nick/Games/Heroic/Prefixes/default/Sid Meiers Civilization VI"
+(15:45:19) INFO:    [ExtraGameInfo]:    Using cached ExtraGameInfo data for Sid Meiers Civilization VI
+(15:45:19) INFO:    [ExtraGameInfo]:    Using cached ExtraGameInfo data for Sid Meiers Civilization VI
+(15:45:19) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(15:45:19) INFO:    [Legendary]:        Getting more details with 'legendary info'
+(15:45:19) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary info Kinglet --json --platform Windows
+(15:45:19) INFO:    [Legendary]:        Running command: LEGENDARY_CONFIG_PATH=/home/nick/.config/heroic/legendaryConfig/legendary /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/legendary info Kinglet --json --platform Windows
+(15:45:19) INFO:    [Legendary]:        Getting Info from Epic API
