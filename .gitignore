@@ -1,33 +1,57 @@
-# dotfiles .gitignore
+# Ignore everything by default
+*
 
-# Ignore most .local files
-.local/etc/
-.local/include/
-.local/lib/
-.local/opt/
-.local/share/
-.local/state/
-.local/bin/python/
-.local/bin/spotify/
+# Ignore all submodules
+**/.git
 
-# Ignore the following .config files
-.config/aqemu/
-.config/cabal/
-.config/BraveSoftware/
-.config/chromium/
-.config/Electron/
-.config/java/
-.config/monero-project/
-.config/spotify/
-.config/nvim/plugged/
-# Games
-.config/openra/
-.config/OpenRCT2/
-.config/PCSX2/
-# Misc files
-mimeapps.list
-netctl-gui.conf
-pavucontrol.ini
-QtProject.conf
-zoom.conf
-zoomus.conf
+# Allowlist 
+# We need this to explicitly check subfolders
+!*/
+
+# Allow .git and this .gitignore, of course
+# Need the double "**" wildcards to propagate recursively
+!.git/**
+!.gitignore
+
+# Shell symlinks
+!.xprofile
+!.zprofile
+
+# XDG
+!.config/user-dirs.dirs
+!.config/user-dirs.locale
+
+# nvim
+!.config/nvim/init.vim
+
+# Config
+!.config/aqemu/**
+!.config/bash/**
+!.config/firefox/**
+!.config/flameshot/**
+!.config/fontconfig/**
+!.config/GIMP/**
+!.config/git/**
+!.config/gtk-2.0/**
+!.config/gtk-3.0/**
+!.config/htop/**
+!.config/mozilla/**
+!.config/mpd/**
+!.config/mpv/**
+!.config/ncmpcpp/**
+!.config/neofetch/**
+!.config/newsboat/**
+!.config/pass-git-helper/**
+!.config/pcmanfm/**
+!.config/python/**
+!.config/shell/**
+!.config/sxhkd/**
+!.config/tmux/**
+!.config/tmuxinator/**
+!.config/x11/**
+!.config/zathura/**
+!.config/zsh/**
+
+# Scripts
+!.local/bin/*
+!.local/bin/statusbar/*

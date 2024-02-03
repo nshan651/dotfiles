@@ -4,6 +4,7 @@
 if [ -x "$(command -v nvim)" ]
 then 
     alias \
+        v="nvim" \
         vi="nvim" \
         vim="nvim" \
         vimdiff="nvim -d"
@@ -45,3 +46,18 @@ alias \
 	diff="diff --color=auto" 
 
 alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
+
+# git aliases
+alias \
+    gca="git commit -am" \
+    gcm="git commit -m" \
+    gch="git checkout" \
+    gbv="git branch -vv" \
+    grv="git remote -vv" \
+    gadd="git add" \
+    gdiff="git diff" \
+    gpush="git push" \
+    gstat="git status -uno --short" \
+    gshow="git show --abbrev-commit --pretty=medium" \
+    gref="git reflog" \
+    glog="git log --decorate --graph --oneline"

@@ -7,9 +7,10 @@
 # Preferences dialog.
 
 (import-raw-plug-in "${gimp_plug_in_dir}/plug-ins/file-raw-placeholder/file-raw-placeholder")
-(monitor-xresolution 305)
-(monitor-yresolution 305)
-(layer-new-name "gradient")
+(monitor-xresolution 81)
+(monitor-yresolution 81)
+(layer-new-name "Color")
+(layer-new-fill-type white)
 (layer-resize-fill-type white)
 (fill-options
     (style solid)

@@ -70,6 +70,9 @@ call plug#end()
 " Remap <leader> key from to SPACE
 let mapleader = "\<Space>" 
 
+" Set the python3 executable path
+let g:python3_host_prog = '/usr/bin/python3'
+
 "------------------------------------------------
 " --- |Pluggin Settings| ---
 "------------------------------------------------
@@ -92,8 +95,8 @@ let g:livepreview_engine = 'pdflatex'
 let g:livepreview_use_biber = 1
 
 " markdown-preview 
-let g:mkdp_browser = 'librewolf'
-let g:mkdp_markdown_css = '/home/nick/.local/share/markdown.css'
+let g:mkdp_browser = 'firefox'
+" let g:mkdp_markdown_css = '/home/nick/.local/share/markdown.css'
 let g:mkdp_page_title = '${name}'
 let g:mkdp_theme = 'dark'
 

@@ -967,6 +967,9 @@
   <resource identifier="gimp-gradient-fg-transparent" checksum="1491f74caf057a39c8193470da2d2a29">
   </resource>
 
+  <resource identifier="gimp-gradient-fg-transparent-hardedge" checksum="34dca90c80cbb5d91a2d07a0e2cfba84">
+  </resource>
+
   <resource identifier="${gimp_data_dir}/gradients/Abstract_1.ggr" checksum="edaa7d1fc882ab813b75b49ee9272913">
   </resource>
 
@@ -1177,13 +1180,10 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="df398bf329af4a13141b797c7ff33bc5">
+  <resource identifier="gimp-palette-color-history" checksum="77cd93f0446a0acc184f6a15e6bce48d">
   </resource>
 
-  <resource identifier="gimp-indexed-image-palette-3" checksum="b42a75185d698053bab4a9327ca54be8">
-  </resource>
-
-  <resource identifier="gimp-indexed-image-palette-5" checksum="e20e1a57081566e286fcdad241afe50f">
+  <resource identifier="gimp-indexed-image-palette-3" checksum="24a906cc676909f2280f1ecc1d8ca670">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -4663,22 +4663,22 @@
   <resource identifier="Noto Fangsong KSS Vertical" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Looped Thai" checksum="(null)">
+  <resource identifier="Noto Kufi Arabic" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Looped Thai Bold" checksum="(null)">
+  <resource identifier="Noto Kufi Arabic Bold" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Looped Thai Heavy" checksum="(null)">
+  <resource identifier="Noto Kufi Arabic Heavy" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Looped Thai Light" checksum="(null)">
+  <resource identifier="Noto Kufi Arabic Light" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Looped Thai Medium" checksum="(null)">
+  <resource identifier="Noto Kufi Arabic Medium" checksum="(null)">
   </resource>
 
-  <resource identifier="Noto Looped Thai Thin" checksum="(null)">
+  <resource identifier="Noto Kufi Arabic Thin" checksum="(null)">
   </resource>
 
   <resource identifier="NotoMono Nerd Font" checksum="(null)">
@@ -6644,6 +6644,9 @@
   </resource>
 
   <resource identifier="Noto Sans Phags-Pa" checksum="(null)">
+  </resource>
+
+  <resource identifier="Noto Sans PhagsPa" checksum="(null)">
   </resource>
 
   <resource identifier="Noto Sans Phoenician" checksum="(null)">
@@ -8782,9 +8785,6 @@
   <resource identifier="ShureTechMono Nerd Font Mono" checksum="(null)">
   </resource>
 
-  <resource identifier="Siji" checksum="(null)">
-  </resource>
-
   <resource identifier="Source Code Pro" checksum="(null)">
   </resource>
 
@@ -9065,6 +9065,9 @@
   </resource>
 
   <resource identifier="STIX MathJax Variants Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Symbols Nerd Font Mono" checksum="(null)">
   </resource>
 
   <resource identifier="TerminessTTF Nerd Font Bold" checksum="(null)">
@@ -9490,13 +9493,7 @@
   <resource identifier="VictorMono Nerd Font Ultra-Light Oblique" checksum="(null)">
   </resource>
 
-  <resource identifier="waffle" checksum="(null)">
-  </resource>
-
   <resource identifier="Weather Icons" checksum="(null)">
-  </resource>
-
-  <resource identifier="Wuncon Siji" checksum="(null)">
   </resource>
 
   <resource identifier="xos4 Terminus" checksum="(null)">

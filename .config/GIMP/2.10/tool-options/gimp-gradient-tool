@@ -1,7 +1,7 @@
 # GIMP gimp-gradient-tool options
 
-(foreground (color-rgb 0.85882353782653809 0.82745099067687988 0.83137255907058716))
-(background (color-rgb 0.7921568751335144 0.84705883264541626 0.88627451658248901))
+(foreground (color-rgb 0.69158812707003925 0.95327102803738317 0.53741453929624294))
+(background (color-rgb 0 0 0))
 (gradient "Custom")
 (brush-size 51)
 (brush-hardness 0.5)
