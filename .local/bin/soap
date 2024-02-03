@@ -1,5 +1,8 @@
 #!/bin/bash
+# (S)ync (O)ver (A)all (P)rogress
 # Backup dotfiles, wiki, and more.
+#
+# "Don't forget to use soap!"
 
 unix_box="debox"
 selfhost="selfhost"

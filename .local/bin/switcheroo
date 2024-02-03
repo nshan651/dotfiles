@@ -1,9 +1,0 @@
-#!/bin/sh
-# Swap two files
-# The ole switcheroo ;)
-
-TEMP_SWITCH_FILE="/tmp/switcherooswap69"
-cp $1 $TEMP_SWITCH_FILE
-mv $2 $1
-mv $TEMP_SWITCH_FILE $2
-#rm $TEMP_SWITCH_FILE
