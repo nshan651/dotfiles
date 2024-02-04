@@ -58,6 +58,8 @@ pre_updates() {
     mkdir -p $HOME/.config/dotfiles/.local
     rsync -a $HOME/.local/bin $HOME/.config/dotfiles/.local
     rsync -a --exclude="dotfiles" $HOME/.config $HOME/.config/dotfiles/
+    # Remove pesky git submodules
+    rm -rf $HOME/.config/dotfiles/.config/nvim/plugged
     printf "Done.\n"
 }
 
