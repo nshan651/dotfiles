@@ -13,6 +13,9 @@
 !.git/**
 !.gitignore
 
+# Makefile for building and installing
+!Makefile
+
 # Shell symlinks
 !.xprofile
 !.zprofile
