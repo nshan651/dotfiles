@@ -55,16 +55,17 @@ https://thewalrus.ca/feed/
 https://fullstackeconomics.com/rss
 https://rss.stratechery.passport.online/feed/rss/8Lu26W627ebVKM2W9G7JCM
 https://theconversation.com/us/business/articles.atom
+https://reason.com/latest/feed/
 
 ---Travel---
 https://www.atlasobscura.com/latest.rss
 
 ---Chicago---
 https://chicagoboyz.net/feed
-https://www.chicagocontrarian.com/feed
-https://www.chicagocontrarian.com/rss
-https://www.chicagojazz.com/feed
-https://www.chicagojazz.com/rss
+https://www.chicagocontrarian.com/atom
+https://www.chicagocontrarian.com/atom.xml
+https://www.chicagojazz.com/atom
+https://www.chicagojazz.com/atom.xml
 
 ---Cooking---
 
@@ -75,12 +76,14 @@ https://www.chicagojazz.com/rss
 ---Art---
 https://news.artnet.com/art-world/feed
 
----Other---
-
-
-
 ---Philosophy---
-https://www.reddit.com/domain/gwern.net/.rss 
+
 
 ---Misc---
 https://xkcd.com/rss.xml
+https://planet.emacslife.com/atom.xml
+https://www.commitstrip.com/en/feed/
+https://irreal.org/blog/?feed=rss2
+https://explosm.net/rss.xml
+https://nullprogram.com/blog/
+https://buttondown.email/hillelwayne/rss

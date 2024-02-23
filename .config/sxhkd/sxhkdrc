@@ -56,7 +56,9 @@ super + n
 
 # Emacs
 super + e
-    emacsclient -c -a 'emacs'
+    /usr/bin/emacs
+
+#emacsclient -c -a 'emacs'
 
 # Newsboat
 super + shift + n

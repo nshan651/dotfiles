@@ -1,0 +1,85 @@
+#!/bin/bash
+# (S)ync (O)ver (A)all (P)rogress
+# Backup dotfiles, wiki, and more.
+#
+# "Don't forget to use soap!"
+
+unix_box="debox"
+selfhost="selfhost"
+
+# Define project and userland repos
+project_repos=("$GIT"/*)
+user_repos=(
+    ".config/dotfiles"
+    ".local/opt/st"
+    ".local/opt/dwm"
+    ".local/opt/dwmblocks" 
+    ".emacs.d"
+    "org"
+    "dox/family-finance"
+    "dox/personal-finance"
+    "dox/pass"
+)
+repos=("${project_repos[@]}" "${user_repos[@]}")
+
+update_repo() {
+    repo_dir="$1"
+    repo_name=$(basename "$repo_dir")
+    cd "$HOME"/"$repo_dir"
+
+    branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+    remote=$(git remote | grep "^$selfhost$")
+    
+    # If a remote connection does not exist, create one
+    if [[ ! -v "$remote" ]]; then
+        ssh "$unix_box" \
+            "mkdir -p ~/sync/${repo_dir}; cd ~/sync/${repo_dir} && git init --bare"
+        git remote remove "$remote"
+        git remote add "$remote" "$unix_box":~/git/"$repo_dir"
+    fi
+
+    printf "=====================================================================\n"
+    printf "                    === %s ===                                       \n" "$repo_name"
+    printf "=====================================================================\n"
+
+    # Check in updates
+    git add -A
+    git commit -m "Routine backup of ${repo_name}"
+    git push origin "$branch"
+    git push "$remote" "$branch"
+}
+
+pre_updates() {
+    printf "=====================================================================\n"
+    printf "                    === PRE_UPDATES ===                              \n"
+    printf "=====================================================================\n"
+    printf "Copying over .config/ and .local/bin to dotfiles...\n"
+    # Copy over dotfiles
+    mkdir -p $HOME/.config/dotfiles/.local
+    rsync -a $HOME/.local/bin $HOME/.config/dotfiles/.local
+    rsync -a --exclude="dotfiles" $HOME/.config $HOME/.config/dotfiles/
+    # Remove pesky git submodules
+    rm -rf $HOME/.config/dotfiles/.config/nvim/plugged
+    printf "Done.\n"
+}
+
+post_updates() {
+    # Clean up dotfiles
+    printf "=====================================================================\n"
+    printf "                    === POST_UPDATES ===                             \n"
+    printf "=====================================================================\n"
+
+    printf "Cleaning up dotfiles...\n"
+    rm -rf $HOME/.config/dotfiles/.local $HOME/.config/dotfiles/.config
+    printf "Done.\n"
+}
+
+pre_updates
+
+for repo in "${repos[@]}"; do
+    # Strip $HOME from path
+    repo="${repo#$HOME/}"
+    update_repo "$repo"
+done
+
+post_updates

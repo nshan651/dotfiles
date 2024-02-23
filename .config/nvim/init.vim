@@ -58,7 +58,6 @@ Plug 'ishan9299/modus-theme-vim'
 " Plug 'sainnhe/gruvbox-material'
 Plug 'rebelot/kanagawa.nvim'
 " Plug 'EdenEast/nightfox.nvim'
-" Plug 'AlessandroYorba/Alduin'
 " Plug 'sainnhe/sonokai'
 Plug 'mcchrish/zenbones.nvim'
 " Plug 'morhetz/gruvbox'
@@ -103,6 +102,9 @@ let g:mkdp_theme = 'dark'
 " vimwiki
 let g:vimwiki_list = [{'path': '~/dox/wiki/', 'path_html': '~/dox/public_html/',
                       \ 'syntax': 'markdown', 'ext': '.md'}]
+
+" Define a macro
+let @e='/static unsigned int m_indentostatic bool m_loggingEnabled;static void enableDebugLogging();static void disableDebugLogging();'
 
 "------------------------------------------------
 " --- |Plugin Maps| ---
@@ -260,8 +262,8 @@ set ignorecase
 set smartcase
 set number relativenumber
 set nu
-set tabstop=4 softtabstop=4
-set shiftwidth=4
+set tabstop=2 softtabstop=2
+set shiftwidth=2
 set expandtab
 set smartindent
 

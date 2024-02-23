@@ -26,6 +26,7 @@
 
 # nvim
 !.config/nvim/init.vim
+!.config/nvim/minimal.vim
 
 # Config
 !.config/aqemu/**
