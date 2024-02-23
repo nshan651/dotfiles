@@ -110,16 +110,14 @@ post_updates() {
 }
 
 update_repo() {
-    repo_dir="$1"
-    repo_name=$(basename "$repo_dir")
-    cd "$HOME"/"$repo_dir"
+    repo_path="$1"
+    repo_name=$(basename "$repo_path")
+    cd "$HOME/$repo_path"
 
     branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
     # remote=$(git remote | grep "^$selfhost$")
-    remotes=$(git remote)
+    remotes=($(git remote))
     
-    # If a remote connection does not exist, create one
-
     printf "=====================================================================\n"
     printf "                    === Uploading %s... ===                          \n" "$repo_name"
     printf "=====================================================================\n"
@@ -143,11 +141,13 @@ sync_git() {
   # Copy over dotfiles
   pre_updates
 
+  # Update all repos in git_repos list
   for repo in "${git_repos[@]}"; do
     # Strip $HOME from path
     repo="${repo#$HOME/}"
     update_repo "$repo"
   done
+
   # Clean up dotfiles
   post_updates
 }
@@ -165,7 +165,8 @@ sync_all() {
 
 # If no args are specified, sync everything by default. This might take a while.
 [ "$#" -eq 0 ] && \
-  sync_all && exit
+  update_repo ".emacs.d"
+  # sync_all && exit
 
 [ "$1" = "-g" ] || [ "$1" = "--sync-git" ] && \
   sync_git && exit
