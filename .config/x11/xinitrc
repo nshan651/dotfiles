@@ -5,6 +5,7 @@ if [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile" ]; then
 else
 	. "$HOME/.xprofile"
 fi
-
+systemctl --user import-environment DISPLAY
+# Activate dbus variables
+dbus-update-activation-environment --all
 ssh-agent dwm
-# exec launchwm

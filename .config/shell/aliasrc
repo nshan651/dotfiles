@@ -62,3 +62,5 @@ alias \
     gshow="git show --abbrev-commit --pretty=medium" \
     gref="git reflog" \
     glog="git log --decorate --graph --oneline"
+
+alias config='/usr/bin/git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'

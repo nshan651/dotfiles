@@ -3,14 +3,12 @@
 # Adds `~/.local/bin` to $PATH
 export PATH="$PATH:${$(find ~/.local/bin -type d -printf %p:)%%:}"
 export PATH="$PATH:$HOME/.local/bin/statusbar"
+export PATH="$PATH:$HOME/.local/bin/cron"
 export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:/usr/share/bin"
 
 # Allows pyenv to automatically change versions
 eval "$(pyenv init -)"
-
-# Add gunicorn to path
-export PATH="$PATH:$HOME/.local/lib/python3.10/site-packages"
 
 # Default programs
 export EDITOR="nvim"

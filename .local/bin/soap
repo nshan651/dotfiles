@@ -4,71 +4,51 @@
 #
 # "Don't forget to use soap!"
 
-# USAGE=$(cat << EOM
-# usage: sparkbadge [-h] [-u UEP] [-t TIMEFRAME] [-m {commits,issues}] [-s SOURCE] [-d DIR]
-
-# Generate sparklines for your status badge.
-
-# options:
-#   -h, --help            show this help message and exit
-#   -u UEP, --uep UEP     The ID or URL-encoded path of the project.
-#   -t TIMEFRAME, --timeframe TIMEFRAME
-#                         The timeframe to create sparklines over, inclusive. Format (start year to end year) is 'YYYY-YYYY'. An example input would be '--timeframe 2017-2020'. Currently only years are
-#                         supported.
-#   -m {commits,issues}, --metrics {commits,issues}
-#                         The sparkline to use.
-#   -s SOURCE, --source SOURCE
-#                         The source forge (i.e. github or gitlab).
-#   -d DIR, --dir DIR     The directory to store sparkbadges. Default is .sparkbadge/
-# EOM
-# )
-
 USAGE=$(cat << EOM
-usage: soap [-h] [-u UEP] [-t TIMEFRAME] [-m {commits,issues}] [-s SOURCE] [-d DIR]
+usage: soap [-h] [-g] [-d]
 
 (S)ync (O)ver (A)ll (P)rogress
 Sync all documents and git repos with remote devices.
 
 options:
-  -h, --help            Show this help message and exit
-  -u UEP, --uep UEP     The ID or URL-encoded path of the project.
-  -t TIMEFRAME, --timeframe TIMEFRAME
-                        The timeframe to create sparklines over, inclusive. Format (start year to end year) is 'YYYY-YYYY'. An example input would be '--timeframe 2017-2020'. Currently only years are
-                        supported.
-  -m {commits,issues}, --metrics {commits,issues}
-                        The sparkline to use.
-  -s SOURCE, --source SOURCE
-                        The source forge (i.e. github or gitlab).
-  -d DIR, --dir DIR     The directory to store sparkbadges. Default is .sparkbadge/
+  -h, --help            Show this help message and exit.
+  -g, --sync-git        Sync all git repositories listed in \$git_repos.
+  -d, --sync-dox        Sync all documents in \$XDG_DOCUMENTS_DIR.
 EOM
 )
 
 # -----------------------------------------------------------------------------
-# -- Variable Setup
+# -- Config
 # -----------------------------------------------------------------------------
 
 # Machines
 machines=(
     # Define hosts here (listed in ~/.ssh/config)
+    # "arch"
     "debox"
-    "pibox"
+    # "pibox"
+)
+
+# Physical storage media
+drives=(
+    "/media/ssd1/sync"
+    "/media/hdd1/sync"
+)
+
+# Source forges
+forges=(
+    # Define remote git endpoints here
+    "https://github.com/nshan651"
+    "https://gitlab.com/nshan651"
+    # Self-hosted git
+    "~/sync/git"
 )
 # Machine sync dirs
-arch="/home/nick/sync"
-debox="/home/nick/sync"
-# Physical storage media
-ssd1="/media/ssd1/sync"
-hdd1="/media/hdd1/sync"
-# Source forges
-github="https://github.com/nshan651"
-gitlab="https://gitlab.com/nshan651"
-# Self-hosted git 
-selfhost="/home/nick/sync/git"
+syncdir="sync"
 
 # Define project and userland repos
 project_repos=("$GIT"/*)
 user_repos=(
-    ".config/dotfiles"
     ".local/opt/st"
     ".local/opt/dwm"
     ".local/opt/dwmblocks" 
@@ -84,76 +64,57 @@ git_repos=("${project_repos[@]}" "${user_repos[@]}")
 # -- Function Declarations
 # -----------------------------------------------------------------------------
 
-pre_updates() {
-    printf "=====================================================================\n"
-    printf "                    === PRE_UPDATES ===                              \n"
-    printf "=====================================================================\n"
-    printf "Copying over .config/ and .local/bin to dotfiles...\n"
-    # Copy over dotfiles
-    mkdir -p $HOME/.config/dotfiles/.local
-    rsync -a $HOME/.local/bin $HOME/.config/dotfiles/.local
-    rsync -a --exclude="dotfiles" $HOME/.config $HOME/.config/dotfiles/
-    # Remove pesky git submodules
-    rm -rf $HOME/.config/dotfiles/.config/nvim/plugged
-    printf "Done.\n"
+print_msg () {
+    # Define color codes
+    GREEN='\033[0;32m'
+    BLUE='\033[0;34m'
+    CYAN='\033[0;36m'
+    RESET='\033[0m'
+
+    update_item="$1"
+    machine="$2"
+
+    # Pretty-print
+    printf "\n\n${GREEN}Uploading${RESET} ${BLUE}%s${RESET} ${GREEN}to machine${RESET} ${CYAN}%s${RESET}\n" "$update_item" "$machine"
+    printf "${GREEN}--------------------------------------------------------------------------------\n${RESET}"
 }
-
-post_updates() {
-    # Clean up dotfiles
-    printf "=====================================================================\n"
-    printf "                    === POST_UPDATES ===                             \n"
-    printf "=====================================================================\n"
-
-    printf "Cleaning up dotfiles...\n"
-    rm -rf $HOME/.config/dotfiles/.local $HOME/.config/dotfiles/.config
-    printf "Done.\n"
-}
-
 update_repo() {
-    repo_path="$1"
+    repo="$1"
+    repo_relpath="${repo#$HOME/}"
     repo_name=$(basename "$repo_path")
-    cd "$HOME/$repo_path"
+    cd "$HOME/$repo_relpath"
 
     branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
-    # remote=$(git remote | grep "^$selfhost$")
     remotes=($(git remote))
     
-    printf "=====================================================================\n"
-    printf "                    === Uploading %s... ===                          \n" "$repo_name"
-    printf "=====================================================================\n"
-
     # Check in updates
     for remote in "$remotes"; do
       git add -A
       git commit -m "Routine backup of ${repo_name}"
-      git push "$remote" main
+      git push "$remote" "$branch"
     done
 }
 
 # Sync Documents located at "$XDG_DOCUMENTS_DIR/" 
 sync_dox() {
-# rsync --exclude="*.git" --mkpath -aRiv "$XDG_DOCUMENTS_DIR/" "${machines[0]}":/
- echo "NOT DONE"
+    for machine in "${machines[@]}"; do
+	print_msg "dox" "$machine"
+	rsync --exclude="*.git" --mkpath -aRiv "$XDG_DOCUMENTS_DIR/" "$machine":/
+    done
+    echo "NOT DONE"
 }
 
 # Sync git repos, specified in "git_repos" list above
 sync_git() {
-  # Copy over dotfiles
-  pre_updates
-
-  # Update all repos in git_repos list
-  for repo in "${git_repos[@]}"; do
-    # Strip $HOME from path
-    repo="${repo#$HOME/}"
-    update_repo "$repo"
-  done
-
-  # Clean up dotfiles
-  post_updates
-}
-
-sync_all() {
-  sync_git && sync_dox
+    # Copy over dotfiles
+    for machine in "${machines[@]}"; do
+	for repo in "${git_repos[@]}"; do
+	    # Strip $HOME from path
+	    # repo="${repo#$HOME/}"
+	    print_msg "$repo" "$machine"
+	    update_repo "$repo"
+	done
+    done
 }
 
 # -----------------------------------------------------------------------------
@@ -165,8 +126,7 @@ sync_all() {
 
 # If no args are specified, sync everything by default. This might take a while.
 [ "$#" -eq 0 ] && \
-  update_repo ".emacs.d"
-  # sync_all && exit
+  sync_git; sync_dox; exit
 
 [ "$1" = "-g" ] || [ "$1" = "--sync-git" ] && \
   sync_git && exit

@@ -7,7 +7,7 @@ $HOME/.local/bin/monitors
 setbg &
 /usr/bin/emacs --daemon &
 xsetroot -cursor_name left_ptr
-autostart="mpd xcompmgr"
+autostart="mpd xcompmgr dunst unclutter"
 
 for program in $autostart; do
 	pidof -s "$program" || "$program" &
