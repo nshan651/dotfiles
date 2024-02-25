@@ -15,6 +15,8 @@
 
 # Makefile for building and installing
 !Makefile
+# README
+!README.md
 
 # Shell symlinks
 !.xprofile
@@ -39,6 +41,7 @@
 !.config/gtk-2.0/**
 !.config/gtk-3.0/**
 !.config/htop/**
+!.config/lf/**
 !.config/mozilla/**
 !.config/mpd/**
 !.config/mpv/**
