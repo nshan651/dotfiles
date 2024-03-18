@@ -1,19 +1,18 @@
 HOME := $(shell echo $$HOME)
 PWD := $(shell echo $$PWD)
 
-all: pull
-# TODO Install all dots
-# install:
+all: install
 
-pull:
+install:
 	# Copy scripts
 	rsync --exclude="plugged" --exclude="dotfiles" --mkpath -ariv \
-		$(HOME)/.local/bin/ \
-		$(PWD)/.local/bin/
+		$(PWD)/.local/bin/ \
+		$(HOME)/.local/bin/ 
 	# Copy config
 	rsync --exclude="plugged" --exclude="dotfiles" --mkpath -ariv \
-		$(HOME)/.config/ \
-		$(PWD)/.config/
+		$(PWD)/.config/ \
+		$(HOME)/.config/
 
 clean:
-	rm -rf $(PWD)/.config $(PWD)/.local
+	# WARNING: This will nuke your existing configs and scripts
+	rm -rf $(HOME)/.config/ $(HOME)/.local/bin/
