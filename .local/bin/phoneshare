@@ -1,0 +1,16 @@
+#!/bin/sh
+# Pair phone with computer on linux
+
+# Unmount device
+
+[ "$1" = "-u" ] || [ "$1" = "--unmount" ] && \
+  fusermount -u ~/dox/media/iphone ; exit
+
+# Unlock the device, tap "Trust this device," and re-type password.
+idevicepair pair
+
+# Create a mountpoint (easiest to do this at user-level) 
+mkdir -p ~/dox/media/iphone
+
+# Mount the device
+ifuse ~/dox/media/iphone

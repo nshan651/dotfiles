@@ -11,11 +11,14 @@ control + alt + 4
 
 # Volume controls
 XF86AudioLowerVolume
-    amixer -q sset Master 5%-
+    pactl set-sink-volume 0 -5%
+    # amixer -q sset Master 5%-
 XF86AudioRaiseVolume
-    amixer -q sset Master 5%+
+    pactl set-sink-volume 0 +5%
+    # amixer -q sset Master 5%+
 XF86AudioMute
-    amixer -q sset Master toggle
+    pactl set-sink-mute 0 toggle
+    # amixer -q sset Master toggle
 # PlayerCTL global play-pause and next/prev
 XF86AudioPlay
     playerctl play-pause
@@ -25,11 +28,15 @@ XF86AudioPrev
     playerctl previous
 # Alt controls in case there are no dedicated audio buttons
 super + Next 
-    amixer -q sset Master 5%-
+    pactl set-sink-volume 0 -5%
+    # amixer -q sset Master 5%-
 super + Prior 
-    amixer -q sset Master 5%+
+    pactl set-sink-volume 0 +5%
+    # amixer -q sset Master 5%+
 super + Home
     playerctl play-pause
+super + End
+    pactl set-sink-mute 0 toggle
 # Brightness
 XF86MonBrightnessUp
     xbacklight -inc 5
@@ -94,7 +101,7 @@ super + F6
 
 # GUI filemanager
 super + F7
-	pcmanfm
+    pcmanfm
 
 # Website
 super + F8
