@@ -15,34 +15,18 @@ output DP-7 pos 0 0 scale 2
 output DP-8 pos 0 0 scale 2
 output HDMI-A-1 scale 2
 
-output * bg ~/.dotfiles/backgrounds/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg fill
+output * bg ~/ark/pix/wallpaper/north-shore/apostle-caves.jpg fill
 
-bindsym $mod+Shift+s exec ~/.bin/toggle-display $primary
-
-input type:keyboard {
-    xkb_layout us,gr
-    xkb_options ctrl:nocaps
-}
-
-input type:touchpad {
-    dwt enabled
-    tap enabled
-    middle_emulation enabled
-}
-
-font pango:JetBrains Mono 7
+font pango:JetBrains Mono 12 
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
-set $foot_cmd foot -f "JetBrains Mono:size=14"
-set $emacs_frame_cmd $foot_cmd emacsclient -a '' -t
-
-bindsym $mod+Shift+q kill
+bindsym $mod+q kill
 bindsym $mod+Shift+x exit
 bindsym $mod+Shift+r reload
-bindsym $mod+Shift+e exec $emacs_frame_cmd
-bindsym $mod+Shift+Return exec $foot_cmd
+bindsym $mod+e exec emacs
+bindsym $mod+Return exec alacritty
 
 bindsym $mod+h focus left
 bindsym $mod+l focus right
@@ -71,7 +55,8 @@ bindsym $mod+space exec fuzzel -w 50 -x 8 -y 8 -r 3 -b 232635ff -t A6Accdff -s A
 
 # Set defaults
 default_orientation horizontal
-workspace_layout tabbed
+#workspace_layout tabbed
+workspace_layout stacking
 
 # Configure gaps and borders
 default_border pixel 1
@@ -129,7 +114,7 @@ client.focused $bordercolor $bgcolor #ffffffff #ffffffff #c792eacc
 client.unfocused $bordercolor #1c1f2bef #ffffffff #ffffffff #c792eacc
 
 # Set up screen locking
-set $lock 'swaylock -f -i ~/.dotfiles/backgrounds/samuel-ferrara-uOi3lg8fGl4-unsplash.jpg -s fill --font "JetBrains Mono" --indicator-idle-visible'
+set $lock 'swaylock -f -i ~/ark/pix/wallpaper/north-shore/apostle-caves.jpg -s fill --font "JetBrains Mono" --indicator-idle-visible'
 exec swayidle -w \
   timeout 900 $lock \
   timeout 960 'swaymsg "output * dpms off"' \
@@ -142,7 +127,7 @@ for_window [title=".* - mpv$"] floating enable, sticky enable
 
 bar {
     position top
-    mode hide
+    mode dock
     font pango:JetBrains Mono 8
     icon_theme "Papirus-Dark"
 
@@ -163,15 +148,11 @@ exec mako --border-radius=2 --font="JetBrains Mono 8" --max-visible=5 --outer-ma
 exec nm-applet --indicator
 exec udiskie -t
 exec gammastep-indicator -l 37.983810:23.727539 -t 6500:3500 -b 1.0:0.7
-exec $foot_cmd emacs -nw
 
 # Set GNOME settings (requires "glib:bin" in Guix)
 exec gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
 exec gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
 exec gsettings set org.gnome.desktop.interface font-name "Iosevka Aile 11"
-
-# Load system-specific configuration
-include "~/.config/sway/systems/$(hostname)"
 
 # Update DBUS activation records to ensure Flatpak apps work
 exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
