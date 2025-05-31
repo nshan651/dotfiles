@@ -56,14 +56,13 @@ bindsym $mod+space exec fuzzel -w 50 -x 8 -y 8 -r 3 -b 232635ff -t A6Accdff -s A
 # Set defaults
 default_orientation horizontal
 #workspace_layout tabbed
-workspace_layout stacking
+workspace_layout default
 
 # Configure gaps and borders
 default_border pixel 1
 gaps outer 0
 gaps inner 6
 smart_borders off
-hide_edge_borders --i3 none
 
 # Define variables for workspace numbers
 set $ws0 0
@@ -115,6 +114,7 @@ client.unfocused $bordercolor #1c1f2bef #ffffffff #ffffffff #c792eacc
 
 # Set up screen locking
 set $lock 'swaylock -f -i ~/ark/pix/wallpaper/north-shore/apostle-caves.jpg -s fill --font "JetBrains Mono" --indicator-idle-visible'
+
 exec swayidle -w \
   timeout 900 $lock \
   timeout 960 'swaymsg "output * dpms off"' \
