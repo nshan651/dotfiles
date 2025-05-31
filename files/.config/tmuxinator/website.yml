@@ -1,0 +1,15 @@
+# /home/nick/.config/tmuxinator/website.yml
+
+name: website 
+root: ~/git/nshan651.github.io
+
+windows:
+  - main: clear
+  - webserver: hugo server --disableFastRender -D 
+  - layouts: 
+      layout: even-horizontal 
+      panes:
+        - vim layouts/_default/baseof.html
+        - vim layouts/partials/nav.html 
+  - css: 
+        - vim static/site.css

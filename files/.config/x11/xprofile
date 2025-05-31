@@ -1,0 +1,27 @@
+#!/bin/sh
+
+# Setup keybindings.
+setxkbmap us &
+pgrep -x sxhkd > /dev/null || sxhkd &
+
+# Run 'mons' in daemon-mode.
+# nohup mons -a -x "display-profile" > /dev/null 2>&1 & 
+mons -a -x "$HOME/.local/bin/display-profile" & 
+
+# Run background script.
+setbg &
+
+# Launch emacs in daemon-mode.
+/usr/bin/emacs --daemon &
+
+xsetroot -cursor_name left_ptr
+
+# Autostart some programs.
+autostart="mpd xcompmgr dunst unclutter"
+
+for program in $autostart; do
+	pidof -s "$program" || "$program" &
+done >/dev/null 2>&1
+
+# Ensure that xrdb has finished running before moving on to start the WM/DE.
+[ -n "$xrdbpid" ] && wait "$xrdbpid"

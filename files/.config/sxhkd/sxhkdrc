@@ -1,0 +1,146 @@
+## sxhkdrc config
+## By Nick Shannon
+
+# === Scripts ===
+
+# Refresh external monitors
+control + alt + 4
+    monitors
+
+# === Utilities ===
+
+# Volume controls
+XF86AudioLowerVolume
+    pactl set-sink-volume 0 -5%
+    # amixer -q sset Master 5%-
+XF86AudioRaiseVolume
+    pactl set-sink-volume 0 +5%
+    # amixer -q sset Master 5%+
+XF86AudioMute
+    pactl set-sink-mute 0 toggle
+    # amixer -q sset Master toggle
+# PlayerCTL global play-pause and next/prev
+XF86AudioPlay
+    playerctl play-pause
+XF86AudioNext
+    playerctl next 
+XF86AudioPrev	
+    playerctl previous
+# Alt controls in case there are no dedicated audio buttons
+super + Next 
+    pactl set-sink-volume 0 -5%
+    # amixer -q sset Master 5%-
+super + Prior 
+    pactl set-sink-volume 0 +5%
+    # amixer -q sset Master 5%+
+super + Home
+    playerctl play-pause
+super + End
+    pactl set-sink-mute 0 toggle
+# Brightness
+XF86MonBrightnessUp
+    xbacklight -inc 5
+XF86MonBrightnessDown
+    xbacklight -dec 5
+
+# === Universal keybinds ===
+
+# Open TODO list
+super + r 
+    $TERMINAL -e nvim $WIKI/TODO.md
+
+# Web
+super + w
+    $BROWSER
+
+# Passmenu
+super + shift + p
+    passmenu
+
+# Open Notes
+super + n 
+    $TERMINAL -e nvim -c VimwikiIndex
+
+# Emacs
+super + e
+    /usr/bin/emacs
+
+#emacsclient -c -a 'emacs'
+
+# Newsboat
+super + shift + n
+    $TERMINAL -e newsboat ; pkill -RTMIN+6 dwmblocks
+
+# Music
+super + m
+    $TERMINAL -e ncmpcpp
+
+# lf
+super + c
+    $TERMINAL -e lfub 
+
+# RSS feed reader
+super + F1
+    $TERMINAL -e newsboat
+
+# lf 
+super + F3
+    $TERMINAL -e lfub 
+
+# Current project opened in a mux session
+# super + F4
+#     $TERMINAL -e tmuxinator start sparkbadge
+
+# Wiki index
+# super + F5
+#     $TERMINAL -e nvim $HOME/Documents/wiki/index.md
+
+# Spotify
+super + F6
+    spotify
+
+# GUI filemanager
+super + F7
+    pcmanfm
+
+# Website
+super + F8
+    $TERMINAL -e tmuxinator start website
+
+# Excite
+super + F9
+    $TERMINAL -e tmuxinator start excite
+
+# Thesis 
+super + F10
+    $TERMINAL -e tmuxinator start thesis
+
+super + F11
+    $TERMINAL -e tmuxinator start sparkbadge
+
+# Dotfile quicksearch 
+super + F12
+    $TERMINAL -e find-conf 
+
+# Terminal emulator
+super + Return
+    $TERMINAL	
+
+# Open a new tmux session
+super + {_,shift + }Return
+    $TERMINAL -e tmux
+
+# Attach to a tmux session
+super + a
+    $TERMINAL -e tmux a
+
+# program launcher
+super + d 
+	dmenu_run
+
+# Flameshot
+Print
+    flameshot gui
+# make sxhkd reload its configuration files:
+super + Escape
+	pkill -USR1 -x sxhkd

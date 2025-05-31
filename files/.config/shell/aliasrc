@@ -1,0 +1,66 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+if [ -x "$(command -v nvim)" ]
+then 
+    alias \
+        v="nvim" \
+        vi="nvim" \
+        vim="nvim" \
+        vimdiff="nvim -d"
+fi
+
+# Start emacsclient
+alias ee="emacsclient -c -a 'emacs'"
+
+# Use $XINITRC variable if file exists.
+[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
+
+# Alias true colors for tmux
+alias tmux="TERM=screen-256color-bce tmux"
+
+# Make firefox obey XDG
+alias firefox=firefox --profile ~/.config/mozilla
+
+# tmuxinator session manager
+alias mux=tmuxinator
+
+# monero wallet
+alias monerod=monderod --data-dir "$XDG_DATA_HOME"/bitmonero
+
+# xclip copy to clipboard
+alias xcp="xclip -selection clipboard"
+
+# Verbosity settings
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	bc="bc -ql" \
+	mkdir="mkdir -pv"
+
+# Colorize commands when possible
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	lsa="ls -ahN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" 
+
+alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
+
+# git aliases
+alias \
+    gca="git commit -am" \
+    gcm="git commit -m" \
+    gch="git checkout" \
+    gbv="git branch -vv" \
+    grv="git remote -vv" \
+    gadd="git add" \
+    gdiff="git diff" \
+    gpush="git push" \
+    gstat="git status -uno --short" \
+    gshow="git show --abbrev-commit --pretty=medium" \
+    gref="git reflog" \
+    glog="git log --decorate --graph --oneline"
+
+alias config='/usr/bin/git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'

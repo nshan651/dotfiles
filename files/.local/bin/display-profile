@@ -1,0 +1,22 @@
+#!/bin/bash
+# Use in daemon-mode via: 
+# nohup mons -a -x "display-profile" > /dev/null 2>&1 & 
+
+# Handle various monitor setups with the exported $MONS_NUMBER.
+case ${MONS_NUMBER} in
+  1)
+    mons --primary eDP1 -o
+    ;;
+  2)
+    mons --primary eDP1 -s 
+    ;;
+  3)
+    # Extract numbers and store them in an array
+    mapfile -t monitors < <(mons | grep -o '^[0-9]\+:' | awk -F: '{print $1}')
+
+    mons --primary eDP1 -S "${monitors[1]},${monitors[2]}:R"
+    ;;
+  *)
+    # Handle it manually
+    ;;
+esac

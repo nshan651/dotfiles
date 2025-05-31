@@ -1,0 +1,29 @@
+# /home/nick/.config/tmuxinator/sparkbadge.yml
+
+name: sparkbadge
+root: ~/git/sparkbadge
+
+windows:
+  - main: 
+      root: ~/git/sparkbadge/sparkbadge
+      layout: even-horizontal 
+      panes:
+        - vim __main__.py 
+        - shell: 
+  - parser:
+      root: ~/git/sparkbadge/sparkbadge
+      layout: main-vertical
+      panes:
+        - vim __init__.py 
+        - vim ../.sparkbadge/spark.yml 
+  - sparkline:
+      root: ~/git/sparkbadge/sparkbadge
+      layout: main-vertical
+      panes:
+        - vim sparkline.py 
+        - shell:
+  - notes: 
+      layout: main-vertical
+      panes: 
+        - vim ./docs/outline.md
+        - vim README.md

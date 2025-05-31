@@ -1,0 +1,19 @@
+#!/bin/sh
+# Batch convert one image format to another using imagemagick
+
+PHOTOS_DIR="$PWD"
+
+input_format="$1"
+output_format="$2"
+
+for f in "$PHOTOS_DIR"/*.${input_format}; do
+  echo "Converting $f..."
+	magick "$f" "${f/%.$input_format/.$output_format}";
+done
+
+OUTPUT_DIR="$PHOTOS_DIR/$output_format"
+
+mkdir -p "$OUTPUT_DIR"
+
+mv "$PHOTOS_DIR"/*.${output_format} "$OUTPUT_DIR"
+

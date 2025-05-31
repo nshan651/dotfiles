@@ -1,0 +1,3 @@
+#!/bin/sh
+
+stow -d ${HOME}/.dotfiles -t ${HOME} files

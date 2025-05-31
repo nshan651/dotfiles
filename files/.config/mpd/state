@@ -1,0 +1,53 @@
+sw_volume: 100
+audio_device_state:1:ALSA/PulseAudio
+audio_device_state:1:my_fifo
+state: pause
+current: 11
+time: 2.315000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Armand Hammer/BLK LBL/Armand Hammer - Busta In '97.mp3
+1:Armand Hammer/BLK LBL/Armand Hammer - Drowning Machine.mp3
+2:Armand Hammer/BLK LBL/Armand Hammer - Ice Cups (Feat. A. Billi Free).mp3
+3:Armand Hammer/BLK LBL/Armand Hammer - Instant Transfer.mp3
+4:Armand Hammer/BLK LBL/Armand Hammer - Ox Blood (Feat. Zeroh).mp3
+5:Armand Hammer/BLK LBL/Armand Hammer - Read Ur Bible.mp3
+6:Armand Hammer/BLK LBL/Armand Hammer - Tar Baby (Feat. Mattie).mp3
+7:Armand Hammer/BLK LBL/Armand Hammer - Tupac Jackets (OG Mix).mp3
+8:Armand Hammer/BLK LBL/Armand Hammer - Which Way Is Up.mp3
+9:Armand Hammer/BLK LBL/Armand Hammer - Zaire.mp3
+10:Armand Hammer/BLK LBL/Armand Hammer - Colony.mp3
+11:Armand Hammer/BLK LBL/Armand Hammer - Fulgurite.mp3
+12:Armand Hammer/BLK LBL/Armand Hammer - Busta In '97.mp3
+13:Armand Hammer/BLK LBL/Armand Hammer - Colony.mp3
+14:Armand Hammer/BLK LBL/Armand Hammer - Drowning Machine.mp3
+15:Armand Hammer/BLK LBL/Armand Hammer - Fulgurite.mp3
+16:Armand Hammer/BLK LBL/Armand Hammer - Ice Cups (Feat. A. Billi Free).mp3
+17:Armand Hammer/BLK LBL/Armand Hammer - Instant Transfer.mp3
+18:Armand Hammer/BLK LBL/Armand Hammer - Ox Blood (Feat. Zeroh).mp3
+19:Armand Hammer/BLK LBL/Armand Hammer - Read Ur Bible.mp3
+20:Armand Hammer/BLK LBL/Armand Hammer - Tar Baby (Feat. Mattie).mp3
+21:Armand Hammer/BLK LBL/Armand Hammer - Tupac Jackets (OG Mix).mp3
+22:Armand Hammer/BLK LBL/Armand Hammer - Which Way Is Up.mp3
+23:Armand Hammer/BLK LBL/Armand Hammer - Zaire.mp3
+24:Armand Hammer/BLK LBL/Armand Hammer - Busta In '97.mp3
+25:Armand Hammer/BLK LBL/Armand Hammer - Colony.mp3
+26:Armand Hammer/BLK LBL/Armand Hammer - Drowning Machine.mp3
+27:Armand Hammer/BLK LBL/Armand Hammer - Fulgurite.mp3
+28:Armand Hammer/BLK LBL/Armand Hammer - Girl Dinner.mp3
+29:Armand Hammer/BLK LBL/Armand Hammer - Gripewater (Feat. Dreamcrusher).mp3
+30:Armand Hammer/BLK LBL/Armand Hammer - Ice Cups (Feat. A. Billi Free).mp3
+31:Armand Hammer/BLK LBL/Armand Hammer - Instant Transfer.mp3
+32:Armand Hammer/BLK LBL/Armand Hammer - Ox Blood (Feat. Zeroh).mp3
+33:Armand Hammer/BLK LBL/Armand Hammer - Read Ur Bible.mp3
+34:Armand Hammer/BLK LBL/Armand Hammer - Tar Baby (Feat. Mattie).mp3
+35:Armand Hammer/BLK LBL/Armand Hammer - Tupac Jackets (OG Mix).mp3
+36:Armand Hammer/BLK LBL/Armand Hammer - Which Way Is Up.mp3
+37:Armand Hammer/BLK LBL/Armand Hammer - Zaire.mp3
+playlist_end

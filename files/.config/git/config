@@ -1,0 +1,11 @@
+[user]
+	email = nickesg44@gmail.com
+	name = nshan651
+[credential]
+	helper = /usr/bin/pass-git-helper
+[init]
+	defaultBranch = main
+[fetch]
+    prune = true
+[alias]
+    empty = "git commit --allow-empty"

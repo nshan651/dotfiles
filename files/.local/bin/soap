@@ -1,0 +1,135 @@
+#!/bin/bash
+# (S)ync (O)ver (A)ll (P)rogress
+# Sync all documents and git repos with remote devices.
+#
+# "Don't forget to use soap!"
+
+USAGE=$(cat << EOM
+usage: soap [-h] [-g] [-d]
+
+(S)ync (O)ver (A)ll (P)rogress
+Sync all documents and git repos with remote devices.
+
+options:
+  -h, --help            Show this help message and exit.
+  -g, --sync-git        Sync all git repositories listed in \$git_repos.
+  -d, --sync-dox        Sync all documents in \$XDG_DOCUMENTS_DIR.
+EOM
+)
+
+# -----------------------------------------------------------------------------
+# -- Config
+# -----------------------------------------------------------------------------
+
+# Machines
+machines=(
+    # Define hosts here (listed in ~/.ssh/config)
+    # "arch"
+    "debox"
+    # "pibox"
+)
+
+# Physical storage media
+drives=(
+    "/media/ssd1/sync"
+    "/media/hdd1/sync"
+)
+
+# Source forges
+forges=(
+    # Define remote git endpoints here
+    "https://github.com/nshan651"
+    "https://gitlab.com/nshan651"
+    # Self-hosted git
+    "~/sync/git"
+)
+# Machine sync dirs
+syncdir="sync"
+
+# Define project and userland repos
+project_repos=("$GIT"/*)
+user_repos=(
+    ".local/opt/st"
+    ".local/opt/dwm"
+    ".local/opt/dwmblocks" 
+    ".emacs.d"
+    "org"
+    "dox/family-finance"
+    "dox/personal-finance"
+    "dox/pass"
+)
+git_repos=("${project_repos[@]}" "${user_repos[@]}")
+
+# -----------------------------------------------------------------------------
+# -- Function Declarations
+# -----------------------------------------------------------------------------
+
+print_msg () {
+    # Define color codes
+    GREEN='\033[0;32m'
+    BLUE='\033[0;34m'
+    CYAN='\033[0;36m'
+    RESET='\033[0m'
+
+    update_item="$1"
+    machine="$2"
+
+    # Pretty-print
+    printf "\n\n${GREEN}Uploading${RESET} ${BLUE}%s${RESET} ${GREEN}to machine${RESET} ${CYAN}%s${RESET}\n" "$update_item" "$machine"
+    printf "${GREEN}--------------------------------------------------------------------------------\n${RESET}"
+}
+update_repo() {
+    repo="$1"
+    repo_relpath="${repo#$HOME/}"
+    repo_name=$(basename "$repo_path")
+    cd "$HOME/$repo_relpath"
+
+    branch=$(git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/')
+    remotes=($(git remote))
+    
+    # Check in updates
+    for remote in "$remotes"; do
+      git add -A
+      git commit -m "Routine backup of ${repo_name}"
+      git push "$remote" "$branch"
+    done
+}
+
+# Sync Documents located at "$XDG_DOCUMENTS_DIR/" 
+sync_dox() {
+    for machine in "${machines[@]}"; do
+	print_msg "dox" "$machine"
+	rsync --exclude="*.git" --mkpath -aRiv "$XDG_DOCUMENTS_DIR/" "$machine":/
+    done
+    echo "NOT DONE"
+}
+
+# Sync git repos, specified in "git_repos" list above
+sync_git() {
+    # Copy over dotfiles
+    for machine in "${machines[@]}"; do
+	for repo in "${git_repos[@]}"; do
+	    # Strip $HOME from path
+	    # repo="${repo#$HOME/}"
+	    print_msg "$repo" "$machine"
+	    update_repo "$repo"
+	done
+    done
+}
+
+# -----------------------------------------------------------------------------
+# -- CLI
+# -----------------------------------------------------------------------------
+
+[ "$1" = "-h" ] || [ "$1" = "--help" ] && \
+  echo "$USAGE" && exit
+
+# If no args are specified, sync everything by default. This might take a while.
+[ "$#" -eq 0 ] && \
+  sync_git; sync_dox; exit
+
+[ "$1" = "-g" ] || [ "$1" = "--sync-git" ] && \
+  sync_git && exit
+
+[ "$1" = "-d" ] || [ "$1" = "--sync-dox" ] && \
+  sync_dox && exit
