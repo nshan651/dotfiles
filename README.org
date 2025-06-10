@@ -7,9 +7,9 @@ Welcome $HOME
 * System
 
 #+caption: System extension graph.
-[[./docs/system-extension-graph.svg]]
+[[./docs/system-extension-graph.png]]
 
 * Home
 
 #+caption: System extension graph.
-[[./docs/home-extension-graph.svg]]
+[[./docs/home-extension-graph.png]]
