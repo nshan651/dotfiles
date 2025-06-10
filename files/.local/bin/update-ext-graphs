@@ -1,6 +1,8 @@
 #!/bin/sh
 # Update system and home extension graph images.
 
-guix system -L ~/.dotfiles extension-graph ~/.dotfiles/ns/systems/ulysses.scm | dot -Tpng -o ~/.dotfiles/docs/system-extension-graph.png
+#guix system -L ~/.dotfiles extension-graph ~/.dotfiles/ns/systems/ulysses.scm | dot -Gratio=0.7 -Tpng -o ~/.dotfiles/docs/system-extension-graph.png
+guix system -L ~/.dotfiles extension-graph ~/.dotfiles/ns/systems/ulysses.scm | dot -Gratio=0.5 -Nfontsize=16 -Nwidth=1.5 -Nheight=1 -Tsvg -o ~/.dotfiles/docs/system-extension-graph.svg
 
-RUNNING_GUIX_HOME=1 guix home -L ~/.dotfiles extension-graph ~/.dotfiles/ns/systems/ulysses.scm | dot -Tpng -o ~/.dotfiles/docs/home-extension-graph.png
+#RUNNING_GUIX_HOME=1 guix home -L ~/.dotfiles extension-graph ~/.dotfiles/ns/systems/ulysses.scm | dot -Tpng -o ~/.dotfiles/docs/home-extension-graph.png
+RUNNING_GUIX_HOME=1 guix home -L ~/.dotfiles extension-graph ~/.dotfiles/ns/systems/ulysses.scm | dot -Gratio=0.5 -Nfontsize=16 -Nwidth=1.5 -Nheight=1 -Tsvg -o ~/.dotfiles/docs/home-extension-graph.svg
