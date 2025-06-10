@@ -1,0 +1,15 @@
+#+title: Dotfiles
+#+author: nshan651
+#+startup: inlineimages
+
+Welcome $HOME
+
+* System
+
+#+caption: System extension graph.
+[[./docs/system-extension-graph.svg]]
+
+* Home
+
+#+caption: System extension graph.
+[[./docs/home-extension-graph.svg]]
