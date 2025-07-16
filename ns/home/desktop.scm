@@ -10,7 +10,7 @@
 (use-package-modules aspell compression curl fonts fontutils freedesktop gimp glib gnome gnome-xyz
                      gstreamer kde-frameworks linux music package-management emacs vim texlive
                      password-utils pdf pulseaudio shellutils ssh syncthing terminals
-                     video rust rust-apps web-browsers wget wm xdisorg xorg gnuzilla)
+                     video rust rust-apps web-browsers wget wm xdisorg xorg gnuzilla pkg-config)
 
 (define (home-desktop-profile-service config)
   (list sway
@@ -103,6 +103,10 @@
 	ispell
 	ripgrep
 
+	;; zsh.
+	zsh-syntax-highlighting
+	zsh-completions
+
         ;; File syncing
         syncthing-gtk
 
@@ -110,6 +114,9 @@
 	;; TODO: move this to a dedicated service-type!
 	rust
 	rust-analyzer
+	rust-cargo
+
+	pkg-config
 
         ;; General utilities
         curl
