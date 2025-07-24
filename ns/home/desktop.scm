@@ -92,7 +92,7 @@
         gimp-next
 
 	;; Latex
-	texlive
+	;; texlive
 
         ;; PDF reader
         zathura
@@ -117,6 +117,9 @@
 	rust-cargo
 
 	pkg-config
+	libinput
+	eudev
+	libxkbcommon
 
         ;; General utilities
         curl
