@@ -6,11 +6,17 @@
              (gnu packages emacs)
              (gnu packages emacs-build)
              (gnu packages emacs-xyz)
-             (nongnu packages emacs)
+             (gnu packages gcc)
              (gnu packages version-control)
              (gnu packages curl)
+             (gnu packages cpp)
+             (gnu packages rust)
+             (gnu packages tree-sitter)
+             (gnu packages fonts)
+             (gnu packages fontutils)
              (gnu packages tls)
-             (gnu packages sqlite))
+             (gnu packages sqlite)
+             (nongnu packages emacs))
 
 (packages->manifest
  (list
@@ -18,6 +24,25 @@
   curl
   sqlite
   gnutls
+
+  ccls
+  rust-analyzer
+
+  ;; Native compilation (not sure if needed!).
+  libgccjit
+
+  ;; Fonts.
+  font-abattis-cantarell
+  font-awesome
+  font-fira-code
+  fontmanager
+
+  ;; Tree sitter grammars.
+  tree-sitter
+  tree-sitter-python
+  tree-sitter-rust
+  tree-sitter-c
+  tree-sitter-cpp
 
   ;; Emacs itself.
   emacs
@@ -64,13 +89,12 @@
   emacs-company
   emacs-company-box
   emacs-projectile
+  emacs-dash
 
   ;; Programming Languages/LSP.
   emacs-yaml-mode
   emacs-ccls
-					;emacs-python-mode
-					;emacs-go-mode
-					;emacs-rust-mode
+  emacs-rust-mode
 
   ;; Latex
   emacs-latex-preview-pane
@@ -105,6 +129,7 @@
   emacs-org-ql
   emacs-htmlize
   emacs-logos
+  emacs-org-drill
 
   ;; Sqlite3 dependency for org roam.
   emacs-sqlite3-api
@@ -125,8 +150,8 @@
   emacs-git-gutter-fringe
 
   ;; Programming Languages.
-					;emacs-sly
-					;emacs-sly-asdf
+  ;emacs-sly
+  ;emacs-sly-asdf
 
   emacs-geiser
 
@@ -139,8 +164,8 @@
   emacs-web-mode
   emacs-skewer-mode
 
-
   emacs-flycheck
+  emacs-consult-flycheck
 
   emacs-yasnippet
   emacs-yasnippet-snippets
