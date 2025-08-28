@@ -75,9 +75,9 @@ super + shift + n
 super + m
     $TERMINAL -e ncmpcpp
 
-# lf
+# Bookmarks
 super + c
-    $TERMINAL -e lfub 
+    xdotool type $(grep -v '^#' ~/.dotfiles/files/.local/share/ns/bookmarks | dmenu -i -l 50 | cut -d' ' -f1)
 
 # RSS feed reader
 super + F1
@@ -141,6 +141,7 @@ super + d
 # Flameshot
 Print
     flameshot gui
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
