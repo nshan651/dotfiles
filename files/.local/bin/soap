@@ -106,15 +106,15 @@ sync_dox() {
 
 # Sync git repos, specified in "git_repos" list above
 sync_git() {
-    # Copy over dotfiles
-    for machine in "${machines[@]}"; do
-	for repo in "${git_repos[@]}"; do
+  # Copy over dotfiles
+  for machine in "${machines[@]}"; do
+	  for repo in "${git_repos[@]}"; do
 	    # Strip $HOME from path
 	    # repo="${repo#$HOME/}"
 	    print_msg "$repo" "$machine"
 	    update_repo "$repo"
-	done
-    done
+	  done
+  done
 }
 
 # -----------------------------------------------------------------------------

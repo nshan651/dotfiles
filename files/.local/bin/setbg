@@ -1,11 +1,11 @@
 #!/bin/sh
 # Set wallpaper
 
-SETBG="/home/nick/dox/pix/wallpaper/mac/10-14-mojave-day.jpg"
+SETBG="/home/nick/ark/pix/wallpaper/zion/angels-landing.jpg"
 
 if [ $# -eq 1 ]; then
     SETBG=$(readlink -f "$1")
     sed -i "s|SETBG=\".*\"|SETBG=\"$SETBG\"|" ~/.local/bin/setbg
 fi
 
-feh --no-fehbg --bg-scale "$SETBG"
+feh --no-fehbg --bg-fill "$SETBG"

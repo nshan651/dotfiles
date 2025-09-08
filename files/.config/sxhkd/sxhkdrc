@@ -7,6 +7,9 @@
 control + alt + 4
     monitors
 
+super + shift + a
+  $TERMINAL -e htop
+
 # === Utilities ===
 
 # Volume controls
@@ -49,6 +52,11 @@ XF86MonBrightnessDown
 super + r 
     $TERMINAL -e nvim $WIKI/TODO.md
 
+
+# Bookmarks
+super + c
+    xdotool type $(grep -v '^#' ~/.dotfiles/files/.local/share/ns/bookmarks | dmenu -i -l 50 | cut -d' ' -f1)
+
 # Web
 super + w
     $BROWSER
@@ -63,7 +71,7 @@ super + n
 
 # Emacs
 super + e
-    /usr/bin/emacs
+    emacs
 
 #emacsclient -c -a 'emacs'
 
@@ -75,17 +83,20 @@ super + shift + n
 super + m
     $TERMINAL -e ncmpcpp
 
-# Bookmarks
+# lf
 super + c
-    xdotool type $(grep -v '^#' ~/.dotfiles/files/.local/share/ns/bookmarks | dmenu -i -l 50 | cut -d' ' -f1)
+    $TERMINAL -e lfub 
 
 # RSS feed reader
 super + F1
-    $TERMINAL -e newsboat
+    xdotool type $(grep -v '^#' ~/.dotfiles/files/.local/share/ns/jobs | dmenu -i -l 50 | cut -d' ' -f1)
 
 # lf 
 super + F3
     $TERMINAL -e lfub 
+
+super + F5 + F4
+    $TERMINAL
 
 # Current project opened in a mux session
 # super + F4
@@ -141,7 +152,6 @@ super + d
 # Flameshot
 Print
     flameshot gui
-
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

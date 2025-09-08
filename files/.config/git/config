@@ -9,3 +9,7 @@
     prune = true
 [alias]
     empty = "git commit --allow-empty"
+[safe]
+	directory = /mnt/media/git/
+	directory = /mnt/media/git/latex.git
+	directory = /mnt/media/git/latex.git

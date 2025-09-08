@@ -43,10 +43,11 @@ alias \
 alias \
 	ls="ls -hN --color=auto --group-directories-first" \
 	lsa="ls -ahN --color=auto --group-directories-first" \
+	lsl="ls -lahN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" 
 
-alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
+#alias yarn='yarn --use-yarnrc "$XDG_CONFIG_HOME/yarn/config"'
 
 # git aliases
 alias \
@@ -58,9 +59,11 @@ alias \
     gadd="git add" \
     gdiff="git diff" \
     gpush="git push" \
+    gpull="git pull" \
     gstat="git status -uno --short" \
     gshow="git show --abbrev-commit --pretty=medium" \
     gref="git reflog" \
     glog="git log --decorate --graph --oneline"
 
-alias config='/usr/bin/git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'
+alias gh-pages='/usr/bin/git --git-dir=/var/www/nshan651.github.io/.git --work-tree=/var/www/nshan651.github.io'

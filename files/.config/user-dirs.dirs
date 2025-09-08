@@ -6,7 +6,7 @@
 # absolute path. No other format is supported.
 # 
 XDG_DOWNLOAD_DIR="$HOME/dl"
-XDG_DOCUMENTS_DIR="$HOME/dox"
-XDG_MUSIC_DIR="$HOME/dox/music"
-XDG_PICTURES_DIR="$HOME/dox/pix"
-XDG_VIDEOS_DIR="$HOME/dox/vid"
+XDG_DOCUMENTS_DIR="$HOME/ark/dox"
+XDG_MUSIC_DIR="$HOME/ark/music"
+XDG_PICTURES_DIR="$HOME/ark/pix"
+XDG_VIDEOS_DIR="$HOME/ark/vid"

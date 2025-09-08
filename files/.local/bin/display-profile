@@ -1,6 +1,7 @@
 #!/bin/bash
 # Use in daemon-mode via: 
-# nohup mons -a -x "display-profile" > /dev/null 2>&1 & 
+# nohup mons -a -x "display-handler" > /dev/null 2>&1 & 
+
 
 # Handle various monitor setups with the exported $MONS_NUMBER.
 case ${MONS_NUMBER} in

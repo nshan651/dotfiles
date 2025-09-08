@@ -6,10 +6,9 @@ PHOTOS_DIR="$PWD"
 
 for f in "$PHOTOS_DIR"/*.HEIC;
 do
-	heif-convert $f ${f/%.HEIC/.jpg};
+	heif-convert $f ${f/%.HEIC/.png};
 done
 
-# JPG_DIR="$XDG_DOWNLOAD_DIR/jpg"
-JPG_DIR="$PHOTOS_DIR/jpg"
-mkdir -p "$JPG_DIR"
-mv "$PHOTOS_DIR"/*.jpg "$JPG_DIR"
+PNG_DIR="$PHOTOS_DIR/png"
+mkdir -p "$PNG_DIR"
+mv "$PHOTOS_DIR"/*.png "$PNG_DIR"

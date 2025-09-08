@@ -1,53 +1,91 @@
 sw_volume: 100
-audio_device_state:1:ALSA/PulseAudio
+audio_device_state:1:pulse audio
 audio_device_state:1:my_fifo
 state: pause
-current: 11
-time: 2.315000
+current: 1
+time: 6.737000
 random: 0
-repeat: 0
+repeat: 1
 single: 0
 consume: 0
 crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:Armand Hammer/BLK LBL/Armand Hammer - Busta In '97.mp3
-1:Armand Hammer/BLK LBL/Armand Hammer - Drowning Machine.mp3
-2:Armand Hammer/BLK LBL/Armand Hammer - Ice Cups (Feat. A. Billi Free).mp3
-3:Armand Hammer/BLK LBL/Armand Hammer - Instant Transfer.mp3
-4:Armand Hammer/BLK LBL/Armand Hammer - Ox Blood (Feat. Zeroh).mp3
-5:Armand Hammer/BLK LBL/Armand Hammer - Read Ur Bible.mp3
-6:Armand Hammer/BLK LBL/Armand Hammer - Tar Baby (Feat. Mattie).mp3
-7:Armand Hammer/BLK LBL/Armand Hammer - Tupac Jackets (OG Mix).mp3
-8:Armand Hammer/BLK LBL/Armand Hammer - Which Way Is Up.mp3
-9:Armand Hammer/BLK LBL/Armand Hammer - Zaire.mp3
-10:Armand Hammer/BLK LBL/Armand Hammer - Colony.mp3
-11:Armand Hammer/BLK LBL/Armand Hammer - Fulgurite.mp3
-12:Armand Hammer/BLK LBL/Armand Hammer - Busta In '97.mp3
-13:Armand Hammer/BLK LBL/Armand Hammer - Colony.mp3
-14:Armand Hammer/BLK LBL/Armand Hammer - Drowning Machine.mp3
-15:Armand Hammer/BLK LBL/Armand Hammer - Fulgurite.mp3
-16:Armand Hammer/BLK LBL/Armand Hammer - Ice Cups (Feat. A. Billi Free).mp3
-17:Armand Hammer/BLK LBL/Armand Hammer - Instant Transfer.mp3
-18:Armand Hammer/BLK LBL/Armand Hammer - Ox Blood (Feat. Zeroh).mp3
-19:Armand Hammer/BLK LBL/Armand Hammer - Read Ur Bible.mp3
-20:Armand Hammer/BLK LBL/Armand Hammer - Tar Baby (Feat. Mattie).mp3
-21:Armand Hammer/BLK LBL/Armand Hammer - Tupac Jackets (OG Mix).mp3
-22:Armand Hammer/BLK LBL/Armand Hammer - Which Way Is Up.mp3
-23:Armand Hammer/BLK LBL/Armand Hammer - Zaire.mp3
-24:Armand Hammer/BLK LBL/Armand Hammer - Busta In '97.mp3
-25:Armand Hammer/BLK LBL/Armand Hammer - Colony.mp3
-26:Armand Hammer/BLK LBL/Armand Hammer - Drowning Machine.mp3
-27:Armand Hammer/BLK LBL/Armand Hammer - Fulgurite.mp3
-28:Armand Hammer/BLK LBL/Armand Hammer - Girl Dinner.mp3
-29:Armand Hammer/BLK LBL/Armand Hammer - Gripewater (Feat. Dreamcrusher).mp3
-30:Armand Hammer/BLK LBL/Armand Hammer - Ice Cups (Feat. A. Billi Free).mp3
-31:Armand Hammer/BLK LBL/Armand Hammer - Instant Transfer.mp3
-32:Armand Hammer/BLK LBL/Armand Hammer - Ox Blood (Feat. Zeroh).mp3
-33:Armand Hammer/BLK LBL/Armand Hammer - Read Ur Bible.mp3
-34:Armand Hammer/BLK LBL/Armand Hammer - Tar Baby (Feat. Mattie).mp3
-35:Armand Hammer/BLK LBL/Armand Hammer - Tupac Jackets (OG Mix).mp3
-36:Armand Hammer/BLK LBL/Armand Hammer - Which Way Is Up.mp3
-37:Armand Hammer/BLK LBL/Armand Hammer - Zaire.mp3
+0:Armand Hammer/BLK LBL/Armand Hammer - Ox Blood (Feat. Zeroh).mp3
+1:Armand Hammer/BLK LBL/Armand Hammer - Read Ur Bible.mp3
+2:Armand Hammer/BLK LBL/Armand Hammer - Zaire.mp3
+3:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Christian Dior Denim Flow (Ft. Kanye West, Kid Cudi, Pusha T, John Legend, Lloyd Banks & Ryan Leslie).mp3
+4:Pusha T/Pusha T - What Dreams Are Made Of (S-Type Official Remix) (128 kbps).mp3
+5:Pusha T/01 Pusha T - Intro [Prod. By Dready].mp3
+6:Pusha T/02 Pusha T - Millions (Feat. Rick Ross) [Prod. By Southside, Co-Prod. By Kanye West].mp3
+7:Pusha T/03 Pusha T - Doesn't Matter (Feat. French Montana) [Prod. By Renegades].mp3
+8:Pusha T/04 Pusha T - Blocka [Prod. By Young Chop].mp3
+9:Pusha T/06 Pusha T - Revolution [Prod. By The Neptunes].mp3
+10:Pusha T/07 Pusha T - Only You Can Tell It (Feat. Wale) [Prod. By Boogz N Tapes].mp3
+11:Pusha T/08 Pusha T - Trust You (Feat. Kevin Gates) [Prod. By Sk & Arthur Mcarthur].mp3
+12:Pusha T/09 Pusha T - Take My Life (Feat. Andrea Martin) [Prod. By Jake-One].mp3
+13:Pusha T/10 Pusha T - Liva - Re-Up Gang Motivation [Prod. By !llmind].mp3
+14:Pusha T/11 Pusha T - I Am Forgiven [Prod. By B!nk].mp3
+15:Kid Cudi/Kid Cudi - Do It Alone_Bigger Than You.mp3
+16:Kid Cudi/Kid Cudi - The Prayer.mp3
+17:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Good Friday (Ft. Kanye West, Common, Pusha T, Kid Cudi, Big Sean & Charlie Wilson).mp3
+18:Armand Hammer/BLK LBL/Armand Hammer - Busta In '97.mp3
+19:Armand Hammer/BLK LBL/Armand Hammer - Tupac Jackets (OG Mix).mp3
+20:Armand Hammer/BLK LBL/Armand Hammer - Colony.mp3
+21:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 01 Native Sun.mp3
+22:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 02 My Blank Verse.mp3
+23:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 03 Musical Chairs.mp3
+24:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 04 Patra.mp3
+25:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 05 Mozambique feat. Faro Z & Curly Castro.mp3
+26:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 06 The Press.mp3
+27:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 07 Bottle Service.mp3
+28:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 08 Omega 3 Remix.mp3
+29:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 09 Blame the Devil.mp3
+30:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 10 Post Haste feat. Rob Sonic.mp3
+31:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 11 Gawdspeed Remix.mp3
+32:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 12 The Wake Remix.mp3
+33:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 13 Marooned.mp3
+34:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 14 The Good Die Mostly Over Bullshit feat. Curly Castro & Has-Lo.mp3
+35:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 15 Burnout.mp3
+36:Armand Hammer/Half Measures/Armand Hammer - Half Measures - 16 Fools Gold Remix feat. Open Mike Eagle & Moka Only.mp3
+37:Armand Hammer/WHT LBL/Armand-Hammer-1 - Codex Giga.mp3
+38:Armand Hammer/WHT LBL/2 - Topsy.mp3
+39:Armand Hammer/WHT LBL/3 - Sardonyx.mp3
+40:Armand Hammer/WHT LBL/4 - Artichoke.mp3
+41:Armand Hammer/WHT LBL/5 - Sadderday.mp3
+42:Armand Hammer/WHT LBL/6 - Flummox.mp3
+43:Armand Hammer/WHT LBL/7 - Tu Tienes Wifi.mp3
+44:Armand Hammer/WHT LBL/8 - Halloween Fell On A Weekend.mp3
+45:Armand Hammer/WHT LBL/9 - Shellfish.mp3
+46:Armand Hammer/WHT LBL/10 - Venn Diagrams.mp3
+47:Armand Hammer/WHT LBL/11 - Soft Gold.mp3
+48:Armand Hammer/WHT LBL/12 - Windbreaker.mp3
+49:Armand Hammer/WHT LBL/13 - Resin.mp3
+50:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Power (Remix) (Ft. Kanye West, Jay-Z & Swizz Beatz).mp3
+51:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Chain Heavy (Ft. Kanye West, Talib Kweli & Consequence).mp3
+52:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Christian Dior Denim Flow (Ft. Kanye West, Kid Cudi, Pusha T, John Legend, Lloyd Banks & Ryan Leslie).mp3
+53:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Good Friday (Ft. Kanye West, Common, Pusha T, Kid Cudi, Big Sean & Charlie Wilson).mp3
+54:G.O.O.D. Music/G.O.O.D. Fridays/G.O.O.D. Music-Power (Remix) (Ft. Kanye West, Jay-Z & Swizz Beatz).mp3
+55:Kendrick Lamar/Kendrick Lamar - The Heart Part IV.mp3
+56:Frank Ocean/Endless/03 Frank Ocean - Mine.mp3
+57:Frank Ocean/Endless/04 Frank Ocean- Unity.mp3
+58:Frank Ocean/Endless/05 Frank Ocean - Ambience 001.mp3
+59:Frank Ocean/Endless/12 Frank Ocean - Sideways.mp3
+60:Frank Ocean/Endless/11 Frank Ocean - Slide on Me.mp3
+61:Pusha T/05 Pusha T - Road Runner (Feat. Troy Ave) [Prod. By Harry Fraud].mp3
+62:Armand Hammer/WHT LBL/Armand-Hammer-1 - Codex Giga.mp3
+63:Armand Hammer/WHT LBL/2 - Topsy.mp3
+64:Armand Hammer/WHT LBL/3 - Sardonyx.mp3
+65:Armand Hammer/WHT LBL/4 - Artichoke.mp3
+66:Armand Hammer/WHT LBL/5 - Sadderday.mp3
+67:Armand Hammer/WHT LBL/6 - Flummox.mp3
+68:Armand Hammer/WHT LBL/7 - Tu Tienes Wifi.mp3
+69:Armand Hammer/WHT LBL/8 - Halloween Fell On A Weekend.mp3
+70:Armand Hammer/WHT LBL/9 - Shellfish.mp3
+71:Armand Hammer/WHT LBL/10 - Venn Diagrams.mp3
+72:Armand Hammer/WHT LBL/11 - Soft Gold.mp3
+73:Armand Hammer/WHT LBL/12 - Windbreaker.mp3
+74:Armand Hammer/WHT LBL/13 - Resin.mp3
+75:Armand Hammer/BLK LBL/Armand Hammer - Girl Dinner.mp3
 playlist_end
