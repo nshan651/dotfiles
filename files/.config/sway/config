@@ -106,7 +106,7 @@ bindsym --locked $mod+p exec playerctl play-pause
 bindsym Print exec grimshot --notify save output
 bindsym Alt+Print exec grimshot --notify save area
 
-set $bgcolor #232635dd
+set $bgcolor #232635
 set $bordercolor #1e1e1e
 
 # Style the UI
@@ -140,7 +140,8 @@ bar {
     colors {
         statusline #ffffff
         background $bgcolor
-        inactive_workspace #1c1f2bef #323232CC #5c5c5c
+        #inactive_workspace #1c1f2bef #323232CC #5c5c5c
+        inactive_workspace #1c1f2b #323232 #5c5c5c
     }
 }
 
