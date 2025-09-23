@@ -60,7 +60,7 @@ default_orientation horizontal
 workspace_layout default
 
 # Configure gaps and borders
-default_border pixel 1
+default_border pixel 3
 gaps outer 0
 gaps inner 6
 smart_borders off
@@ -107,11 +107,11 @@ bindsym Print exec grimshot --notify save output
 bindsym Alt+Print exec grimshot --notify save area
 
 set $bgcolor #232635dd
-set $bordercolor #c792eacc
+set $bordercolor #1e1e1e
 
 # Style the UI
-client.focused $bordercolor $bgcolor #ffffffff #ffffffff #c792eacc
-client.unfocused $bordercolor #1c1f2bef #ffffffff #ffffffff #c792eacc
+client.focused $bordercolor $bgcolor #ffffffff #ffffffff #c0965b
+client.unfocused $bordercolor #1c1f2bef #ffffffff #ffffffff #1e1e1e
 
 # Set up screen locking
 set $lock 'swaylock -f -i ~/ark/pix/wallpaper/north-shore/apostle-caves.jpg -s fill --font "JetBrains Mono" --indicator-idle-visible'
