@@ -67,3 +67,6 @@ alias \
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'
 alias gh-pages='/usr/bin/git --git-dir=/var/www/nshan651.github.io/.git --work-tree=/var/www/nshan651.github.io'
+
+# Password store aliases.
+alias apikeys="PASSWORD_STORE_DIR=${XDG_DATA_HOME}/password-store/apikeys pass"

@@ -87,7 +87,6 @@
   emacs-lsp-treemacs
   emacs-dap-mode
   emacs-company
-  emacs-company-box
   emacs-projectile
   emacs-dash
 
