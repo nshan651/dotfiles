@@ -10,9 +10,6 @@ then
         vimdiff="nvim -d"
 fi
 
-# Start emacsclient
-alias ee="emacsclient -c -a 'emacs'"
-
 # Use $XINITRC variable if file exists.
 [ -f "$XINITRC" ] && alias startx="startx $XINITRC"
 

@@ -11,9 +11,6 @@ mons -a -x "$HOME/.local/bin/display-profile" &
 # Run background script.
 setbg &
 
-# Launch emacs in daemon-mode.
-/usr/bin/emacs --daemon &
-
 xsetroot -cursor_name left_ptr
 
 # Autostart some programs.

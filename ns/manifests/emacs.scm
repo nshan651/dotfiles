@@ -25,11 +25,9 @@
   sqlite
   gnutls
 
+  ;; Language servers.
   ccls
   rust-analyzer
-
-  ;; Native compilation (not sure if needed!).
-  libgccjit
 
   ;; Fonts.
   font-abattis-cantarell
@@ -37,56 +35,41 @@
   font-fira-code
   fontmanager
 
-  ;; Tree sitter grammars.
-  tree-sitter
-  tree-sitter-python
-  tree-sitter-rust
-  tree-sitter-c
-  tree-sitter-cpp
-
   ;; Emacs itself.
   emacs
+
+  ;; Package management.
+  emacs-use-package
 
   ;; Themes.
   emacs-doom-themes
   emacs-ef-themes
-  emacs-nerd-icons
-  emacs-doom-modeline
   emacs-org-bullets
   emacs-perspective
 
-  ;; Evil mode.
+  ;; Evil / Keybindings.
   emacs-evil
   emacs-evil-org
   emacs-evil-collection
   emacs-general
   emacs-evil-nerd-commenter
-  emacs-ws-butler
   emacs-hydra
 
-  ;; UI.
+  ;; UX.
+  emacs-ws-butler
   emacs-undo-fu
   emacs-undo-fu-session
-  emacs-which-key
   emacs-vertico
   emacs-corfu
   emacs-kind-icon
   emacs-orderless
   emacs-consult
-  emacs-wgrep
   emacs-marginalia
   emacs-embark
   emacs-helpful
 
-  emacs-counsel
-
   ;; Development.
-  emacs-lsp-mode
-  emacs-lsp-ui
-  emacs-consult-lsp
-  emacs-lsp-treemacs
   emacs-dap-mode
-  emacs-company
   emacs-projectile
   emacs-dash
 
@@ -105,22 +88,18 @@
   emacs-ace-window
   emacs-websocket
 
-  ;; Visual fill
+  ;; UI
   emacs-visual-fill-column
-
   emacs-org-appear
+  emacs-nerd-icons
+  emacs-doom-modeline
 
   ;; Compatibility with newer Emacs versions.
   emacs-compat
 
-  ;; Fonts.
-  emacs-nerd-icons
-  emacs-all-the-icons
-
   ;; Org.
   emacs-org
   emacs-org-journal
-  emacs-org-modern
   emacs-org-pomodoro
   emacs-org-make-toc
   emacs-org-roam
@@ -149,9 +128,6 @@
   emacs-git-gutter-fringe
 
   ;; Programming Languages.
-  ;emacs-sly
-  ;emacs-sly-asdf
-
   emacs-geiser
 
   emacs-orgalist
@@ -162,9 +138,6 @@
 
   emacs-web-mode
   emacs-skewer-mode
-
-  emacs-flycheck
-  emacs-consult-flycheck
 
   emacs-yasnippet
   emacs-yasnippet-snippets
@@ -197,8 +170,6 @@
   emacs-elfeed
 
   emacs-guix
-
-  emacs-daemons
 
   emacs-docker
   emacs-dockerfile-mode

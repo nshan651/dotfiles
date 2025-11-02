@@ -18,7 +18,6 @@ export GUIX_PROFILE="$HOME/.guix-profile"
 export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt
 export SSL_CERT_DIR=/etc/ssl/certs
 
-
 # Default programs
 export EDITOR="vim"
 export TERMINAL="st"
