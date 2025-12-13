@@ -18,13 +18,13 @@
         swayidle ; Idle daemon
         swaylock
 
-	waybar
+	    waybar
         fuzzel
         wl-clipboard
         mako ; Notification system
         gammastep ; Set color temps based on time of day
 
-	wdisplays
+	    wdisplays
 
         grimshot ;; grimshot --notify copy area
         network-manager-applet
@@ -58,16 +58,17 @@
         adwaita-icon-theme
 
         ;; Fonts.
-	font-abattis-cantarell
+	    font-abattis-cantarell
         font-awesome
-	font-fira-code
+	    font-fira-code
+	    font-fira-mono
         font-iosevka-ss08
         font-iosevka-aile
         font-jetbrains-mono
-	font-google-noto
-	font-google-noto-emoji
+	    font-google-noto
+	    font-google-noto-emoji
         font-liberation
-	fontmanager
+	    fontmanager
 
         ;; Browsers.
         firefox
@@ -91,35 +92,35 @@
         ;; Graphics
         gimp-next
 
-	;; Latex
-	;; texlive
+	    ;; Latex
+	    ;; texlive
 
         ;; PDF reader
         zathura
         zathura-pdf-mupdf
 
-	;; CLI.
-	fzf
-	ispell
-	ripgrep
+	    ;; CLI.
+	    fzf
+	    ispell
+	    ripgrep
 
-	;; zsh.
-	zsh-syntax-highlighting
-	zsh-completions
+	    ;; zsh.
+	    zsh-syntax-highlighting
+	    zsh-completions
 
         ;; File syncing
         syncthing-gtk
 
-	;; Development
-	;; TODO: move this to a dedicated service-type!
-	rust
-	rust-analyzer
-	rust-cargo
+	    ;; Development
+	    ;; TODO: move this to a dedicated service-type!
+	    rust
+	    rust-analyzer
+	    rust-cargo
 
-	pkg-config
-	libinput
-	eudev
-	libxkbcommon
+	    pkg-config
+	    libinput
+	    eudev
+	    libxkbcommon
 
         ;; General utilities
         curl

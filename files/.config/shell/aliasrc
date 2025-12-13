@@ -38,9 +38,9 @@ alias \
 
 # Colorize commands when possible
 alias \
-	ls="ls -hN --color=auto --group-directories-first" \
-	lsa="ls -ahN --color=auto --group-directories-first" \
-	lsl="ls -lahN --color=auto --group-directories-first" \
+	l="ls -hN --color=auto --group-directories-first" \
+	la="ls -ahN --color=auto --group-directories-first" \
+	ll="ls -lahN --color=auto --group-directories-first" \
 	grep="grep --color=auto" \
 	diff="diff --color=auto" 
 
@@ -58,6 +58,7 @@ alias \
     gpush="git push" \
     gpull="git pull" \
     gstat="git status -uno --short" \
+    gstash="git stash" \
     gshow="git show --abbrev-commit --pretty=medium" \
     gref="git reflog" \
     glog="git log --decorate --graph --oneline"

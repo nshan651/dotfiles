@@ -33,6 +33,7 @@
   font-abattis-cantarell
   font-awesome
   font-fira-code
+  font-fira-mono
   fontmanager
 
   ;; Emacs itself.
@@ -118,6 +119,7 @@
 
   ;; Applications
   emacs-org-caldav
+  emacs-org-present
 
   ;; Version control.
   emacs-magit
@@ -136,18 +138,15 @@
   emacs-popper
   emacs-modus-themes
 
-  emacs-web-mode
-  emacs-skewer-mode
+  ;; emacs-web-mode
+  ;; emacs-skewer-mode
 
   emacs-yasnippet
   emacs-yasnippet-snippets
 
   emacs-smartparens
-
   emacs-rainbow-delimiters
-
   emacs-rainbow-mode
-
   emacs-posframe
 
   emacs-a
