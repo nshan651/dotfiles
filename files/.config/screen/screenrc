@@ -1,0 +1,64 @@
+# Gnu Screen Config
+# Defaults: https://www.gnu.org/software/screen/manual/html_node/Default-Key-Bindings.html
+
+# Allow bold colors
+attrcolor b ".I"
+
+term xterm-256color
+
+# Tell screen how to set colors. AB = background, AF=foreground
+termcapinfo st*|xterm* 'Co#256:AB=\E[48;5;%dm:AF=\E[38;5;%dm'
+
+# Enables use of shift-PgUp and shift-PgDn
+termcapinfo st|xterm|xterms|xs|rxvt ti@:te@
+
+vbell off
+startup_message off
+defscrollback 30000
+mousetrack off
+
+# Change prefix C-Space (default C-a)
+escape ^@@
+
+# Screen's maptimeout is in milliseconds.
+maptimeout 0
+
+# This ensures windows start at 1 when you open screen
+sessionname mysession
+screen 1
+
+hardstatus alwayslastline
+# Very nice tabbed colored hardstatus line
+hardstatus string '%{= Kd} %{= Kd}%-w%{= Kr}[%{= KW}%n %t%{= Kr}]%{= Kd}%+w %-= %{KG} %H%{KW}|%{KY}%101`%{KW}|%D %M %d %Y%{= Kc} %C%A%{-}'
+
+bind c screen 1
+
+# Navigation & panes
+bind h focus left
+bind j focus down
+bind k focus up
+bind l focus right
+
+# Resizing
+bind ^J resize -d
+bind ^K resize -u
+bind ^L resize +10
+bind ^H resize -10
+
+# Vertical & horizontal splits
+bind \\ eval "split -v" "focus" "screen"
+bind - eval "split" "focus" "screen"
+
+# Reload config
+bind r source $HOME/.screenrc
+
+# 'remove' kills the current region (pane), 'kill' kills the window
+# bind BackSpace remove
+# bind Delete kill
+
+# Window swapping
+bind < number -1
+bind > number +1
+
+# Save regions
+layout save default
