@@ -22,9 +22,8 @@
         fuzzel
         wl-clipboard
         mako ; Notification system
-        gammastep ; Set color temps based on time of day
-
-	    wdisplays
+        ;gammastep ; Set color temps based on time of day
+	wdisplays
 
         grimshot ;; grimshot --notify copy area
         network-manager-applet
