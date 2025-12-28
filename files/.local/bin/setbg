@@ -1,11 +1,8 @@
 #!/bin/sh
-# Set wallpaper
+# Set wallpaper.
 
-SETBG="/home/nick/ark/pix/wallpaper/north-shore/tettegouche.jpg"
+bg_file="$XDG_CONFIG_HOME/bg"
 
-if [ $# -eq 1 ]; then
-    SETBG=$(readlink -f "$1")
-    sed -i "s|SETBG=\".*\"|SETBG=\"$SETBG\"|" ~/.local/bin/setbg
-fi
+[ $# -eq 1 ] && readlink -f "$1" > "$bg_file"
 
-feh --no-fehbg --bg-fill "$SETBG"
+feh --no-fehbg --bg-fill "$(cat "$bg_file")"
