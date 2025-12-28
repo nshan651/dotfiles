@@ -132,6 +132,10 @@
    emacs-web-mode
    emacs-skewer-mode
 
+   ;; TODO: Sort these.
+   emacs-org-drill
+   emacs-gptel
+
 
    emacs-flycheck
 

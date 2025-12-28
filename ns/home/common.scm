@@ -48,7 +48,7 @@
    (service home-zsh-service-type
             (home-zsh-configuration
              (zprofile
-	      `(,(local-file "../files/profile")))
+	          `(,(local-file "../files/profile")))
              (zshrc
               `(,(local-file "../files/zshrc")))))
 

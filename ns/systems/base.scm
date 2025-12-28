@@ -57,18 +57,18 @@
    (users (cons (user-account
                  (name "nick")
                  (comment "nick")
-		 (shell #~(string-append #$zsh "/bin/zsh"))
+		         (shell #~(string-append #$zsh "/bin/zsh"))
                  (group "users")
                  (supplementary-groups '("wheel"
-					 "netdev"
+					                     "netdev"
                                          "kvm"
-					 "keyd"
+					                     "keyd"
                                          "tty"
                                          "input"
                                          "docker"
-					 "lp"
+					                     "lp"
                                          "audio"
-					 "video")))
+					                     "video")))
                 %base-user-accounts))
 
    ;; Add the 'keyd' group
@@ -86,6 +86,7 @@
 	      pciutils
 	      stow
 	      vim
+          util-linux
 	      zsh
 	      %base-packages))
 

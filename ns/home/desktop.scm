@@ -22,8 +22,8 @@
         fuzzel
         wl-clipboard
         mako ; Notification system
-        ;gammastep ; Set color temps based on time of day
-	wdisplays
+                                        ;gammastep ; Set color temps based on time of day
+	    wdisplays
 
         grimshot ;; grimshot --notify copy area
         network-manager-applet
@@ -67,6 +67,7 @@
 	    font-google-noto
 	    font-google-noto-emoji
         font-liberation
+	    font-hack
 	    fontmanager
 
         ;; Browsers.
@@ -83,13 +84,13 @@
         ;; Audio devices and media playback
         mpv
         mpv-mpris
-        youtube-dl
+        yt-dlp
         playerctl
         alsa-utils
         pavucontrol
 
         ;; Graphics
-        gimp-next
+        gimp-3
 
 	    ;; Latex
 	    ;; texlive
@@ -114,7 +115,7 @@
 	    ;; TODO: move this to a dedicated service-type!
 	    rust
 	    rust-analyzer
-	    rust-cargo
+	    ;;rust-cargo
 
 	    pkg-config
 	    libinput

@@ -31,11 +31,11 @@
    ;; file system identifiers there ("UUIDs") can be obtained
    ;; by running 'blkid' in a terminal.
    (file-systems (cons* (file-system
-			 (mount-point "/")
-			 (device "/dev/mapper/cryptroot")
-			 (type "ext4")
-			 (dependencies mapped-devices))
-			%base-file-systems))))
+			             (mount-point "/")
+			             (device "/dev/mapper/cryptroot")
+			             (type "ext4")
+			             (dependencies mapped-devices))
+			            %base-file-systems))))
 
 ;; Return home or system config based on environment variable.
 (if (getenv "RUNNING_GUIX_HOME") home system)
