@@ -1,15 +1,28 @@
-[user]
-	email = nickesg44@gmail.com
-	name = nshan651
+[include]
+    path = ~/.config/git/identity # user.name and user.email
 [credential]
 	helper = /usr/bin/pass-git-helper
 [init]
 	defaultBranch = main
+[commit]
+    verbose = true # Show commit diff in message editor
 [fetch]
     prune = true
+    fsckobjects = true
 [alias]
     empty = "git commit --allow-empty"
-[safe]
-	directory = /mnt/media/git/
-	directory = /mnt/media/git/latex.git
-	directory = /mnt/media/git/latex.git
+[merge]
+    conflictStyle = zdiff3
+[diff]
+	algorithm = histogram
+	colorMoved = default
+[push]
+	autoSetupRemote = true
+[branch]
+	sort = -comitterdate
+[transfer]
+	fsckobjects = true
+[receive]
+    fsckObjects = true
+[pull]
+	ff = only

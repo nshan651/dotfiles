@@ -1,0 +1,19 @@
+# Env files
+*.env
+
+# Backup files
+*~
+*#
+*.bak
+*.tmp
+*.temp
+
+# Build artifacts
+*.o
+*.so
+*.dylib
+*.dll
+*.exe
+*.out
+a.out
+*.class

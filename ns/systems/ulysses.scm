@@ -22,8 +22,7 @@
    ;; Map HDD with LUKS encryption.
    (mapped-devices
     (list (mapped-device
-           (source (uuid
-                    "2f8482d3-bfa4-4bb9-8951-5ad83c201a7f"))
+           (source (uuid "2f8482d3-bfa4-4bb9-8951-5ad83c201a7f"))
            (target "cryptroot")
            (type luks-device-mapping))))
 
