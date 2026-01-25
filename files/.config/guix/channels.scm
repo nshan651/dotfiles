@@ -1,7 +1,7 @@
 (list (channel
         (name 'guix)
-        ;; Replaces "https://git.savannah.gnu.org/git/guix.git"
-        (url "https://codeberg.org/guix/guix.git")
+        ;; (url "https://git.savannah.gnu.org/git/guix.git")
+	(url "https://git.guix.gnu.org/guix.git") ;; Redirects to codeberg.
         (introduction
           (make-channel-introduction
             "9edb3f66fd807b096b48283debdcddccfea34bad"

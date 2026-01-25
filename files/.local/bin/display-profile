@@ -21,3 +21,6 @@ case ${MONS_NUMBER} in
     # Handle it manually
     ;;
 esac
+
+# Redisplay background
+setbg &

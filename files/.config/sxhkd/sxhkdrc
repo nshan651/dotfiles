@@ -67,7 +67,7 @@ super + shift + p
 
 # Open Notes
 super + n 
-    $TERMINAL -e nvim -c VimwikiIndex
+    nm-connection-editor
 
 # Emacs
 super + e
