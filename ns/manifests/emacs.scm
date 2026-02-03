@@ -102,7 +102,6 @@
   emacs-org
   emacs-org-journal
   emacs-org-pomodoro
-  emacs-org-make-toc
   emacs-org-roam
   emacs-org-roam-ui
   emacs-org-ql
@@ -132,14 +131,10 @@
   ;; Programming Languages.
   emacs-geiser
 
-  emacs-orgalist
   emacs-markdown-mode
 
   emacs-popper
   emacs-modus-themes
-
-  ;; emacs-web-mode
-  ;; emacs-skewer-mode
 
   emacs-yasnippet
   emacs-yasnippet-snippets
