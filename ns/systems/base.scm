@@ -9,7 +9,9 @@
   #:use-module (gnu system privilege)
   #:use-module (nongnu packages linux)
   #:use-module (nongnu packages video)
-  #:use-module (nongnu system linux-initrd))
+  #:use-module (nongnu system linux-initrd)
+  #:export (base-system
+            guix-home-config))
 
 (use-service-modules
  dns guix admin sysctl pm nix avahi dbus cups desktop linux
@@ -180,3 +182,8 @@
 
      ;; Use base-services.
      %base-services))))
+
+(define (guix-home-config home-environment)
+  "Helper function to create a guix-home service for a user."
+  (service guix-home-service-type
+           `(("nick" ,home-environment))))
