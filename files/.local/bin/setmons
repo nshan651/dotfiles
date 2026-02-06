@@ -1,0 +1,7 @@
+#!/bin/sh
+# Hacky script to set monitors on guix.
+
+swaymsg -t get_outputs
+
+swaymsg output VGA-1 resolution 1600x1200
+swaymsg output LVDS-1 disable

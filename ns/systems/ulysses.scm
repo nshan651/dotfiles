@@ -32,7 +32,7 @@
 			          %base-file-systems))
  (services
   (append
-   (operating-system-user-services base-operating-system)
+   (operating-system-user-services base-system)
    (list
     (guix-home-config
      (home-environment
