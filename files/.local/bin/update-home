@@ -5,4 +5,4 @@ NC='\033[0m'
 
 echo -e "\n${GREEN}Updating $HOME for ${BLUE}$(hostname)${GREEN}...${NC}\n"
 
-uix home -L ~/.dotfiles reconfigure ~/.dotfiles/ns/systems/$(hostname).scm
+guix home -L ~/.dotfiles reconfigure ~/.dotfiles/ns/systems/$(hostname).scm

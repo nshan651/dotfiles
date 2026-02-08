@@ -36,10 +36,10 @@
    (keyboard-layout (keyboard-layout "us"))
 
    ;; Prevent 'pcspkr' from loading twice.
-   (kernel-arguments
-    (append
-     (list "modprobe.blacklist=pcspkr,bluetooth,btusb" ; Blacklist pcspkr
-	   "bluetooth.disable_ertm=1") %default-kernel-arguments))
+   (kernel-arguments (append
+                      (list "modprobe.blacklist=pcspkr,bluetooth,btusb"
+	                        "bluetooth.disable_ertm=1")
+                      %default-kernel-arguments))
 
    ;; The bootloader will be overwritten.
    (bootloader (bootloader-configuration

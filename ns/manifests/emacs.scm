@@ -69,6 +69,9 @@
   emacs-embark
   emacs-helpful
 
+  ;; UI extensions.
+  emacs-consult-org-roam
+
   ;; Development.
   emacs-dap-mode
   emacs-projectile

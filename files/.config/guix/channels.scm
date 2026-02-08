@@ -1,6 +1,7 @@
+;; sudo guix archive --authorize < <(wget -qO- https://substitutes.nonguix.org/signing-key.pub)
+;; cat /etc/guix/acl
 (list (channel
         (name 'guix)
-        ;; (url "https://git.savannah.gnu.org/git/guix.git")
 	(url "https://git.guix.gnu.org/guix.git") ;; Redirects to codeberg.
         (introduction
           (make-channel-introduction
