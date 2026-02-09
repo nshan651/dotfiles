@@ -51,7 +51,6 @@
             (openpgp-fingerprint
               \"2A39 3FFF 68F4 EF7A 3D29  12AF 6F51 20A0 22FB B2D5\")))))"))
 
-
 (define %channels
   (cons* (channel
           (name 'nonguix)
@@ -65,45 +64,28 @@
          %default-channels))
 
 (operating-system
-
+ (inherit installation-os)
  ;; Use non-free Linux and firmware
  (kernel linux)
  (firmware (list linux-firmware amd-microcode))
- (initrd microcode-initrd)
+ ;; (initrd microcode-initrd)
 
  (host-name "based")
  (timezone "America/Chicago")
  (locale "en_US.utf8")
 
- ;; Dummy bootloader config (not used in live ISO)
- (bootloader (bootloader-configuration
-              (bootloader grub-bootloader)
-              (targets '("/dev/null"))))
-
- ;; Minimal root filesystem
- (file-systems (cons (file-system
-                      (device (file-system-label "Guix_image"))
-                      (mount-point "/")
-                      (type "ext4"))
-                     %base-file-systems))
-
  (packages (append (list btrfs-progs cryptsetup git-minimal vim)
-                   %base-packages))
+             (operating-system-packages installation-os)))
 
  (services
   (cons*
 
-   ;; Include the channel file so that it can be used during installation
-   ;; (simple-service 'channel-file etc-service-type
-   ;;                 (list `("channels.scm" ,(local-file "channels.scm"))))
+   ;; Include the channel file so that it can be used during installation.
    (simple-service 'channels-file
                    etc-service-type
                    (list `("channels.scm" ,%channels-file)))
 
-   ;; Network with connman for WiFi
-   (service connman-service-type)
-
-   (modify-services %base-services
+   (modify-services (operating-system-user-services installation-os)
                     (guix-service-type
                      config =>
                      (guix-configuration
