@@ -14,57 +14,57 @@
  (inherit base-system)
  (host-name "golemxiv")
 
+ (kernel-arguments
+  (cons* "modprobe.blacklist=acer_wmi,wl"
+         (operating-system-user-kernel-arguments base-system)))
+
  (packages (cons* btrfs-progs
                   (operating-system-packages base-system)))
 
- ;; Map BOTH the encrypted root and swap partitions
  (mapped-devices
   (list
    (mapped-device
-    (source (uuid "PLACEHOLDER-ROOT-UUID"))
+    (source (uuid "cb72bba9-dc6d-48cd-b055-28d5656aa45c"))
     (target "cryptroot")
     (type luks-device-mapping))
-
    (mapped-device
-    (source (uuid "PLACEHOLDER-SWAP-UUID"))
+    (source (uuid "9a0ad375-b0d5-4674-b805-0817d9d23666"))
     (target "cryptswap")
     (type luks-device-mapping))))
+
+ (file-systems
+  (cons*
+   (file-system
+    (mount-point "/boot")
+    (device (uuid "58a72f35-a658-4d4b-a076-bdca7f78022e"))
+    (type "ext4"))
+   (file-system
+     (mount-point "/")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@,compress=zstd,space_cache=v2,noatime"))
+   (file-system
+     (mount-point "/home")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@home,compress=zstd,space_cache=v2,noatime"))
+   (file-system
+     (mount-point "/var")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@var,compress=zstd,space_cache=v2,noatime"))
+   (file-system
+     (mount-point "/gnu")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@gnu,compress=zstd,space_cache=v2,noatime"))
+   %base-file-systems))
 
  (swap-devices
   (list
    (swap-space
     (target "/dev/mapper/cryptswap")
     (dependencies mapped-devices))))
-
- (file-systems
-  (cons*
-   (file-system
-    (mount-point "/")
-    (device "/dev/mapper/cryptroot")
-    (type "btrfs")
-    (options "subvol=@,compress=zstd,space_cache=v2")
-    (dependencies mapped-devices))
-
-   (file-system
-    (mount-point "/home")
-    (device "/dev/mapper/cryptroot")
-    (type "btrfs")
-    (options "subvol=@home,compress=zstd,space_cache=v2")
-    (dependencies mapped-devices))
-
-   (file-system
-    (mount-point "/.snapshots")
-    (device "/dev/mapper/cryptroot")
-    (type "btrfs")
-    (options "subvol=@snapshots,compress=zstd,space_cache=v2")
-    (dependencies mapped-devices))
-
-   (file-system
-    (mount-point "/boot")
-    (device (uuid "PLACEHOLDER-BOOT-UUID"))
-    (type "ext4"))
-
-   %base-file-systems))
 
  (services
   (append

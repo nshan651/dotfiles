@@ -10,13 +10,14 @@
 ;;;   installer.scm
 ;;;
 ;;; Note: If running this on a foreign guix system, run 'sudo -i guix pull'
-;;; sudo -i guix pull --channels=/home/nick/.config/guix/channels.scm
+;;; sudo -i guix pull --channels=~/.config/guix/channels.scm
 (define-module (ns systems installer)
   #:use-module (guix channels)
   #:use-module (gnu)
   #:use-module (gnu system install)
   #:use-module (gnu packages linux)
   #:use-module (gnu packages version-control)
+  #:use-module (gnu packages package-management)
   #:use-module (gnu packages cryptsetup)
   #:use-module (gnu packages vim)
   #:use-module (gnu services)
@@ -65,26 +66,26 @@
 
 (operating-system
  (inherit installation-os)
- ;; Use non-free Linux and firmware
+
  (kernel linux)
+ (kernel-arguments
+  (cons* "modprobe.blacklist=acer_wmi,wl"
+         (operating-system-user-kernel-arguments installation-os)))
  (firmware (list linux-firmware amd-microcode))
- ;; (initrd microcode-initrd)
 
  (host-name "based")
  (timezone "America/Chicago")
  (locale "en_US.utf8")
 
- (packages (append (list btrfs-progs cryptsetup git-minimal vim)
+ (packages (append (list btrfs-progs cryptsetup git-minimal vim stow)
              (operating-system-packages installation-os)))
 
  (services
   (cons*
-
    ;; Include the channel file so that it can be used during installation.
    (simple-service 'channels-file
                    etc-service-type
                    (list `("channels.scm" ,%channels-file)))
-
    (modify-services (operating-system-user-services installation-os)
                     (guix-service-type
                      config =>
