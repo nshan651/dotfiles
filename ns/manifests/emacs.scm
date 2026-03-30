@@ -1,5 +1,6 @@
 ;;; Install this manifest file on a foreign distro with
 ;;; `guix package -L ~/.dotfiles -m ns/manifests/emacs.scm' to let guix package your emacs.
+;;; Upgrade with `guix upgrade'
 (use-modules  (ns packages emacs)
               (guix packages)
               (guix gexp)

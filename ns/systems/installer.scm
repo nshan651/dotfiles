@@ -81,19 +81,21 @@
              (operating-system-packages installation-os)))
 
  (services
-  (cons*
-   ;; Include the channel file so that it can be used during installation.
-   (simple-service 'channels-file
-                   etc-service-type
-                   (list `("channels.scm" ,%channels-file)))
-   (modify-services (operating-system-user-services installation-os)
-                    (guix-service-type
-                     config =>
-                     (guix-configuration
-                      (substitute-urls
-                       (list "https://ci.guix.gnu.org"
-                             "https://substitutes.nonguix.org"))
-                      (authorized-keys
-                       (cons %signing-key
-                             %default-authorized-guix-keys))
-                      (channels %channels)))))))
+   (append
+    (list
+     (service network-manager-service-type)
+     (simple-service 'channels-file
+                     etc-service-type
+                     (list `("channels.scm" ,%channels-file))))
+    (modify-services (operating-system-user-services installation-os)
+                     (delete connman-service-type)
+                     (guix-service-type
+                      config =>
+                      (guix-configuration
+                       (substitute-urls
+                        (list "https://ci.guix.gnu.org"
+                              "https://substitutes.nonguix.org"))
+                       (authorized-keys
+                        (cons %signing-key
+                              %default-authorized-guix-keys))
+                       (channels %channels)))))))

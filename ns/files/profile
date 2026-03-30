@@ -11,7 +11,7 @@ export PATH="$PATH:/usr/share/bin"
 # eval "$(pyenv init -)"
 
 # Default programs
-export EDITOR="vim"
+export EDITOR=$(command -v nvim || command -v vim || echo "vi")
 export TERMINAL="alacritty"
 export BROWSER="icecat"
 export TERM="xterm-256color"

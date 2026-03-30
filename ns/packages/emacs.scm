@@ -41,7 +41,6 @@
    emacs-counsel
 
    ;; UI extensions.
-   emacs-consult-org-roam
    emacs-popper
 
    ;; Development.
@@ -78,7 +77,8 @@
    emacs-org-journal
    emacs-org-pomodoro
    emacs-org-roam
-   emacs-org-roam-ui
+   ;; emacs-org-roam-ui
+   emacs-consult-org-roam
    emacs-org-ql
    emacs-htmlize
    emacs-logos

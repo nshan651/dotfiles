@@ -123,6 +123,7 @@
      ;; Networking services.
      (service network-manager-service-type)
      (service wpa-supplicant-service-type)
+     (service nftables-service-type)
 
      ;; Basic desktop services.
      (service udisks-service-type)
