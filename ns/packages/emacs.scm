@@ -8,9 +8,6 @@
 
 (define emacs-packages
   (list
-   ;; Package management.
-   emacs-use-package
-
    ;; Themes.
    emacs-doom-themes
    emacs-ef-themes

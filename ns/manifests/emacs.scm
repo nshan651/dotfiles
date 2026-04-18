@@ -1,5 +1,5 @@
 ;;; Install this manifest file on a foreign distro with
-;;; `guix package -L ~/.dotfiles -m ns/manifests/emacs.scm' to let guix package your emacs.
+;;; `guix package -L ~/.dotfiles -m ~/.dotfiles/ns/manifests/emacs.scm' to let guix package your emacs.
 ;;; Upgrade with `guix upgrade'
 (use-modules  (ns packages emacs)
               (guix packages)
@@ -18,6 +18,7 @@
               (gnu packages fontutils)
               (gnu packages tls)
               (gnu packages sqlite)
+              (gnu packages machine-learning)
               (nongnu packages emacs))
 
 (packages->manifest
@@ -27,6 +28,10 @@
    curl
    sqlite
    gnutls
+   git
+
+   ;; Whisper backend
+   whisper-cpp
 
    ;; Language servers.
    ccls

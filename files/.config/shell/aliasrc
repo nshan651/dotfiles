@@ -31,6 +31,16 @@ alias xcp="xclip -selection clipboard"
 # Apply dotfiles
 alias adopt="stow --adopt -d $HOME/.dotfiles -t $HOME files"
 
+# Coding agents
+alias \
+  oc="opencode" \
+  cc="claude"
+
+# Rsync defaults
+alias rs="rsync -rtvzhPc"
+# Project sync, has some exclusions
+alias rsp="rsync -rtvzhPc --exclude='.git/' --exclude='.env'"
+
 # Verbosity settings
 alias \
 	cp="cp -iv" \
