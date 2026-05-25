@@ -6,6 +6,7 @@
 	defaultBranch = main
 [commit]
     verbose = true # Show commit diff in message editor
+	gpgSign = true
 [fetch]
     prune = true
     fsckobjects = true
@@ -32,3 +33,11 @@
     diffFilter = delta --color-only
 [delta]
     navigate = true  # use n and N to move between diff sections
+[gpg]
+	format = ssh
+[user]
+	signingKey = /home/nick/.ssh/id_ed25519.pub
+[tag]
+	gpgSign = true
+[gpg "ssh"]
+	allowedSignersFile = /home/nick/.ssh/allowed_signers

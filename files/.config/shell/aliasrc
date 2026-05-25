@@ -75,7 +75,8 @@ alias \
     gstash="git stash" \
     gshow="git show --abbrev-commit --pretty=medium" \
     gref="git reflog" \
-    glog="git log --decorate --graph --oneline"
+    glog="git log --decorate --graph --oneline" \
+    gwt="git worktree"
 
 alias dotfiles='/usr/bin/git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'
 alias gh-pages='/usr/bin/git --git-dir=/var/www/nshan651.github.io/.git --work-tree=/var/www/nshan651.github.io'
