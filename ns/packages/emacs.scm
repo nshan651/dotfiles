@@ -49,6 +49,7 @@
    emacs-yaml-mode
    emacs-ccls
    emacs-rust-mode
+   emacs-hcl-mode
 
    ;; Latex
    emacs-latex-preview-pane

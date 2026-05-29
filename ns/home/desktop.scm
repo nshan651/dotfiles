@@ -5,6 +5,7 @@
   #:use-module (gnu services)
   #:use-module (guix gexp)
   #:use-module (nongnu packages mozilla)
+  #:use-module (channel-5 packages dwm)
   #:export (home-desktop-service-type))
 
 (use-package-modules aspell compression curl fonts fontutils freedesktop gimp glib gnome gnome-xyz
@@ -13,7 +14,8 @@
                      video rust rust-apps web-browsers wget wm xdisorg xorg gnuzilla pkg-config)
 
 (define (home-desktop-profile-service config)
-  (list sway
+  (list dwm
+        sway
         ;; dwl
         swayidle ; Idle daemon
         swaylock

@@ -15,5 +15,4 @@
 *.dll
 *.exe
 *.out
-a.out
 *.class
