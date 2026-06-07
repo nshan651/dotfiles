@@ -64,7 +64,6 @@
                  (supplementary-groups '("wheel"
 					                     "netdev"
                                          "kvm"
-					                     "keyd"
                                          "tty"
                                          "input"
                                          "docker"
@@ -72,10 +71,6 @@
                                          "audio"
 					                     "video")))
                 %base-user-accounts))
-
-   ;; Add the 'keyd' group
-   (groups (cons (user-group (system? #t) (name "keyd"))
-                 %base-groups))
 
    ;; Install basic system packages.
    (packages (cons*
