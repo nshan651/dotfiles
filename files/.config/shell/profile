@@ -6,8 +6,6 @@ export PATH="$PATH:$HOME/.local/bin/statusbar"
 export PATH="$PATH:$HOME/.local/bin/cron"
 export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:/usr/share/bin"
-
-# Add npm to the path.
 export PATH="$PATH:$HOME/.local/share/npm/bin"
 
 #export GUIX_PROFILE="$HOME/.config/guix/current"
@@ -24,9 +22,6 @@ export VISUAL="$EDITOR"
 export TERMINAL="st"
 export BROWSER="firefox"
 export TERM="xterm-256color"
-
-# Git directory
-export GIT="$HOME/git"
 
 # ~/ Clean-up:
 export XDG_CONFIG_HOME="$HOME/.config"

@@ -34,18 +34,19 @@
   (home-environment
    (services
     (list
-     (simple-service 'my-xsession-service
-                     home-files-service-type
-                     `((".xsession"
-                        ,(computed-file "xsession"
-                                        #~(begin
-                                            (with-output-to-file #$output
-                                              (lambda ()
-                                                (display "#!/bin/sh\n")
-                                                ;; This bakes the exact /gnu/store/.../bin/dwm path into the file
-                                                (display (string-append "exec " #$dwm "/bin/dwm\n"))))
-                                            ;; Make the file executable so SLiM can run it
-                                            (chmod #$output #o755))))))))))
+     (simple-service
+      'my-xsession-service
+      home-files-service-type
+      `((".xsession"
+         ,(computed-file "xsession"
+                         #~(begin
+                             (with-output-to-file #$output
+                               (lambda ()
+                                 (display "#!/bin/sh\n")
+                                 ;; This bakes the exact /gnu/store/.../bin/dwm path into the file
+                                 (display (string-append "exec " #$dwm "/bin/dwm\n"))))
+                             ;; Make the file executable so SLiM can run it
+                             (chmod #$output #o755))))))))))
 
 (operating-system
  (host-name "x11")

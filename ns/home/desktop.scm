@@ -37,10 +37,7 @@
         ;; Compatibility for older Xorg applications
         xorg-server-xwayland
 
-        ;; Keyboard shortcut manager.
-        keyd
-
-        ;; Flatpak. 
+        ;; Flatpak.
         ;; flatpak
 
         ;; XDG utilitie.

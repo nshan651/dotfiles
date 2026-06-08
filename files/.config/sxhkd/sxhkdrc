@@ -1,16 +1,9 @@
-## sxhkdrc config
-## By Nick Shannon
-
-# === Scripts ===
-
 # Refresh external monitors
 control + alt + 4
     monitors
 
 super + shift + a
   $TERMINAL -e htop
-
-# === Utilities ===
 
 # Volume controls
 XF86AudioLowerVolume
@@ -48,11 +41,6 @@ XF86MonBrightnessDown
 
 # === Universal keybinds ===
 
-# Open TODO list
-super + r 
-    $TERMINAL -e nvim $WIKI/TODO.md
-
-
 # Bookmarks
 super + c
     xdotool type $(grep -v '^#' ~/.dotfiles/files/.local/share/ns/bookmarks | dmenu -i -l 50 | cut -d' ' -f1)
@@ -83,10 +71,6 @@ super + shift + n
 super + m
     $TERMINAL -e ncmpcpp
 
-# lf
-super + c
-    $TERMINAL -e lfub 
-
 # RSS feed reader
 super + F1
     xdotool type $(grep -v '^#' ~/.dotfiles/files/.local/share/ns/jobs | dmenu -i -l 50 | cut -d' ' -f1)
@@ -94,17 +78,6 @@ super + F1
 # lf 
 super + F3
     $TERMINAL -e lfub 
-
-super + F5 + F4
-    $TERMINAL
-
-# Current project opened in a mux session
-# super + F4
-#     $TERMINAL -e tmuxinator start sparkbadge
-
-# Wiki index
-# super + F5
-#     $TERMINAL -e nvim $HOME/Documents/wiki/index.md
 
 # Spotify
 super + F6
@@ -152,6 +125,7 @@ super + d
 # Flameshot
 Print
     flameshot gui
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd

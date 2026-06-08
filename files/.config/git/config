@@ -4,6 +4,7 @@
 	helper = /usr/bin/pass-git-helper
 [init]
 	defaultBranch = main
+	templateDir = ~/.config/git/templates
 [commit]
     verbose = true # Show commit diff in message editor
 	gpgSign = true
