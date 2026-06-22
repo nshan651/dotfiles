@@ -13,6 +13,7 @@
               (gnu packages curl)
               (gnu packages cpp)
               (gnu packages rust)
+              (gnu packages lua)
               (gnu packages tree-sitter)
               (gnu packages fonts)
               (gnu packages fontutils)
@@ -34,8 +35,10 @@
    whisper-cpp
 
    ;; Language servers.
+   tree-sitter
    ccls
    rust-analyzer
+   lua-language-server
 
    ;; Fonts.
    font-abattis-cantarell

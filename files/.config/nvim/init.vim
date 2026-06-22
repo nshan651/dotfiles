@@ -99,7 +99,7 @@ endif
 
 set bg=dark
 
-colorscheme torte
+colorscheme catppuccin
 
 if has('filetype')
   filetype indent plugin on

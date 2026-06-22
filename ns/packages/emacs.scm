@@ -49,6 +49,7 @@
    emacs-yaml-mode
    emacs-ccls
    emacs-rust-mode
+   emacs-lua-mode
    emacs-hcl-mode
 
    ;; Latex
@@ -119,6 +120,7 @@
 
    ;; AI.
    emacs-gptel
+   emacs-agent-shell
 
    ;; Shell.
    emacs-eat
@@ -132,8 +134,7 @@
    ;; Applications.
    emacs-elfeed
 
-   emacs-guix
-
    emacs-docker
    emacs-dockerfile-mode
-   ))
+
+   emacs-guix))
