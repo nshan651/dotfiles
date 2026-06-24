@@ -1,10 +1,10 @@
-;;; A custom install image, donwload this as a qcow iso.
+;;; A custom install image.
 ;;; guix system image -L ~/.dotfiles \
 ;;;   --cores=1 --max-jobs=1 \
 ;;;   --substitute-urls="https://ci.guix.gnu.org https://substitutes.nonguix.org" \
 ;;;   -t iso9660 installer.scm
 ;;;
-;;; Test this in a guix vm with:
+;;; Test this in a guix vm with UEFI:
 ;;; guix system vm -L ~/.dotfiles \
 ;;;   --substitute-urls="https://ci.guix.gnu.org https://substitutes.nonguix.org" \
 ;;;   installer.scm
@@ -15,13 +15,18 @@
   #:use-module (guix channels)
   #:use-module (gnu)
   #:use-module (gnu system install)
+  #:use-module (gnu bootloader)
+  #:use-module (gnu bootloader grub)
   #:use-module (gnu packages linux)
   #:use-module (gnu packages version-control)
   #:use-module (gnu packages package-management)
   #:use-module (gnu packages cryptsetup)
   #:use-module (gnu packages vim)
+  #:use-module (gnu packages avahi)
   #:use-module (gnu services)
+  #:use-module (gnu services avahi)
   #:use-module (gnu services networking)
+  #:use-module (gnu services ssh)
   #:use-module (nongnu packages linux)
   #:use-module (nongnu system linux-initrd))
 
@@ -77,19 +82,28 @@
  (timezone "America/Chicago")
  (locale "en_US.utf8")
 
- (packages (append (list btrfs-progs cryptsetup git-minimal vim stow)
-             (operating-system-packages installation-os)))
+ (name-service-switch %mdns-host-lookup-nss)
+
+ (packages (append (list btrfs-progs cryptsetup git-minimal vim stow nss-mdns)
+                   (operating-system-packages installation-os)))
 
  (services
    (append
-    (list
-     (service network-manager-service-type)
-     (simple-service 'channels-file
-                     etc-service-type
-                     (list `("channels.scm" ,%channels-file))))
-    (modify-services (operating-system-user-services installation-os)
-                     (delete connman-service-type)
-                     (guix-service-type
+   (list
+        (service network-manager-service-type)
+        (service avahi-service-type)
+        (simple-service 'channels-file
+                        etc-service-type
+                        (list `("channels.scm" ,%channels-file))))
+      (modify-services (operating-system-user-services installation-os)
+                       (delete connman-service-type)
+                       (openssh-service-type
+                       config =>
+                       (openssh-configuration
+                        (inherit config)
+                        (permit-root-login #t)
+                        (password-authentication? #t)))
+                      (guix-service-type
                       config =>
                       (guix-configuration
                        (substitute-urls
