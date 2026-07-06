@@ -1,44 +1,41 @@
 [include]
-    path = ~/.config/git/identity # user.name and user.email
+  path = ~/.config/git/identity # user.name and user.email
 [credential]
-	helper = /usr/bin/pass-git-helper
+  helper = /usr/bin/pass-git-helper
 [init]
-	defaultBranch = main
-	templateDir = ~/.config/git/templates
-[commit]
-    verbose = true # Show commit diff in message editor
-	gpgSign = true
-[fetch]
-    prune = true
-    fsckobjects = true
-[alias]
-    empty = "git commit --allow-empty"
-[merge]
-    conflictStyle = zdiff3
-[diff]
-	algorithm = histogram
-	colorMoved = default
-[push]
-	autoSetupRemote = true
-[branch]
-	sort = -committerdate
-[transfer]
-	fsckobjects = true
-[receive]
-    fsckObjects = true
-[pull]
-	ff = only
+  defaultBranch = main
+  templateDir = ~/.config/git/templates
 [core]
-    pager = delta
-[interactive]
-    diffFilter = delta --color-only
-[delta]
-    navigate = true  # use n and N to move between diff sections
+  editor = vim
+  filemode = false # Ignore perms changes
+[commit]
+  verbose = true # Show commit diff in message editor
+  gpgSign = true
+[fetch]
+  prune = true # Delete remote-tracking branches that no longer exist on the remote
+  fsckobjects = true # Verify obj integrity during fetch
+[alias]
+  empty = "git commit --allow-empty"
+[merge]
+  conflictStyle = zdiff3 # Shows common ancestor
+[diff]
+  algorithm = histogram
+  colorMoved = default # Colors mvoed lines differently in diffs
+[push]
+  autoSetupRemote = true # Create upstream remote on first push
+[branch]
+  sort = -committerdate
+[transfer]
+  fsckobjects = true # Verify obj integrity
+[receive]
+  fsckObjects = true # Verify obj integrity
+[pull]
+  ff = only # Refuse pull if it can't fast-forward (prevents merge commits)
 [gpg]
-	format = ssh
+  format = ssh
 [user]
-	signingKey = /home/nick/.ssh/id_ed25519.pub
+  signingKey = /home/nick/.ssh/id_ed25519.pub
 [tag]
-	gpgSign = true
+  gpgSign = true
 [gpg "ssh"]
-	allowedSignersFile = /home/nick/.ssh/allowed_signers
+  allowedSignersFile = /home/nick/.ssh/allowed_signers
