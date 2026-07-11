@@ -11,7 +11,10 @@ case ${MONS_NUMBER} in
     mons --primary eDP1 -s 
     ;;
   3)
-    ${HOME}/.screenlayout/mons3.sh
+    # Extract numbers and store them in an array
+    mapfile -t monitors < <(mons | grep -o '^[0-9]\+:' | awk -F: '{print $1}')
+
+    mons --primary eDP1 -S "${monitors[1]},${monitors[2]}:R"
     ;;
   4)
     ${HOME}/.screenlayout/mons3.sh

@@ -8,6 +8,9 @@
 [core]
   editor = vim
   filemode = false # Ignore perms changes
+[diff]
+  algorithm = histogram
+  colorMoved = default # Colors moved lines differently in diffs
 [commit]
   verbose = true # Show commit diff in message editor
   gpgSign = true
@@ -18,9 +21,6 @@
   empty = "git commit --allow-empty"
 [merge]
   conflictStyle = zdiff3 # Shows common ancestor
-[diff]
-  algorithm = histogram
-  colorMoved = default # Colors mvoed lines differently in diffs
 [push]
   autoSetupRemote = true # Create upstream remote on first push
 [branch]
