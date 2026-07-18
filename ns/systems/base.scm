@@ -144,8 +144,11 @@
                (unix-sock-group "libvirt")
                (tls-port "16555")))
 
-     ;; Enable SSH access.
+     ;; Enable SSH access
      (service openssh-service-type)
+
+     ;; mDNS
+     (service avahi-service-type)
 
      ;; Enable printing.
      (service cups-service-type
@@ -177,7 +180,10 @@
                       #~(job "5 0 * * *" "guix gc -d 2m -F 10G")))
 
      ;; Use base-services.
-     %base-services))))
+     %base-services))
+
+   ;; Enable mDNS name resolution.
+   (name-service-switch %mdns-host-lookup-nss)))
 
 (define (guix-home-config home-environment)
   "Helper function to create a guix-home service for a user."

@@ -4,6 +4,7 @@
   #:use-module (guix)
   #:use-module (guix channels)
   #:use-module (gnu)
+  #:use-module (gnu packages linux)
   #:use-module (gnu home)
   #:use-module (gnu home services)
   #:use-module (gnu home services shells)
@@ -30,7 +31,8 @@
    (mapped-device
     (source (uuid "9a0ad375-b0d5-4674-b805-0817d9d23666"))
     (target "cryptswap")
-    (type luks-device-mapping))))
+    (type luks-device-mapping)
+    (arguments '(#:key-file "/etc/cryptswap.key")))))
 
  (file-systems
   (cons*
@@ -42,22 +44,22 @@
      (mount-point "/")
      (device "/dev/mapper/cryptroot")
      (type "btrfs")
-     (options "subvol=@,compress=zstd,space_cache=v2,noatime"))
+     (options "subvol=@,compress=zstd"))
    (file-system
      (mount-point "/home")
      (device "/dev/mapper/cryptroot")
      (type "btrfs")
-     (options "subvol=@home,compress=zstd,space_cache=v2,noatime"))
+     (options "subvol=@home,compress=zstd"))
    (file-system
      (mount-point "/var")
      (device "/dev/mapper/cryptroot")
      (type "btrfs")
-     (options "subvol=@var,compress=zstd,space_cache=v2,noatime"))
+     (options "subvol=@var,compress=zstd"))
    (file-system
      (mount-point "/gnu")
      (device "/dev/mapper/cryptroot")
      (type "btrfs")
-     (options "subvol=@gnu,compress=zstd,space_cache=v2,noatime"))
+     (options "subvol=@gnu,compress=zstd"))
    %base-file-systems))
 
  (swap-devices

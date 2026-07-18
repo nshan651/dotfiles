@@ -41,7 +41,7 @@
    emacs-popper
 
    ;; Development.
-   emacs-dap-mode
+   ;;emacs-dap-mode
    emacs-projectile
    emacs-dash
 
