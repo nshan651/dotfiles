@@ -64,6 +64,7 @@
 
    ;; UI
    emacs-visual-fill-column
+   emacs-indent-bars
    emacs-org-appear
    emacs-nerd-icons
    emacs-doom-modeline

@@ -1,136 +1,36 @@
-# AGENTS.md - Guix System/Home Configuration
+# AGENTS.md
 
-This repository contains Guix System and Guix Home configurations in Guile Scheme (.scm files).
+Guix System + Guix Home dotfiles, written in Guile Scheme. No CI, no tests — "validation" is running the relevant `guix` command.
 
-## Repository Structure
+## Layout
 
-```
-.dotfiles/
-├── ns/
-│   ├── home/           # Home configs (common.scm, desktop.scm, emacs.scm)
-│   ├── systems/        # OS configs (base.scm, golemxiv.scm, ulysses.scm, installer.scm)
-│   ├── packages/       # Package definitions (emacs.scm)
-│   ├── manifests/      # Guix package manifests
-│   └── files/          # Shell configs (profile, zshrc, inputrc)
-└── files/.config/      # App configs symlinked to ~/.config
-```
+- `ns/` — Guix configuration as Scheme modules (module `(ns systems base)` lives at `ns/systems/base.scm`).
+  - `ns/systems/<hostname>.scm` — one `operating-system` per machine (`golemxiv`, `ulysses`), keyed by `$(hostname)` in the update scripts. `base.scm` defines the shared `base-system` plus the `guix-home-config` helper that wires a home environment into an OS. Also `installer.scm` and `vm/`.
+  - `ns/home/` — guix home service modules; `common.scm` exports `common-home-services`, which each system file plugs in via `(guix-home-config (home-environment (services common-home-services)))`.
+  - `ns/packages/emacs.scm`, `ns/manifests/emacs.scm` — package list / foreign-distro manifest.
+  - `ns/files/` — shell configs referenced from home services with `(local-file "../files/...")`; paths are relative to the defining `.scm`.
+- `files/` — plain dotfiles, symlinked into `$HOME` with `stow --adopt -d ~/.dotfiles -t ~ files` (`files/.local/bin/dotstow`). Edits here reach `$HOME` only after stowing.
 
-## Build/Reconfiguration Commands
+## Commands
 
-### System Configuration
-```bash
-sudo guix system reconfigure ns/systems/<host>.scm  # Apply system config
-guix system build ns/systems/<host>.scm             # Dry-run build
-guix system vm ns/systems/<host>.scm                # Test in VM
-guix system image -L ~/.dotfiles ns/systems/installer.scm  # Build installer
-```
+Reconfigure and stow via the scripts in `files/.local/bin` (stowed to `$HOME/.local/bin`, on `$PATH`), not raw `guix` commands — that's the consistent workflow. `update-system` (root) and `update-home` (no root) both take the system file as `~/.dotfiles/ns/systems/$(hostname).scm`; `update-home` is NOT a bug: current Guix accepts an `operating-system` file and extracts the `guix-home-service-type` home envs (verified in `guix/scripts/home.scm`).
 
-### Home Configuration
-```bash
-guix home reconfigure ns/home/common.scm    # Apply home config
-guix home build ns/home/common.scm          # Dry-run build
-guix home reconfigure -L ~/.dotfiles ns/home/common.scm  # With load path
-```
+All `guix` invocations that reference `ns/` modules need `-L ~/.dotfiles` (repo root is the Guile load path). Plain `guile` cannot load them either — `gnu`/`nongnu` modules live in the Guix store.
 
-### Package Management
-```bash
-guix package -L ~/.dotfiles -s "emacs"           # Search packages
-guix package -L ~/.dotfiles -m ns/manifests/emacs.scm  # Install manifest
-guix upgrade -L ~/.dotfiles -m ns/manifests/emacs.scm  # Upgrade manifest
-```
+- System reconfigure (root): `update-system`.
+- Home reconfigure (no root): `update-home`.
+- Apply `files/` to `$HOME`: `dotstow` (`stow --adopt -d ~/.dotfiles -t ~ files`).
+- Build/dry-run (no script exists): `guix system build -L ~/.dotfiles` / `guix home build -L ~/.dotfiles` with `~/.dotfiles/ns/systems/$(hostname).scm`.
+- Installer ISO: `guix system image -L ~/.dotfiles -t iso9660 ns/systems/installer.scm`.
+- Foreign-distro emacs manifest: `guix package -L ~/.dotfiles -m ~/.dotfiles/ns/manifests/emacs.scm`.
+- VM configs: header comments in `ns/systems/vm/*.scm`; run from that directory with `-L ~/git/channel-5` (the custom `channel-5` channel provides `dwm`/`st` for `x11.scm`).
 
-### Development/Testing
-```bash
-guix shell -L ~/.dotfiles -- emacs                                # Package shell
-guix build -L ~/.dotfiles <package-name>                          # Build single package
-guix shell -L ~/.dotfiles --preserve=^DISPLAY -- emacs            # GUI app shell
-```
+## Gotchas
 
-## Code Style Guidelines
-
-### Module Declarations
-```scheme
-(define-module (ns <directory> <file-name>)
-  #:use-module (ns home desktop)
-  #:use-module (gnu services)
-  #:use-module (guix gexp)
-  #:export (<public-variables>))
-```
-
-### Imports
-- `#:use-module` for functional imports in `define-module`
-- `(use-modules ...)` at top-level for `use-package-modules` and `use-service-modules`
-- Order: project modules first, then guix/gnu, then external
-
-### Naming Conventions
-- Functions/variables: `kebab-case` (e.g., `home-desktop-profile-service`)
-- Quoted symbols: hyphenated (e.g., `'add-nonguix-substitutes`)
-- Avoid `snake_case` for new code
-
-### Indentation
-- 2-space indentation within s-expressions
-
-### Comments
-- `;;;` - Section/header comments
-- `;;` - Inline comments
-
-### Service Definitions
-```scheme
-(define home-desktop-service-type
-  (service-type (name 'home-desktop)
-    (description "Description.")
-    (extensions
-      (list (service-extension home-profile-service-type
-                              home-desktop-profile-service)))
-    (default-value #f)))
-```
-
-### Gexps
-- `#~` for compiled gexps, `,` for unquoting
-- `(local-file "../path")` for project files
-- `(file-append package "/bin/program")` for package paths
-
-## File Organization
-- **Systems**: `base-system` as reusable foundation; hosts inherit with `(inherit base-system)`
-- **Home**: Compose services in `common-home-services`
-- **Packages**: Export as `<name>-packages` (e.g., `emacs-packages`)
-- **Manifests**: Use `(packages->manifest (append ...))` pattern
-
-## Common Patterns
-
-### Package List
-```scheme
-(define-public emacs-packages
-  (list package-one package-two))
-```
-
-### Operating System
-```scheme
-(define-public base-system
-  (operating-system
-    (timezone "America/Chicago") (locale "en_US.utf8")
-    (kernel linux) (bootloader bootloader-configuration)
-    (file-systems %base-file-systems)
-    (users %base-user-accounts) (groups %base-groups)
-    (packages (cons* extra-packages %base-packages))
-    (services %base-services)))
-```
-
-### Home Environment
-```scheme
-(home-environment
-  (services (list
-    (service home-profile-service-type ...)
-    (service home-shell-service-type ...))))
-```
-
-## Key References
-- [Guix Reference Manual](https://guix.gnu.org/manual/en/html_node/)
-- [Guix Cookbook](https://guix.gnu.org/cookbook/en/)
-- [Guix Home Documentation](https://guix.gnu.org/en/manual/guix-profitable/)
-
-## Notes
-- Add packages to `ns/packages/*.scm` and export the list
-- Add services to appropriate home config with service-type
-- System configs in `ns/systems/` inherit from `base.scm`
-- `local-file` paths are relative to the `.scm` file location
+- Adding a machine means creating `ns/systems/<hostname>.scm` that `(inherit base-system)`. New home config goes into `ns/home/common.scm` (or a module it uses).
+- `nonguix` and the custom `channel-5` (codeberg) channels are used — `(nongnu ...)` imports and non-free packages are expected, not mistakes. Substitutes configured in `base.scm`; channels file at `files/.config/guix/channels.scm`.
+- The Emacs *config* is NOT in this repo — only the package list (`ns/packages/emacs.scm`). `~/.emacs.d` is a separate git repo. Don't go hunting for init files here.
+- `ns/files/` (consumed by guix home) and `files/` (stowed) are distinct trees; don't confuse them.
+- Several scripts under `files/` reference things absent from this repo (e.g. `update-dotfiles` → `./.emacs.d/tangle-dotfiles.el`, `update-channels` → `~/.config/guix/base-channels.scm`). They run against the live `$HOME`; don't "fix" them based on repo state alone.
+- `.gitignore`: `files/.local/share/ns/{bookmarks,jobs}`, `*.qcow2`. `ns/systems/vm/wayland` is an untracked build-artifact symlink into `/gnu/store` — leave it uncommitted.
+- Commits are SSH-GPG-signed (`gpg.format ssh`, `commit.gpgSign = true` in stowed `files/.config/git/config`); the git template adds a post-receive hook that mirrors to codeberg/github/gitlab.
