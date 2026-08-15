@@ -1,0 +1,12 @@
+#!/bin/sh
+# Install/upgrade emacs from ns/manifests/emacs.scm on a foreign distro.
+
+GREEN='\033[1;32m'
+BLUE='\033[1;34m'
+NC='\033[0m'
+
+# Skip if this is a guix system.
+[ -e /run/current-system ] && exit 0
+
+echo -e "\n${GREEN}Updating Emacs on ${BLUE}${HOST}${GREEN}...${NC}\n"
+guix package -L ~/.dotfiles -m ~/.dotfiles/ns/manifests/emacs.scm
