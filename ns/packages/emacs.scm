@@ -12,7 +12,6 @@
    emacs-doom-themes
    emacs-ef-themes
    emacs-org-bullets
-   emacs-perspective
    emacs-modus-themes
 
    ;; Evil / Keybindings.
@@ -39,10 +38,10 @@
 
    ;; UI extensions.
    emacs-popper
+   emacs-perspective
 
    ;; Development.
    ;;emacs-dap-mode
-   emacs-projectile
    emacs-dash
 
    ;; Programming Languages/LSP.
@@ -97,7 +96,7 @@
 
    ;; Version control.
    emacs-magit
-   emacs-magit-todos
+   emacs-magit-delta
    emacs-forge
    emacs-git-link
    emacs-git-gutter

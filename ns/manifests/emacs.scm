@@ -19,6 +19,7 @@
               (gnu packages fontutils)
               (gnu packages tls)
               (gnu packages sqlite)
+              (gnu packages rust-apps)
               (gnu packages machine-learning)
               (nongnu packages emacs))
 
@@ -33,6 +34,9 @@
 
    ;; Whisper backend
    whisper-cpp
+
+   ;; Delta pager
+   git-delta
 
    ;; Language servers.
    tree-sitter

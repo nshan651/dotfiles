@@ -8,5 +8,5 @@ NC='\033[0m'
 # Skip if this is a guix system.
 [ -e /run/current-system ] && exit 0
 
-echo -e "\n${GREEN}Updating Emacs on ${BLUE}${HOST}${GREEN}...${NC}\n"
+echo -e "\n${GREEN}Updating Emacs...${NC}\n"
 guix package -L ~/.dotfiles -m ~/.dotfiles/ns/manifests/emacs.scm
