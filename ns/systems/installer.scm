@@ -1,16 +1,33 @@
 ;;; A custom install image.
-;;; guix system image -L ~/.dotfiles \
-;;;   --cores=1 --max-jobs=1 \
-;;;   --substitute-urls="https://ci.guix.gnu.org https://substitutes.nonguix.org" \
-;;;   -t iso9660 installer.scm
 ;;;
-;;; Test this in a guix vm with UEFI:
-;;; guix system vm -L ~/.dotfiles \
+;;; 1. Build and validate the config.
+;;; guix system build -L ~/.dotfiles \
+;;;   --cores=1 --max-jobs=1 \
 ;;;   --substitute-urls="https://ci.guix.gnu.org https://substitutes.nonguix.org" \
 ;;;   installer.scm
 ;;;
-;;; Note: If running this on a foreign guix system, run 'sudo -i guix pull'
-;;; sudo -i guix pull --channels=~/.config/guix/channels.scm
+;;; 2. Build and launch a VM.
+;;; guix system vm -L ~/.dotfiles \
+;;;   --substitute-urls="https://ci.guix.gnu.org https://substitutes.nonguix.org" \
+;;;   -r "$HOME/.local/opt/guix-builds/installer" \
+;;;   installer.scm
+;;;
+;;; 3. Build ISO.
+;;; guix system image -L ~/.dotfiles \
+;;;   --cores=1 --max-jobs=1 \
+;;;   --substitute-urls="https://ci.guix.gnu.org https://substitutes.nonguix.org" \
+;;;   -r "$HOME/.local/opt/guix-builds/installer.iso" \
+;;;   -t iso9660 installer.scm
+;;;
+;;; 3a. Test the ISO using qemu's user-mode networking stack.
+;;; qemu-system-x86_64 \
+;;;   -enable-kvm \
+;;;   -m 4096 \
+;;;   -smp 2 \
+;;;   -boot menu=on,order=d \
+;;;   -nic user,model=virtio-net-pci \
+;;;   -cdrom "$HOME/guix-builds/installer.iso"
+;;;
 (define-module (ns systems installer)
   #:use-module (guix channels)
   #:use-module (gnu)
@@ -91,25 +108,31 @@
    (append
    (list
         (service network-manager-service-type)
-        (service avahi-service-type)
+        (service ntp-service-type)
+        ;; (service avahi-service-type)
         (simple-service 'channels-file
                         etc-service-type
-                        (list `("channels.scm" ,%channels-file))))
+                        (list `("guix/channels.scm" ,%channels-file))))
       (modify-services (operating-system-user-services installation-os)
                        (delete connman-service-type)
                        (openssh-service-type
                        config =>
                        (openssh-configuration
                         (inherit config)
+                        (%auto-start? #t)
                         (permit-root-login #t)
                         (password-authentication? #t)))
                       (guix-service-type
-                      config =>
-                      (guix-configuration
-                       (substitute-urls
-                        (list "https://ci.guix.gnu.org"
-                              "https://substitutes.nonguix.org"))
-                       (authorized-keys
-                        (cons %signing-key
-                              %default-authorized-guix-keys))
-                       (channels %channels)))))))
+                       config =>
+                       (guix-configuration
+                        (inherit config)
+
+                        (substitute-urls
+                         (list "https://ci.guix.gnu.org"
+                               "https://substitutes.nonguix.org"))
+
+                        (authorized-keys
+                         (cons %signing-key
+                               %default-authorized-guix-keys))
+
+                        (channels %channels)))))))
