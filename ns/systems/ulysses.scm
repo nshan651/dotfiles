@@ -14,22 +14,55 @@
  (inherit base-system)
  (host-name "ulysses")
 
- ;; Map HDD with LUKS encryption.
- (mapped-devices
-  (list (mapped-device
-         (source (uuid "2f8482d3-bfa4-4bb9-8951-5ad83c201a7f"))
-         (target "cryptroot")
-         (type luks-device-mapping))))
+ (packages (cons* btrfs-progs
+                  (operating-system-packages base-system)))
 
- ;; The list of file systems that get "mounted".  The unique
- ;; file system identifiers there ("UUIDs") can be obtained
- ;; by running 'blkid' in a terminal.
- (file-systems (cons* (file-system
-			           (mount-point "/")
-			           (device "/dev/mapper/cryptroot")
-			           (type "ext4")
-			           (dependencies mapped-devices))
-			          %base-file-systems))
+ (mapped-devices
+  (list
+   (mapped-device
+    (source (uuid "TODO"))
+    (target "cryptroot")
+    (type luks-device-mapping))
+   (mapped-device
+    (source (uuid "TODO"))
+    (target "cryptswap")
+    (type luks-device-mapping)
+    (arguments '(#:key-file "/etc/cryptswap.key")))))
+
+ (file-systems
+  (cons*
+   (file-system
+    (mount-point "/boot")
+    (device (uuid "TODO"))
+    (type "ext4"))
+   (file-system
+     (mount-point "/")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@,compress=zstd"))
+   (file-system
+     (mount-point "/home")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@home,compress=zstd"))
+   (file-system
+     (mount-point "/var")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@var,compress=zstd"))
+   (file-system
+     (mount-point "/gnu")
+     (device "/dev/mapper/cryptroot")
+     (type "btrfs")
+     (options "subvol=@gnu,compress=zstd"))
+   %base-file-systems))
+
+ (swap-devices
+  (list
+   (swap-space
+    (target "/dev/mapper/cryptswap")
+    (dependencies mapped-devices))))
+
  (services
   (append
    (operating-system-user-services base-system)
