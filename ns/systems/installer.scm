@@ -11,6 +11,8 @@
 ;;;   --substitute-urls="https://ci.guix.gnu.org https://substitutes.nonguix.org" \
 ;;;   -r "$HOME/.local/opt/guix-builds/installer" \
 ;;;   installer.scm
+;;; To switch to TTY3, type `Ctrl+Alt+2' to get to QEMU monitor,
+;;; then `sendkey ctrl-alt-f3', then `Ctrl+Alt+1'
 ;;;
 ;;; 3. Build ISO.
 ;;; guix system image -L ~/.dotfiles \
@@ -101,7 +103,7 @@
 
  (name-service-switch %mdns-host-lookup-nss)
 
- (packages (append (list btrfs-progs cryptsetup git-minimal vim stow nss-mdns)
+ (packages (append (list btrfs-progs cryptsetup git-minimal vim stow)
                    (operating-system-packages installation-os)))
 
  (services
@@ -109,7 +111,6 @@
    (list
         (service network-manager-service-type)
         (service ntp-service-type)
-        ;; (service avahi-service-type)
         (simple-service 'channels-file
                         etc-service-type
                         (list `("guix/channels.scm" ,%channels-file))))
