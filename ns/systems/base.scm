@@ -43,8 +43,8 @@
 
    ;; The bootloader will be overwritten.
    (bootloader (bootloader-configuration
-		(bootloader grub-bootloader)
-		(targets '("/dev/sda"))
+		(bootloader grub-efi-bootloader)
+		(targets '("/boot/efi"))
 		(keyboard-layout keyboard-layout)))
 
    ;; Add a tmpfs.

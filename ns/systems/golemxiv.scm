@@ -15,6 +15,11 @@
  (inherit base-system)
  (host-name "golemxiv")
 
+ ;; Legacy bootloader.
+ (bootloader (bootloader-configuration
+	      (bootloader grub-bootloader)
+	      (targets '("/dev/sda"))))
+
  (kernel-arguments
   (cons* "modprobe.blacklist=acer_wmi,wl"
          (operating-system-user-kernel-arguments base-system)))

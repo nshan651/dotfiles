@@ -32,6 +32,10 @@
  (file-systems
   (cons*
    (file-system
+    (mount-point "/boot/efi")
+    (device (uuid "TODO"))
+    (type "vfat"))
+   (file-system
     (mount-point "/boot")
     (device (uuid "TODO"))
     (type "ext4"))
