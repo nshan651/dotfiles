@@ -4,6 +4,7 @@
   #:use-module (guix)
   #:use-module (guix channels)
   #:use-module (gnu)
+  #:use-module (gnu packages linux)
   #:use-module (gnu home)
   #:use-module (gnu home services)
   #:use-module (gnu home services shells)

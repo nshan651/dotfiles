@@ -81,6 +81,7 @@
 	      gvfs
 	      libpciaccess
 	      pciutils
+          make
 	      stow
 	      vim
           util-linux
