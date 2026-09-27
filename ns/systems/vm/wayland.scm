@@ -1,7 +1,10 @@
-;; guix system vm -L ~/git/channel-5 wayland.scm \
-;;   -r ./wayland \
+;; guix system vm -L ~/.dotfiles wayland.scm \
+;;   -r $HOME/.local/opt/guix-builds/wayland \
 ;;   --share=$HOME/git/dwl=/home/test/git/dwl
-;; ./wayland -nic user,hostfwd=tcp::2222-:22
+;; $HOME/.local/opt/guix-builds/wayland -nic user,hostfwd=tcp::2222-:22
+;;
+;; ssh -p 2222 test@localhost
+;; ssh-keygen -R "[localhost]:2222"
 (use-modules
  (gnu)
  (gnu system)
@@ -12,8 +15,9 @@
  (guix gexp))
 
 (use-service-modules avahi dns desktop guix linux networking ssh xorg)
-(use-package-modules base certs commencement fonts freedesktop pkg-config
-                     terminals shells version-control vim wm xorg)
+(use-package-modules base certs commencement fonts fontutils freedesktop
+                     pkg-config terminals shells version-control vim
+                     window-management xdisorg xorg)
 
 (define vm-common
   (home-environment
@@ -93,13 +97,14 @@
 
     ;; Build tools and deps for compiling dwl from source.
     gcc-toolchain
-    make
+    gnu-make
     pkg-config
     libinput
     wayland
     wayland-protocols
-    wlroots
+    wlroots-0.19
     libxkbcommon
+    fcft
 
     %base-packages))
 
