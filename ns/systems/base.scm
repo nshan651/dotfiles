@@ -21,7 +21,7 @@
 (use-package-modules
  audio video nfs certs shells ssh linux bash emacs gnome networking wm fonts
  libusb cups freedesktop file-systems version-control package-management
- pciutils vim xorg)
+ pciutils tmux vim xorg)
 
 (define-public base-system
   (operating-system
@@ -58,8 +58,8 @@
                   %base-file-systems))
 
    (users (cons (user-account
-                 (name "nick")
-                 (comment "nick")
+                 (name "ns")
+                 (comment "ns")
 		         (shell #~(string-append #$zsh "/bin/zsh"))
                  (group "users")
                  (supplementary-groups '("wheel"
@@ -82,8 +82,9 @@
 	      gvfs
 	      libpciaccess
 	      pciutils
-          make
+          gnu-make
 	      stow
+          tmux
 	      vim
           util-linux
 	      zsh
