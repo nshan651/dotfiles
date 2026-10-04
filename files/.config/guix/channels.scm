@@ -2,9 +2,22 @@
 ;; cat /etc/guix/acl
 (list
  (channel
-    (name 'channel-5)
-    (url "https://codeberg.org/nshan651/channel-5.git")
-    (branch "main"))
+   (name 'nonguix)
+   (url "https://gitlab.com/nonguix/nonguix")
+   (introduction
+    (make-channel-introduction
+     "897c1a470da759236cc11798f4e0a5f7d4d59fbc"
+     (openpgp-fingerprint
+      "2A39 3FFF 68F4 EF7A 3D29  12AF 6F51 20A0 22FB B2D5"))))
+ (channel
+  (name 'tailscale)
+  (url "https://github.com/umanwizard/guix-tailscale")
+  (branch "main")
+  (introduction
+   (make-channel-introduction
+    "52e82318f282c555757ef077d93a685fda97565d"
+    (openpgp-fingerprint
+     "9E53FC33B8328C745E7B31F70226C10D7877B741"))))
  (channel
   (name 'guix)
   (url "https://git.guix.gnu.org/guix.git") ;; Redirects to codeberg.
@@ -12,12 +25,4 @@
    (make-channel-introduction
     "9edb3f66fd807b096b48283debdcddccfea34bad"
     (openpgp-fingerprint
-     "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA"))))
- (channel
-   (name 'nonguix)
-   (url "https://gitlab.com/nonguix/nonguix")
-   (introduction
-    (make-channel-introduction
-     "897c1a470da759236cc11798f4e0a5f7d4d59fbc"
-     (openpgp-fingerprint
-      "2A39 3FFF 68F4 EF7A 3D29  12AF 6F51 20A0 22FB B2D5")))))
+     "BBB0 2DDF 2CEA F6A8 0D1D  E643 A2A0 6DF2 A33A 54FA")))))

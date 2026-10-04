@@ -7,6 +7,7 @@
   #:use-module (gnu system nss)
   #:use-module (gnu system setuid)
   #:use-module (gnu system privilege)
+  #:use-module (btv tailscale)
   #:use-module (nongnu packages linux)
   #:use-module (nongnu packages video)
   #:use-module (nongnu system linux-initrd)
@@ -170,6 +171,9 @@
 
      ;; Enable the build service for Nix package manager
      (service nix-service-type)
+
+     ;; Tailscale
+     (service tailscale-service-type)
 
      ;; Schedule cron jobs for system tasks
      (simple-service 'system-cron-jobs
