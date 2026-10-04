@@ -20,7 +20,7 @@
 
 (use-package-modules
  audio video nfs certs shells ssh linux bash emacs gnome networking wm fonts
- libusb cups freedesktop file-systems version-control package-management
+ libusb cups freedesktop file-systems tailscale version-control package-management
  pciutils tmux vim xorg)
 
 (define-public base-system
