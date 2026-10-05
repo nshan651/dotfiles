@@ -34,8 +34,8 @@
 [gpg]
   format = ssh
 [user]
-  signingKey = /home/nick/.ssh/id_ed25519.pub
+  signingKey = ~/.ssh/id_ed25519.pub
 [tag]
   gpgSign = true
 [gpg "ssh"]
-  allowedSignersFile = /home/nick/.ssh/allowed_signers
+  allowedSignersFile = ~/.ssh/allowed_signers
