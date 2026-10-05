@@ -194,4 +194,4 @@
 (define (guix-home-config home-environment)
   "Helper function to create a guix-home service for a user."
   (service guix-home-service-type
-           `(("nick" ,home-environment))))
+           `(("ns" ,home-environment))))
