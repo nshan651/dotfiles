@@ -21,11 +21,11 @@
  (mapped-devices
   (list
    (mapped-device
-    (source (uuid "TODO"))
+    (source (uuid "cdfba07d-7a60-4bfe-8161-a0498e9c9b46"))
     (target "cryptroot")
     (type luks-device-mapping))
    (mapped-device
-    (source (uuid "TODO"))
+    (source (uuid "b16dd730-0697-457a-968e-f6387c172522"))
     (target "cryptswap")
     (type luks-device-mapping)
     (arguments '(#:key-file "/etc/cryptswap.key")))))
@@ -34,12 +34,8 @@
   (cons*
    (file-system
     (mount-point "/boot/efi")
-    (device (uuid "TODO"))
+    (device (uuid "1A01-9F14" 'fat))
     (type "vfat"))
-   (file-system
-    (mount-point "/boot")
-    (device (uuid "TODO"))
-    (type "ext4"))
    (file-system
      (mount-point "/")
      (device "/dev/mapper/cryptroot")
