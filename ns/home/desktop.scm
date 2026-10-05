@@ -7,10 +7,11 @@
   #:use-module (nongnu packages mozilla)
   #:export (home-desktop-service-type))
 
-(use-package-modules aspell compression curl fonts fontutils freedesktop gimp glib gnome gnome-xyz
+(use-package-modules aspell compression curl disk fonts fontutils freedesktop gimp glib gnome gnome-xyz
                      gstreamer kde-frameworks linux music package-management emacs vim texlive
                      password-utils pdf pulseaudio shellutils ssh syncthing terminals
-                     video rust rust-apps web-browsers wget wm xdisorg xorg gnuzilla pkg-config)
+                     video rust rust-apps web-browsers window-management wget wm
+                     xdisorg xorg gnuzilla pkg-config)
 
 (define (home-desktop-profile-service config)
   (list
@@ -25,6 +26,9 @@
         mako ; Notification system
                                         ;gammastep ; Set color temps based on time of day
 	    wdisplays
+
+        ;; Background
+        wbg
 
         grimshot ;; grimshot --notify copy area
         network-manager-applet
@@ -101,6 +105,7 @@
 	    fzf
 	    ispell
 	    ripgrep
+        lf
 
 	    ;; zsh.
 	    zsh-syntax-highlighting
