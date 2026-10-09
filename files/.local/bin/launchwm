@@ -83,7 +83,7 @@ clock() {
 }
 
 while :; do
-	line="$(mem) $(cpu) $(bat) $(weatherreport) $(clock)"
+	line="$(mem) $(cpu) $(internet) $(bat) $(weatherreport) $(clock)"
 	printf "%s\n" "$line"
 	sleep 30
 done | /usr/local/bin/dwl
