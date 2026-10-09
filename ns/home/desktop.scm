@@ -10,7 +10,7 @@
 (use-package-modules
  aspell compression curl disk fonts fontutils freedesktop gimp glib gnome gnome-xyz
  gstreamer kde-frameworks linux music package-management emacs vim texlive
- password-utils pdf pulseaudio shellutils ssh syncthing terminals
+ password-utils pdf pulseaudio shellutils ssh syncthing terminals image-viewers
  video rust rust-apps web-browsers window-management wget
  xdisorg xorg gnuzilla pkg-config)
 
@@ -91,6 +91,7 @@
 
    ;; Graphics
    gimp
+   ueberzug
 
    ;; Latex
    ;; texlive
