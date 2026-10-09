@@ -1,6 +1,7 @@
 (define-module (ns home common)
   #:use-module (ns home desktop)
   #:use-module (ns home emacs)
+  #:use-module (ns home udiskie)
   #:use-module (gnu services)
   #:use-module (gnu packages gnupg)
   #:use-module (gnu home)
@@ -79,8 +80,7 @@
    (service home-syncthing-service-type)
 
    ;; Monitor battery levels
-   ;; (service home-batsignal-service-type)
+   (service home-batsignal-service-type)
 
    ;; Udiskie for auto-mounting devices
-   ;; (service home-udiskie-service-type)
-   ))
+   (service home-udiskie-service-type)))
