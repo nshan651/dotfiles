@@ -19,9 +19,9 @@
  mcron networking xorg ssh docker audio virtualization)
 
 (use-package-modules
- audio video nfs certs shells ssh linux bash emacs gnome networking wm fonts
+ audio video nfs certs shells ssh linux bash emacs gnome networking fonts
  libusb cups freedesktop file-systems version-control package-management
- pciutils tmux vim xorg)
+ window-management pciutils tmux vim xorg)
 
 (define-public base-system
   (operating-system
