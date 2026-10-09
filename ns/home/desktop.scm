@@ -59,6 +59,7 @@
    ;; Fonts
    font-abattis-cantarell
    font-awesome
+   font-nerd-symbols
    font-fira-code
    font-fira-mono
    font-iosevka-ss08
@@ -69,6 +70,10 @@
    font-liberation
    font-hack
    fontmanager
+
+   ;; Diagnostics
+   lm-sensors
+   procps
 
    ;; Web
    firefox
