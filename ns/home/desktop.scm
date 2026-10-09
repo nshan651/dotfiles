@@ -81,7 +81,7 @@
    icecat
 
    ;; Editors
-   emacs
+   emacs-next-pgtk
    neovim
 
    ;; Authentication
