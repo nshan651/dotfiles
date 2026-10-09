@@ -7,130 +7,123 @@
   #:use-module (nongnu packages mozilla)
   #:export (home-desktop-service-type))
 
-(use-package-modules aspell compression curl disk fonts fontutils freedesktop gimp glib gnome gnome-xyz
-                     gstreamer kde-frameworks linux music package-management emacs vim texlive
-                     password-utils pdf pulseaudio shellutils ssh syncthing terminals
-                     video rust rust-apps web-browsers window-management wget wm
-                     xdisorg xorg gnuzilla pkg-config)
+(use-package-modules
+ aspell compression curl disk fonts fontutils freedesktop gimp glib gnome gnome-xyz
+ gstreamer kde-frameworks linux music package-management emacs vim texlive
+ password-utils pdf pulseaudio shellutils ssh syncthing terminals
+ video rust rust-apps web-browsers window-management wget
+ xdisorg xorg gnuzilla pkg-config)
 
 (define (home-desktop-profile-service config)
   (list
-        sway
-        ;; dwl
-        swayidle ; Idle daemon
-        swaylock
+   ;; Desktop(s)
+   sway
+   waybar
 
-	    waybar
-        fuzzel
-        wl-clipboard
-        mako ; Notification system
-                                        ;gammastep ; Set color temps based on time of day
-	    wdisplays
+   ;; Desktop utilities
+   swayidle       ; Idle daemon
+   swaylock       ; Lock screen
+   fuzzel         ; App launcher
+   mako           ; Notifications
+   gammastep      ; Color temps
+   wdisplays      ; Display mgmt
+   wbg            ; Wallpaper
+   grimshot       ; Screenshots
+   wl-clipboard   ; Clipboard
+   network-manager-applet
 
-        ;; Background
-        wbg
+   ;; Terminal emulators
+   foot
 
-        grimshot ;; grimshot --notify copy area
-        network-manager-applet
+   ;; Package managers
+   flatpak
 
-        ;; Terminal emulator
-        foot
-        alacritty
+   ;; XDG
+   xdg-desktop-portal
+   xdg-desktop-portal-gtk
+   xdg-desktop-portal-wlr
+   xdg-utils
+   xdg-dbus-proxy
+   shared-mime-info
 
-        ;; Compatibility for older Xorg applications
-        xorg-server-xwayland
+   ;; X11
+   xorg-server-xwayland ; Xorg compat
 
-        ;; Flatpak.
-        ;; flatpak
+   ;; GTK themes
+   matcha-theme
+   papirus-icon-theme
+   breeze-icons
+   gnome-themes-extra
+   adwaita-icon-theme
 
-        ;; XDG utilitie.
-        xdg-desktop-portal
-        xdg-desktop-portal-gtk
-        xdg-desktop-portal-wlr
-        xdg-utils
-        xdg-dbus-proxy
-        shared-mime-info
+   ;; Fonts
+   font-abattis-cantarell
+   font-awesome
+   font-fira-code
+   font-fira-mono
+   font-iosevka-ss08
+   font-iosevka-aile
+   font-jetbrains-mono
+   font-google-noto
+   font-google-noto-emoji
+   font-liberation
+   font-hack
+   fontmanager
 
-        ;; Appearance.
-        matcha-theme
-        papirus-icon-theme
-        breeze-icons
-        gnome-themes-extra
-        adwaita-icon-theme
+   ;; Web
+   firefox
+   icecat
 
-        ;; Fonts.
-	    font-abattis-cantarell
-        font-awesome
-	    font-fira-code
-	    font-fira-mono
-        font-iosevka-ss08
-        font-iosevka-aile
-        font-jetbrains-mono
-	    font-google-noto
-	    font-google-noto-emoji
-        font-liberation
-	    font-hack
-	    fontmanager
+   ;; Editors
+   emacs
+   neovim
 
-        ;; Browsers.
-        firefox
-        icecat
+   ;; Authentication
+   password-store
 
-        ;; Editors.
-        emacs
-        neovim
+   ;; Audio devices and media playback
+   mpv
+   mpv-mpris
+   yt-dlp
+   playerctl
+   alsa-utils
+   pavucontrol
 
-        ;; Authentication
-        password-store
+   ;; Graphics
+   gimp
 
-        ;; Audio devices and media playback
-        mpv
-        mpv-mpris
-        yt-dlp
-        playerctl
-        alsa-utils
-        pavucontrol
+   ;; Latex
+   ;; texlive
 
-        ;; Graphics
-        gimp
+   ;; PDF reader
+   zathura
+   zathura-pdf-mupdf
 
-	    ;; Latex
-	    ;; texlive
+   ;; CLI.
+   fzf
+   ispell
+   ripgrep
+   lf
 
-        ;; PDF reader
-        zathura
-        zathura-pdf-mupdf
+   ;; zsh
+   zsh-syntax-highlighting
+   zsh-completions
 
-	    ;; CLI.
-	    fzf
-	    ispell
-	    ripgrep
-        lf
+   ;; File syncing
+   syncthing-gtk
 
-	    ;; zsh.
-	    zsh-syntax-highlighting
-	    zsh-completions
+   ;; Development
+   ;; TODO: move this to a dedicated service-type!
+   rust
+   rust-analyzer
+   ;;rust-cargo
 
-        ;; File syncing
-        syncthing-gtk
-
-	    ;; Development
-	    ;; TODO: move this to a dedicated service-type!
-	    rust
-	    rust-analyzer
-	    ;;rust-cargo
-
-	    pkg-config
-	    libinput
-	    eudev
-	    libxkbcommon
-
-        ;; General utilities
-        curl
-        wget
-        openssh
-        zip
-        unzip))
+   ;; General utilities
+   curl
+   wget
+   openssh
+   zip
+   unzip))
 
 (define (home-desktop-environment-variables config)
   '(("_JAVA_AWT_WM_NONREPARENTING" . "1")))
