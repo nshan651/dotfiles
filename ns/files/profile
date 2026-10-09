@@ -138,8 +138,8 @@ ex=🎯:\
 *.java=♨:\
 "
 
-# Start sway.
-if [ -z "$WAYLAND_DISPLAY" ] && [ "$XDG_VTNR" -eq 1 ]; then
+# Start wm.
+if [ -z "$WAYLAND_DISPLAY" ] && [ "${XDG_VTNR:-}" = 1 ]; then
   emacs --daemon &
-  exec sway
+  exec launchwm
 fi

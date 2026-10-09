@@ -1,9 +1,89 @@
 #!/bin/sh
-# Launches WM in a loop to allow for restarts
+# Launch dwl with bar config
 
-while true; do
-    # Log stderror to a file 
-    dwm 2> ~/.dwm.log
-    # No error logging
-    #dwm >/dev/null 2>&1
-done
+[ ! -x "/usr/local/bin/dwl" ] && echo "Error: dwl not installed" && exit 1
+
+mem() {
+	free --mebi 2>/dev/null | sed -n '2{p;q}' | awk '{printf "%2.2fGiB/%2.2fGiB", ($3 / 1024), ($2 / 1024)}'
+}
+
+cpu() {
+    sensors | awk '/Core 0/ {print "" $3}'
+}
+
+bat() {
+    # Loop through all attached batteries and format the info
+    for battery in /sys/class/power_supply/BAT?*; do
+	    # If non-first battery, print a space separator.
+	    [ -n "${capacity+x}" ] && printf " "
+	    # Sets up the status and capacity
+	    case "$(cat "$battery/status" 2>&1)" in
+		    "Full") status="󱐋" ;;
+		    "Discharging") status="󱊣" ;;
+		    "Charging") status="󱐥" ;;
+		    "Not charging") status="󱐤" ;;
+		    "Unknown") status="󰤁" ;;
+		    *) exit 1 ;;
+	    esac
+	    capacity="$(cat "$battery/capacity" 2>&1)"
+	    # Will make a warn variable if discharging and low
+	    [ "$status" = "󱊣" ] && [ "$capacity" -le 25 ] && warn=""
+	    # Prints the info
+	    printf "%s%s%d%%" "$status" "$warn" "$capacity"; unset warn
+    done && printf "\\n"
+}
+
+internet () {
+    if grep -xq 'up' /sys/class/net/w*/operstate 2>/dev/null ; then
+	    wifiicon="$(awk '/^\s*w/ { print "󰖩", int($3 * 100 / 70) "% " }' /proc/net/wireless)"
+    elif grep -xq 'down' /sys/class/net/w*/operstate 2>/dev/null ; then
+	    grep -xq '0x1003' /sys/class/net/w*/flags && wifiicon="󱛅 " || wifiicon="󰖪 "
+    fi
+
+    printf "%s%s%s\n" "$wifiicon" \
+           "$(sed "s/down/󰈂/;s/up/󰈁/" /sys/class/net/e*/operstate 2>/dev/null)" \
+           "$(sed "s/.*/󱢼/" /sys/class/net/tun*/operstate 2>/dev/null)"
+}
+
+weatherreport () {
+    # Displays todays precipication chance (☔) and daily low (🥶) and high (🌞).
+    # Usually intended for the statusbar.
+
+    # If we have internet, get a weather report from wttr.in and store it locally.
+    # You could set up a shell alias to view the full file in a pager in the
+    # terminal if desired. This function will only be run once a day when needed.
+    weatherreport="${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport"
+    getforecast() { curl -sf "wttr.in/chicago" > "$weatherreport" || exit 1 ;}
+
+    # Some very particular and terse stream manipulation. We get the maximum
+    # precipitation chance and the daily high and low from the downloaded file and
+    # display them with coresponding emojis.
+    showweather() {
+        printf "%s" "$(sed '16q;d' "$weatherreport" |
+        grep -wo "[0-9]*%" | sort -rn | sed "s/^/☔/g;1q" | tr -d '\n')"
+        sed '13q;d' "$weatherreport" |
+            grep -o "m\\([-+]\\)*[0-9]\\+" |
+            sed 's/+//g' |
+            sort -n -t 'm' -k 2n |
+            sed -e 1b -e '$!d' |
+            tr '\n|m' ' ' |
+            awk '{print " " $1 "°","" $2 "°"}' ;
+    }
+
+    # The test if our forcecast is updated to the day. If it isn't download a new
+    # weather report from wttr.in with the above function.
+    [ -s "$weatherreport" ] && [ "$(stat -c %y "$weatherreport" 2>/dev/null | cut -d' ' -f1)" = "$(date '+%Y-%m-%d')" ] ||
+        getforecast
+
+    showweather
+}
+
+clock() {
+	date "+%Y %b %d (%a) %I:%M%p"
+}
+
+while :; do
+	line="$(mem) $(cpu) $(bat) $(weatherreport) $(clock)"
+	printf "%s\n" "$line"
+	sleep 30
+done | /usr/local/bin/dwl
