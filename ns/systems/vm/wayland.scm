@@ -16,7 +16,7 @@
 
 (use-service-modules avahi dns desktop guix linux networking ssh xorg)
 (use-package-modules base certs commencement fonts fontutils freedesktop
-                     pkg-config terminals shells version-control vim
+                     linux pkg-config terminals shells version-control vim
                      window-management xdisorg xorg)
 
 (define vm-common
@@ -94,6 +94,11 @@
     which
     vim
     git
+
+    ;; Status bar
+    lm-sensors
+    procps
+    font-nerd-symbols
 
     ;; Build tools and deps for compiling dwl from source.
     gcc-toolchain
