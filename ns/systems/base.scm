@@ -1,4 +1,5 @@
 (define-module (ns systems base)
+  #:use-module (ns systems firewall)
   #:use-module (srfi srfi-1)
   #:use-module (guix)
   #:use-module (guix gexp)
@@ -22,6 +23,7 @@
  audio video nfs certs shells ssh linux bash emacs gnome networking fonts
  libusb cups freedesktop file-systems version-control package-management
  window-management pciutils tmux vim xorg)
+
 
 (define-public base-system
   (operating-system
@@ -122,7 +124,7 @@
      ;; Networking services.
      (service network-manager-service-type)
      (service wpa-supplicant-service-type)
-     (service nftables-service-type)
+     (service base-nftables-service-type)
 
      ;; Basic desktop services.
      (service udisks-service-type)
