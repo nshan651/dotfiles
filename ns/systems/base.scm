@@ -124,7 +124,9 @@
      ;; Networking services.
      (service network-manager-service-type)
      (service wpa-supplicant-service-type)
-     (service base-nftables-service-type)
+
+     ;; Firewall ruleset.
+     base-nftables-service
 
      ;; Basic desktop services.
      (service udisks-service-type)
