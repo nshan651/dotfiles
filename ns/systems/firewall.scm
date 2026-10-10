@@ -2,7 +2,7 @@
   #:use-module (guix gexp)
   #:use-module (gnu services)
   #:use-module (gnu services networking)
-  #:export (base-nftables-ruleset))
+  #:export (base-nftables-service-type))
 
 (define base-nftables-ruleset
   (plain-file "nftables.conf"
@@ -45,7 +45,7 @@ table inet host_fw {
 }
 "))
 
-(define base-nftables-service
+(define base-nftables-service-type
   (service nftables-service-type
            (nftables-configuration
             (ruleset base-nftables-ruleset))))
