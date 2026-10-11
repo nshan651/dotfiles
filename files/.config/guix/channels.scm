@@ -3,7 +3,7 @@
 (list
  (channel
    (name 'channel-5)
-   (url "https://github.com/nshan651/channel-5")
+   (url "https://codeberg.org/nshan651/channel-5")
    (branch "main"))
  (channel
    (name 'nonguix)
