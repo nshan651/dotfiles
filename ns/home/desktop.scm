@@ -5,6 +5,7 @@
   #:use-module (gnu services)
   #:use-module (guix gexp)
   #:use-module (nongnu packages mozilla)
+  #:use-module (channel-5 packages clefd)
   #:export (home-desktop-service-type))
 
 (use-package-modules
@@ -19,6 +20,8 @@
    ;; Desktop(s)
    sway
    waybar
+
+   clefd
 
    ;; Desktop utilities
    swayidle       ; Idle daemon

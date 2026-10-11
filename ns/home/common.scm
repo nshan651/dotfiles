@@ -12,6 +12,7 @@
   #:use-module (gnu home services shells)
   #:use-module (gnu home services desktop)
   #:use-module (gnu home services syncthing)
+  #:use-module (channel-5 home services clefd)
   #:use-module (guix gexp))
 
 (define-public common-home-services
@@ -81,6 +82,8 @@
 
    ;; Monitor battery levels
    (service home-batsignal-service-type)
+
+   (service home-clefd-service-type)
 
    ;; Udiskie for auto-mounting devices
    (service home-udiskie-service-type)))
