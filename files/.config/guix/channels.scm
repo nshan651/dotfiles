@@ -2,6 +2,10 @@
 ;; cat /etc/guix/acl
 (list
  (channel
+   (name 'channel-5)
+   (url "https://github.com/nshan651/channel-5")
+   (branch "main"))
+ (channel
    (name 'nonguix)
    (url "https://gitlab.com/nonguix/nonguix")
    (introduction
