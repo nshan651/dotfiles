@@ -21,18 +21,73 @@
           "action": "tool.use",
           "resource": "shell:podman-compose *",
           "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:rm */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:rmdir */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:mv */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:chmod */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:chown */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:chgrp */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:truncate */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:shred */gnu/store*",
+          "effect": "deny"
+      },
+      {
+          "action": "tool.use",
+          "resource": "shell:dd *=/gnu/store*",
+          "effect": "deny"
       }
   ],
-  "permission": {
-    "read": "allow",
-    "glob": "allow",
-    "grep": "allow",
-    "list": "allow",
-    "external_directory": {
-      "*": "ask",
-      "/gnu/store/**": "allow"
-    }
-  },
+  "permissions": [
+    // Ask before touching anything outside the active project location ...
+    { "action": "external_directory", "resource": "*", "effect": "ask" },
+    // ... except /tmp (read-write) and /gnu/store (read-only)
+    { "action": "external_directory", "resource": "/tmp/*", "effect": "allow" },
+    { "action": "external_directory", "resource": "/gnu/store/*", "effect": "allow" },
+
+    // File tool baseline (V1 read/glob/grep allows)
+    { "action": "read", "resource": "*", "effect": "allow" },
+    { "action": "glob", "resource": "*", "effect": "allow" },
+    { "action": "grep", "resource": "*", "effect": "allow" },
+
+    // /tmp: full read-write
+    { "action": "read", "resource": "/tmp/*", "effect": "allow" },
+    { "action": "edit", "resource": "/tmp/*", "effect": "allow" },
+
+    // /gnu/store: read-only
+    { "action": "read", "resource": "/gnu/store/*", "effect": "allow" },
+    { "action": "edit", "resource": "/gnu/store/*", "effect": "deny" },
+  ],
   "experimental": {
     "disable_paste_summary": true
   },
