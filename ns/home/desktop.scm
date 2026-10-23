@@ -115,6 +115,7 @@
    ripgrep
    lf
    bc
+   yt-dlp
 
    ;; zsh
    zsh-syntax-highlighting
