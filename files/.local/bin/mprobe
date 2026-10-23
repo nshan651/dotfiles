@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ffprobe -v error \
+  -show_entries format_tags \
+  -of json \
+  "$1"
