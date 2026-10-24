@@ -8,6 +8,7 @@ ytdl() {
     -x -f "bestaudio[ext=m4a]/bestaudio" \
     --embed-metadata --embed-thumbnail --convert-thumbnails jpg \
     --restrict-filenames \
+    --min-sleep-interval 5 --max-sleep-interval 15 --sleep-requests 2 \
     --ppa "ThumbnailsConvertor+ffmpeg_o:-vf crop='min(iw\,ih):min(iw\,ih)'" \
     --parse-metadata "%(playlist_uploader,uploader)s:%(album_artist)s" \
     --parse-metadata "%(track_number,playlist_index)s:%(meta_track_number)s" \
