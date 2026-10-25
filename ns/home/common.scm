@@ -83,7 +83,7 @@
    ;; Monitor battery levels
    (service home-batsignal-service-type)
 
-   (service home-clefd-service-type)
+   ;; (service home-clefd-service-type)
 
    ;; Udiskie for auto-mounting devices
    (service home-udiskie-service-type)))
