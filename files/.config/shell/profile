@@ -11,6 +11,7 @@ export PATH="$PATH:$HOME/.local/share/npm/bin"
 #export GUIX_PROFILE="$HOME/.config/guix/current"
 #. "$GUIX_PROFILE/etc/profile"
 export GUIX_PROFILE="$HOME/.guix-profile"
+export GUIX_EXTRA_PROFILES="$HOME/.config/guix-extra-profiles"
 
 # Manage SSL certs.
 export SSL_CERT_FILE=/etc/ssl/certs/ca-certificates.crt

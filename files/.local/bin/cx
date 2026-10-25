@@ -1,0 +1,19 @@
+#!/bin/sh
+# Launch coding agent.
+# guix package -p ~/.config/guix-extra-profiles/agent/agent -m ~/.dotfiles/ns/manifests/agent.scm
+
+set -eu
+
+profile=${HOME}/.config/guix-extra-profiles/agent
+state=${HOME}/.local/share/sandbox
+mkdir -p "$profile" "$state"/{data,config,cache}
+
+[ $# -gt 0 ] || set -- opencode
+
+exec guix shell -CNF --pure -p "$profile"/agent \
+     --share="$state/data=$HOME/.local/share/opencode" \
+     --share="$state/config=$HOME/.config/opencode" \
+     --share="$state/cache=$HOME/.cache/opencode" \
+     --preserve='^(TERM|COLORTERM|LANG|LC_.*)$' \
+     --preserve='^(ANTHROPIC|OPENAI|OPENROUTER|GROQ)_API_KEY$' \
+     -- env SSL_CERT_FILE='/etc/ssl/certs/ca-certificates.crt' "$@"

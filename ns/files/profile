@@ -5,6 +5,8 @@ export PATH="$PATH:/usr/local/bin"
 export PATH="$PATH:/usr/share/bin"
 export PATH="$PATH:$HOME/.local/share/npm/bin"
 
+export GUIX_EXTRA_PROFILES="$HOME/.config/guix-extra-profiles"
+
 # Default programs
 export EDITOR=$(command -v nvim || command -v vim || echo "vi")
 export VISUAL="$EDITOR"
